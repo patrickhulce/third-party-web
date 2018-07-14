@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "chart.js": "^2.7.2",
+    "chartjs-node": "^1.7.1",
     "lodash": "^4.17.10"
   }
 }
