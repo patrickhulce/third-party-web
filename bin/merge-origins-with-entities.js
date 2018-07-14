@@ -53,7 +53,6 @@ for (const entity of entityData) {
 
 for (const [key, value] of entityByRootDomain) {
   if (!value) {
-    console.log('deleting', key)
     entityByRootDomain.delete(key)
   }
 }
@@ -82,7 +81,6 @@ const homelessGrouped = _(homelessEntries)
   .map(combineGroup)
   .sortBy('totalExecutionTime')
   .reverse()
-  .slice(0, 10)
   .value()
 
 const sortedEntityData = _(entityData)
@@ -90,7 +88,9 @@ const sortedEntityData = _(entityData)
   .sortBy('totalExecutionTime')
   .reverse()
   .value()
-console.log(sortedEntityData)
+
+console.log(homelessGrouped.length, 'domains without attribution')
+console.log(homelessGrouped.map(item => [item.domain, item.origins.join(',')]))
 
 console.log(
   'Entities representing',
