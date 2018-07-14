@@ -1,0 +1,459 @@
+[
+  {
+    "name": "Google Ads",
+    "homepage": "https://www.google.com/adsense/start/#/?modal_active=none",
+    "categories": ["ad"],
+    "origins": [
+      "pagead2.googlesyndication.com",
+      "tpc.googlesyndication.com",
+      "googleads.g.doubleclick.net",
+      "securepubads.g.doubleclick.net",
+      "s0.2mdn.net",
+      "stats.g.doubleclick.net",
+      "survey.g.doubleclick.net",
+      "www.googleadservices.com"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "homepage": "https://www.facebook.com",
+    "categories": ["social"],
+    "origins": [
+      "www.facebook.com",
+      "connect.facebook.net",
+      "staticxx.facebook.com",
+      "static.xx.fbcdn.net",
+      "m.facebook.com"
+    ]
+  },
+  {
+    "name": "Google CDN",
+    "homepage": "https://developers.google.com/speed/libraries/",
+    "categories": ["cdn"],
+    "origins": ["ajax.googleapis.com", "www.gstatic.com"]
+  },
+  {
+    "name": "Google APIs/SDK",
+    "homepage": "https://developers.google.com/apis-explorer/#p/",
+    "categories": ["utility"],
+    "origins": [
+      "www.google.com",
+      "apis.google.com",
+      "maps.google.com",
+      "maps.googleapis.com",
+      "cse.google.com",
+      "translate.googleapis.com",
+      "imasdk.googleapis.com",
+      "maps.gstatic.com",
+      "calendar.google.com"
+    ]
+  },
+  {
+    "name": "Google Analytics",
+    "homepage": "https://www.google.com/analytics/analytics/#?modal_active=none",
+    "categories": ["analytics"],
+    "origins": [
+      "www.google-analytics.com",
+      "www.googletagmanager.com",
+      "ssl.google-analytics.com",
+      "www.googletagservices.com",
+      "google-analytics.com"
+    ]
+  },
+  {
+    "name": "YouTube",
+    "homepage": "https://youtube.com",
+    "categories": ["social"],
+    "origins": ["www.youtube.com", "s.ytimg.com"]
+  },
+  {
+    "name": "Twitter",
+    "homepage": "https://twitter.com",
+    "categories": ["social"],
+    "origins": ["platform.twitter.com", "cdn.syndication.twimg.com"]
+  },
+  {
+    "name": "AddThis",
+    "homepage": "http://www.addthis.com/",
+    "categories": ["social"],
+    "origins": ["s7.addthis.com"]
+  },
+  {
+    "name": "Yandex Metrica",
+    "homepage": "https://metrica.yandex.com/about?",
+    "categories": ["analytics"],
+    "origins": ["mc.yandex.ru"]
+  },
+  {
+    "name": "Hotjar",
+    "homepage": "https://www.hotjar.com/",
+    "categories": ["analytics"],
+    "origins": ["script.hotjar.com", "static.hotjar.com"]
+  },
+  {
+    "name": "Baidu Analytics",
+    "homepage": "https://tongji.baidu.com/web/welcome/login",
+    "categories": ["analytics"],
+    "origins": ["hm.baidu.com"]
+  },
+  {
+    "name": "Adobe Analytics",
+    "homepage": "https://www.adobe.com/data-analytics-cloud/audience-manager.html",
+    "categories": ["analytics"],
+    "origins": ["assets.adobedtm.com", "dpm.demdex.net"]
+  },
+  {
+    "name": "jQuery CDN",
+    "homepage": "https://code.jquery.com/",
+    "categories": ["utility"],
+    "origins": ["code.jquery.com"]
+  },
+  {
+    "name": "Cloudflare CDN",
+    "homepage": "https://cdnjs.com/",
+    "categories": ["cdn"],
+    "origins": ["cdnjs.cloudflare.com", "amp.cloudflare.com"]
+  },
+  {
+    "name": "Cloudflare SDK",
+    "homepage": "https://www.cloudflare.com/website-optimization/",
+    "categories": ["utility"],
+    "origins": ["ajax.cloudflare.com"]
+  },
+  {
+    "name": "WordPress",
+    "homepage": "https://wp.com/",
+    "categories": ["platform"],
+    "origins": ["s0.wp.com", "s2.wp.com"]
+  },
+  {
+    "name": "Shopify",
+    "homepage": "https://www.shopify.com/",
+    "categories": ["platform"],
+    "origins": ["cdn.shopify.com"]
+  },
+  {
+    "name": "Yandex Share",
+    "homepage": "https://yastatic.net/share2/share.js",
+    "categories": ["social"],
+    "origins": ["yastatic.net"]
+  },
+  {
+    "name": "Moat",
+    "homepage": "https://yastatic.net/share2/share.js",
+    "categories": ["social"],
+    "origins": ["z.moatads.com"]
+  },
+  {
+    "name": "Zopim",
+    "homepage": "https://www.zopim.com/",
+    "categories": ["chat"],
+    "origins": ["v2.zopim.com"]
+  },
+  {
+    "name": "OneSignal",
+    "homepage": "https://onesignal.com/",
+    "categories": ["utility"],
+    "origins": ["cdn.onesignal.com"]
+  },
+  {
+    "name": "Lucky Orange",
+    "homepage": "https://www.luckyorange.com/",
+    "categories": ["analytics"],
+    "origins": ["d10lpsik1i8c69.cloudfront.net"]
+  },
+  {
+    "name": "Yandex Ads",
+    "homepage": "https://yandex.com/adv/",
+    "categories": ["ad"],
+    "origins": ["an.yandex.ru"]
+  },
+  {
+    "name": "Salesforce",
+    "homepage": "https://www.salesforce.com/products/marketing-cloud/data-management/",
+    "categories": ["analytics"],
+    "origins": ["cdn.krxd.net"]
+  },
+  {
+    "name": "Optimizely",
+    "homepage": "https://www.optimizely.com/",
+    "categories": ["analytics"],
+    "origins": ["cdn.optimizely.com"]
+  },
+  {
+    "name": "LiveChat",
+    "homepage": "https://www.livechatinc.com/",
+    "categories": ["chat"],
+    "origins": ["cdn.livechatinc.com", "secure.livechatinc.com"]
+  },
+  {
+    "name": "VK",
+    "homepage": "https://vk.com/",
+    "categories": ["social"],
+    "origins": ["vk.com"]
+  },
+  {
+    "name": "Tumblr",
+    "homepage": "https://tumblr.com/",
+    "categories": ["social"],
+    "origins": ["assets.tumblr.com", "static.tumblr.com"]
+  },
+  {
+    "name": "Wistia",
+    "homepage": "https://wistia.com/",
+    "categories": ["platform"],
+    "origins": ["fast.wistia.com", "fast.wistia.net"]
+  },
+  {
+    "name": "JSDelivr",
+    "homepage": "https://www.jsdelivr.com/",
+    "categories": ["cdn"],
+    "origins": ["cdn.jsdelivr.net"]
+  },
+  {
+    "name": "Sumo",
+    "homepage": "https://sumo.com/",
+    "categories": ["marketing"],
+    "origins": ["sumo.b-cdn.net", "load.sumo.com", "load.sumome.com"]
+  },
+  {
+    "name": "Vimeo",
+    "homepage": "http://vimeo.com/",
+    "categories": ["social"],
+    "origins": ["f.vimeocdn.com", "player.vimeo.com"]
+  },
+  {
+    "name": "Yandex APIs",
+    "homepage": "https://yandex.ru/",
+    "categories": ["utility"],
+    "origins": ["api-maps.yandex.ru"]
+  },
+  {
+    "name": "Integral Ads",
+    "homepage": "https://integralads.com/uk/",
+    "categories": ["ad"],
+    "origins": ["pixel.adsafeprotected.com", "static.adsafeprotected.com", "fw.adsafeprotected.com"]
+  },
+  {
+    "name": "Tealium",
+    "homepage": "https://tealium.com/",
+    "categories": ["analytics"],
+    "origins": ["tags.tiqcdn.com"]
+  },
+  {
+    "name": "Pubmatic",
+    "homepage": "https://pubmatic.com/",
+    "categories": ["ad"],
+    "origins": ["image6.pubmatic.com", "ads.pubmatic.com"]
+  },
+  {
+    "name": "Intercom",
+    "homepage": "https://www.intercom.com/",
+    "categories": ["chat"],
+    "origins": ["js.intercomcdn.com"]
+  },
+  {
+    "name": "Olark",
+    "homepage": "https://www.olark.com/",
+    "categories": ["chat"],
+    "origins": ["static.olark.com"]
+  },
+  {
+    "name": "Hubspot Analytics",
+    "homepage": "https://www.hubspot.com/products/marketing/analytics",
+    "categories": ["analytics"],
+    "origins": ["js.hs-analytics.net"]
+  },
+  {
+    "name": "Tawk.to",
+    "homepage": "https://www.tawk.to/",
+    "categories": ["chat"],
+    "origins": ["embed.tawk.to"]
+  },
+  {
+    "name": "OptinMonster",
+    "homepage": "https://optinmonster.com/",
+    "categories": ["marketing"],
+    "origins": ["a.optmstr.com"]
+  },
+  {
+    "name": "ZenDesk",
+    "homepage": "https://zendesk.com/",
+    "categories": ["support"],
+    "origins": ["assets.zendesk.com"]
+  },
+  {
+    "name": "Drift",
+    "homepage": "https://www.drift.com/",
+    "categories": ["marketing"],
+    "origins": ["js.driftt.com"]
+  },
+  {
+    "name": "Sentry",
+    "homepage": "https://sentry.io/",
+    "categories": ["utility"],
+    "origins": ["cdn.ravenjs.com"]
+  },
+  {
+    "name": "Amazon S3",
+    "homepage": "https://aws.amazon.com/s3/",
+    "categories": ["cdn"],
+    "origins": ["s3.amazonaws.com"]
+  },
+  {
+    "name": "Yahoo Ads",
+    "homepage": "https://www.media.net/",
+    "categories": ["ad"],
+    "origins": ["contextual.media.net"]
+  },
+  {
+    "name": "Taboola",
+    "homepage": "https://www.taboola.com/",
+    "categories": ["ad"],
+    "origins": ["cdn.taboola.com", "trc.taboola.com", "vidstat.taboola.com"]
+  },
+  {
+    "name": "Criteo",
+    "homepage": "https://www.criteo.com/",
+    "categories": ["ad"],
+    "origins": ["static.criteo.net"]
+  },
+  {
+    "name": "Segment",
+    "homepage": "https://segment.com/",
+    "categories": ["analytics"],
+    "origins": ["cdn.segment.com"]
+  },
+  {
+    "name": "ShareThis",
+    "homepage": "https://www.sharethis.com/",
+    "categories": ["social"],
+    "origins": ["w.sharethis.com", "ws.sharethis.com", "t.sharethis.com"]
+  },
+  {
+    "name": "Distil Networks",
+    "homepage": "https://www.distilnetworks.com/",
+    "categories": ["utility"],
+    "origins": ["n-cdn.areyouahuman.com"]
+  },
+  {
+    "name": "Connexity",
+    "homepage": "http://connexity.com/",
+    "categories": ["analytics"],
+    "origins": ["connexity.net"]
+  },
+  {
+    "name": "Popads",
+    "homepage": "https://www.popads.net/",
+    "categories": ["ad"],
+    "origins": ["serve.popads.net", "c1.popads.net"]
+  },
+  {
+    "name": "CreateJS CDN",
+    "homepage": "http://code.createjs.com/",
+    "categories": ["cdn"],
+    "origins": ["code.createjs.com"]
+  },
+  {
+    "name": "Squarespace",
+    "homepage": "https://www.squarespace.com/",
+    "categories": ["platform"],
+    "origins": ["static.squarespace.com", "static1.squarespace.com"]
+  },
+  {
+    "name": "Media Math",
+    "homepage": "http://www.mediamath.com/",
+    "categories": ["ad"],
+    "origins": ["mathid.mathtag.com"]
+  },
+  {
+    "name": "Mixpanel",
+    "homepage": "https://mixpanel.com/",
+    "categories": ["analytics"],
+    "origins": ["cdn.mxpnl.com"]
+  },
+  {
+    "name": "FontAwesome",
+    "homepage": "https://fontawesome.com/",
+    "categories": ["utility"],
+    "origins": ["use.fontawesome.com"]
+  },
+  {
+    "name": "Hubspot",
+    "homepage": "https://hubspot.com/",
+    "categories": ["marketing"],
+    "origins": ["forms.hubspot.com", "js.hsforms.net"]
+  },
+  {
+    "name": "MGID",
+    "homepage": "https://www.mgid.com/",
+    "categories": ["ad"],
+    "origins": ["servicer.mgid.com"]
+  },
+  {
+    "name": "Stripe",
+    "homepage": "https://stripe.com",
+    "categories": ["utility"],
+    "origins": ["m.stripe.network", "js.stripe.com"]
+  },
+  {
+    "name": "Market GID",
+    "homepage": "https://www.marketgid.com/",
+    "categories": ["ad"],
+    "origins": ["jsc.marketgid.com"]
+  },
+  {
+    "name": "Pinterest",
+    "homepage": "https://pinterest.com/",
+    "categories": ["social"],
+    "origins": ["assets.pinterest.com"]
+  },
+  {
+    "name": "NewRelic",
+    "homepage": "https://newrelic.com/",
+    "categories": ["utility"],
+    "origins": ["js-agent.newrelic.com"]
+  },
+  {
+    "name": "Parking Crew",
+    "homepage": "http://parkingcrew.net/",
+    "categories": ["parking"],
+    "origins": ["d1lxhc4jvstzrp.cloudfront.net"]
+  },
+  {
+    "name": "WordAds",
+    "homepage": "https://wordads.co/",
+    "categories": ["ad"],
+    "origins": ["s.pubmine.com"]
+  },
+  {
+    "name": "AppNexus",
+    "homepage": "https://www.appnexus.com/",
+    "categories": ["ad"],
+    "origins": ["acdn.adnxs.com", "secure.adnxs.com"]
+  },
+  {
+    "name": "DoubleVerify",
+    "homepage": "https://www.doubleverify.com/",
+    "categories": ["ad"],
+    "origins": ["cdn.doubleverify.com"]
+  },
+  {
+    "name": "MediaVine",
+    "homepage": "https://www.mediavine.com/",
+    "categories": ["ad"],
+    "origins": ["scripts.mediavine.com", "video.mediavine.com"]
+  },
+  {
+    "name": "Wix",
+    "homepage": "https://www.wix.com/",
+    "categories": ["platform"],
+    "origins": ["static.parastorage.com"]
+  },
+  {
+    "name": "Bootstrap CDN",
+    "homepage": "https://bootstrapcdn.com/",
+    "categories": ["utility"],
+    "origins": ["maxcdn.bootstrapcdn.com"]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "ad": {
+    "title": "Ad Network",
+    "description": "These scripts either server or measure the deliverability of advertising."
+  },
+  "analytics": {
+    "title": "Analytics",
+    "description": "These scripts measure or track users and their actions."
+  },
+  "social": {
+    "title": "Social",
+    "description": "These scripts enable social features."
+  },
+  "utility": {
+    "title": "Developer Utilities",
+    "description": "These scripts are developer utilities (jQuery, bootstrap, Sentry, etc)."
+  },
+  "platform": {
+    "title": "Platforms",
+    "description":
+      "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc)."
+  },
+  "chat": {
+    "title": "Chat",
+    "description":
+      "These scripts are from chat providers for either customer support or marketing purposes."
+  },
+  "marketing": {
+    "title": "Marketing",
+    "description": "These scripts are from marketing tools that add popups/newsletters/etc."
+  },
+  "support": {
+    "title": "Customer Support",
+    "description": "These scripts are from customer support providers."
+  },
+  "cdn": {
+    "title": "CDN",
+    "description":
+      "These scripts are delivered via CDN. This category is unique in that the origin may have no responsibility on the performance of what's being served."
+  }
+}
