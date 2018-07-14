@@ -43,6 +43,8 @@
       "maps.googleapis.com",
       "cse.google.com",
       "translate.googleapis.com",
+      "storage.googleapis.com",
+      "commondatastorage.googleapis.com",
       "imasdk.googleapis.com",
       "maps.gstatic.com",
       "calendar.google.com"
@@ -123,13 +125,13 @@
   {
     "name": "WordPress",
     "homepage": "https://wp.com/",
-    "categories": ["platform"],
+    "categories": ["hosting"],
     "origins": ["s0.wp.com", "s2.wp.com"]
   },
   {
     "name": "Shopify",
     "homepage": "https://www.shopify.com/",
-    "categories": ["platform"],
+    "categories": ["hosting"],
     "origins": ["cdn.shopify.com"]
   },
   {
@@ -147,7 +149,7 @@
   {
     "name": "Zopim",
     "homepage": "https://www.zopim.com/",
-    "categories": ["chat"],
+    "categories": ["customer-success"],
     "origins": ["v2.zopim.com"]
   },
   {
@@ -183,7 +185,7 @@
   {
     "name": "LiveChat",
     "homepage": "https://www.livechatinc.com/",
-    "categories": ["chat"],
+    "categories": ["customer-success"],
     "origins": ["cdn.livechatinc.com", "secure.livechatinc.com"]
   },
   {
@@ -201,7 +203,7 @@
   {
     "name": "Wistia",
     "homepage": "https://wistia.com/",
-    "categories": ["platform"],
+    "categories": ["hosting"],
     "origins": ["fast.wistia.com", "fast.wistia.net"]
   },
   {
@@ -249,25 +251,19 @@
   {
     "name": "Intercom",
     "homepage": "https://www.intercom.com/",
-    "categories": ["chat"],
+    "categories": ["customer-success"],
     "origins": ["js.intercomcdn.com"]
   },
   {
     "name": "Olark",
     "homepage": "https://www.olark.com/",
-    "categories": ["chat"],
+    "categories": ["customer-success"],
     "origins": ["static.olark.com"]
-  },
-  {
-    "name": "Hubspot Analytics",
-    "homepage": "https://www.hubspot.com/products/marketing/analytics",
-    "categories": ["analytics"],
-    "origins": ["js.hs-analytics.net"]
   },
   {
     "name": "Tawk.to",
     "homepage": "https://www.tawk.to/",
-    "categories": ["chat"],
+    "categories": ["customer-success"],
     "origins": ["embed.tawk.to"]
   },
   {
@@ -279,8 +275,8 @@
   {
     "name": "ZenDesk",
     "homepage": "https://zendesk.com/",
-    "categories": ["support"],
-    "origins": ["assets.zendesk.com"]
+    "categories": ["customer-success"],
+    "origins": ["assets.zendesk.com", "static.zdassets.com"]
   },
   {
     "name": "Drift",
@@ -305,6 +301,12 @@
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
     "origins": ["contextual.media.net"]
+  },
+  {
+    "name": "Twitch",
+    "homepage": "https://twitch.tv/",
+    "categories": ["social"],
+    "origins": ["player.twitch.tv"]
   },
   {
     "name": "Taboola",
@@ -357,7 +359,7 @@
   {
     "name": "Squarespace",
     "homepage": "https://www.squarespace.com/",
-    "categories": ["platform"],
+    "categories": ["hosting"],
     "origins": ["static.squarespace.com", "static1.squarespace.com"]
   },
   {
@@ -382,7 +384,7 @@
     "name": "Hubspot",
     "homepage": "https://hubspot.com/",
     "categories": ["marketing"],
-    "origins": ["forms.hubspot.com", "js.hsforms.net"]
+    "origins": ["forms.hubspot.com", "js.hsforms.net", "js.hs-analytics.net"]
   },
   {
     "name": "MGID",
@@ -393,8 +395,14 @@
   {
     "name": "Stripe",
     "homepage": "https://stripe.com",
-    "categories": ["utility"],
+    "categories": ["payments"],
     "origins": ["m.stripe.network", "js.stripe.com"]
+  },
+  {
+    "name": "PayPayl",
+    "homepage": "https://paypal.com",
+    "categories": ["payments"],
+    "origins": ["www.paypalobjects.com"]
   },
   {
     "name": "Market GID",
@@ -409,16 +417,22 @@
     "origins": ["assets.pinterest.com"]
   },
   {
-    "name": "NewRelic",
+    "name": "New Relic",
     "homepage": "https://newrelic.com/",
     "categories": ["utility"],
     "origins": ["js-agent.newrelic.com"]
   },
   {
+    "name": "App Dynamics",
+    "homepage": "https://www.appdynamics.com/",
+    "categories": ["utility"],
+    "origins": ["cdn.appdynamics.com"]
+  },
+  {
     "name": "Parking Crew",
     "homepage": "http://parkingcrew.net/",
     "categories": ["parking"],
-    "origins": ["d1lxhc4jvstzrp.cloudfront.net"]
+    "origins": ["d1lxhc4jvstzrp.cloudfront.net", "parkingcrew.net"]
   },
   {
     "name": "WordAds",
@@ -431,6 +445,12 @@
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
     "origins": ["acdn.adnxs.com", "secure.adnxs.com"]
+  },
+  {
+    "name": "Histats",
+    "homepage": "http://histats.com/",
+    "categories": ["analytics"],
+    "origins": ["s10.histats.com"]
   },
   {
     "name": "DoubleVerify",
@@ -447,7 +467,7 @@
   {
     "name": "Wix",
     "homepage": "https://www.wix.com/",
-    "categories": ["platform"],
+    "categories": ["hosting"],
     "origins": ["static.parastorage.com"]
   },
   {

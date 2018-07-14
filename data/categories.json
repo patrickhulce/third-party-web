@@ -1,7 +1,7 @@
 {
   "ad": {
     "title": "Ad Network",
-    "description": "These scripts either server or measure the deliverability of advertising."
+    "description": "These scripts are part of advertising networks, either serving or measuring."
   },
   "analytics": {
     "title": "Analytics",
@@ -15,23 +15,19 @@
     "title": "Developer Utilities",
     "description": "These scripts are developer utilities (jQuery, bootstrap, Sentry, etc)."
   },
-  "platform": {
-    "title": "Platforms",
+  "hosting": {
+    "title": "Hosting Platforms",
     "description":
       "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc)."
-  },
-  "chat": {
-    "title": "Chat",
-    "description":
-      "These scripts are from chat providers for either customer support or marketing purposes."
   },
   "marketing": {
     "title": "Marketing",
     "description": "These scripts are from marketing tools that add popups/newsletters/etc."
   },
-  "support": {
-    "title": "Customer Support",
-    "description": "These scripts are from customer support providers."
+  "customer-success": {
+    "title": "Customer Success",
+    "description":
+      "These scripts are from customer support/marketing providers that offer chat and contact solutions."
   },
   "cdn": {
     "title": "CDN",
