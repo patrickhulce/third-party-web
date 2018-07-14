@@ -43,7 +43,7 @@ This section breaks down third parties by category. Perhaps the most important c
 
 #### Overall Breakdown
 
-Unsurprisingly, ads account for the largest chunk of third party script execution.
+Unsurprisingly, ads account for the largest chunk of third party script execution followed by social and analytics.
 
 ![breakdown by category](./by-category.png)
 

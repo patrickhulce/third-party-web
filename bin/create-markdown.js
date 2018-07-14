@@ -28,9 +28,11 @@ async function createChartImages() {
     .reverse()
     .value()
 
-  const chartByCategory = new Chart(600, 600)
+  const chartByCategory = new Chart(600, 300)
   await chartByCategory.drawChart({
-    options: {},
+    options: {
+      legend: {position: 'left'},
+    },
     type: 'doughnut',
     data: {
       labels: _.map(categories, 'title'),
