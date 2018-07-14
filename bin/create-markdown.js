@@ -83,7 +83,7 @@ async function run() {
     .map(entry => [
       `[${entry.name}](${entry.homepage})`,
       entry.totalOccurrences.toLocaleString(),
-      Math.round(entry.totalExecutionTime / 1000) + ' s',
+      Math.round(entry.totalExecutionTime / 1000).toLocaleString() + ' s',
       Math.round(entry.averageExecutionTime) + ' ms',
     ])
 

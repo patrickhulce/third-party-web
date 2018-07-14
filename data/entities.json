@@ -411,7 +411,7 @@
     "origins": ["m.stripe.network", "js.stripe.com"]
   },
   {
-    "name": "PayPayl",
+    "name": "PayPal",
     "homepage": "https://paypal.com",
     "categories": ["utility"],
     "origins": ["www.paypalobjects.com"]
