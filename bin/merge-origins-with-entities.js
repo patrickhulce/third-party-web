@@ -92,6 +92,13 @@ const sortedEntityData = _(entityData)
 console.log(homelessGrouped.length, 'domains without attribution')
 console.log(homelessGrouped.map(item => [item.domain, item.origins.join(',')]))
 
+const top100ExecutionTime = _.sumBy(sortedEntityData.slice(0, 100), 'totalExecutionTime')
+console.log(
+  'Top 100 Entities representing',
+  ((top100ExecutionTime / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
+  '% of total script execution',
+)
+
 console.log(
   'Entities representing',
   ((totalEntityExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),

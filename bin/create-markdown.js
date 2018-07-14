@@ -78,12 +78,13 @@ async function run() {
 
   const categoryContents = _.map(ALL_CATEGORIES, createCategorySection).join('\n\n')
 
-  const allDataRows = _.sortBy(ALL_DATA, 'totalOccurrences')
+  const allDataRows = _.sortBy(ALL_DATA, 'totalExecutionTime')
     .reverse()
     .map(entry => [
       `[${entry.name}](${entry.homepage})`,
       entry.totalOccurrences.toLocaleString(),
       Math.round(entry.totalExecutionTime / 1000) + ' s',
+      Math.round(entry.averageExecutionTime) + ' ms',
     ])
 
   await createChartImages()
@@ -94,7 +95,10 @@ async function run() {
     createMarkdownString({
       category_table_of_contents: categoryTOC,
       category_contents: categoryContents,
-      all_data: createMarkdownTable(['Name', 'Popularity', 'Total Impact'], allDataRows),
+      all_data: createMarkdownTable(
+        ['Name', 'Popularity', 'Total Impact', 'Average Impact'],
+        allDataRows,
+      ),
     }),
   )
 

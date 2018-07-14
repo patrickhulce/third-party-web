@@ -52,7 +52,7 @@
   },
   {
     "name": "Google Analytics",
-    "homepage": "https://www.google.com/analytics/analytics/#?modal_active=none",
+    "homepage": "https://www.google.com/analytics/analytics/",
     "categories": ["analytics"],
     "origins": [
       "www.google-analytics.com",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Adobe Analytics",
-    "homepage": "https://www.adobe.com/data-analytics-cloud/audience-manager.html",
+    "homepage": "https://www.adobe.com/analytics-cloud.html",
     "categories": ["analytics"],
     "origins": ["assets.adobedtm.com", "dpm.demdex.net"]
   },
@@ -172,7 +172,7 @@
   },
   {
     "name": "Salesforce",
-    "homepage": "https://www.salesforce.com/products/marketing-cloud/data-management/",
+    "homepage": "https://www.salesforce.com/products/marketing-cloud/",
     "categories": ["analytics"],
     "origins": ["cdn.krxd.net"]
   },
@@ -393,6 +393,12 @@
     "origins": ["forms.hubspot.com", "js.hsforms.net", "js.hs-analytics.net"]
   },
   {
+    "name": "Mailchimp",
+    "homepage": "https://mailchimp.com/",
+    "categories": ["marketing"],
+    "origins": ["downloads.mailchimp.com"]
+  },
+  {
     "name": "MGID",
     "homepage": "https://www.mgid.com/",
     "categories": ["ad"],
@@ -401,13 +407,13 @@
   {
     "name": "Stripe",
     "homepage": "https://stripe.com",
-    "categories": ["payments"],
+    "categories": ["utility"],
     "origins": ["m.stripe.network", "js.stripe.com"]
   },
   {
     "name": "PayPayl",
     "homepage": "https://paypal.com",
-    "categories": ["payments"],
+    "categories": ["utility"],
     "origins": ["www.paypalobjects.com"]
   },
   {
@@ -437,7 +443,7 @@
   {
     "name": "Parking Crew",
     "homepage": "http://parkingcrew.net/",
-    "categories": ["parking"],
+    "categories": ["other"],
     "origins": ["d1lxhc4jvstzrp.cloudfront.net", "parkingcrew.net"]
   },
   {

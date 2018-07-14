@@ -1,5 +1,7 @@
 # Third Party Web
 
+This document is a summary of which third party scripts are most responsible for excessive JavaScript execution on the web today.
+
 ## Table of Contents
 
 1.  [Goals](#goals)
@@ -25,6 +27,10 @@
 [HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~1 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse). Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity for consumption.
 
 ## Data
+
+### Summary
+
+Across ~1 million sites, ~600 origins account for ~47% of all script execution time with the top 100 entities already accounting for ~42%. Third party script execution is a sizable chunk of the web today, and it's important to make informed choices.
 
 ### How to Interpret
 
@@ -53,6 +59,8 @@ Unsurprisingly, ads account for the largest chunk of third party script executio
 
 ### Third Parties by Total Impact
 
+This section highlights the entities responsible for the most script execution across the web. This helps inform which improvements would have the largest total impact.
+
 <%= all_data %>
 
 ## Future Work
@@ -77,7 +85,7 @@ Verify that the origins in `data/entities.json` are correct. Most issues will si
 
 ### How can I contribute?
 
-Only about 88% of the third party script execution has been assigned to an entity. We could use your help identifying the rest!
+Only about 90% of the third party script execution has been assigned to an entity. We could use your help identifying the rest! See [Contributing](#contributing) for details.
 
 ## Contributing
 

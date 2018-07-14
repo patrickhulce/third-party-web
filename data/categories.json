@@ -1,7 +1,7 @@
 {
   "ad": {
     "color": "hsl(0, 90%, 60%)",
-    "title": "Ad Network",
+    "title": "Ads",
     "description": "These scripts are part of advertising networks, either serving or measuring."
   },
   "analytics": {
