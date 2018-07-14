@@ -39,7 +39,7 @@ Each entity has a number of data points available.
 
 ### Third Parties by Category
 
-This section breaks down third parties by category. Perhaps the most important comparisons lie here. You always need to pick an analytics provider, but at least you can pick the most well-behaved analytics provider.
+This section breaks down third parties by category. The third parties in each category are ranked from first to last based on the average impact of their scripts. Perhaps the most important comparisons lie here. You always need to pick an analytics provider, but at least you can pick the most well-behaved analytics provider.
 
 #### Overall Breakdown
 
