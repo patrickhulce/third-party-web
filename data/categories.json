@@ -23,13 +23,14 @@
   "utility": {
     "color": "hsl(120, 90%, 60%)",
     "title": "Developer Utilities",
-    "description": "These scripts are developer utilities (jQuery, bootstrap, Sentry, etc)."
+    "description":
+      "These scripts are developer utilities (API clients, site monitoring, fraud detection, etc)."
   },
   "hosting": {
     "color": "hsl(180, 90%, 60%)",
     "title": "Hosting Platforms",
     "description":
-      "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc)."
+      "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc). Note that in the case of WordPress, this just indicates the libraries hosted and served by WordPress not all sites using self-hosted WordPress."
   },
   "marketing": {
     "color": "hsl(220, 90%, 60%)",
@@ -42,10 +43,10 @@
     "description":
       "These scripts are from customer support/marketing providers that offer chat and contact solutions. These scripts are generally heavier in weight."
   },
-  "cdn": {
+  "other": {
     "color": "hsl(330, 90%, 60%)",
-    "title": "CDN",
+    "title": "Other",
     "description":
-      "These scripts are delivered via CDN. This category is unique in that the origin may have no responsibility on the performance of what's being served. Note that rank here is largely meaningless and does not imply one CDN is better than the other. It simply identifies that the scripts being served from that CDN are heavier than the ones developers use from another."
+      "These are miscellaneous scripts delivered via a shared CDN. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the scripts being served from that origin are lighter/heavier than the ones served by another."
   }
 }

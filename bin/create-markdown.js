@@ -2,6 +2,7 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 const Chart = require('chartjs-node')
+const exec = require('child_process').execFileSync
 
 const MD_TEMPLATE = fs.readFileSync(path.join(__dirname, '../lib/template.md'), 'utf8')
 const createMarkdownString = _.template(MD_TEMPLATE)
@@ -51,14 +52,14 @@ async function createChartImages() {
 }
 
 function createCategorySection(category) {
-  const categoryRows = _
-    .sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime')
-    .map((entry, rank) => [
+  const categoryRows = _.sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime').map(
+    (entry, rank) => [
       rank + 1,
       `[${entry.name}](${entry.homepage})`,
       entry.totalOccurrences.toLocaleString(),
       Math.round(entry.averageExecutionTime) + ' ms',
-    ])
+    ],
+  )
 
   const table = createMarkdownTable(['Rank', 'Name', 'Popularity', 'Average Impact'], categoryRows)
   return [
@@ -70,14 +71,14 @@ function createCategorySection(category) {
 }
 
 async function run() {
-  const categoryTOC = _
-    .map(ALL_CATEGORIES, category => `1.  [${category.title}](#${category.id})`)
-    .join('\n         ')
+  const categoryTOC = _.map(
+    ALL_CATEGORIES,
+    category => `1.  [${category.title}](#${category.id})`,
+  ).join('\n         ')
 
   const categoryContents = _.map(ALL_CATEGORIES, createCategorySection).join('\n\n')
 
-  const allDataRows = _
-    .sortBy(ALL_DATA, 'totalOccurrences')
+  const allDataRows = _.sortBy(ALL_DATA, 'totalOccurrences')
     .reverse()
     .map(entry => [
       `[${entry.name}](${entry.homepage})`,
@@ -87,14 +88,17 @@ async function run() {
 
   await createChartImages()
 
+  const readmePath = path.join(__dirname, '../README.md')
   fs.writeFileSync(
-    path.join(__dirname, '../README.md'),
+    readmePath,
     createMarkdownString({
       category_table_of_contents: categoryTOC,
       category_contents: categoryContents,
       all_data: createMarkdownTable(['Name', 'Popularity', 'Total Impact'], allDataRows),
     }),
   )
+
+  exec(path.join(__dirname, '../node_modules/.bin/prettier'), ['--write', readmePath])
 }
 
 run().catch(console.error)

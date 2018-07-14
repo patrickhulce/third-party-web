@@ -29,7 +29,7 @@
   {
     "name": "Google CDN",
     "homepage": "https://developers.google.com/speed/libraries/",
-    "categories": ["cdn"],
+    "categories": ["other"],
     "origins": ["ajax.googleapis.com", "www.gstatic.com"]
   },
   {
@@ -107,17 +107,17 @@
   {
     "name": "jQuery CDN",
     "homepage": "https://code.jquery.com/",
-    "categories": ["utility"],
+    "categories": ["other"],
     "origins": ["code.jquery.com"]
   },
   {
     "name": "Cloudflare CDN",
     "homepage": "https://cdnjs.com/",
-    "categories": ["cdn"],
+    "categories": ["other"],
     "origins": ["cdnjs.cloudflare.com", "amp.cloudflare.com"]
   },
   {
-    "name": "Cloudflare SDK",
+    "name": "Cloudflare",
     "homepage": "https://www.cloudflare.com/website-optimization/",
     "categories": ["utility"],
     "origins": ["ajax.cloudflare.com"]
@@ -209,7 +209,7 @@
   {
     "name": "JSDelivr",
     "homepage": "https://www.jsdelivr.com/",
-    "categories": ["cdn"],
+    "categories": ["other"],
     "origins": ["cdn.jsdelivr.net"]
   },
   {
@@ -228,7 +228,13 @@
     "name": "Yandex APIs",
     "homepage": "https://yandex.ru/",
     "categories": ["utility"],
-    "origins": ["api-maps.yandex.ru"]
+    "origins": ["api-maps.yandex.ru", "money.yandex.ru"]
+  },
+  {
+    "name": "Yandex CDN",
+    "homepage": "https://yandex.ru/",
+    "categories": ["other"],
+    "origins": ["yandex.st"]
   },
   {
     "name": "Integral Ads",
@@ -293,7 +299,7 @@
   {
     "name": "Amazon S3",
     "homepage": "https://aws.amazon.com/s3/",
-    "categories": ["cdn"],
+    "categories": ["other"],
     "origins": ["s3.amazonaws.com"]
   },
   {
@@ -353,7 +359,7 @@
   {
     "name": "CreateJS CDN",
     "homepage": "http://code.createjs.com/",
-    "categories": ["cdn"],
+    "categories": ["other"],
     "origins": ["code.createjs.com"]
   },
   {
@@ -375,9 +381,9 @@
     "origins": ["cdn.mxpnl.com"]
   },
   {
-    "name": "FontAwesome",
+    "name": "FontAwesome CDN",
     "homepage": "https://fontawesome.com/",
-    "categories": ["utility"],
+    "categories": ["other"],
     "origins": ["use.fontawesome.com"]
   },
   {
@@ -473,7 +479,7 @@
   {
     "name": "Bootstrap CDN",
     "homepage": "https://bootstrapcdn.com/",
-    "categories": ["utility"],
+    "categories": ["other"],
     "origins": ["maxcdn.bootstrapcdn.com"]
   }
 ]

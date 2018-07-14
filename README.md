@@ -15,7 +15,7 @@
         1.  [Hosting Platforms](#hosting)
         1.  [Marketing](#marketing)
         1.  [Customer Success](#customer-success)
-        1.  [CDN](#cdn)
+        1.  [Other](#other)
     1.  [Third Parties by Total Impact](#by-total-impact)
 1.  [Future Work](#future-work)
 1.  [FAQs](#faqs)
@@ -51,7 +51,7 @@ This section breaks down third parties by category. Perhaps the most important c
 
 #### Overall Breakdown
 
-Unsurprisingly, ads account for the largest chunk of third party script execution.
+Unsurprisingly, ads account for the largest chunk of third party script execution followed by social and analytics.
 
 ![breakdown by category](./by-category.png)
 
@@ -136,27 +136,24 @@ These scripts enable video player and streaming functionality.
 
 #### Developer Utilities
 
-These scripts are developer utilities (jQuery, bootstrap, Sentry, etc).
+These scripts are developer utilities (API clients, site monitoring, fraud detection, etc).
 
 | Rank | Name                                                               | Popularity | Average Impact |
 | ---- | ------------------------------------------------------------------ | ---------- | -------------- |
-| 1    | [Bootstrap CDN](https://bootstrapcdn.com/)                         | 213        | 45 ms          |
-| 2    | [New Relic](https://newrelic.com/)                                 | 373        | 59 ms          |
-| 3    | [OneSignal](https://onesignal.com/)                                | 6,420      | 93 ms          |
-| 4    | [FontAwesome](https://fontawesome.com/)                            | 1,275      | 101 ms         |
-| 5    | [App Dynamics](https://www.appdynamics.com/)                       | 397        | 108 ms         |
-| 6    | [Google APIs/SDK](https://developers.google.com/apis-explorer/#p/) | 104,190    | 125 ms         |
-| 7    | [jQuery CDN](https://code.jquery.com/)                             | 20,140     | 168 ms         |
-| 8    | [Distil Networks](https://www.distilnetworks.com/)                 | 1,745      | 298 ms         |
-| 9    | [Cloudflare SDK](https://www.cloudflare.com/website-optimization/) | 4,398      | 300 ms         |
-| 10   | [Yandex APIs](https://yandex.ru/)                                  | 3,321      | 377 ms         |
-| 11   | [Sentry](https://sentry.io/)                                       | 2,268      | 739 ms         |
+| 1    | [New Relic](https://newrelic.com/)                                 | 373        | 59 ms          |
+| 2    | [OneSignal](https://onesignal.com/)                                | 6,420      | 93 ms          |
+| 3    | [App Dynamics](https://www.appdynamics.com/)                       | 397        | 108 ms         |
+| 4    | [Google APIs/SDK](https://developers.google.com/apis-explorer/#p/) | 104,190    | 125 ms         |
+| 5    | [Distil Networks](https://www.distilnetworks.com/)                 | 1,745      | 298 ms         |
+| 6    | [Cloudflare](https://www.cloudflare.com/website-optimization/)     | 4,398      | 300 ms         |
+| 7    | [Yandex APIs](https://yandex.ru/)                                  | 3,558      | 366 ms         |
+| 8    | [Sentry](https://sentry.io/)                                       | 2,268      | 739 ms         |
 
 <a name="hosting"></a>
 
 #### Hosting Platforms
 
-These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc).
+These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc). Note that in the case of WordPress, this just indicates the libraries hosted and served by WordPress not all sites using self-hosted WordPress.
 
 | Rank | Name                                        | Popularity | Average Impact |
 | ---- | ------------------------------------------- | ---------- | -------------- |
@@ -193,19 +190,23 @@ These scripts are from customer support/marketing providers that offer chat and 
 | 5    | [Zopim](https://www.zopim.com/)          | 6,367      | 726 ms         |
 | 6    | [ZenDesk](https://zendesk.com/)          | 2,927      | 766 ms         |
 
-<a name="cdn"></a>
+<a name="other"></a>
 
-#### CDN
+#### Other
 
-These scripts are delivered via CDN. This category is unique in that the origin may have no responsibility on the performance of what's being served. Note that rank here is largely meaningless and does not imply one CDN is better than the other. It simply identifies that the scripts being served from that CDN are heavier than the ones developers use from another.
+These are miscellaneous scripts delivered via a shared CDN. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the scripts being served from that origin are lighter/heavier than the ones served by another.
 
 | Rank | Name                                                         | Popularity | Average Impact |
 | ---- | ------------------------------------------------------------ | ---------- | -------------- |
-| 1    | [Cloudflare CDN](https://cdnjs.com/)                         | 15,088     | 192 ms         |
-| 2    | [Google CDN](https://developers.google.com/speed/libraries/) | 85,536     | 212 ms         |
-| 3    | [Amazon S3](https://aws.amazon.com/s3/)                      | 2,625      | 222 ms         |
-| 4    | [JSDelivr](https://www.jsdelivr.com/)                        | 3,537      | 351 ms         |
-| 5    | [CreateJS CDN](http://code.createjs.com/)                    | 1,685      | 2457 ms        |
+| 1    | [Bootstrap CDN](https://bootstrapcdn.com/)                   | 213        | 45 ms          |
+| 2    | [FontAwesome CDN](https://fontawesome.com/)                  | 1,275      | 101 ms         |
+| 3    | [Yandex CDN](https://yandex.ru/)                             | 311        | 167 ms         |
+| 4    | [jQuery CDN](https://code.jquery.com/)                       | 20,140     | 168 ms         |
+| 5    | [Cloudflare CDN](https://cdnjs.com/)                         | 15,088     | 192 ms         |
+| 6    | [Google CDN](https://developers.google.com/speed/libraries/) | 85,536     | 212 ms         |
+| 7    | [Amazon S3](https://aws.amazon.com/s3/)                      | 2,625      | 222 ms         |
+| 8    | [JSDelivr](https://www.jsdelivr.com/)                        | 3,537      | 351 ms         |
+| 9    | [CreateJS CDN](http://code.createjs.com/)                    | 1,685      | 2457 ms        |
 
 <a name="by-total-impact"></a>
 
@@ -243,12 +244,12 @@ These scripts are delivered via CDN. This category is unique in that the origin 
 | [Tumblr](https://tumblr.com/)                                                       | 4,717      | 1931 s       |
 | [Optimizely](https://www.optimizely.com/)                                           | 4,671      | 1384 s       |
 | [Pubmatic](https://pubmatic.com/)                                                   | 4,462      | 435 s        |
-| [Cloudflare SDK](https://www.cloudflare.com/website-optimization/)                  | 4,398      | 1320 s       |
+| [Cloudflare](https://www.cloudflare.com/website-optimization/)                      | 4,398      | 1320 s       |
 | [VK](https://vk.com/)                                                               | 4,227      | 126 s        |
 | [ShareThis](https://www.sharethis.com/)                                             | 3,746      | 1787 s       |
+| [Yandex APIs](https://yandex.ru/)                                                   | 3,558      | 1303 s       |
 | [Vimeo](http://vimeo.com/)                                                          | 3,543      | 497 s        |
 | [JSDelivr](https://www.jsdelivr.com/)                                               | 3,537      | 1243 s       |
-| [Yandex APIs](https://yandex.ru/)                                                   | 3,321      | 1253 s       |
 | [Tealium](https://tealium.com/)                                                     | 3,066      | 779 s        |
 | [ZenDesk](https://zendesk.com/)                                                     | 2,927      | 2241 s       |
 | [Parking Crew](http://parkingcrew.net/)                                             | 2,887      | 1229 s       |
@@ -277,7 +278,7 @@ These scripts are delivered via CDN. This category is unique in that the origin 
 | [Media Math](http://www.mediamath.com/)                                             | 1,523      | 1230 s       |
 | [Market GID](https://www.marketgid.com/)                                            | 1,510      | 202 s        |
 | [Mixpanel](https://mixpanel.com/)                                                   | 1,371      | 102 s        |
-| [FontAwesome](https://fontawesome.com/)                                             | 1,275      | 128 s        |
+| [FontAwesome CDN](https://fontawesome.com/)                                         | 1,275      | 128 s        |
 | [MediaVine](https://www.mediavine.com/)                                             | 1,269      | 1443 s       |
 | [Lucky Orange](https://www.luckyorange.com/)                                        | 857        | 803 s        |
 | [WordAds](https://wordads.co/)                                                      | 766        | 1516 s       |
@@ -286,6 +287,7 @@ These scripts are delivered via CDN. This category is unique in that the origin 
 | [App Dynamics](https://www.appdynamics.com/)                                        | 397        | 43 s         |
 | [New Relic](https://newrelic.com/)                                                  | 373        | 22 s         |
 | [Twitch](https://twitch.tv/)                                                        | 319        | 224 s        |
+| [Yandex CDN](https://yandex.ru/)                                                    | 311        | 52 s         |
 | [Bootstrap CDN](https://bootstrapcdn.com/)                                          | 213        | 10 s         |
 
 ## Future Work
