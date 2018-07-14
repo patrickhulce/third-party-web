@@ -1,37 +1,51 @@
 {
   "ad": {
+    "color": "hsl(0, 90%, 60%)",
     "title": "Ad Network",
     "description": "These scripts are part of advertising networks, either serving or measuring."
   },
   "analytics": {
+    "color": "hsl(30, 90%, 60%)",
     "title": "Analytics",
-    "description": "These scripts measure or track users and their actions."
+    "description":
+      "These scripts measure or track users and their actions. There's a wide range in impact here depending on what's being tracked."
   },
   "social": {
+    "color": "hsl(60, 90%, 60%)",
     "title": "Social",
     "description": "These scripts enable social features."
   },
+  "video": {
+    "color": "hsl(150, 90%, 30%)",
+    "title": "Video",
+    "description": "These scripts enable video player and streaming functionality."
+  },
   "utility": {
+    "color": "hsl(120, 90%, 60%)",
     "title": "Developer Utilities",
     "description": "These scripts are developer utilities (jQuery, bootstrap, Sentry, etc)."
   },
   "hosting": {
+    "color": "hsl(180, 90%, 60%)",
     "title": "Hosting Platforms",
     "description":
       "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc)."
   },
   "marketing": {
+    "color": "hsl(220, 90%, 60%)",
     "title": "Marketing",
     "description": "These scripts are from marketing tools that add popups/newsletters/etc."
   },
   "customer-success": {
+    "color": "hsl(270, 90%, 60%)",
     "title": "Customer Success",
     "description":
-      "These scripts are from customer support/marketing providers that offer chat and contact solutions."
+      "These scripts are from customer support/marketing providers that offer chat and contact solutions. These scripts are generally heavier in weight."
   },
   "cdn": {
+    "color": "hsl(330, 90%, 60%)",
     "title": "CDN",
     "description":
-      "These scripts are delivered via CDN. This category is unique in that the origin may have no responsibility on the performance of what's being served."
+      "These scripts are delivered via CDN. This category is unique in that the origin may have no responsibility on the performance of what's being served. Note that rank here is largely meaningless and does not imply one CDN is better than the other. It simply identifies that the scripts being served from that CDN are heavier than the ones developers use from another."
   }
 }

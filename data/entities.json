@@ -1,7 +1,7 @@
 [
   {
     "name": "Google Ads",
-    "homepage": "https://www.google.com/adsense/start/#/?modal_active=none",
+    "homepage": "https://www.google.com/adsense/start",
     "categories": ["ad"],
     "origins": [
       "pagead2.googlesyndication.com",
@@ -65,7 +65,7 @@
   {
     "name": "YouTube",
     "homepage": "https://youtube.com",
-    "categories": ["social"],
+    "categories": ["video"],
     "origins": ["www.youtube.com", "s.ytimg.com"]
   },
   {
@@ -142,8 +142,8 @@
   },
   {
     "name": "Moat",
-    "homepage": "https://yastatic.net/share2/share.js",
-    "categories": ["social"],
+    "homepage": "https://moat.com/",
+    "categories": ["ad"],
     "origins": ["z.moatads.com"]
   },
   {
@@ -203,7 +203,7 @@
   {
     "name": "Wistia",
     "homepage": "https://wistia.com/",
-    "categories": ["hosting"],
+    "categories": ["video"],
     "origins": ["fast.wistia.com", "fast.wistia.net"]
   },
   {
@@ -221,7 +221,7 @@
   {
     "name": "Vimeo",
     "homepage": "http://vimeo.com/",
-    "categories": ["social"],
+    "categories": ["video"],
     "origins": ["f.vimeocdn.com", "player.vimeo.com"]
   },
   {
@@ -305,7 +305,7 @@
   {
     "name": "Twitch",
     "homepage": "https://twitch.tv/",
-    "categories": ["social"],
+    "categories": ["video"],
     "origins": ["player.twitch.tv"]
   },
   {
