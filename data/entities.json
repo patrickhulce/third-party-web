@@ -1,7 +1,7 @@
 [
   {
-    "name": "Google Ads",
-    "homepage": "https://www.google.com/adsense/start",
+    "name": "Google/Doubleclick Ads",
+    "homepage": "https://www.doubleclickbygoogle.com/",
     "categories": ["ad"],
     "origins": [
       "pagead2.googlesyndication.com",
@@ -207,7 +207,7 @@
     "origins": ["fast.wistia.com", "fast.wistia.net"]
   },
   {
-    "name": "JSDelivr",
+    "name": "JSDelivr CDN",
     "homepage": "https://www.jsdelivr.com/",
     "categories": ["other"],
     "origins": ["cdn.jsdelivr.net"]
@@ -319,6 +319,18 @@
     "homepage": "https://www.taboola.com/",
     "categories": ["ad"],
     "origins": ["cdn.taboola.com", "trc.taboola.com", "vidstat.taboola.com"]
+  },
+  {
+    "name": "Sizmek",
+    "homepage": "https://www.sizmek.com/",
+    "categories": ["ad"],
+    "origins": ["secure-ds.serving-sys.com", "ds.serving-sys.com"]
+  },
+  {
+    "name": "Scorecard Research",
+    "homepage": "https://www.scorecardresearch.com/",
+    "categories": ["ad"],
+    "origins": ["sb.scorecardresearch.com"]
   },
   {
     "name": "Criteo",
@@ -468,7 +480,7 @@
     "name": "DoubleVerify",
     "homepage": "https://www.doubleverify.com/",
     "categories": ["ad"],
-    "origins": ["cdn.doubleverify.com"]
+    "origins": ["cdn.doubleverify.com", "rtb0.doubleverify.com", "rtbcdn.doubleverify.com"]
   },
   {
     "name": "MediaVine",

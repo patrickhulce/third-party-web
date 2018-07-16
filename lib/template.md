@@ -7,7 +7,8 @@ This document is a summary of which third party scripts are most responsible for
 1.  [Goals](#goals)
 1.  [Methodology](#methodology)
 1.  [Data](#data)
-    1.  [How to Interpret](#how-to-interpet)
+    1.  [Summary](#summary)
+    1.  [How to Interpret](#how-to-interpret)
     1.  [Third Parties by Category](#by-category)
         <%= category_table_of_contents %>
     1.  [Third Parties by Total Impact](#by-total-impact)
