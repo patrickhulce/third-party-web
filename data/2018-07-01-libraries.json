@@ -1,0 +1,302 @@
+[
+  {
+    "library": null,
+    "totalExecutionTime": "687845416.6250004",
+    "totalOccurrences": "2777580",
+    "averageExecutionTime": "247.64198209412524"
+  },
+  {
+    "library": "jquery",
+    "totalExecutionTime": "19484060.94700003",
+    "totalOccurrences": "94230",
+    "averageExecutionTime": "206.77131430542323"
+  },
+  {
+    "library": "jqueryui",
+    "totalExecutionTime": "620305.2809999994",
+    "totalOccurrences": "11388",
+    "averageExecutionTime": "54.47008087460479"
+  },
+  {
+    "library": "webfont",
+    "totalExecutionTime": "531162.5179999995",
+    "totalOccurrences": "5213",
+    "averageExecutionTime": "101.89190830615757"
+  },
+  {
+    "library": "modernizr",
+    "totalExecutionTime": "83877.7160000001",
+    "totalOccurrences": "1765",
+    "averageExecutionTime": "47.52278526912187"
+  },
+  {
+    "library": "gsap",
+    "totalExecutionTime": "287825.058",
+    "totalOccurrences": "1555",
+    "averageExecutionTime": "185.09650032154343"
+  },
+  {
+    "library": "fontawesome",
+    "totalExecutionTime": "146270.45200000005",
+    "totalOccurrences": "1555",
+    "averageExecutionTime": "94.06459935691322"
+  },
+  {
+    "library": "yandex-metrica-watch",
+    "totalExecutionTime": "692831.0990000006",
+    "totalOccurrences": "1225",
+    "averageExecutionTime": "565.5764073469393"
+  },
+  {
+    "library": "emojione",
+    "totalExecutionTime": "48268.071999999986",
+    "totalOccurrences": "1103",
+    "averageExecutionTime": "43.76071804170443"
+  },
+  {
+    "library": "angularjs",
+    "totalExecutionTime": "368191.81500000024",
+    "totalOccurrences": "1014",
+    "averageExecutionTime": "363.10829881656827"
+  },
+  {
+    "library": "mathjax",
+    "totalExecutionTime": "96142.08200000008",
+    "totalOccurrences": "901",
+    "averageExecutionTime": "106.70597336293017"
+  },
+  {
+    "library": "swfobject",
+    "totalExecutionTime": "116800.4140000001",
+    "totalOccurrences": "794",
+    "averageExecutionTime": "147.10379596977344"
+  },
+  {
+    "library": "fingerprintjs2",
+    "totalExecutionTime": "100261.48700000004",
+    "totalOccurrences": "369",
+    "averageExecutionTime": "271.71134688346893"
+  },
+  {
+    "library": "superagent",
+    "totalExecutionTime": "85288.16100000001",
+    "totalOccurrences": "328",
+    "averageExecutionTime": "260.024881097561"
+  },
+  {
+    "library": "lodashjs",
+    "totalExecutionTime": "15546.67",
+    "totalOccurrences": "323",
+    "averageExecutionTime": "48.1321052631579"
+  },
+  {
+    "library": "requirejs",
+    "totalExecutionTime": "90500.532",
+    "totalOccurrences": "270",
+    "averageExecutionTime": "335.1871555555556"
+  },
+  {
+    "library": "prototype",
+    "totalExecutionTime": "16709.476999999973",
+    "totalOccurrences": "247",
+    "averageExecutionTime": "67.64970445344119"
+  },
+  {
+    "library": "dashjs",
+    "totalExecutionTime": "27514.506999999983",
+    "totalOccurrences": "244",
+    "averageExecutionTime": "112.7643729508196"
+  },
+  {
+    "library": "g",
+    "totalExecutionTime": "44825.32500000002",
+    "totalOccurrences": "238",
+    "averageExecutionTime": "188.34170168067234"
+  },
+  {
+    "library": "babel-polyfill",
+    "totalExecutionTime": "26839.089000000014",
+    "totalOccurrences": "232",
+    "averageExecutionTime": "115.68572844827592"
+  },
+  {
+    "library": "rollbarjs",
+    "totalExecutionTime": "33359.831000000006",
+    "totalOccurrences": "226",
+    "averageExecutionTime": "147.60987168141597"
+  },
+  {
+    "library": "yui",
+    "totalExecutionTime": "19727.303000000018",
+    "totalOccurrences": "195",
+    "averageExecutionTime": "101.1656564102565"
+  },
+  {
+    "library": "slick-carousel",
+    "totalExecutionTime": "17570.629999999997",
+    "totalOccurrences": "184",
+    "averageExecutionTime": "95.49255434782607"
+  },
+  {
+    "library": "jquery.slick",
+    "totalExecutionTime": "21544.89800000001",
+    "totalOccurrences": "182",
+    "averageExecutionTime": "118.37856043956049"
+  },
+  {
+    "library": "momentjs",
+    "totalExecutionTime": "11080.413999999999",
+    "totalOccurrences": "161",
+    "averageExecutionTime": "68.82244720496894"
+  },
+  {
+    "library": "socket.io",
+    "totalExecutionTime": "27348.520999999997",
+    "totalOccurrences": "161",
+    "averageExecutionTime": "169.86659006211178"
+  },
+  {
+    "library": "jquerymobile",
+    "totalExecutionTime": "13645.691000000006",
+    "totalOccurrences": "146",
+    "averageExecutionTime": "93.46363698630141"
+  },
+  {
+    "library": "Chartjs",
+    "totalExecutionTime": "24556.281999999996",
+    "totalOccurrences": "146",
+    "averageExecutionTime": "168.1937123287671"
+  },
+  {
+    "library": "react",
+    "totalExecutionTime": "9911.431000000006",
+    "totalOccurrences": "142",
+    "averageExecutionTime": "69.79880985915497"
+  },
+  {
+    "library": "require-text",
+    "totalExecutionTime": "144081.911",
+    "totalOccurrences": "138",
+    "averageExecutionTime": "1044.0718188405797"
+  },
+  {
+    "library": "mootools",
+    "totalExecutionTime": "19091.441999999966",
+    "totalOccurrences": "128",
+    "averageExecutionTime": "149.15189062499974"
+  },
+  {
+    "library": "Swiper",
+    "totalExecutionTime": "6663.390999999998",
+    "totalOccurrences": "116",
+    "averageExecutionTime": "57.44302586206895"
+  },
+  {
+    "library": "combine",
+    "totalExecutionTime": "21237.599000000002",
+    "totalOccurrences": "111",
+    "averageExecutionTime": "191.32972072072073"
+  },
+  {
+    "library": "gh",
+    "totalExecutionTime": "19209.67799999998",
+    "totalOccurrences": "111",
+    "averageExecutionTime": "173.060162162162"
+  },
+  {
+    "library": "instantsearchjs",
+    "totalExecutionTime": "19273.278999999995",
+    "totalOccurrences": "110",
+    "averageExecutionTime": "175.2116272727272"
+  },
+  {
+    "library": "materialize",
+    "totalExecutionTime": "6566.292",
+    "totalOccurrences": "103",
+    "averageExecutionTime": "63.75040776699029"
+  },
+  {
+    "library": "foundation",
+    "totalExecutionTime": "8454.357999999993",
+    "totalOccurrences": "102",
+    "averageExecutionTime": "82.88586274509797"
+  },
+  {
+    "library": "ScrollMagic",
+    "totalExecutionTime": "12684.219999999992",
+    "totalOccurrences": "99",
+    "averageExecutionTime": "128.12343434343427"
+  },
+  {
+    "library": "dojo",
+    "totalExecutionTime": "16274.878999999995",
+    "totalOccurrences": "95",
+    "averageExecutionTime": "171.31451578947363"
+  },
+  {
+    "library": "core-js",
+    "totalExecutionTime": "10315.442999999996",
+    "totalOccurrences": "89",
+    "averageExecutionTime": "115.90385393258423"
+  },
+  {
+    "library": "lazysizes",
+    "totalExecutionTime": "6829.924",
+    "totalOccurrences": "86",
+    "averageExecutionTime": "79.41772093023256"
+  },
+  {
+    "library": "pdfmake",
+    "totalExecutionTime": "71355.94200000001",
+    "totalOccurrences": "85",
+    "averageExecutionTime": "839.4816705882354"
+  },
+  {
+    "library": "pace",
+    "totalExecutionTime": "20550.05899999999",
+    "totalOccurrences": "74",
+    "averageExecutionTime": "277.70349999999985"
+  },
+  {
+    "library": "raphael",
+    "totalExecutionTime": "12450.167000000012",
+    "totalOccurrences": "67",
+    "averageExecutionTime": "185.82338805970167"
+  },
+  {
+    "library": "uikit",
+    "totalExecutionTime": "18369.497999999996",
+    "totalOccurrences": "63",
+    "averageExecutionTime": "291.5793333333333"
+  },
+  {
+    "library": "jquery-tools",
+    "totalExecutionTime": "11369.58699999999",
+    "totalOccurrences": "61",
+    "averageExecutionTime": "186.38667213114738"
+  },
+  {
+    "library": "videojs",
+    "totalExecutionTime": "23877.43900000001",
+    "totalOccurrences": "53",
+    "averageExecutionTime": "450.51771698113225"
+  },
+  {
+    "library": "select2",
+    "totalExecutionTime": "2402.907",
+    "totalOccurrences": "52",
+    "averageExecutionTime": "46.20975"
+  },
+  {
+    "library": "es6-shim",
+    "totalExecutionTime": "3331.958",
+    "totalOccurrences": "52",
+    "averageExecutionTime": "64.07611538461539"
+  },
+  {
+    "library": "react-dom",
+    "totalExecutionTime": "2785.738999999999",
+    "totalOccurrences": "51",
+    "averageExecutionTime": "54.622333333333316"
+  }
+]
