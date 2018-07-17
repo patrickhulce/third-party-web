@@ -7,7 +7,8 @@ This document is a summary of which third party scripts are most responsible for
 1.  [Goals](#goals)
 1.  [Methodology](#methodology)
 1.  [Data](#data)
-    1.  [How to Interpret](#how-to-interpet)
+    1.  [Summary](#summary)
+    1.  [How to Interpret](#how-to-interpret)
     1.  [Third Parties by Category](#by-category)
         1.  [Ads](#ad)
         1.  [Analytics](#analytics)
@@ -17,7 +18,9 @@ This document is a summary of which third party scripts are most responsible for
         1.  [Hosting Platforms](#hosting)
         1.  [Marketing](#marketing)
         1.  [Customer Success](#customer-success)
-        1.  [Other](#other)
+        1.  [Content & Publishing](#content)
+        1.  [Libraries](#library)
+        1.  [Unknown](#other)
     1.  [Third Parties by Total Impact](#by-total-impact)
 1.  [Future Work](#future-work)
 1.  [FAQs](#faqs)
@@ -67,24 +70,27 @@ Unsurprisingly, ads account for the largest chunk of third party script executio
 
 These scripts are part of advertising networks, either serving or measuring.
 
-| Rank | Name                                               | Popularity | Average Impact |
-| ---- | -------------------------------------------------- | ---------- | -------------- |
-| 1    | [Criteo](https://www.criteo.com/)                  | 1,879      | 85 ms          |
-| 2    | [Pubmatic](https://pubmatic.com/)                  | 4,462      | 98 ms          |
-| 3    | [Market GID](https://www.marketgid.com/)           | 1,510      | 134 ms         |
-| 4    | [MGID](https://www.mgid.com/)                      | 2,555      | 147 ms         |
-| 5    | [Taboola](https://www.taboola.com/)                | 2,848      | 211 ms         |
-| 6    | [Yahoo Ads](https://www.media.net/)                | 1,990      | 252 ms         |
-| 7    | [AppNexus](https://www.appnexus.com/)              | 2,742      | 266 ms         |
-| 8    | [Google Ads](https://www.google.com/adsense/start) | 389,341    | 445 ms         |
-| 9    | [Integral Ads](https://integralads.com/uk/)        | 6,679      | 447 ms         |
-| 10   | [DoubleVerify](https://www.doubleverify.com/)      | 2,752      | 513 ms         |
-| 11   | [Yandex Ads](https://yandex.com/adv/)              | 4,810      | 515 ms         |
-| 12   | [Media Math](http://www.mediamath.com/)            | 1,523      | 807 ms         |
-| 13   | [Moat](https://moat.com/)                          | 5,599      | 826 ms         |
-| 14   | [MediaVine](https://www.mediavine.com/)            | 1,269      | 1137 ms        |
-| 15   | [WordAds](https://wordads.co/)                     | 766        | 1979 ms        |
-| 16   | [Popads](https://www.popads.net/)                  | 2,808      | 2387 ms        |
+| Rank | Name                                                           | Popularity | Average Impact |
+| ---- | -------------------------------------------------------------- | ---------- | -------------- |
+| 1    | [Criteo](https://www.criteo.com/)                              | 1,879      | 85 ms          |
+| 2    | [Pubmatic](https://pubmatic.com/)                              | 4,462      | 98 ms          |
+| 3    | [Market GID](https://www.marketgid.com/)                       | 1,510      | 134 ms         |
+| 4    | [MGID](https://www.mgid.com/)                                  | 2,555      | 147 ms         |
+| 5    | [Taboola](https://www.taboola.com/)                            | 2,848      | 211 ms         |
+| 6    | [Scorecard Research](https://www.scorecardresearch.com/)       | 479        | 251 ms         |
+| 7    | [Yahoo Ads](https://www.media.net/)                            | 1,990      | 252 ms         |
+| 8    | [AppNexus](https://www.appnexus.com/)                          | 2,742      | 266 ms         |
+| 9    | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/) | 389,341    | 445 ms         |
+| 10   | [Integral Ads](https://integralads.com/uk/)                    | 6,679      | 447 ms         |
+| 11   | [DoubleVerify](https://www.doubleverify.com/)                  | 2,752      | 513 ms         |
+| 12   | [Yandex Ads](https://yandex.com/adv/)                          | 4,810      | 515 ms         |
+| 13   | [Sizmek](https://www.sizmek.com/)                              | 1,435      | 598 ms         |
+| 14   | [Media Math](http://www.mediamath.com/)                        | 1,523      | 807 ms         |
+| 15   | [Moat](https://moat.com/)                                      | 5,599      | 826 ms         |
+| 16   | [TrafficJunky](https://www.trafficjunky.com/)                  | 1,527      | 1126 ms        |
+| 17   | [MediaVine](https://www.mediavine.com/)                        | 1,269      | 1137 ms        |
+| 18   | [WordAds](https://wordads.co/)                                 | 766        | 1979 ms        |
+| 19   | [Popads](https://www.popads.net/)                              | 2,808      | 2387 ms        |
 
 <a name="analytics"></a>
 
@@ -94,19 +100,21 @@ These scripts measure or track users and their actions. There's a wide range in 
 
 | Rank | Name                                                               | Popularity | Average Impact |
 | ---- | ------------------------------------------------------------------ | ---------- | -------------- |
-| 1    | [Mixpanel](https://mixpanel.com/)                                  | 1,371      | 75 ms          |
-| 2    | [Google Analytics](https://www.google.com/analytics/analytics/)    | 205,702    | 85 ms          |
-| 3    | [Baidu Analytics](https://tongji.baidu.com/web/welcome/login)      | 12,744     | 90 ms          |
-| 4    | [Hotjar](https://www.hotjar.com/)                                  | 17,635     | 91 ms          |
-| 5    | [Adobe Analytics](https://www.adobe.com/analytics-cloud.html)      | 5,767      | 220 ms         |
-| 6    | [Salesforce](https://www.salesforce.com/products/marketing-cloud/) | 4,804      | 251 ms         |
-| 7    | [Tealium](https://tealium.com/)                                    | 3,066      | 254 ms         |
-| 8    | [Optimizely](https://www.optimizely.com/)                          | 4,671      | 296 ms         |
-| 9    | [Segment](https://segment.com/)                                    | 1,839      | 301 ms         |
-| 10   | [Histats](http://histats.com/)                                     | 1,524      | 341 ms         |
-| 11   | [Connexity](http://connexity.com/)                                 | 1,744      | 361 ms         |
-| 12   | [Yandex Metrica](https://metrica.yandex.com/about?)                | 26,891     | 371 ms         |
-| 13   | [Lucky Orange](https://www.luckyorange.com/)                       | 857        | 937 ms         |
+| 1    | [Alexa](https://www.alexa.com/)                                    | 205        | 46 ms          |
+| 2    | [Mixpanel](https://mixpanel.com/)                                  | 1,371      | 75 ms          |
+| 3    | [Google Analytics](https://www.google.com/analytics/analytics/)    | 205,702    | 85 ms          |
+| 4    | [Baidu Analytics](https://tongji.baidu.com/web/welcome/login)      | 12,744     | 90 ms          |
+| 5    | [Hotjar](https://www.hotjar.com/)                                  | 17,635     | 91 ms          |
+| 6    | [Crazy Egg](https://www.crazyegg.com/)                             | 379        | 97 ms          |
+| 7    | [Adobe Analytics](https://www.adobe.com/analytics-cloud.html)      | 5,767      | 220 ms         |
+| 8    | [Salesforce](https://www.salesforce.com/products/marketing-cloud/) | 4,804      | 251 ms         |
+| 9    | [Tealium](https://tealium.com/)                                    | 3,066      | 254 ms         |
+| 10   | [Optimizely](https://www.optimizely.com/)                          | 4,671      | 296 ms         |
+| 11   | [Segment](https://segment.com/)                                    | 1,839      | 301 ms         |
+| 12   | [Histats](http://histats.com/)                                     | 1,524      | 341 ms         |
+| 13   | [Connexity](http://connexity.com/)                                 | 1,744      | 361 ms         |
+| 14   | [Yandex Metrica](https://metrica.yandex.com/about?)                | 27,474     | 369 ms         |
+| 15   | [Lucky Orange](https://www.luckyorange.com/)                       | 857        | 937 ms         |
 
 <a name="social"></a>
 
@@ -118,12 +126,14 @@ These scripts enable social features.
 | ---- | ---------------------------------------------------- | ---------- | -------------- |
 | 1    | [VK](https://vk.com/)                                | 4,227      | 30 ms          |
 | 2    | [Pinterest](https://pinterest.com/)                  | 410        | 61 ms          |
-| 3    | [Yandex Share](https://yastatic.net/share2/share.js) | 6,865      | 135 ms         |
-| 4    | [Twitter](https://twitter.com)                       | 37,744     | 151 ms         |
-| 5    | [Facebook](https://www.facebook.com)                 | 162,080    | 169 ms         |
-| 6    | [AddThis](http://www.addthis.com/)                   | 36,499     | 202 ms         |
-| 7    | [Tumblr](https://tumblr.com/)                        | 4,717      | 409 ms         |
-| 8    | [ShareThis](https://www.sharethis.com/)              | 3,746      | 477 ms         |
+| 3    | [LinkedIn](https://www.linkedin.com/)                | 990        | 124 ms         |
+| 4    | [Yandex Share](https://yastatic.net/share2/share.js) | 6,865      | 135 ms         |
+| 5    | [Twitter](https://twitter.com)                       | 37,744     | 151 ms         |
+| 6    | [Facebook](https://www.facebook.com)                 | 162,080    | 169 ms         |
+| 7    | [AddThis](http://www.addthis.com/)                   | 36,499     | 202 ms         |
+| 8    | [Tumblr](https://tumblr.com/)                        | 4,717      | 409 ms         |
+| 9    | [ShareThis](https://www.sharethis.com/)              | 3,746      | 477 ms         |
+| 10   | [Disqus](http://disqus.com/)                         | 534        | 680 ms         |
 
 <a name="video"></a>
 
@@ -131,12 +141,13 @@ These scripts enable social features.
 
 These scripts enable video player and streaming functionality.
 
-| Rank | Name                           | Popularity | Average Impact |
-| ---- | ------------------------------ | ---------- | -------------- |
-| 1    | [Vimeo](http://vimeo.com/)     | 3,543      | 140 ms         |
-| 2    | [Wistia](https://wistia.com/)  | 5,062      | 266 ms         |
-| 3    | [YouTube](https://youtube.com) | 54,390     | 411 ms         |
-| 4    | [Twitch](https://twitch.tv/)   | 319        | 701 ms         |
+| Rank | Name                                         | Popularity | Average Impact |
+| ---- | -------------------------------------------- | ---------- | -------------- |
+| 1    | [Vimeo](http://vimeo.com/)                   | 3,543      | 140 ms         |
+| 2    | [Wistia](https://wistia.com/)                | 5,062      | 266 ms         |
+| 3    | [YouTube](https://youtube.com)               | 54,390     | 411 ms         |
+| 4    | [Brightcove](https://www.brightcove.com/en/) | 1,283      | 576 ms         |
+| 5    | [Twitch](https://twitch.tv/)                 | 319        | 701 ms         |
 
 <a name="utility"></a>
 
@@ -180,9 +191,11 @@ These scripts are from marketing tools that add popups/newsletters/etc.
 | ---- | ----------------------------------------- | ---------- | -------------- |
 | 1    | [Hubspot](https://hubspot.com/)           | 4,887      | 92 ms          |
 | 2    | [Mailchimp](https://mailchimp.com/)       | 872        | 194 ms         |
-| 3    | [OptinMonster](https://optinmonster.com/) | 2,352      | 324 ms         |
-| 4    | [Sumo](https://sumo.com/)                 | 6,677      | 379 ms         |
-| 5    | [Drift](https://www.drift.com/)           | 2,315      | 482 ms         |
+| 3    | [Beeketing](https://beeketing.com/)       | 1,360      | 272 ms         |
+| 4    | [OptinMonster](https://optinmonster.com/) | 2,352      | 324 ms         |
+| 5    | [Sumo](https://sumo.com/)                 | 6,677      | 379 ms         |
+| 6    | [Drift](https://www.drift.com/)           | 2,315      | 482 ms         |
+| 7    | [Albacross](https://albacross.com/)       | 158        | 3847 ms        |
 
 <a name="customer-success"></a>
 
@@ -193,30 +206,55 @@ These scripts are from customer support/marketing providers that offer chat and 
 | Rank | Name                                     | Popularity | Average Impact |
 | ---- | ---------------------------------------- | ---------- | -------------- |
 | 1    | [LiveChat](https://www.livechatinc.com/) | 6,252      | 178 ms         |
-| 2    | [Tawk.to](https://www.tawk.to/)          | 2,574      | 278 ms         |
-| 3    | [Olark](https://www.olark.com/)          | 2,734      | 318 ms         |
-| 4    | [Intercom](https://www.intercom.com/)    | 2,795      | 721 ms         |
-| 5    | [Zopim](https://www.zopim.com/)          | 6,367      | 726 ms         |
-| 6    | [ZenDesk](https://zendesk.com/)          | 2,927      | 766 ms         |
+| 2    | [Freshdesk](https://freshdesk.com/)      | 368        | 187 ms         |
+| 3    | [Help Scout](https://www.helpscout.net/) | 228        | 239 ms         |
+| 4    | [Tawk.to](https://www.tawk.to/)          | 2,574      | 278 ms         |
+| 5    | [Olark](https://www.olark.com/)          | 2,734      | 318 ms         |
+| 6    | [Intercom](https://www.intercom.com/)    | 2,795      | 721 ms         |
+| 7    | [Zopim](https://www.zopim.com/)          | 6,367      | 726 ms         |
+| 8    | [ZenDesk](https://zendesk.com/)          | 2,927      | 766 ms         |
 
-<a name="other"></a>
+<a name="content"></a>
 
-#### Other
+#### Content & Publishing
 
-These are miscellaneous scripts delivered via a shared CDN. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the scripts being served from that origin are lighter/heavier than the ones served by another.
+These scripts are from content providers or publishing-specific affiliate tracking.
+
+| Rank | Name                                      | Popularity | Average Impact |
+| ---- | ----------------------------------------- | ---------- | -------------- |
+| 1    | [Vox Media](https://www.voxmedia.com/)    | 355        | 360 ms         |
+| 2    | [AMP](https://www.ampproject.org/)        | 1,107      | 366 ms         |
+| 3    | [SoundCloud](https://www.soundcloud.com/) | 499        | 939 ms         |
+| 4    | [Hotmart](https://www.hotmart.com/)       | 114        | 3814 ms        |
+
+<a name="library"></a>
+
+#### Libraries
+
+These are mostly open source libraries (e.g. jQuery) served over different public CDNs. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the libraries being served from that origin are lighter/heavier than the ones served by another..
 
 | Rank | Name                                                         | Popularity | Average Impact |
 | ---- | ------------------------------------------------------------ | ---------- | -------------- |
-| 1    | [Bootstrap CDN](https://bootstrapcdn.com/)                   | 213        | 45 ms          |
-| 2    | [FontAwesome CDN](https://fontawesome.com/)                  | 1,275      | 101 ms         |
-| 3    | [Yandex CDN](https://yandex.ru/)                             | 311        | 167 ms         |
-| 4    | [jQuery CDN](https://code.jquery.com/)                       | 20,140     | 168 ms         |
+| 1    | [FontAwesome CDN](https://fontawesome.com/)                  | 1,275      | 101 ms         |
+| 2    | [Yandex CDN](https://yandex.ru/)                             | 311        | 167 ms         |
+| 3    | [jQuery CDN](https://code.jquery.com/)                       | 20,140     | 168 ms         |
+| 4    | [Bootstrap CDN](https://bootstrapcdn.com/)                   | 804        | 190 ms         |
 | 5    | [Cloudflare CDN](https://cdnjs.com/)                         | 15,088     | 192 ms         |
 | 6    | [Google CDN](https://developers.google.com/speed/libraries/) | 85,536     | 212 ms         |
-| 7    | [Amazon S3](https://aws.amazon.com/s3/)                      | 2,625      | 222 ms         |
-| 8    | [JSDelivr](https://www.jsdelivr.com/)                        | 3,537      | 351 ms         |
-| 9    | [Parking Crew](http://parkingcrew.net/)                      | 2,887      | 426 ms         |
-| 10   | [CreateJS CDN](http://code.createjs.com/)                    | 1,685      | 2457 ms        |
+| 7    | [JSDelivr CDN](https://www.jsdelivr.com/)                    | 3,537      | 351 ms         |
+| 8    | [CreateJS CDN](http://code.createjs.com/)                    | 1,685      | 2457 ms        |
+
+<a name="other"></a>
+
+#### Unknown
+
+These are miscellaneous scripts delivered via a shared origin with no clean category or attribution. Help us out by identifying more origins!
+
+| Rank | Name                                    | Popularity | Average Impact |
+| ---- | --------------------------------------- | ---------- | -------------- |
+| 1    | [Amazon S3](https://aws.amazon.com/s3/) | 2,625      | 222 ms         |
+| 2    | [All Other 3rd Parties](#by-category)   | 139,040    | 266 ms         |
+| 3    | [Parking Crew](http://parkingcrew.net/) | 2,887      | 426 ms         |
 
 <a name="by-total-impact"></a>
 
@@ -226,13 +264,14 @@ This section highlights the entities responsible for the most script execution a
 
 | Name                                                               | Popularity | Total Impact | Average Impact |
 | ------------------------------------------------------------------ | ---------- | ------------ | -------------- |
-| [Google Ads](https://www.google.com/adsense/start)                 | 389,341    | 173,140 s    | 445 ms         |
+| [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)     | 389,341    | 173,140 s    | 445 ms         |
+| [All Other 3rd Parties](#by-category)                              | 139,040    | 36,972 s     | 266 ms         |
 | [Facebook](https://www.facebook.com)                               | 162,080    | 27,354 s     | 169 ms         |
 | [YouTube](https://youtube.com)                                     | 54,390     | 22,358 s     | 411 ms         |
 | [Google CDN](https://developers.google.com/speed/libraries/)       | 85,536     | 18,098 s     | 212 ms         |
 | [Google Analytics](https://www.google.com/analytics/analytics/)    | 205,702    | 17,504 s     | 85 ms          |
 | [Google APIs/SDK](https://developers.google.com/apis-explorer/#p/) | 104,190    | 13,031 s     | 125 ms         |
-| [Yandex Metrica](https://metrica.yandex.com/about?)                | 26,891     | 9,968 s      | 371 ms         |
+| [Yandex Metrica](https://metrica.yandex.com/about?)                | 27,474     | 10,140 s     | 369 ms         |
 | [AddThis](http://www.addthis.com/)                                 | 36,499     | 7,383 s      | 202 ms         |
 | [Popads](https://www.popads.net/)                                  | 2,808      | 6,702 s      | 2387 ms        |
 | [Twitter](https://twitter.com)                                     | 37,744     | 5,689 s      | 151 ms         |
@@ -250,6 +289,7 @@ This section highlights the entities responsible for the most script execution a
 | [Tumblr](https://tumblr.com/)                                      | 4,717      | 1,931 s      | 409 ms         |
 | [Shopify](https://www.shopify.com/)                                | 8,537      | 1,855 s      | 217 ms         |
 | [ShareThis](https://www.sharethis.com/)                            | 3,746      | 1,787 s      | 477 ms         |
+| [TrafficJunky](https://www.trafficjunky.com/)                      | 1,527      | 1,720 s      | 1126 ms        |
 | [Sentry](https://sentry.io/)                                       | 2,268      | 1,676 s      | 739 ms         |
 | [Hotjar](https://www.hotjar.com/)                                  | 17,635     | 1,613 s      | 91 ms          |
 | [WordAds](https://wordads.co/)                                     | 766        | 1,516 s      | 1979 ms        |
@@ -260,7 +300,7 @@ This section highlights the entities responsible for the most script execution a
 | [Cloudflare](https://www.cloudflare.com/website-optimization/)     | 4,398      | 1,320 s      | 300 ms         |
 | [Yandex APIs](https://yandex.ru/)                                  | 3,558      | 1,303 s      | 366 ms         |
 | [Adobe Analytics](https://www.adobe.com/analytics-cloud.html)      | 5,767      | 1,269 s      | 220 ms         |
-| [JSDelivr](https://www.jsdelivr.com/)                              | 3,537      | 1,243 s      | 351 ms         |
+| [JSDelivr CDN](https://www.jsdelivr.com/)                          | 3,537      | 1,243 s      | 351 ms         |
 | [Media Math](http://www.mediamath.com/)                            | 1,523      | 1,230 s      | 807 ms         |
 | [Parking Crew](http://parkingcrew.net/)                            | 2,887      | 1,229 s      | 426 ms         |
 | [Salesforce](https://www.salesforce.com/products/marketing-cloud/) | 4,804      | 1,205 s      | 251 ms         |
@@ -270,13 +310,16 @@ This section highlights the entities responsible for the most script execution a
 | [Yandex Share](https://yastatic.net/share2/share.js)               | 6,865      | 928 s        | 135 ms         |
 | [WordPress](https://wp.com/)                                       | 7,118      | 890 s        | 125 ms         |
 | [Olark](https://www.olark.com/)                                    | 2,734      | 868 s        | 318 ms         |
+| [Sizmek](https://www.sizmek.com/)                                  | 1,435      | 857 s        | 598 ms         |
 | [Squarespace](https://www.squarespace.com/)                        | 2,115      | 825 s        | 390 ms         |
 | [Lucky Orange](https://www.luckyorange.com/)                       | 857        | 803 s        | 937 ms         |
 | [Tealium](https://tealium.com/)                                    | 3,066      | 779 s        | 254 ms         |
 | [OptinMonster](https://optinmonster.com/)                          | 2,352      | 761 s        | 324 ms         |
+| [Brightcove](https://www.brightcove.com/en/)                       | 1,283      | 739 s        | 576 ms         |
 | [AppNexus](https://www.appnexus.com/)                              | 2,742      | 731 s        | 266 ms         |
 | [Tawk.to](https://www.tawk.to/)                                    | 2,574      | 717 s        | 278 ms         |
 | [Connexity](http://connexity.com/)                                 | 1,744      | 629 s        | 361 ms         |
+| [Albacross](https://albacross.com/)                                | 158        | 608 s        | 3847 ms        |
 | [OneSignal](https://onesignal.com/)                                | 6,420      | 600 s        | 93 ms          |
 | [Taboola](https://www.taboola.com/)                                | 2,848      | 600 s        | 211 ms         |
 | [Amazon S3](https://aws.amazon.com/s3/)                            | 2,625      | 583 s        | 222 ms         |
@@ -285,23 +328,35 @@ This section highlights the entities responsible for the most script execution a
 | [Distil Networks](https://www.distilnetworks.com/)                 | 1,745      | 519 s        | 298 ms         |
 | [Yahoo Ads](https://www.media.net/)                                | 1,990      | 501 s        | 252 ms         |
 | [Vimeo](http://vimeo.com/)                                         | 3,543      | 497 s        | 140 ms         |
+| [SoundCloud](https://www.soundcloud.com/)                          | 499        | 469 s        | 939 ms         |
 | [Hubspot](https://hubspot.com/)                                    | 4,887      | 452 s        | 92 ms          |
 | [Pubmatic](https://pubmatic.com/)                                  | 4,462      | 435 s        | 98 ms          |
+| [Hotmart](https://www.hotmart.com/)                                | 114        | 435 s        | 3814 ms        |
+| [AMP](https://www.ampproject.org/)                                 | 1,107      | 405 s        | 366 ms         |
 | [MGID](https://www.mgid.com/)                                      | 2,555      | 375 s        | 147 ms         |
+| [Beeketing](https://beeketing.com/)                                | 1,360      | 369 s        | 272 ms         |
 | [Stripe](https://stripe.com)                                       | 1,570      | 364 s        | 232 ms         |
+| [Disqus](http://disqus.com/)                                       | 534        | 363 s        | 680 ms         |
 | [Twitch](https://twitch.tv/)                                       | 319        | 224 s        | 701 ms         |
 | [Market GID](https://www.marketgid.com/)                           | 1,510      | 202 s        | 134 ms         |
 | [Mailchimp](https://mailchimp.com/)                                | 872        | 169 s        | 194 ms         |
 | [Criteo](https://www.criteo.com/)                                  | 1,879      | 160 s        | 85 ms          |
+| [Bootstrap CDN](https://bootstrapcdn.com/)                         | 804        | 153 s        | 190 ms         |
 | [PayPal](https://paypal.com)                                       | 588        | 145 s        | 247 ms         |
 | [FontAwesome CDN](https://fontawesome.com/)                        | 1,275      | 128 s        | 101 ms         |
+| [Vox Media](https://www.voxmedia.com/)                             | 355        | 128 s        | 360 ms         |
 | [VK](https://vk.com/)                                              | 4,227      | 126 s        | 30 ms          |
+| [LinkedIn](https://www.linkedin.com/)                              | 990        | 123 s        | 124 ms         |
+| [Scorecard Research](https://www.scorecardresearch.com/)           | 479        | 120 s        | 251 ms         |
 | [Mixpanel](https://mixpanel.com/)                                  | 1,371      | 102 s        | 75 ms          |
+| [Freshdesk](https://freshdesk.com/)                                | 368        | 69 s         | 187 ms         |
+| [Help Scout](https://www.helpscout.net/)                           | 228        | 55 s         | 239 ms         |
 | [Yandex CDN](https://yandex.ru/)                                   | 311        | 52 s         | 167 ms         |
 | [App Dynamics](https://www.appdynamics.com/)                       | 397        | 43 s         | 108 ms         |
+| [Crazy Egg](https://www.crazyegg.com/)                             | 379        | 37 s         | 97 ms          |
 | [Pinterest](https://pinterest.com/)                                | 410        | 25 s         | 61 ms          |
 | [New Relic](https://newrelic.com/)                                 | 373        | 22 s         | 59 ms          |
-| [Bootstrap CDN](https://bootstrapcdn.com/)                         | 213        | 10 s         | 45 ms          |
+| [Alexa](https://www.alexa.com/)                                    | 205        | 10 s         | 46 ms          |
 
 ## Future Work
 

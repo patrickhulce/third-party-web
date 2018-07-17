@@ -29,7 +29,7 @@
   {
     "name": "Google CDN",
     "homepage": "https://developers.google.com/speed/libraries/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["ajax.googleapis.com", "www.gstatic.com"]
   },
   {
@@ -84,7 +84,7 @@
     "name": "Yandex Metrica",
     "homepage": "https://metrica.yandex.com/about?",
     "categories": ["analytics"],
-    "origins": ["mc.yandex.ru"]
+    "origins": ["mc.yandex.ru", "d31j93rd8oukbv.cloudfront.net"]
   },
   {
     "name": "Hotjar",
@@ -107,13 +107,13 @@
   {
     "name": "jQuery CDN",
     "homepage": "https://code.jquery.com/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["code.jquery.com"]
   },
   {
     "name": "Cloudflare CDN",
     "homepage": "https://cdnjs.com/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["cdnjs.cloudflare.com", "amp.cloudflare.com"]
   },
   {
@@ -153,6 +153,24 @@
     "origins": ["v2.zopim.com"]
   },
   {
+    "name": "Freshdesk",
+    "homepage": "https://freshdesk.com/",
+    "categories": ["customer-success"],
+    "origins": ["d36mpcpuzc4ztk.cloudfront.net"]
+  },
+  {
+    "name": "Help Scout",
+    "homepage": "https://www.helpscout.net/",
+    "categories": ["customer-success"],
+    "origins": ["djtflbt20bdde.cloudfront.net"]
+  },
+  {
+    "name": "Alexa",
+    "homepage": "https://www.alexa.com/",
+    "categories": ["analytics"],
+    "origins": ["d31qbv1cthcecs.cloudfront.net"]
+  },
+  {
     "name": "OneSignal",
     "homepage": "https://onesignal.com/",
     "categories": ["utility"],
@@ -163,6 +181,12 @@
     "homepage": "https://www.luckyorange.com/",
     "categories": ["analytics"],
     "origins": ["d10lpsik1i8c69.cloudfront.net"]
+  },
+  {
+    "name": "Crazy Egg",
+    "homepage": "https://www.crazyegg.com/",
+    "categories": ["analytics"],
+    "origins": ["dnn506yrbagrg.cloudfront.net"]
   },
   {
     "name": "Yandex Ads",
@@ -207,9 +231,15 @@
     "origins": ["fast.wistia.com", "fast.wistia.net"]
   },
   {
+    "name": "Brightcove",
+    "homepage": "https://www.brightcove.com/en/",
+    "categories": ["video"],
+    "origins": ["vjs.zencdn.net", "players.brightcove.net"]
+  },
+  {
     "name": "JSDelivr CDN",
     "homepage": "https://www.jsdelivr.com/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["cdn.jsdelivr.net"]
   },
   {
@@ -225,6 +255,12 @@
     "origins": ["f.vimeocdn.com", "player.vimeo.com"]
   },
   {
+    "name": "Disqus",
+    "homepage": "http://disqus.com/",
+    "categories": ["social"],
+    "origins": ["c.disquscdn.com"]
+  },
+  {
     "name": "Yandex APIs",
     "homepage": "https://yandex.ru/",
     "categories": ["utility"],
@@ -233,7 +269,7 @@
   {
     "name": "Yandex CDN",
     "homepage": "https://yandex.ru/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["yandex.st"]
   },
   {
@@ -371,7 +407,7 @@
   {
     "name": "CreateJS CDN",
     "homepage": "http://code.createjs.com/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["code.createjs.com"]
   },
   {
@@ -395,7 +431,7 @@
   {
     "name": "FontAwesome CDN",
     "homepage": "https://fontawesome.com/",
-    "categories": ["other"],
+    "categories": ["library"],
     "origins": ["use.fontawesome.com"]
   },
   {
@@ -495,9 +531,57 @@
     "origins": ["static.parastorage.com"]
   },
   {
+    "name": "LinkedIn",
+    "homepage": "https://www.linkedin.com/",
+    "categories": ["social"],
+    "origins": ["platform.linkedin.com"]
+  },
+  {
+    "name": "Vox Media",
+    "homepage": "https://www.voxmedia.com/",
+    "categories": ["content"],
+    "origins": ["cdn.vox-cdn.com"]
+  },
+  {
+    "name": "Hotmart",
+    "homepage": "https://www.hotmart.com/",
+    "categories": ["content"],
+    "origins": ["launchermodule.hotmart.com"]
+  },
+  {
+    "name": "SoundCloud",
+    "homepage": "https://www.soundcloud.com/",
+    "categories": ["content"],
+    "origins": ["widget.sndcdn.com"]
+  },
+  {
+    "name": "AMP",
+    "homepage": "https://www.ampproject.org/",
+    "categories": ["content"],
+    "origins": ["cdn.ampproject.org"]
+  },
+  {
+    "name": "Beeketing",
+    "homepage": "https://beeketing.com/",
+    "categories": ["marketing"],
+    "origins": ["sdk-cdn.beeketing.com", "sdk.beeketing.com"]
+  },
+  {
+    "name": "Albacross",
+    "homepage": "https://albacross.com/",
+    "categories": ["marketing"],
+    "origins": ["serve.albacross.com"]
+  },
+  {
+    "name": "TrafficJunky",
+    "homepage": "https://www.trafficjunky.com/",
+    "categories": ["ad"],
+    "origins": ["ads2.contentabc.com", "hw-cdn.contentabc.com"]
+  },
+  {
     "name": "Bootstrap CDN",
     "homepage": "https://bootstrapcdn.com/",
-    "categories": ["other"],
-    "origins": ["maxcdn.bootstrapcdn.com"]
+    "categories": ["library"],
+    "origins": ["maxcdn.bootstrapcdn.com", "cdn.bootcss.com"]
   }
 ]

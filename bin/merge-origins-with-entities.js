@@ -83,16 +83,33 @@ const homelessGrouped = _(homelessEntries)
   .reverse()
   .value()
 
-const sortedEntityData = _(entityData)
+const homelessMegaEntity = {
+  ...combineGroup(homelessEntries),
+  name: 'All Other 3rd Parties',
+  homepage: '#by-category',
+  domain: '<all others>',
+  categories: ['other'],
+}
+
+const sortedEntityData = _(entityData.concat(homelessMegaEntity))
   .sortBy('averageExecutionTime')
   .sortBy('totalExecutionTime')
   .reverse()
   .value()
 
 console.log(homelessGrouped.length, 'domains without attribution')
-console.log(homelessGrouped.map(item => [item.domain, item.origins.join(',')]))
+console.log(
+  homelessGrouped.map(item => [
+    item.domain,
+    item.origins.join(','),
+    Math.round(item.totalExecutionTime / 1000).toLocaleString(),
+  ]),
+)
 
-const top100ExecutionTime = _.sumBy(sortedEntityData.slice(0, 100), 'totalExecutionTime')
+const top100ExecutionTime = _.sumBy(
+  sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 100),
+  'totalExecutionTime',
+)
 console.log(
   'Top 100 Entities representing',
   ((top100ExecutionTime / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
