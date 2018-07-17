@@ -31,7 +31,7 @@ This document is a summary of which third party scripts are most responsible for
 
 ### Summary
 
-Across ~1 million sites, ~600 origins account for ~47% of all script execution time with the top 100 entities already accounting for ~42%. Third party script execution is a sizable chunk of the web today, and it's important to make informed choices.
+Across ~1 million sites, ~800 origins account for ~65% of all script execution time with the top 100 entities already accounting for ~59%. Third party script execution is a sizable chunk of the web today, and it's important to make informed choices.
 
 ### How to Interpret
 

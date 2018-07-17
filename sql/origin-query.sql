@@ -5,7 +5,7 @@ SELECT
   AVG(executionTime) AS averageExecutionTime
 FROM <%= from_statement %>
 GROUP BY
-  schemelessURL
+  origin
 HAVING
   totalOccurrences > 100
 ORDER BY

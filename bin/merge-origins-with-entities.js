@@ -2,7 +2,8 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 
-const GLOBAL_EXECUTION_TIME = 9.064855180369991e8
+// from total-time-query.generated.sql
+const GLOBAL_EXECUTION_TIME = 7.137233344119998e8
 
 const entityData = require('../data/entities.json')
 const originData = require('../data/2018-07-01-origin-scripting.json')

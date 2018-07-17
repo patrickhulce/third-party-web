@@ -5,6 +5,7 @@ const path = require('path')
 const SQL_DIR = path.join(__dirname, '../sql')
 
 const FROM_PARTIAL = fs.readFileSync(`${SQL_DIR}/bootup-time-scripting.partial.sql`, 'utf8')
+const TOTAL_TIME_QUERY = fs.readFileSync(`${SQL_DIR}/total-time-query.sql`)
 const ORIGIN_QUERY = fs.readFileSync(`${SQL_DIR}/origin-query.sql`)
 const URL_QUERY = fs.readFileSync(`${SQL_DIR}/url-query.sql`)
 const LIBRARY_QUERY = fs.readFileSync(`${SQL_DIR}/library-query.sql`)
@@ -12,7 +13,7 @@ const LIBRARY_QUERY = fs.readFileSync(`${SQL_DIR}/library-query.sql`)
 function createFromStatement(where = '') {
   const template = _.template(FROM_PARTIAL)
   const substatements = []
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 100; i++) {
     substatements.push(`(${template({i, where})})`)
   }
   return substatements.join(',\n')
@@ -37,6 +38,7 @@ const whereIsCDN =
     .map(origin => `url CONTAINS '${origin}'`)
     .join(' OR ')
 
+fs.writeFileSync(`${SQL_DIR}/total-time-query.generated.sql`, fillInTemplate(TOTAL_TIME_QUERY))
 fs.writeFileSync(`${SQL_DIR}/origin-query.generated.sql`, fillInTemplate(ORIGIN_QUERY))
 fs.writeFileSync(`${SQL_DIR}/url-query.generated.sql`, fillInTemplate(URL_QUERY))
 fs.writeFileSync(`${SQL_DIR}/url-query-cdn.generated.sql`, fillInTemplate(URL_QUERY, whereIsCDN))
