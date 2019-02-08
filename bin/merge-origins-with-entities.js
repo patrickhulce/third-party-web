@@ -3,8 +3,8 @@ const fs = require('fs')
 const path = require('path')
 
 // from total-time-query.generated.sql
-// TODO: update this number for the new data
-const GLOBAL_EXECUTION_TIME = 7.137233344119998e8
+const GLOBAL_EXECUTION_TIME = 4.518238367405001e9
+// const GLOBAL_TOTAL_OCCURRENCES = 19040382
 
 const entityData = require('../data/entities.json')
 const originData = require('../data/2019-01-01-origin-scripting.json')
