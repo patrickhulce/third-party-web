@@ -25,7 +25,7 @@ This document is a summary of which third party scripts are most responsible for
 
 ## Methodology
 
-[HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~1 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse). Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity for consumption.
+[HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~1 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse). Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity.
 
 ## Data
 
@@ -37,7 +37,7 @@ Across ~1 million sites, ~800 origins account for ~65% of all script execution t
 
 Each entity has a number of data points available.
 
-1.  **Popularity (Total Number of Occurrences)** - how many scripts from their origins were included on pages
+1.  **Usage (Total Number of Occurrences)** - how many scripts from their origins were included on pages
 1.  **Total Impact (Total Execution Time)** - how many seconds were spent executing their scripts across the web
 1.  **Average Impact (Average Execution Time)** - on average, how many milliseconds were spent executing each script
 1.  **Category** - what type of script is this
@@ -78,6 +78,18 @@ This can be for one of several reasons:
 1.  The entity does not have at least 100 references to their origin in the dataset.
 1.  The entity's origins have not yet been identified. See [How can I contribute?](#contribute)
 
+### How is the "Average Impact" determined?
+
+The HTTP Archive dataset includes Lighthouse reports for each URL on mobile. Lighthouse has an audit called "bootup-time" that summarizes the amount of time that each script spent on the main thread. The "Average Impact" for an entity is the total execution time of scripts whose domain matches one of the entity's domains divided by the total number of occurences of those scripts.
+
+```
+Average Impact = Total Execution Time / Total Occurences
+```
+
+### How does Lighthouse determine the execution time of each script?
+
+Lighthouse's bootup time audit attempts to attribute all toplevel main-thread tasks to a URL. A main thread task is attributed to the first script URL found in the stack. If you're interested in helping us improve this logic, see [Contributing](#contributing) for details.
+
 ### The data for entity X seems wrong. How can it be corrected?
 
 Verify that the origins in `data/entities.json` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
@@ -89,6 +101,29 @@ Verify that the origins in `data/entities.json` are correct. Most issues will si
 Only about 90% of the third party script execution has been assigned to an entity. We could use your help identifying the rest! See [Contributing](#contributing) for details.
 
 ## Contributing
+
+### Updating the Entities
+
+The origin->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
+
+```js
+{
+    "name": "Facebook",
+    "homepage": "https://www.facebook.com",
+    "categories": ["social"],
+    "origins": [
+        "www.facebook.com",
+        "connect.facebook.net",
+        "staticxx.facebook.com",
+        "static.xx.fbcdn.net",
+        "m.facebook.com"
+    ]
+}
+```
+
+### Updating Attribution Logic
+
+The logic for attribution to individual script URLs can be found in the [Lighthouse repo](https://github.com/GoogleChrome/lighthouse). File an issue over there to discuss further.
 
 ### Updating the Data
 
