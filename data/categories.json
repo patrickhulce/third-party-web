@@ -57,8 +57,8 @@
   },
   "other": {
     "color": "hsl(330, 90%, 60%)",
-    "title": "Unknown",
+    "title": "Mixed / Other",
     "description":
-      "These are miscellaneous scripts delivered via a shared origin with no clean category or attribution. Help us out by identifying more origins!"
+      "These are miscellaneous scripts delivered via a shared origin with no precise category or attribution. Help us out by identifying more origins!"
   }
 }

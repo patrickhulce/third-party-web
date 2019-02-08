@@ -54,13 +54,13 @@
     "name": "Google Analytics",
     "homepage": "https://www.google.com/analytics/analytics/",
     "categories": ["analytics"],
-    "origins": [
-      "www.google-analytics.com",
-      "www.googletagmanager.com",
-      "ssl.google-analytics.com",
-      "www.googletagservices.com",
-      "google-analytics.com"
-    ]
+    "origins": ["www.google-analytics.com", "ssl.google-analytics.com", "google-analytics.com"]
+  },
+  {
+    "name": "Google Tag Manager",
+    "homepage": "https://marketingplatform.google.com/about/tag-manager/",
+    "categories": ["other"],
+    "origins": ["www.googletagmanager.com", "www.googletagservices.com"]
   },
   {
     "name": "YouTube",
