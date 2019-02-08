@@ -3,10 +3,11 @@ const fs = require('fs')
 const path = require('path')
 
 // from total-time-query.generated.sql
+// TODO: update this number for the new data
 const GLOBAL_EXECUTION_TIME = 7.137233344119998e8
 
 const entityData = require('../data/entities.json')
-const originData = require('../data/2018-07-01-origin-scripting.json')
+const originData = require('../data/2019-01-01-origin-scripting.json')
   .map(entry => {
     return {..._.mapValues(entry, x => Number(x)), origin: entry.origin}
   })
@@ -95,6 +96,7 @@ const homelessMegaEntity = {
 const sortedEntityData = _(entityData.concat(homelessMegaEntity))
   .sortBy('averageExecutionTime')
   .sortBy('totalExecutionTime')
+  .filter('totalExecutionTime')
   .reverse()
   .value()
 

@@ -61,7 +61,7 @@ function createCategorySection(category) {
     ],
   )
 
-  const table = createMarkdownTable(['Rank', 'Name', 'Popularity', 'Average Impact'], categoryRows)
+  const table = createMarkdownTable(['Rank', 'Name', 'Usage', 'Average Impact'], categoryRows)
   return [
     `<a name="${category.id}"></a>`,
     `#### ${category.title}\n`,
