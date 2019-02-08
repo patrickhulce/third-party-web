@@ -30,7 +30,7 @@
     "color": "hsl(180, 90%, 60%)",
     "title": "Hosting Platforms",
     "description":
-      "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc). Note that in the case of WordPress, this just indicates the libraries hosted and served by WordPress not all sites using self-hosted WordPress."
+      "These scripts are from web hosting platforms (WordPress, Wix, Squarespace, etc). Note that in this category, this can sometimes be the entirety of script on the page, and so the \"impact\" rank might be misleading. In the case of WordPress, this just indicates the libraries hosted and served _by_ WordPress not all sites using self-hosted WordPress."
   },
   "marketing": {
     "color": "hsl(220, 90%, 60%)",
