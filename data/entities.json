@@ -129,6 +129,17 @@
     "origins": ["s0.wp.com", "s2.wp.com"]
   },
   {
+    "name": "Hatena Blog",
+    "homepage": "https://hatenablog.com/",
+    "categories": ["hosting"],
+    "origins": [
+      "cdn.blog.st-hatena.com",
+      "cdn.pool.st-hatena.com",
+      "cdn7.www.st-hatena.com",
+      "b.st-hatena.com"
+    ]
+  },
+  {
     "name": "Shopify",
     "homepage": "https://www.shopify.com/",
     "categories": ["hosting"],
@@ -141,10 +152,28 @@
     "origins": ["yastatic.net"]
   },
   {
+    "name": "PIXNET",
+    "homepage": "https://www.pixnet.net/",
+    "categories": ["social"],
+    "origins": ["front.pixfs.net", "falcon-asset.pixfs.net", "pixgame-asset.pixfs.net"]
+  },
+  {
     "name": "Moat",
     "homepage": "https://moat.com/",
     "categories": ["ad"],
     "origins": ["z.moatads.com"]
+  },
+  {
+    "name": "33 Across",
+    "homepage": "https://33across.com/",
+    "categories": ["ad"],
+    "origins": ["sic.33across.com", "cdn-sic.33across.com"]
+  },
+  {
+    "name": "OpenX",
+    "homepage": "https://www.openx.com/",
+    "categories": ["ad"],
+    "origins": ["uk-ads.openx.net", "us-ads.openx.net", "33across-d.openx.net"]
   },
   {
     "name": "Zopim",
