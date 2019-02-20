@@ -617,6 +617,6 @@
     "name": "Listrak",
     "homepage": "https://www.listrak.com/",
     "categories": ["marketing"],
-    "origins": ["cdn.listrakbi.com/", "s1.listrakbi.com"]
+    "origins": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   }
 ]
