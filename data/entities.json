@@ -612,5 +612,11 @@
     "homepage": "https://bootstrapcdn.com/",
     "categories": ["library"],
     "origins": ["maxcdn.bootstrapcdn.com", "cdn.bootcss.com"]
+  },
+  {
+    "name": "Listrak",
+    "homepage": "https://www.listrak.com/",
+    "categories": ["marketing"],
+    "origins": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   }
 ]
