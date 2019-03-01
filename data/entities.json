@@ -618,5 +618,11 @@
     "homepage": "https://www.listrak.com/",
     "categories": ["marketing"],
     "origins": ["cdn.listrakbi.com", "s1.listrakbi.com"]
+  },
+  {
+    "name": "Ensighten",
+    "homepage": "https://www.ensighten.com/",
+    "categories": ["other"],
+    "origins": ["nexus.ensighten.com"]
   }
 ]
