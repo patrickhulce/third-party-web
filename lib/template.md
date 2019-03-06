@@ -6,6 +6,7 @@ This document is a summary of which third party scripts are most responsible for
 
 1.  [Goals](#goals)
 1.  [Methodology](#methodology)
+1.  [Updates](#updates)
 1.  [Data](#data)
     1.  [Summary](#summary)
     1.  [How to Interpret](#how-to-interpret)
@@ -26,6 +27,10 @@ This document is a summary of which third party scripts are most responsible for
 ## Methodology
 
 [HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~4 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse) on mobile. Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity.
+
+## Updates
+
+<%= updates_contents %>
 
 ## Data
 
@@ -131,7 +136,7 @@ The query used to compute the origin-level data is in `sql/origin-execution-time
 
 ### Updating this README
 
-This README is auto-generated from the template `lib/template.md` and the computed data. In order to update the charts, you'll need to make sure you have `cairo` installed locally in addition to `yarn install`.
+This README is auto-generated from the templates `lib/` and the computed data. In order to update the charts, you'll need to make sure you have `cairo` installed locally in addition to `yarn install`.
 
 ```bash
 # Install `cairo` and dependencies for node-canvas

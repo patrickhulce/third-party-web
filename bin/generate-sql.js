@@ -13,7 +13,7 @@ const LIBRARY_QUERY = fs.readFileSync(`${SQL_DIR}/library-query.sql`)
 function createFromStatement(where = '') {
   const template = _.template(FROM_PARTIAL)
   const substatements = []
-  for (let i = 0; i < 35; i++) {
+  for (let i = 0; i < 75; i++) {
     substatements.push(`(${template({i, where})})`)
   }
   return substatements.join(',\n')

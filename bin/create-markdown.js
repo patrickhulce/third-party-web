@@ -4,7 +4,8 @@ const path = require('path')
 const Chart = require('chartjs-node')
 const exec = require('child_process').execFileSync
 
-const MD_TEMPLATE = fs.readFileSync(path.join(__dirname, '../lib/template.md'), 'utf8')
+const LIB_FOLDER = path.join(__dirname, '../lib')
+const MD_TEMPLATE = fs.readFileSync(path.join(LIB_FOLDER, 'template.md'), 'utf8')
 const createMarkdownString = _.template(MD_TEMPLATE)
 
 const ALL_DATA = require('../.tmp/combined-data.json')
@@ -13,6 +14,20 @@ const DATA_BY_CATEGORY = _.groupBy(ALL_DATA, entity => entity.categories[0])
 _.forEach(ALL_CATEGORIES, (value, id) =>
   _.assign(value, {id, totalExecutionTime: _.sumBy(DATA_BY_CATEGORY[id], 'totalExecutionTime')}),
 )
+
+function createUpdatesContent() {
+  let updates = []
+  for (const file of fs.readdirSync(LIB_FOLDER)) {
+    const dateRegex = /^(\d{4}-\d{2}-\d{2})/
+    if (!dateRegex.test(file)) continue
+    const datePart = file.match(dateRegex)[1]
+    updates.push(
+      `## ${datePart} dataset\n\n` + fs.readFileSync(path.join(LIB_FOLDER, file), 'utf8'),
+    )
+  }
+
+  return updates.join('\n\n')
+}
 
 function createMarkdownTable(headers, rows) {
   return [
@@ -93,6 +108,7 @@ async function run() {
   fs.writeFileSync(
     readmePath,
     createMarkdownString({
+      updates_contents: createUpdatesContent(),
       category_table_of_contents: categoryTOC,
       category_contents: categoryContents,
       all_data: createMarkdownTable(
