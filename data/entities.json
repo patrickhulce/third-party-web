@@ -359,7 +359,7 @@
     "name": "Sentry",
     "homepage": "https://sentry.io/",
     "categories": ["utility"],
-    "origins": ["cdn.ravenjs.com"]
+    "origins": ["cdn.ravenjs.com", "browser.sentry-cdn.com"]
   },
   {
     "name": "Amazon S3",
@@ -449,7 +449,7 @@
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "origins": ["mathid.mathtag.com"]
+    "origins": ["mathid.mathtag.com", "mathads.com"]
   },
   {
     "name": "Mixpanel",
@@ -560,6 +560,12 @@
     "origins": ["static.parastorage.com"]
   },
   {
+    "name": "Weebly",
+    "homepage": "https://www.weebly.com/",
+    "categories": ["hosting"],
+    "origins": ["editmysite.com"]
+  },
+  {
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
@@ -612,6 +618,30 @@
     "homepage": "https://bootstrapcdn.com/",
     "categories": ["library"],
     "origins": ["maxcdn.bootstrapcdn.com", "cdn.bootcss.com"]
+  },
+  {
+    "name": "Shareaholic",
+    "homepage": "https://www.shareaholic.com/",
+    "categories": ["social"],
+    "origins": ["dsms0mj1bbhn4.cloudfront.net"]
+  },
+  {
+    "name": "Snowplow",
+    "homepage": "https://snowplowanalytics.com/",
+    "categories": ["analytics"],
+    "origins": ["d32hwlnfiv2gyn.cloudfront.net"]
+  },
+  {
+    "name": "RD Station",
+    "homepage": "https://www.rdstation.com/en/",
+    "categories": ["marketing"],
+    "origins": ["d335luupugsy2.cloudfront.net"]
+  },
+  {
+    "name": "Jivochat",
+    "homepage": "https://www.jivochat.com/",
+    "categories": ["customer-success"],
+    "origins": ["cdn-ca.jivosite.com", "code.jivosite.com"]
   },
   {
     "name": "Listrak",
