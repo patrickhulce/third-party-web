@@ -247,7 +247,7 @@ These are mostly open source libraries (e.g. jQuery) served over different publi
 
 | Rank | Name                                                         | Usage   | Average Impact |
 | ---- | ------------------------------------------------------------ | ------- | -------------- |
-| 1    | [Bootstrap CDN](https://bootstrapcdn.com/)                   | 1,383   | 48 ms          |
+| 1    | [Bootstrap CDN](https://www.bootstrapcdn.com/)                   | 1,383   | 48 ms          |
 | 2    | [FontAwesome CDN](https://fontawesome.com/)                  | 15,661  | 102 ms         |
 | 3    | [Yandex CDN](https://yandex.ru/)                             | 2,020   | 123 ms         |
 | 4    | [jQuery CDN](https://code.jquery.com/)                       | 142,889 | 170 ms         |

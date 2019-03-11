@@ -615,9 +615,9 @@
   },
   {
     "name": "Bootstrap CDN",
-    "homepage": "https://bootstrapcdn.com/",
+    "homepage": "https://www.bootstrapcdn.com/",
     "categories": ["library"],
-    "origins": ["maxcdn.bootstrapcdn.com", "cdn.bootcss.com"]
+    "origins": ["maxcdn.bootstrapcdn.com", "stackpath.bootstrapcdn.com"]
   },
   {
     "name": "Shareaholic",
