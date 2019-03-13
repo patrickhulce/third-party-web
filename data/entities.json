@@ -27,6 +27,12 @@
     ]
   },
   {
+    "name": "Instagram",
+    "homepage": "https://www.instagram.com",
+    "categories": ["social"],
+    "origins": ["scontent.cdninstagram.com"]
+  },
+  {
     "name": "Google CDN",
     "homepage": "https://developers.google.com/speed/libraries/",
     "categories": ["library"],
@@ -47,8 +53,15 @@
       "commondatastorage.googleapis.com",
       "imasdk.googleapis.com",
       "maps.gstatic.com",
+      "lh3.googleusercontent.com",
       "calendar.google.com"
     ]
+  },
+  {
+    "name": "Firebase",
+    "homepage": "https://developers.google.com/apis-explorer/#p/",
+    "categories": ["utility"],
+    "origins": ["firebasestorage.googleapis.com", "firestore.googleapis.com"]
   },
   {
     "name": "Google Analytics",
@@ -63,10 +76,22 @@
     "origins": ["www.googletagmanager.com", "www.googletagservices.com"]
   },
   {
+    "name": "Google Fonts",
+    "homepage": "https://fonts.google.com/",
+    "categories": ["library"],
+    "origins": ["fonts.gstatic.com", "fonts.googleapis.com"]
+  },
+  {
+    "name": "Adobe TypeKit",
+    "homepage": "https://fonts.adobe.com/",
+    "categories": ["library"],
+    "origins": ["use.typekit.net"]
+  },
+  {
     "name": "YouTube",
     "homepage": "https://youtube.com",
     "categories": ["video"],
-    "origins": ["www.youtube.com", "s.ytimg.com"]
+    "origins": ["www.youtube.com", "s.ytimg.com", "idsync.rlcdn.com"]
   },
   {
     "name": "Twitter",
@@ -79,6 +104,22 @@
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
     "origins": ["s7.addthis.com"]
+  },
+  {
+    "name": "Blogger",
+    "homepage": "http://www.blogger.com/",
+    "categories": ["hosting"],
+    "origins": [
+      "1.bp.blogspot.com",
+      "www.blogger.com",
+      "images-blogger-opensocial.googleusercontent.com"
+    ]
+  },
+  {
+    "name": "Gravatar",
+    "homepage": "http://en.gravatar.com/",
+    "categories": ["social"],
+    "origins": ["secure.gravatar.com"]
   },
   {
     "name": "Yandex Metrica",
@@ -102,7 +143,7 @@
     "name": "Adobe Analytics",
     "homepage": "https://www.adobe.com/analytics-cloud.html",
     "categories": ["analytics"],
-    "origins": ["assets.adobedtm.com", "dpm.demdex.net"]
+    "origins": ["assets.adobedtm.com", "dpm.demdex.net", "sync-tm.everesttech.net"]
   },
   {
     "name": "jQuery CDN",
@@ -146,6 +187,12 @@
     "origins": ["cdn.shopify.com"]
   },
   {
+    "name": "Dealer",
+    "homepage": "https://www.dealer.com/",
+    "categories": ["hosting"],
+    "origins": ["static.dealer.com"]
+  },
+  {
     "name": "Yandex Share",
     "homepage": "https://yastatic.net/share2/share.js",
     "categories": ["social"],
@@ -174,6 +221,54 @@
     "homepage": "https://www.openx.com/",
     "categories": ["ad"],
     "origins": ["uk-ads.openx.net", "us-ads.openx.net", "33across-d.openx.net"]
+  },
+  {
+    "name": "Amazon Ads",
+    "homepage": "https://advertising.amazon.com/",
+    "categories": ["ad"],
+    "origins": ["s.amazon-adsystem.com"]
+  },
+  {
+    "name": "Rubicon Project",
+    "homepage": "https://rubiconproject.com/",
+    "categories": ["ad"],
+    "origins": ["pixel.rubiconproject.com", "ads.rubiconproject.com"]
+  },
+  {
+    "name": "The Trade Desk",
+    "homepage": "https://www.thetradedesk.com/",
+    "categories": ["ad"],
+    "origins": ["match.adsrvr.org"]
+  },
+  {
+    "name": "Bidswitch",
+    "homepage": "https://www.bidswitch.com/",
+    "categories": ["ad"],
+    "origins": ["x.bidswitch.net"]
+  },
+  {
+    "name": "TowerData / RapLeaf",
+    "homepage": "http://intelligence.towerdata.com/",
+    "categories": ["analytics"],
+    "origins": ["idsync.rlcdn.com"]
+  },
+  {
+    "name": "Drawbridge",
+    "homepage": "https://www.drawbridge.com/",
+    "categories": ["ad"],
+    "origins": ["p.adsymptotic.com"]
+  },
+  {
+    "name": "Oath / Verizon Media",
+    "homepage": "https://www.oath.com/",
+    "categories": ["ad"],
+    "origins": ["pixel.advertising.com"]
+  },
+  {
+    "name": "Xaxis",
+    "homepage": "https://www.xaxis.com/",
+    "categories": ["ad"],
+    "origins": ["t.mookie1.com"]
   },
   {
     "name": "Zopim",
@@ -371,7 +466,13 @@
     "name": "Yahoo Ads",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "origins": ["contextual.media.net"]
+    "origins": ["contextual.media.net", "ads.yahoo.com"]
+  },
+  {
+    "name": "Adroll",
+    "homepage": "https://www.adroll.com/",
+    "categories": ["ad"],
+    "origins": ["d.adroll.com"]
   },
   {
     "name": "Twitch",
@@ -401,7 +502,7 @@
     "name": "Criteo",
     "homepage": "https://www.criteo.com/",
     "categories": ["ad"],
-    "origins": ["static.criteo.net"]
+    "origins": ["static.criteo.net", "bidder.criteo.com"]
   },
   {
     "name": "Segment",
@@ -557,7 +658,7 @@
     "name": "Wix",
     "homepage": "https://www.wix.com/",
     "categories": ["hosting"],
-    "origins": ["static.parastorage.com"]
+    "origins": ["static.parastorage.com", "static.wixstatic.com", "www.wix.com"]
   },
   {
     "name": "Weebly",
