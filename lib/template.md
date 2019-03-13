@@ -109,14 +109,14 @@ Only about 90% of the third party script execution has been assigned to an entit
 
 ### Updating the Entities
 
-The origin->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
+The domain->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
 
 ```js
 {
     "name": "Facebook",
     "homepage": "https://www.facebook.com",
     "categories": ["social"],
-    "origins": [
+    "domains": [
         "www.facebook.com",
         "connect.facebook.net",
         "staticxx.facebook.com",
