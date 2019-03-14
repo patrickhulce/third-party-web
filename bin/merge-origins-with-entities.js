@@ -1,11 +1,12 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
+const thirdPartyLib = require('../lib')
+
+const DATA_FOLDER = path.join(__dirname, '../data')
 
 // from total-time-query.generated.sql
 const GLOBAL_EXECUTION_TIME = 4.518238367405001e9
-// const GLOBAL_TOTAL_OCCURRENCES = 19040382
-const DATA_FOLDER = path.join(__dirname, '../data')
 
 const datasetFiles = fs
   .readdirSync(DATA_FOLDER)
@@ -16,36 +17,26 @@ const datasetFiles = fs
 const CURRENT_DATASET = importDataset(datasetFiles[0])
 const LAST_DATASET = importDataset(datasetFiles[1])
 
-const ENTITY_DATA = require('../data/entities.json')
-const CURRENT_ORIGIN_DATA = CURRENT_DATASET
-
-const THIRD_PARTY_EXECUTION_TIME = _.sumBy(CURRENT_ORIGIN_DATA, 'totalExecutionTime')
+const THIRD_PARTY_EXECUTION_TIME = _.sumBy(CURRENT_DATASET, 'totalExecutionTime')
 
 function importDataset(datasetName) {
   return require(path.join(DATA_FOLDER, datasetName))
     .map(entry => {
-      return {..._.mapValues(entry, x => Number(x)), origin: entry.origin}
+      return {..._.mapValues(entry, x => Number(x)), domain: entry.origin}
     })
-    .filter(entry => entry.origin)
-}
-
-function getRootDomain(origin) {
-  return origin
-    .split('.')
-    .slice(-2)
-    .join('.')
+    .filter(entry => entry.domain)
 }
 
 function combineGroup(entries) {
-  const domain = getRootDomain(entries[0].origin)
-  const origins = _.map(entries, 'origin')
+  const domain = thirdPartyLib.getRootDomain(entries[0].domain)
+  const domains = _.map(entries, 'domain')
   const totalExecutionTime = _.sumBy(entries, 'totalExecutionTime')
   const totalOccurrences = _.sumBy(entries, 'totalOccurrences')
   const averageExecutionTime = totalExecutionTime / totalOccurrences
   const shareOfExecutionTime = totalExecutionTime / GLOBAL_EXECUTION_TIME
   return {
     domain,
-    origins,
+    domains,
     totalExecutionTime,
     totalOccurrences,
     averageExecutionTime,
@@ -55,32 +46,18 @@ function combineGroup(entries) {
 }
 
 function computeAllStats(dataset) {
-  const entityData = _.cloneDeep(ENTITY_DATA)
-  const entityByOrigin = new Map()
-  const entityByRootDomain = new Map()
-  for (const entity of entityData) {
+  const entityData = _.cloneDeep(thirdPartyLib.entities)
+  const refs = new Map()
+  for (const [entity, orig] of _.zip(entityData, thirdPartyLib.entities)) {
+    refs.set(orig, entity)
     entity.entries = []
-    for (const origin of entity.origins) {
-      const rootDomain = getRootDomain(origin)
-      entityByOrigin.set(origin, entity)
-      if (entityByRootDomain.has(rootDomain) && entityByRootDomain.get(rootDomain) !== entity)
-        entityByRootDomain.set(rootDomain, false)
-      else entityByRootDomain.set(rootDomain, entity)
-    }
-  }
-
-  for (const [key, value] of entityByRootDomain) {
-    if (!value) {
-      entityByRootDomain.delete(key)
-    }
   }
 
   const homelessEntries = []
   for (const entry of dataset) {
-    const entity =
-      entityByOrigin.get(entry.origin) || entityByRootDomain.get(getRootDomain(entry.origin))
+    const entity = thirdPartyLib.getEntity(entry.domain)
     if (entity) {
-      entity.entries.push(entry)
+      refs.get(entity).entries.push(entry)
     } else {
       homelessEntries.push(entry)
     }
@@ -94,7 +71,7 @@ function computeAllStats(dataset) {
   }
 
   const homelessGrouped = _(homelessEntries)
-    .groupBy(entry => getRootDomain(entry.origin))
+    .groupBy(entry => thirdPartyLib.getRootDomain(entry.domain))
     .values()
     .map(combineGroup)
     .sortBy('totalExecutionTime')
@@ -158,7 +135,7 @@ console.log(
     .slice(0, 15)
     .map(item => [
       item.domain,
-      item.origins.join(','),
+      item.domains.join(','),
       Math.round(item.totalExecutionTime / 1000).toLocaleString(),
     ]),
 )

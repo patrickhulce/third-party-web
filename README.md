@@ -252,7 +252,7 @@ These are mostly open source libraries (e.g. jQuery) served over different publi
 
 | Rank | Name                                                         | Usage   | Average Impact |
 | ---- | ------------------------------------------------------------ | ------- | -------------- |
-| 1    | [Bootstrap CDN](https://www.bootstrapcdn.com/)                   | 1,383   | 48 ms          |
+| 1    | [Bootstrap CDN](https://www.bootstrapcdn.com/)               | 1,383   | 48 ms          |
 | 2    | [FontAwesome CDN](https://fontawesome.com/)                  | 15,661  | 102 ms         |
 | 3    | [Yandex CDN](https://yandex.ru/)                             | 2,020   | 123 ms         |
 | 4    | [Adobe TypeKit](https://fonts.adobe.com/)                    | 4,519   | 131 ms         |
@@ -384,7 +384,7 @@ This section highlights the entities responsible for the most script execution a
 | [New Relic](https://newrelic.com/)                                            | 2,334      | 126 s        | 54 ms          |
 | [Listrak](https://www.listrak.com/)                                           | 963        | 123 s        | 128 ms         |
 | [Help Scout](https://www.helpscout.net/)                                      | 627        | 103 s        | 164 ms         |
-| [Bootstrap CDN](https://bootstrapcdn.com/)                                    | 1,383      | 67 s         | 48 ms          |
+| [Bootstrap CDN](https://www.bootstrapcdn.com/)                                | 1,383      | 67 s         | 48 ms          |
 | [Alexa](https://www.alexa.com/)                                               | 1,265      | 63 s         | 50 ms          |
 | [Media Math](http://www.mediamath.com/)                                       | 662        | 45 s         | 68 ms          |
 | [Crazy Egg](https://www.crazyegg.com/)                                        | 455        | 41 s         | 89 ms          |
@@ -429,14 +429,14 @@ Only about 90% of the third party script execution has been assigned to an entit
 
 ### Updating the Entities
 
-The origin->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
+The domain->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
 
 ```js
 {
     "name": "Facebook",
     "homepage": "https://www.facebook.com",
     "categories": ["social"],
-    "origins": [
+    "domains": [
         "www.facebook.com",
         "connect.facebook.net",
         "staticxx.facebook.com",
