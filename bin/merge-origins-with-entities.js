@@ -93,12 +93,12 @@ function computeAllStats(dataset) {
     .reverse()
     .value()
 
-  const top100ExecutionTime = _.sumBy(
-    sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 100),
+  const top50ExecutionTime = _.sumBy(
+    sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 50),
     'totalExecutionTime',
   )
 
-  return {sortedEntityData, top100ExecutionTime, homelessGrouped, totalEntityExecutionTime}
+  return {sortedEntityData, top50ExecutionTime, homelessGrouped, totalEntityExecutionTime}
 }
 
 function computeChangesSinceLast(currentDataset, lastDataset) {
@@ -122,7 +122,7 @@ const lastDatasetStats = computeAllStats(LAST_DATASET)
 
 const {
   sortedEntityData,
-  top100ExecutionTime,
+  top50ExecutionTime,
   homelessGrouped,
   totalEntityExecutionTime,
 } = currentDatasetStats
@@ -180,20 +180,19 @@ console.log(
 )
 
 console.log(
-  'Top 100 Entities representing',
-  ((top100ExecutionTime / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
+  '3rd parties representing',
+  ((THIRD_PARTY_EXECUTION_TIME / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
   '% of total script execution',
 )
-
 console.log(
   'Entities representing',
   ((totalEntityExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
   '% of 3rd parties',
 )
 console.log(
-  '3rd parties representing',
-  ((THIRD_PARTY_EXECUTION_TIME / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
-  '% of total script execution',
+  'Top 50 Entities representing',
+  ((top50ExecutionTime / totalEntityExecutionTime) * 100).toFixed(2),
+  '% of total entity execution',
 )
 
 fs.writeFileSync(
