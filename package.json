@@ -2,6 +2,7 @@
   "name": "third-party-web",
   "version": "0.0.0-development",
   "description": "Categorized data on third party entities on the web.",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
     "test": "jest"
