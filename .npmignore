@@ -1,0 +1,10 @@
+data/*
+!data/entities.json
+
+bin/
+sql/
+.tmp/
+
+*.log
+*.png
+yarn.lock
