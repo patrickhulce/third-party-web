@@ -185,14 +185,14 @@ console.log(
   '% of total script execution',
 )
 console.log(
-  'Entities representing',
+  `${sortedEntityData.length} Entities representing`,
   ((totalEntityExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
-  '% of 3rd parties',
+  '% of 3rd party script execution',
 )
 console.log(
   'Top 50 Entities representing',
-  ((top50ExecutionTime / totalEntityExecutionTime) * 100).toFixed(2),
-  '% of total entity execution',
+  ((top50ExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
+  '% of 3rd party script execution',
 )
 
 fs.writeFileSync(

@@ -118,7 +118,12 @@ function computeChangesSinceLast(currentDataset, lastDataset) {
 const currentDatasetStats = computeAllStats(CURRENT_DATASET)
 const lastDatasetStats = computeAllStats(LAST_DATASET)
 
-const {top50Occurrences, homelessGrouped, totalEntityOccurrences} = currentDatasetStats
+const {
+  sortedEntityData,
+  top50Occurrences,
+  homelessGrouped,
+  totalEntityOccurrences,
+} = currentDatasetStats
 
 const changesSinceLast = computeChangesSinceLast(currentDatasetStats, lastDatasetStats)
 
@@ -165,14 +170,14 @@ console.log(
   '% of total requests',
 )
 console.log(
-  'Entities representing',
+  `${sortedEntityData.length} Entities representing`,
   ((totalEntityOccurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
-  '% of 3rd parties',
+  '% of 3rd party requests',
 )
 console.log(
   'Top 50 Entities representing',
-  ((top50Occurrences / totalEntityOccurrences) * 100).toFixed(2),
-  '% of all entity requests',
+  ((top50Occurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
+  '% of 3rd party requests',
 )
 
 console.log('Finished processing', datasetFiles[0])
