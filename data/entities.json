@@ -749,5 +749,11 @@
     "homepage": "https://www.listrak.com/",
     "categories": ["marketing"],
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
+  },
+  {
+    "name": "Ipify",
+    "homepage": "https://www.ipify.org",
+    "categories": ["utility"],
+    "domains": ["api.ipify.org", "geo.ipify.org"]
   }
 ]
