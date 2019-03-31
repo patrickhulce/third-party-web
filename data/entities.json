@@ -610,7 +610,7 @@
     "name": "New Relic",
     "homepage": "https://newrelic.com/",
     "categories": ["utility"],
-    "domains": ["js-agent.newrelic.com"]
+    "domains": ["js-agent.newrelic.com", "bam.nr-data.net"]
   },
   {
     "name": "App Dynamics",
