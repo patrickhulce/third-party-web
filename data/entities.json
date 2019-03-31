@@ -761,5 +761,11 @@
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
     "domains": ["dl.episerver.net"]
-  }
+  },
+  {
+    "name": "mPulse",
+    "homepage": "https://developer.akamai.com/akamai-mpulse",
+    "categories": ["analytics"],
+    "domains": ["c.go-mpulse.net"]
+  },
 ]
