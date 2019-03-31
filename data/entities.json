@@ -750,4 +750,10 @@
     "categories": ["marketing"],
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   }
+  {
+    "name": "Ontame",
+    "homepage": "https://www.ontame.io",
+    "categories": ["analytics"],
+    "domains": ["cdn.ontame.io", "collector.ontame.io"]
+  }
 ]
