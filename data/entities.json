@@ -691,6 +691,12 @@
     "domains": ["widget.sndcdn.com"]
   },
   {
+    "name": "Spotify",
+    "homepage": "https://www.spotify.com/",
+    "categories": ["content"],
+    "domains": ["open.spotify.com","open.scdn.co", "i.scdn.co"]
+  },
+  {
     "name": "AMP",
     "homepage": "https://www.ampproject.org/",
     "categories": ["content"],
