@@ -761,5 +761,11 @@
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
     "domains": ["dl.episerver.net"]
+  },
+  {
+    "name": "SpeedCurve LUX",
+    "homepage": "https://speedcurve.com/features/lux/",
+    "categories": ["analytics"],
+    "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
   }
 ]
