@@ -328,7 +328,7 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
   },
   {
     "name": "LiveChat",
@@ -610,7 +610,7 @@
     "name": "New Relic",
     "homepage": "https://newrelic.com/",
     "categories": ["utility"],
-    "domains": ["js-agent.newrelic.com"]
+    "domains": ["js-agent.newrelic.com", "bam.nr-data.net"]
   },
   {
     "name": "App Dynamics",
@@ -670,7 +670,7 @@
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
-    "domains": ["platform.linkedin.com"]
+    "domains": ["platform.linkedin.com", "snap.licdn.com"]
   },
   {
     "name": "Vox Media",
@@ -689,6 +689,12 @@
     "homepage": "https://www.soundcloud.com/",
     "categories": ["content"],
     "domains": ["widget.sndcdn.com"]
+  },
+  {
+    "name": "Spotify",
+    "homepage": "https://www.spotify.com/",
+    "categories": ["content"],
+    "domains": ["open.spotify.com","open.scdn.co", "i.scdn.co"]
   },
   {
     "name": "AMP",
@@ -755,5 +761,35 @@
     "homepage": "https://www.ipify.org",
     "categories": ["utility"],
     "domains": ["api.ipify.org", "geo.ipify.org"]
+  },
+  {
+    "name": "Ensighten",
+    "homepage": "https://www.ensighten.com/",
+    "categories": ["other"],
+    "domains": ["nexus.ensighten.com"]
+  },
+  {
+    "name": "EpiServer",
+    "homepage": "https://www.episerver.com",
+    "categories": ["content"],
+    "domains": ["dl.episerver.net"]
+  },
+  {
+    "name": "Pingdom RUM",
+    "homepage": "https://www.pingdom.com/product/performance-monitoring/",
+    "categories": ["analytics"],
+    "domains": ["rum-static.pingdom.net", "rum-collector-2.pingdom.net"]
+  },
+  {
+    "name": "SpeedCurve LUX",
+    "homepage": "https://speedcurve.com/features/lux/",
+    "categories": ["analytics"],
+    "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
+  },
+  {
+    "name": "Cedexis",
+    "homepage": "https://www.cedexis.com/radar/",
+    "categories": ["analytics"],
+    "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   }
 ]
