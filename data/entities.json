@@ -670,7 +670,7 @@
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
-    "domains": ["platform.linkedin.com"]
+    "domains": ["platform.linkedin.com", "snap.licdn.com"]
   },
   {
     "name": "Vox Media",
@@ -757,6 +757,17 @@
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   },
   {
+    "name": "Ontame",
+    "homepage": "https://www.ontame.io",
+    "categories": ["analytics"],
+    "domains": ["cdn.ontame.io", "collector.ontame.io"]
+  },
+    "name": "Ipify",
+    "homepage": "https://www.ipify.org",
+    "categories": ["utility"],
+    "domains": ["api.ipify.org", "geo.ipify.org"]
+  },
+  {
     "name": "Ensighten",
     "homepage": "https://www.ensighten.com/",
     "categories": ["other"],
@@ -767,6 +778,12 @@
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
     "domains": ["dl.episerver.net"]
+  },
+  {
+    "name": "mPulse",
+    "homepage": "https://developer.akamai.com/akamai-mpulse",
+    "categories": ["analytics"],
+    "domains": ["c.go-mpulse.net","0211c83c.akstat.io"]
   },
   {
     "name": "Pingdom RUM",
@@ -791,5 +808,11 @@
     "homepage": "https://bingads.microsoft.com",
     "categories": ["ad"],
     "domains": ["bat.bing.com"]
+  },
+  {
+    "name": "GoSquared",
+    "homepage": "https://www.gosquared.com",
+    "categories": ["analytics"],
+    "domains": ["data.gosquared.com"]
   }
 ]
