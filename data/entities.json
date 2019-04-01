@@ -769,6 +769,12 @@
     "domains": ["dl.episerver.net"]
   },
   {
+    "name": "Pingdom RUM",
+    "homepage": "https://www.pingdom.com/product/performance-monitoring/",
+    "categories": ["analytics"],
+    "domains": ["rum-static.pingdom.net", "rum-collector-2.pingdom.net"]
+  },
+  {
     "name": "SpeedCurve LUX",
     "homepage": "https://speedcurve.com/features/lux/",
     "categories": ["analytics"],
