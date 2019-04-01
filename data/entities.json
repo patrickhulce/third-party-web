@@ -827,5 +827,11 @@
     "homepage": "https://www.gosquared.com",
     "categories": ["analytics"],
     "domains": ["data.gosquared.com"]
+  },
+  {
+    "name": "Usabilla",
+    "homepage": "https://usabilla.com",
+    "categories": ["analytics"],
+    "domains": ["w.usabilla.com"]
   }
 ]
