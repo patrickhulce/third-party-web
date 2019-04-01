@@ -108,20 +108,21 @@ These scripts are part of advertising networks, either serving or measuring.
 | 7    | [Criteo](https://www.criteo.com/)                              | 64,547    | 116 ms         |
 | 8    | [Market GID](https://www.marketgid.com/)                       | 3,873     | 153 ms         |
 | 9    | [Taboola](https://www.taboola.com/)                            | 23,853    | 176 ms         |
-| 10   | [WordAds](https://wordads.co/)                                 | 32,295    | 212 ms         |
-| 11   | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/) | 1,206,843 | 215 ms         |
-| 12   | [Pubmatic](https://pubmatic.com/)                              | 3,140     | 225 ms         |
-| 13   | [Yahoo Ads](https://www.media.net/)                            | 9,578     | 225 ms         |
-| 14   | [AppNexus](https://www.appnexus.com/)                          | 14,694    | 265 ms         |
-| 15   | [Yandex Ads](https://yandex.com/adv/)                          | 39,330    | 272 ms         |
-| 16   | [Integral Ads](https://integralads.com/uk/)                    | 24,532    | 305 ms         |
-| 17   | [Sizmek](https://www.sizmek.com/)                              | 4,011     | 374 ms         |
-| 18   | [DoubleVerify](https://www.doubleverify.com/)                  | 1,988     | 600 ms         |
-| 19   | [MediaVine](https://www.mediavine.com/)                        | 9,801     | 706 ms         |
-| 20   | [Moat](https://moat.com/)                                      | 14,337    | 708 ms         |
-| 21   | [OpenX](https://www.openx.com/)                                | 10,729    | 836 ms         |
-| 22   | [33 Across](https://33across.com/)                             | 20,137    | 863 ms         |
-| 23   | [Popads](https://www.popads.net/)                              | 5,009     | 1288 ms        |
+| 10   | [Bing Ads](https://bingads.microsoft.com)                      | 1,103     | 208 ms         |
+| 11   | [WordAds](https://wordads.co/)                                 | 32,295    | 212 ms         |
+| 12   | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/) | 1,206,843 | 215 ms         |
+| 13   | [Pubmatic](https://pubmatic.com/)                              | 3,140     | 225 ms         |
+| 14   | [Yahoo Ads](https://www.media.net/)                            | 9,578     | 225 ms         |
+| 15   | [AppNexus](https://www.appnexus.com/)                          | 14,694    | 265 ms         |
+| 16   | [Yandex Ads](https://yandex.com/adv/)                          | 39,330    | 272 ms         |
+| 17   | [Integral Ads](https://integralads.com/uk/)                    | 24,532    | 305 ms         |
+| 18   | [Sizmek](https://www.sizmek.com/)                              | 4,011     | 374 ms         |
+| 19   | [DoubleVerify](https://www.doubleverify.com/)                  | 1,988     | 600 ms         |
+| 20   | [MediaVine](https://www.mediavine.com/)                        | 9,801     | 706 ms         |
+| 21   | [Moat](https://moat.com/)                                      | 14,337    | 708 ms         |
+| 22   | [OpenX](https://www.openx.com/)                                | 10,729    | 836 ms         |
+| 23   | [33 Across](https://33across.com/)                             | 20,137    | 863 ms         |
+| 24   | [Popads](https://www.popads.net/)                              | 5,009     | 1288 ms        |
 
 <a name="analytics"></a>
 
@@ -132,20 +133,23 @@ These scripts measure or track users and their actions. There's a wide range in 
 | Rank | Name                                                               | Usage     | Average Impact |
 | ---- | ------------------------------------------------------------------ | --------- | -------------- |
 | 1    | [Alexa](https://www.alexa.com/)                                    | 1,265     | 50 ms          |
-| 2    | [Google Analytics](https://www.google.com/analytics/analytics/)    | 1,163,249 | 77 ms          |
-| 3    | [Mixpanel](https://mixpanel.com/)                                  | 5,462     | 77 ms          |
-| 4    | [Snowplow](https://snowplowanalytics.com/)                         | 2,492     | 77 ms          |
-| 5    | [Baidu Analytics](https://tongji.baidu.com/web/welcome/login)      | 7,041     | 78 ms          |
-| 6    | [Crazy Egg](https://www.crazyegg.com/)                             | 455       | 89 ms          |
-| 7    | [Hotjar](https://www.hotjar.com/)                                  | 91,036    | 92 ms          |
-| 8    | [Adobe Analytics](https://www.adobe.com/analytics-cloud.html)      | 32,173    | 183 ms         |
-| 9    | [Segment](https://segment.com/)                                    | 6,998     | 201 ms         |
-| 10   | [Tealium](https://tealium.com/)                                    | 14,422    | 207 ms         |
-| 11   | [Optimizely](https://www.optimizely.com/)                          | 13,482    | 232 ms         |
-| 12   | [Salesforce](https://www.salesforce.com/products/marketing-cloud/) | 40,868    | 270 ms         |
-| 13   | [Yandex Metrica](https://metrica.yandex.com/about?)                | 221,577   | 356 ms         |
-| 14   | [Histats](http://histats.com/)                                     | 14,706    | 390 ms         |
-| 15   | [Lucky Orange](https://www.luckyorange.com/)                       | 6,113     | 834 ms         |
+| 2    | [Cedexis](https://www.cedexis.com/radar/)                          | 425       | 72 ms          |
+| 3    | [Google Analytics](https://www.google.com/analytics/analytics/)    | 1,163,249 | 77 ms          |
+| 4    | [Mixpanel](https://mixpanel.com/)                                  | 5,462     | 77 ms          |
+| 5    | [Snowplow](https://snowplowanalytics.com/)                         | 2,492     | 77 ms          |
+| 6    | [Baidu Analytics](https://tongji.baidu.com/web/welcome/login)      | 7,041     | 78 ms          |
+| 7    | [Crazy Egg](https://www.crazyegg.com/)                             | 455       | 89 ms          |
+| 8    | [Hotjar](https://www.hotjar.com/)                                  | 91,036    | 92 ms          |
+| 9    | [VWO](https://vwo.com)                                             | 6,471     | 100 ms         |
+| 10   | [Adobe Analytics](https://www.adobe.com/analytics-cloud.html)      | 32,173    | 183 ms         |
+| 11   | [Segment](https://segment.com/)                                    | 6,998     | 201 ms         |
+| 12   | [Tealium](https://tealium.com/)                                    | 14,422    | 207 ms         |
+| 13   | [Optimizely](https://www.optimizely.com/)                          | 13,482    | 232 ms         |
+| 14   | [Salesforce](https://www.salesforce.com/products/marketing-cloud/) | 40,868    | 270 ms         |
+| 15   | [Yandex Metrica](https://metrica.yandex.com/about?)                | 221,577   | 356 ms         |
+| 16   | [Histats](http://histats.com/)                                     | 14,706    | 390 ms         |
+| 17   | [mPulse](https://developer.akamai.com/akamai-mpulse)               | 2,521     | 775 ms         |
+| 18   | [Lucky Orange](https://www.luckyorange.com/)                       | 6,113     | 834 ms         |
 
 <a name="social"></a>
 
@@ -188,7 +192,7 @@ These scripts are developer utilities (API clients, site monitoring, fraud detec
 
 | Rank | Name                                                               | Usage   | Average Impact |
 | ---- | ------------------------------------------------------------------ | ------- | -------------- |
-| 1    | [New Relic](https://newrelic.com/)                                 | 2,334   | 54 ms          |
+| 1    | [New Relic](https://newrelic.com/)                                 | 3,502   | 70 ms          |
 | 2    | [Stripe](https://stripe.com)                                       | 4,751   | 70 ms          |
 | 3    | [OneSignal](https://onesignal.com/)                                | 37,165  | 83 ms          |
 | 4    | [Google APIs/SDK](https://developers.google.com/apis-explorer/#p/) | 829,509 | 114 ms         |
@@ -291,9 +295,10 @@ These are miscellaneous scripts delivered via a shared origin with no precise ca
 | Rank | Name                                                                          | Usage     | Average Impact |
 | ---- | ----------------------------------------------------------------------------- | --------- | -------------- |
 | 1    | [Amazon S3](https://aws.amazon.com/s3/)                                       | 32,205    | 156 ms         |
-| 2    | [All Other 3rd Parties](#by-category)                                         | 1,344,782 | 204 ms         |
-| 3    | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 1,098,396 | 431 ms         |
-| 4    | [Parking Crew](http://parkingcrew.net/)                                       | 4,542     | 461 ms         |
+| 2    | [All Other 3rd Parties](#by-category)                                         | 1,326,341 | 204 ms         |
+| 3    | [Ensighten](https://www.ensighten.com/)                                       | 6,753     | 249 ms         |
+| 4    | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 1,098,396 | 431 ms         |
+| 5    | [Parking Crew](http://parkingcrew.net/)                                       | 4,542     | 461 ms         |
 
 <a name="by-total-impact"></a>
 
@@ -304,7 +309,7 @@ This section highlights the entities responsible for the most script execution a
 | Name                                                                          | Popularity | Total Impact | Average Impact |
 | ----------------------------------------------------------------------------- | ---------- | ------------ | -------------- |
 | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 1,098,396  | 473,333 s    | 431 ms         |
-| [All Other 3rd Parties](#by-category)                                         | 1,344,782  | 274,947 s    | 204 ms         |
+| [All Other 3rd Parties](#by-category)                                         | 1,326,341  | 270,284 s    | 204 ms         |
 | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)                | 1,206,843  | 259,963 s    | 215 ms         |
 | [Wix](https://www.wix.com/)                                                   | 192,121    | 199,834 s    | 1040 ms        |
 | [Google CDN](https://developers.google.com/speed/libraries/)                  | 744,534    | 131,849 s    | 177 ms         |
@@ -368,7 +373,9 @@ This section highlights the entities responsible for the most script execution a
 | [Dealer](https://www.dealer.com/)                                             | 23,885     | 2,158 s      | 90 ms          |
 | [Parking Crew](http://parkingcrew.net/)                                       | 4,542      | 2,093 s      | 461 ms         |
 | [Amazon Ads](https://advertising.amazon.com/)                                 | 22,090     | 2,079 s      | 94 ms          |
+| [mPulse](https://developer.akamai.com/akamai-mpulse)                          | 2,521      | 1,953 s      | 775 ms         |
 | [LiveChat](https://www.livechatinc.com/)                                      | 20,433     | 1,786 s      | 87 ms          |
+| [Ensighten](https://www.ensighten.com/)                                       | 6,753      | 1,683 s      | 249 ms         |
 | [FontAwesome CDN](https://fontawesome.com/)                                   | 15,661     | 1,599 s      | 102 ms         |
 | [LinkedIn](https://www.linkedin.com/)                                         | 12,260     | 1,594 s      | 130 ms         |
 | [Sizmek](https://www.sizmek.com/)                                             | 4,011      | 1,501 s      | 374 ms         |
@@ -383,6 +390,7 @@ This section highlights the entities responsible for the most script execution a
 | [Blogger](http://www.blogger.com/)                                            | 17,943     | 839 s        | 47 ms          |
 | [Pubmatic](https://pubmatic.com/)                                             | 3,140      | 707 s        | 225 ms         |
 | [Hotmart](https://www.hotmart.com/)                                           | 854        | 670 s        | 785 ms         |
+| [VWO](https://vwo.com)                                                        | 6,471      | 649 s        | 100 ms         |
 | [Market GID](https://www.marketgid.com/)                                      | 3,873      | 592 s        | 153 ms         |
 | [Adobe TypeKit](https://fonts.adobe.com/)                                     | 4,519      | 590 s        | 131 ms         |
 | [Drift](https://www.drift.com/)                                               | 4,073      | 575 s        | 141 ms         |
@@ -396,18 +404,20 @@ This section highlights the entities responsible for the most script execution a
 | [Vox Media](https://www.voxmedia.com/)                                        | 704        | 321 s        | 456 ms         |
 | [Adroll](https://www.adroll.com/)                                             | 3,198      | 301 s        | 94 ms          |
 | [Yandex CDN](https://yandex.ru/)                                              | 2,020      | 249 s        | 123 ms         |
+| [New Relic](https://newrelic.com/)                                            | 3,502      | 244 s        | 70 ms          |
 | [App Dynamics](https://www.appdynamics.com/)                                  | 1,929      | 240 s        | 124 ms         |
+| [Bing Ads](https://bingads.microsoft.com)                                     | 1,103      | 230 s        | 208 ms         |
 | [Snowplow](https://snowplowanalytics.com/)                                    | 2,492      | 193 s        | 77 ms          |
 | [RD Station](https://www.rdstation.com/en/)                                   | 2,517      | 176 s        | 70 ms          |
 | [OptinMonster](https://optinmonster.com/)                                     | 1,129      | 149 s        | 132 ms         |
 | [Freshdesk](https://freshdesk.com/)                                           | 909        | 127 s        | 140 ms         |
-| [New Relic](https://newrelic.com/)                                            | 2,334      | 126 s        | 54 ms          |
 | [Listrak](https://www.listrak.com/)                                           | 963        | 123 s        | 128 ms         |
 | [Help Scout](https://www.helpscout.net/)                                      | 627        | 103 s        | 164 ms         |
 | [Bootstrap CDN](https://www.bootstrapcdn.com/)                                | 1,383      | 67 s         | 48 ms          |
 | [Alexa](https://www.alexa.com/)                                               | 1,265      | 63 s         | 50 ms          |
 | [Media Math](http://www.mediamath.com/)                                       | 662        | 45 s         | 68 ms          |
 | [Crazy Egg](https://www.crazyegg.com/)                                        | 455        | 41 s         | 89 ms          |
+| [Cedexis](https://www.cedexis.com/radar/)                                     | 425        | 31 s         | 72 ms          |
 
 ## Future Work
 
