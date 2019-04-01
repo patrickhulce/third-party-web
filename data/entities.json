@@ -757,6 +757,12 @@
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   },
   {
+    "name": "Ensighten",
+    "homepage": "https://www.ensighten.com/",
+    "categories": ["other"],
+    "domains": ["nexus.ensighten.com"]
+  },
+  {
     "name": "EpiServer",
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
