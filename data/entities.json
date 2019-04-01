@@ -328,7 +328,7 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
   },
   {
     "name": "LiveChat",
@@ -757,6 +757,12 @@
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   },
   {
+    "name": "Ensighten",
+    "homepage": "https://www.ensighten.com/",
+    "categories": ["other"],
+    "domains": ["nexus.ensighten.com"]
+  },
+  {
     "name": "EpiServer",
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
@@ -767,5 +773,11 @@
     "homepage": "https://speedcurve.com/features/lux/",
     "categories": ["analytics"],
     "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
+  },
+  {
+    "name": "Cedexis",
+    "homepage": "https://www.cedexis.com/radar/",
+    "categories": ["analytics"],
+    "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   }
 ]
