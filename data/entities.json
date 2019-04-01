@@ -785,5 +785,11 @@
     "homepage": "https://www.cedexis.com/radar/",
     "categories": ["analytics"],
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
+  },
+  {
+    "name": "VWO",
+    "homepage": "https://vwo.com",
+    "categories": ["analytics"],
+    "domains": ["dev.visualwebsiteoptimizer.com"]
   }
 ]
