@@ -1,16 +1,26 @@
 {
   "name": "third-party-web",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0-development",
+  "description": "Categorized data on third party entities on the web.",
+  "main": "./lib/index.js",
   "scripts": {
-    "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js"
+    "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "third-party",
+    "third-parties"
+  ],
+  "author": "Patrick Hulce <patrick.hulce@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickhulce/third-party-web.git"
+  },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "chart.js": "^2.7.2",
     "chartjs-node": "^1.7.1",
+    "jest": "^24.5.0",
     "lodash": "^4.17.10",
     "prettier": "^1.13.7"
   }

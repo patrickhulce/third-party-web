@@ -1,11 +1,15 @@
 # Third Party Web
 
+Data on third party entities and their impact on the web.
+
 This document is a summary of which third party scripts are most responsible for excessive JavaScript execution on the web today.
 
 ## Table of Contents
 
 1.  [Goals](#goals)
 1.  [Methodology](#methodology)
+1.  [NPM Module](#npm-module)
+1.  [Updates](#updates)
 1.  [Data](#data)
     1.  [Summary](#summary)
     1.  [How to Interpret](#how-to-interpret)
@@ -22,10 +26,31 @@ This document is a summary of which third party scripts are most responsible for
 1.  Identify the third party scripts on the web that have the greatest performance cost.
 1.  Give developers the information they need to make informed decisions about which third parties to include on their sites.
 1.  Incentivize responsible third party script behavior.
+1.  Make this information accessible and useful.
 
 ## Methodology
 
 [HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~4 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse) on mobile. Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity.
+
+## NPM Module
+
+The entity classification data is available as an NPM module.
+
+```js
+const {getEntity} = require('third-party-web')
+const entity = getEntity('https://d36mpcpuzc4ztk.cloudfront.net/js/visitor.js')
+console.log(entity)
+//   {
+//     "name": "Freshdesk",
+//     "homepage": "https://freshdesk.com/",
+//     "categories": ["customer-success"],
+//     "domains": ["d36mpcpuzc4ztk.cloudfront.net"]
+//   }
+```
+
+## Updates
+
+<%= updates_contents %>
 
 ## Data
 
@@ -104,14 +129,14 @@ Only about 90% of the third party script execution has been assigned to an entit
 
 ### Updating the Entities
 
-The origin->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
+The domain->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
 
 ```js
 {
     "name": "Facebook",
     "homepage": "https://www.facebook.com",
     "categories": ["social"],
-    "origins": [
+    "domains": [
         "www.facebook.com",
         "connect.facebook.net",
         "staticxx.facebook.com",
@@ -131,7 +156,7 @@ The query used to compute the origin-level data is in `sql/origin-execution-time
 
 ### Updating this README
 
-This README is auto-generated from the template `lib/template.md` and the computed data. In order to update the charts, you'll need to make sure you have `cairo` installed locally in addition to `yarn install`.
+This README is auto-generated from the templates `lib/` and the computed data. In order to update the charts, you'll need to make sure you have `cairo` installed locally in addition to `yarn install`.
 
 ```bash
 # Install `cairo` and dependencies for node-canvas

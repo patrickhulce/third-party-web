@@ -3,7 +3,7 @@
     "name": "Google/Doubleclick Ads",
     "homepage": "https://www.doubleclickbygoogle.com/",
     "categories": ["ad"],
-    "origins": [
+    "domains": [
       "pagead2.googlesyndication.com",
       "tpc.googlesyndication.com",
       "googleads.g.doubleclick.net",
@@ -18,7 +18,7 @@
     "name": "Facebook",
     "homepage": "https://www.facebook.com",
     "categories": ["social"],
-    "origins": [
+    "domains": [
       "www.facebook.com",
       "connect.facebook.net",
       "staticxx.facebook.com",
@@ -27,16 +27,22 @@
     ]
   },
   {
+    "name": "Instagram",
+    "homepage": "https://www.instagram.com",
+    "categories": ["social"],
+    "domains": ["scontent.cdninstagram.com"]
+  },
+  {
     "name": "Google CDN",
     "homepage": "https://developers.google.com/speed/libraries/",
     "categories": ["library"],
-    "origins": ["ajax.googleapis.com", "www.gstatic.com"]
+    "domains": ["ajax.googleapis.com", "www.gstatic.com"]
   },
   {
     "name": "Google APIs/SDK",
     "homepage": "https://developers.google.com/apis-explorer/#p/",
     "categories": ["utility"],
-    "origins": [
+    "domains": [
       "www.google.com",
       "apis.google.com",
       "maps.google.com",
@@ -47,92 +53,127 @@
       "commondatastorage.googleapis.com",
       "imasdk.googleapis.com",
       "maps.gstatic.com",
+      "lh3.googleusercontent.com",
       "calendar.google.com"
     ]
+  },
+  {
+    "name": "Firebase",
+    "homepage": "https://developers.google.com/apis-explorer/#p/",
+    "categories": ["utility"],
+    "domains": ["firebasestorage.googleapis.com", "firestore.googleapis.com"]
   },
   {
     "name": "Google Analytics",
     "homepage": "https://www.google.com/analytics/analytics/",
     "categories": ["analytics"],
-    "origins": ["www.google-analytics.com", "ssl.google-analytics.com", "google-analytics.com"]
+    "domains": ["www.google-analytics.com", "ssl.google-analytics.com", "google-analytics.com"]
   },
   {
     "name": "Google Tag Manager",
     "homepage": "https://marketingplatform.google.com/about/tag-manager/",
     "categories": ["other"],
-    "origins": ["www.googletagmanager.com", "www.googletagservices.com"]
+    "domains": ["www.googletagmanager.com", "www.googletagservices.com"]
+  },
+  {
+    "name": "Google Fonts",
+    "homepage": "https://fonts.google.com/",
+    "categories": ["library"],
+    "domains": ["fonts.gstatic.com", "fonts.googleapis.com"]
+  },
+  {
+    "name": "Adobe TypeKit",
+    "homepage": "https://fonts.adobe.com/",
+    "categories": ["library"],
+    "domains": ["use.typekit.net"]
   },
   {
     "name": "YouTube",
     "homepage": "https://youtube.com",
     "categories": ["video"],
-    "origins": ["www.youtube.com", "s.ytimg.com"]
+    "domains": ["www.youtube.com", "s.ytimg.com"]
   },
   {
     "name": "Twitter",
     "homepage": "https://twitter.com",
     "categories": ["social"],
-    "origins": ["platform.twitter.com", "cdn.syndication.twimg.com"]
+    "domains": ["platform.twitter.com", "cdn.syndication.twimg.com"]
   },
   {
     "name": "AddThis",
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
-    "origins": ["s7.addthis.com"]
+    "domains": ["s7.addthis.com"]
+  },
+  {
+    "name": "Blogger",
+    "homepage": "http://www.blogger.com/",
+    "categories": ["hosting"],
+    "domains": [
+      "1.bp.blogspot.com",
+      "www.blogger.com",
+      "images-blogger-opensocial.googleusercontent.com"
+    ]
+  },
+  {
+    "name": "Gravatar",
+    "homepage": "http://en.gravatar.com/",
+    "categories": ["social"],
+    "domains": ["secure.gravatar.com"]
   },
   {
     "name": "Yandex Metrica",
     "homepage": "https://metrica.yandex.com/about?",
     "categories": ["analytics"],
-    "origins": ["mc.yandex.ru", "d31j93rd8oukbv.cloudfront.net"]
+    "domains": ["mc.yandex.ru", "d31j93rd8oukbv.cloudfront.net"]
   },
   {
     "name": "Hotjar",
     "homepage": "https://www.hotjar.com/",
     "categories": ["analytics"],
-    "origins": ["script.hotjar.com", "static.hotjar.com"]
+    "domains": ["script.hotjar.com", "static.hotjar.com"]
   },
   {
     "name": "Baidu Analytics",
     "homepage": "https://tongji.baidu.com/web/welcome/login",
     "categories": ["analytics"],
-    "origins": ["hm.baidu.com"]
+    "domains": ["hm.baidu.com"]
   },
   {
     "name": "Adobe Analytics",
     "homepage": "https://www.adobe.com/analytics-cloud.html",
     "categories": ["analytics"],
-    "origins": ["assets.adobedtm.com", "dpm.demdex.net"]
+    "domains": ["assets.adobedtm.com", "dpm.demdex.net", "sync-tm.everesttech.net"]
   },
   {
     "name": "jQuery CDN",
     "homepage": "https://code.jquery.com/",
     "categories": ["library"],
-    "origins": ["code.jquery.com"]
+    "domains": ["code.jquery.com"]
   },
   {
     "name": "Cloudflare CDN",
     "homepage": "https://cdnjs.com/",
     "categories": ["library"],
-    "origins": ["cdnjs.cloudflare.com", "amp.cloudflare.com"]
+    "domains": ["cdnjs.cloudflare.com", "amp.cloudflare.com"]
   },
   {
     "name": "Cloudflare",
     "homepage": "https://www.cloudflare.com/website-optimization/",
     "categories": ["utility"],
-    "origins": ["ajax.cloudflare.com"]
+    "domains": ["ajax.cloudflare.com"]
   },
   {
     "name": "WordPress",
     "homepage": "https://wp.com/",
     "categories": ["hosting"],
-    "origins": ["s0.wp.com", "s2.wp.com"]
+    "domains": ["s0.wp.com", "s2.wp.com"]
   },
   {
     "name": "Hatena Blog",
     "homepage": "https://hatenablog.com/",
     "categories": ["hosting"],
-    "origins": [
+    "domains": [
       "cdn.blog.st-hatena.com",
       "cdn.pool.st-hatena.com",
       "cdn7.www.st-hatena.com",
@@ -143,486 +184,594 @@
     "name": "Shopify",
     "homepage": "https://www.shopify.com/",
     "categories": ["hosting"],
-    "origins": ["cdn.shopify.com"]
+    "domains": ["cdn.shopify.com"]
+  },
+  {
+    "name": "Dealer",
+    "homepage": "https://www.dealer.com/",
+    "categories": ["hosting"],
+    "domains": ["static.dealer.com"]
   },
   {
     "name": "Yandex Share",
     "homepage": "https://yastatic.net/share2/share.js",
     "categories": ["social"],
-    "origins": ["yastatic.net"]
+    "domains": ["yastatic.net"]
   },
   {
     "name": "PIXNET",
     "homepage": "https://www.pixnet.net/",
     "categories": ["social"],
-    "origins": ["front.pixfs.net", "falcon-asset.pixfs.net", "pixgame-asset.pixfs.net"]
+    "domains": ["front.pixfs.net", "falcon-asset.pixfs.net", "pixgame-asset.pixfs.net"]
   },
   {
     "name": "Moat",
     "homepage": "https://moat.com/",
     "categories": ["ad"],
-    "origins": ["z.moatads.com"]
+    "domains": ["z.moatads.com"]
   },
   {
     "name": "33 Across",
     "homepage": "https://33across.com/",
     "categories": ["ad"],
-    "origins": ["sic.33across.com", "cdn-sic.33across.com"]
+    "domains": ["sic.33across.com", "cdn-sic.33across.com"]
   },
   {
     "name": "OpenX",
     "homepage": "https://www.openx.com/",
     "categories": ["ad"],
-    "origins": ["uk-ads.openx.net", "us-ads.openx.net", "33across-d.openx.net"]
+    "domains": ["uk-ads.openx.net", "us-ads.openx.net", "33across-d.openx.net"]
+  },
+  {
+    "name": "Amazon Ads",
+    "homepage": "https://advertising.amazon.com/",
+    "categories": ["ad"],
+    "domains": ["s.amazon-adsystem.com"]
+  },
+  {
+    "name": "Rubicon Project",
+    "homepage": "https://rubiconproject.com/",
+    "categories": ["ad"],
+    "domains": ["pixel.rubiconproject.com", "ads.rubiconproject.com"]
+  },
+  {
+    "name": "The Trade Desk",
+    "homepage": "https://www.thetradedesk.com/",
+    "categories": ["ad"],
+    "domains": ["match.adsrvr.org"]
+  },
+  {
+    "name": "Bidswitch",
+    "homepage": "https://www.bidswitch.com/",
+    "categories": ["ad"],
+    "domains": ["x.bidswitch.net"]
+  },
+  {
+    "name": "TowerData / RapLeaf",
+    "homepage": "http://intelligence.towerdata.com/",
+    "categories": ["analytics"],
+    "domains": ["idsync.rlcdn.com"]
+  },
+  {
+    "name": "Drawbridge",
+    "homepage": "https://www.drawbridge.com/",
+    "categories": ["ad"],
+    "domains": ["p.adsymptotic.com"]
+  },
+  {
+    "name": "Oath / Verizon Media",
+    "homepage": "https://www.oath.com/",
+    "categories": ["ad"],
+    "domains": ["pixel.advertising.com"]
+  },
+  {
+    "name": "Xaxis",
+    "homepage": "https://www.xaxis.com/",
+    "categories": ["ad"],
+    "domains": ["t.mookie1.com"]
   },
   {
     "name": "Zopim",
     "homepage": "https://www.zopim.com/",
     "categories": ["customer-success"],
-    "origins": ["v2.zopim.com"]
+    "domains": ["v2.zopim.com"]
   },
   {
     "name": "Freshdesk",
     "homepage": "https://freshdesk.com/",
     "categories": ["customer-success"],
-    "origins": ["d36mpcpuzc4ztk.cloudfront.net"]
+    "domains": ["d36mpcpuzc4ztk.cloudfront.net"]
   },
   {
     "name": "Help Scout",
     "homepage": "https://www.helpscout.net/",
     "categories": ["customer-success"],
-    "origins": ["djtflbt20bdde.cloudfront.net"]
+    "domains": ["djtflbt20bdde.cloudfront.net"]
   },
   {
     "name": "Alexa",
     "homepage": "https://www.alexa.com/",
     "categories": ["analytics"],
-    "origins": ["d31qbv1cthcecs.cloudfront.net"]
+    "domains": ["d31qbv1cthcecs.cloudfront.net"]
   },
   {
     "name": "OneSignal",
     "homepage": "https://onesignal.com/",
     "categories": ["utility"],
-    "origins": ["cdn.onesignal.com"]
+    "domains": ["cdn.onesignal.com"]
   },
   {
     "name": "Lucky Orange",
     "homepage": "https://www.luckyorange.com/",
     "categories": ["analytics"],
-    "origins": ["d10lpsik1i8c69.cloudfront.net"]
+    "domains": ["d10lpsik1i8c69.cloudfront.net"]
   },
   {
     "name": "Crazy Egg",
     "homepage": "https://www.crazyegg.com/",
     "categories": ["analytics"],
-    "origins": ["dnn506yrbagrg.cloudfront.net"]
+    "domains": ["dnn506yrbagrg.cloudfront.net"]
   },
   {
     "name": "Yandex Ads",
     "homepage": "https://yandex.com/adv/",
     "categories": ["ad"],
-    "origins": ["an.yandex.ru"]
+    "domains": ["an.yandex.ru"]
   },
   {
     "name": "Salesforce",
     "homepage": "https://www.salesforce.com/products/marketing-cloud/",
     "categories": ["analytics"],
-    "origins": ["cdn.krxd.net"]
+    "domains": ["cdn.krxd.net"]
   },
   {
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "origins": ["cdn.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
   },
   {
     "name": "LiveChat",
     "homepage": "https://www.livechatinc.com/",
     "categories": ["customer-success"],
-    "origins": ["cdn.livechatinc.com", "secure.livechatinc.com"]
+    "domains": ["cdn.livechatinc.com", "secure.livechatinc.com"]
   },
   {
     "name": "VK",
     "homepage": "https://vk.com/",
     "categories": ["social"],
-    "origins": ["vk.com"]
+    "domains": ["vk.com"]
   },
   {
     "name": "Tumblr",
     "homepage": "https://tumblr.com/",
     "categories": ["social"],
-    "origins": ["assets.tumblr.com", "static.tumblr.com"]
+    "domains": ["assets.tumblr.com", "static.tumblr.com"]
   },
   {
     "name": "Wistia",
     "homepage": "https://wistia.com/",
     "categories": ["video"],
-    "origins": ["fast.wistia.com", "fast.wistia.net"]
+    "domains": ["fast.wistia.com", "fast.wistia.net"]
   },
   {
     "name": "Brightcove",
     "homepage": "https://www.brightcove.com/en/",
     "categories": ["video"],
-    "origins": ["vjs.zencdn.net", "players.brightcove.net"]
+    "domains": ["vjs.zencdn.net", "players.brightcove.net"]
   },
   {
     "name": "JSDelivr CDN",
     "homepage": "https://www.jsdelivr.com/",
     "categories": ["library"],
-    "origins": ["cdn.jsdelivr.net"]
+    "domains": ["cdn.jsdelivr.net"]
   },
   {
     "name": "Sumo",
     "homepage": "https://sumo.com/",
     "categories": ["marketing"],
-    "origins": ["sumo.b-cdn.net", "load.sumo.com", "load.sumome.com"]
+    "domains": ["sumo.b-cdn.net", "load.sumo.com", "load.sumome.com"]
   },
   {
     "name": "Vimeo",
     "homepage": "http://vimeo.com/",
     "categories": ["video"],
-    "origins": ["f.vimeocdn.com", "player.vimeo.com"]
+    "domains": ["f.vimeocdn.com", "player.vimeo.com"]
   },
   {
     "name": "Disqus",
     "homepage": "http://disqus.com/",
     "categories": ["social"],
-    "origins": ["c.disquscdn.com"]
+    "domains": ["c.disquscdn.com"]
   },
   {
     "name": "Yandex APIs",
     "homepage": "https://yandex.ru/",
     "categories": ["utility"],
-    "origins": ["api-maps.yandex.ru", "money.yandex.ru"]
+    "domains": ["api-maps.yandex.ru", "money.yandex.ru"]
   },
   {
     "name": "Yandex CDN",
     "homepage": "https://yandex.ru/",
     "categories": ["library"],
-    "origins": ["yandex.st"]
+    "domains": ["yandex.st"]
   },
   {
     "name": "Integral Ads",
     "homepage": "https://integralads.com/uk/",
     "categories": ["ad"],
-    "origins": ["pixel.adsafeprotected.com", "static.adsafeprotected.com", "fw.adsafeprotected.com"]
+    "domains": ["pixel.adsafeprotected.com", "static.adsafeprotected.com", "fw.adsafeprotected.com"]
   },
   {
     "name": "Tealium",
     "homepage": "https://tealium.com/",
     "categories": ["analytics"],
-    "origins": ["tags.tiqcdn.com"]
+    "domains": ["tags.tiqcdn.com"]
   },
   {
     "name": "Pubmatic",
     "homepage": "https://pubmatic.com/",
     "categories": ["ad"],
-    "origins": ["image6.pubmatic.com", "ads.pubmatic.com"]
+    "domains": ["image6.pubmatic.com", "ads.pubmatic.com"]
   },
   {
     "name": "Intercom",
     "homepage": "https://www.intercom.com/",
     "categories": ["customer-success"],
-    "origins": ["js.intercomcdn.com"]
+    "domains": ["js.intercomcdn.com"]
   },
   {
     "name": "Olark",
     "homepage": "https://www.olark.com/",
     "categories": ["customer-success"],
-    "origins": ["static.olark.com"]
+    "domains": ["static.olark.com"]
   },
   {
     "name": "Tawk.to",
     "homepage": "https://www.tawk.to/",
     "categories": ["customer-success"],
-    "origins": ["embed.tawk.to"]
+    "domains": ["embed.tawk.to"]
   },
   {
     "name": "OptinMonster",
     "homepage": "https://optinmonster.com/",
     "categories": ["marketing"],
-    "origins": ["a.optmstr.com"]
+    "domains": ["a.optmstr.com"]
   },
   {
     "name": "ZenDesk",
     "homepage": "https://zendesk.com/",
     "categories": ["customer-success"],
-    "origins": ["assets.zendesk.com", "static.zdassets.com"]
+    "domains": ["assets.zendesk.com", "static.zdassets.com"]
   },
   {
     "name": "Drift",
     "homepage": "https://www.drift.com/",
     "categories": ["marketing"],
-    "origins": ["js.driftt.com"]
+    "domains": ["js.driftt.com"]
   },
   {
     "name": "Sentry",
     "homepage": "https://sentry.io/",
     "categories": ["utility"],
-    "origins": ["cdn.ravenjs.com"]
+    "domains": ["cdn.ravenjs.com", "browser.sentry-cdn.com"]
   },
   {
     "name": "Amazon S3",
     "homepage": "https://aws.amazon.com/s3/",
     "categories": ["other"],
-    "origins": ["s3.amazonaws.com"]
+    "domains": ["s3.amazonaws.com"]
   },
   {
     "name": "Yahoo Ads",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "origins": ["contextual.media.net"]
+    "domains": ["contextual.media.net", "ads.yahoo.com"]
+  },
+  {
+    "name": "Adroll",
+    "homepage": "https://www.adroll.com/",
+    "categories": ["ad"],
+    "domains": ["d.adroll.com"]
   },
   {
     "name": "Twitch",
     "homepage": "https://twitch.tv/",
     "categories": ["video"],
-    "origins": ["player.twitch.tv"]
+    "domains": ["player.twitch.tv"]
   },
   {
     "name": "Taboola",
     "homepage": "https://www.taboola.com/",
     "categories": ["ad"],
-    "origins": ["cdn.taboola.com", "trc.taboola.com", "vidstat.taboola.com"]
+    "domains": ["cdn.taboola.com", "trc.taboola.com", "vidstat.taboola.com"]
   },
   {
     "name": "Sizmek",
     "homepage": "https://www.sizmek.com/",
     "categories": ["ad"],
-    "origins": ["secure-ds.serving-sys.com", "ds.serving-sys.com"]
+    "domains": ["secure-ds.serving-sys.com", "ds.serving-sys.com"]
   },
   {
     "name": "Scorecard Research",
     "homepage": "https://www.scorecardresearch.com/",
     "categories": ["ad"],
-    "origins": ["sb.scorecardresearch.com"]
+    "domains": ["sb.scorecardresearch.com"]
   },
   {
     "name": "Criteo",
     "homepage": "https://www.criteo.com/",
     "categories": ["ad"],
-    "origins": ["static.criteo.net"]
+    "domains": ["static.criteo.net", "bidder.criteo.com"]
   },
   {
     "name": "Segment",
     "homepage": "https://segment.com/",
     "categories": ["analytics"],
-    "origins": ["cdn.segment.com"]
+    "domains": ["cdn.segment.com"]
   },
   {
     "name": "ShareThis",
     "homepage": "https://www.sharethis.com/",
     "categories": ["social"],
-    "origins": ["w.sharethis.com", "ws.sharethis.com", "t.sharethis.com"]
+    "domains": ["w.sharethis.com", "ws.sharethis.com", "t.sharethis.com"]
   },
   {
     "name": "Distil Networks",
     "homepage": "https://www.distilnetworks.com/",
     "categories": ["utility"],
-    "origins": ["n-cdn.areyouahuman.com"]
+    "domains": ["n-cdn.areyouahuman.com"]
   },
   {
     "name": "Connexity",
     "homepage": "http://connexity.com/",
     "categories": ["analytics"],
-    "origins": ["connexity.net"]
+    "domains": ["connexity.net"]
   },
   {
     "name": "Popads",
     "homepage": "https://www.popads.net/",
     "categories": ["ad"],
-    "origins": ["serve.popads.net", "c1.popads.net"]
+    "domains": ["serve.popads.net", "c1.popads.net"]
   },
   {
     "name": "CreateJS CDN",
     "homepage": "http://code.createjs.com/",
     "categories": ["library"],
-    "origins": ["code.createjs.com"]
+    "domains": ["code.createjs.com"]
   },
   {
     "name": "Squarespace",
     "homepage": "https://www.squarespace.com/",
     "categories": ["hosting"],
-    "origins": ["static.squarespace.com", "static1.squarespace.com"]
+    "domains": ["static.squarespace.com", "static1.squarespace.com"]
   },
   {
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "origins": ["mathid.mathtag.com"]
+    "domains": ["mathid.mathtag.com", "mathads.com"]
   },
   {
     "name": "Mixpanel",
     "homepage": "https://mixpanel.com/",
     "categories": ["analytics"],
-    "origins": ["cdn.mxpnl.com"]
+    "domains": ["cdn.mxpnl.com"]
   },
   {
     "name": "FontAwesome CDN",
     "homepage": "https://fontawesome.com/",
     "categories": ["library"],
-    "origins": ["use.fontawesome.com"]
+    "domains": ["use.fontawesome.com"]
   },
   {
     "name": "Hubspot",
     "homepage": "https://hubspot.com/",
     "categories": ["marketing"],
-    "origins": ["forms.hubspot.com", "js.hsforms.net", "js.hs-analytics.net"]
+    "domains": ["forms.hubspot.com", "js.hsforms.net", "js.hs-analytics.net"]
   },
   {
     "name": "Mailchimp",
     "homepage": "https://mailchimp.com/",
     "categories": ["marketing"],
-    "origins": ["downloads.mailchimp.com"]
+    "domains": ["downloads.mailchimp.com"]
   },
   {
     "name": "MGID",
     "homepage": "https://www.mgid.com/",
     "categories": ["ad"],
-    "origins": ["servicer.mgid.com"]
+    "domains": ["servicer.mgid.com"]
   },
   {
     "name": "Stripe",
     "homepage": "https://stripe.com",
     "categories": ["utility"],
-    "origins": ["m.stripe.network", "js.stripe.com"]
+    "domains": ["m.stripe.network", "js.stripe.com"]
   },
   {
     "name": "PayPal",
     "homepage": "https://paypal.com",
     "categories": ["utility"],
-    "origins": ["www.paypalobjects.com"]
+    "domains": ["www.paypalobjects.com"]
   },
   {
     "name": "Market GID",
     "homepage": "https://www.marketgid.com/",
     "categories": ["ad"],
-    "origins": ["jsc.marketgid.com"]
+    "domains": ["jsc.marketgid.com"]
   },
   {
     "name": "Pinterest",
     "homepage": "https://pinterest.com/",
     "categories": ["social"],
-    "origins": ["assets.pinterest.com"]
+    "domains": ["assets.pinterest.com"]
   },
   {
     "name": "New Relic",
     "homepage": "https://newrelic.com/",
     "categories": ["utility"],
-    "origins": ["js-agent.newrelic.com"]
+    "domains": ["js-agent.newrelic.com", "bam.nr-data.net"]
   },
   {
     "name": "App Dynamics",
     "homepage": "https://www.appdynamics.com/",
     "categories": ["utility"],
-    "origins": ["cdn.appdynamics.com"]
+    "domains": ["cdn.appdynamics.com"]
   },
   {
     "name": "Parking Crew",
     "homepage": "http://parkingcrew.net/",
     "categories": ["other"],
-    "origins": ["d1lxhc4jvstzrp.cloudfront.net", "parkingcrew.net"]
+    "domains": ["d1lxhc4jvstzrp.cloudfront.net", "parkingcrew.net"]
   },
   {
     "name": "WordAds",
     "homepage": "https://wordads.co/",
     "categories": ["ad"],
-    "origins": ["s.pubmine.com"]
+    "domains": ["s.pubmine.com"]
   },
   {
     "name": "AppNexus",
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
-    "origins": ["acdn.adnxs.com", "secure.adnxs.com"]
+    "domains": ["acdn.adnxs.com", "secure.adnxs.com"]
   },
   {
     "name": "Histats",
     "homepage": "http://histats.com/",
     "categories": ["analytics"],
-    "origins": ["s10.histats.com"]
+    "domains": ["s10.histats.com"]
   },
   {
     "name": "DoubleVerify",
     "homepage": "https://www.doubleverify.com/",
     "categories": ["ad"],
-    "origins": ["cdn.doubleverify.com", "rtb0.doubleverify.com", "rtbcdn.doubleverify.com"]
+    "domains": ["cdn.doubleverify.com", "rtb0.doubleverify.com", "rtbcdn.doubleverify.com"]
   },
   {
     "name": "MediaVine",
     "homepage": "https://www.mediavine.com/",
     "categories": ["ad"],
-    "origins": ["scripts.mediavine.com", "video.mediavine.com"]
+    "domains": ["scripts.mediavine.com", "video.mediavine.com"]
   },
   {
     "name": "Wix",
     "homepage": "https://www.wix.com/",
     "categories": ["hosting"],
-    "origins": ["static.parastorage.com"]
+    "domains": ["static.parastorage.com", "static.wixstatic.com", "www.wix.com"]
+  },
+  {
+    "name": "Weebly",
+    "homepage": "https://www.weebly.com/",
+    "categories": ["hosting"],
+    "domains": ["editmysite.com"]
   },
   {
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
-    "origins": ["platform.linkedin.com"]
+    "domains": ["platform.linkedin.com"]
   },
   {
     "name": "Vox Media",
     "homepage": "https://www.voxmedia.com/",
     "categories": ["content"],
-    "origins": ["cdn.vox-cdn.com"]
+    "domains": ["cdn.vox-cdn.com"]
   },
   {
     "name": "Hotmart",
     "homepage": "https://www.hotmart.com/",
     "categories": ["content"],
-    "origins": ["launchermodule.hotmart.com"]
+    "domains": ["launchermodule.hotmart.com"]
   },
   {
     "name": "SoundCloud",
     "homepage": "https://www.soundcloud.com/",
     "categories": ["content"],
-    "origins": ["widget.sndcdn.com"]
+    "domains": ["widget.sndcdn.com"]
+  },
+  {
+    "name": "Spotify",
+    "homepage": "https://www.spotify.com/",
+    "categories": ["content"],
+    "domains": ["open.spotify.com","open.scdn.co", "i.scdn.co"]
   },
   {
     "name": "AMP",
     "homepage": "https://www.ampproject.org/",
     "categories": ["content"],
-    "origins": ["cdn.ampproject.org"]
+    "domains": ["cdn.ampproject.org"]
   },
   {
     "name": "Beeketing",
     "homepage": "https://beeketing.com/",
     "categories": ["marketing"],
-    "origins": ["sdk-cdn.beeketing.com", "sdk.beeketing.com"]
+    "domains": ["sdk-cdn.beeketing.com", "sdk.beeketing.com"]
   },
   {
     "name": "Albacross",
     "homepage": "https://albacross.com/",
     "categories": ["marketing"],
-    "origins": ["serve.albacross.com"]
+    "domains": ["serve.albacross.com"]
   },
   {
     "name": "TrafficJunky",
     "homepage": "https://www.trafficjunky.com/",
     "categories": ["ad"],
-    "origins": ["ads2.contentabc.com", "hw-cdn.contentabc.com"]
+    "domains": ["ads2.contentabc.com", "hw-cdn.contentabc.com"]
   },
   {
     "name": "Bootstrap CDN",
-    "homepage": "https://bootstrapcdn.com/",
+    "homepage": "https://www.bootstrapcdn.com/",
     "categories": ["library"],
-    "origins": ["maxcdn.bootstrapcdn.com", "cdn.bootcss.com"]
+    "domains": ["maxcdn.bootstrapcdn.com", "stackpath.bootstrapcdn.com"]
+  },
+  {
+    "name": "Shareaholic",
+    "homepage": "https://www.shareaholic.com/",
+    "categories": ["social"],
+    "domains": ["dsms0mj1bbhn4.cloudfront.net"]
+  },
+  {
+    "name": "Snowplow",
+    "homepage": "https://snowplowanalytics.com/",
+    "categories": ["analytics"],
+    "domains": ["d32hwlnfiv2gyn.cloudfront.net"]
+  },
+  {
+    "name": "RD Station",
+    "homepage": "https://www.rdstation.com/en/",
+    "categories": ["marketing"],
+    "domains": ["d335luupugsy2.cloudfront.net"]
+  },
+  {
+    "name": "Jivochat",
+    "homepage": "https://www.jivochat.com/",
+    "categories": ["customer-success"],
+    "domains": ["cdn-ca.jivosite.com", "code.jivosite.com"]
   },
   {
     "name": "Listrak",
     "homepage": "https://www.listrak.com/",
     "categories": ["marketing"],
-    "origins": ["cdn.listrakbi.com", "s1.listrakbi.com"]
+    "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   },
   {
     "name": "Ensighten",
     "homepage": "https://www.ensighten.com/",
     "categories": ["other"],
-    "origins": ["nexus.ensighten.com"]
+    "domains": ["nexus.ensighten.com"]
+  },
+  {
+    "name": "EpiServer",
+    "homepage": "https://www.episerver.com",
+    "categories": ["content"],
+    "domains": ["dl.episerver.net"]
+  },
+  {
+    "name": "Cedexis",
+    "homepage": "https://www.cedexis.com/radar/",
+    "categories": ["analytics"],
+    "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   }
 ]

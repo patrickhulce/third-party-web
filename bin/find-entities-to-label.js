@@ -5,19 +5,18 @@ const thirdPartyLib = require('../lib')
 
 const DATA_FOLDER = path.join(__dirname, '../data')
 
-// from total-time-query.generated.sql
-const GLOBAL_EXECUTION_TIME = 4.518238367405001e9
+const GLOBAL_OCCURRENCES = 367984856
 
 const datasetFiles = fs
   .readdirSync(DATA_FOLDER)
-  .filter(f => f.includes('origin-scripting'))
+  .filter(f => f.includes('origin-requests'))
   .sort()
   .reverse()
 
 const CURRENT_DATASET = importDataset(datasetFiles[0])
-const LAST_DATASET = importDataset(datasetFiles[1])
+const LAST_DATASET = importDataset(datasetFiles[1] || datasetFiles[0])
 
-const THIRD_PARTY_EXECUTION_TIME = _.sumBy(CURRENT_DATASET, 'totalExecutionTime')
+const THIRD_PARTY_REQUESTS = _.sumBy(CURRENT_DATASET, 'totalOccurrences')
 
 function importDataset(datasetName) {
   return require(path.join(DATA_FOLDER, datasetName))
@@ -30,17 +29,12 @@ function importDataset(datasetName) {
 function combineGroup(entries) {
   const domain = thirdPartyLib.getRootDomain(entries[0].domain)
   const domains = _.map(entries, 'domain')
-  const totalExecutionTime = _.sumBy(entries, 'totalExecutionTime')
   const totalOccurrences = _.sumBy(entries, 'totalOccurrences')
-  const averageExecutionTime = totalExecutionTime / totalOccurrences
-  const shareOfExecutionTime = totalExecutionTime / GLOBAL_EXECUTION_TIME
+
   return {
     domain,
     domains,
-    totalExecutionTime,
     totalOccurrences,
-    averageExecutionTime,
-    shareOfExecutionTime,
     entries,
   }
 }
@@ -63,18 +57,18 @@ function computeAllStats(dataset) {
     }
   }
 
-  let totalEntityExecutionTime = 0
+  let totalEntityOccurrences = 0
   for (const entity of entityData) {
     if (!entity.entries.length) continue
     Object.assign(entity, combineGroup(entity.entries))
-    totalEntityExecutionTime += entity.totalExecutionTime
+    totalEntityOccurrences += entity.totalOccurrences
   }
 
   const homelessGrouped = _(homelessEntries)
     .groupBy(entry => thirdPartyLib.getRootDomain(entry.domain))
     .values()
     .map(combineGroup)
-    .sortBy('totalExecutionTime')
+    .sortBy('totalOccurrences')
     .reverse()
     .value()
 
@@ -87,18 +81,22 @@ function computeAllStats(dataset) {
   }
 
   const sortedEntityData = _(entityData.concat(homelessMegaEntity))
-    .sortBy('averageExecutionTime')
-    .sortBy('totalExecutionTime')
-    .filter('totalExecutionTime')
+    .sortBy('totalOccurrences')
+    .filter('totalOccurrences')
     .reverse()
     .value()
 
-  const top50ExecutionTime = _.sumBy(
+  const top50Occurrences = _.sumBy(
     sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 50),
-    'totalExecutionTime',
+    'totalOccurrences',
   )
 
-  return {sortedEntityData, top50ExecutionTime, homelessGrouped, totalEntityExecutionTime}
+  return {
+    sortedEntityData,
+    top50Occurrences,
+    homelessGrouped,
+    totalEntityOccurrences,
+  }
 }
 
 function computeChangesSinceLast(currentDataset, lastDataset) {
@@ -122,9 +120,9 @@ const lastDatasetStats = computeAllStats(LAST_DATASET)
 
 const {
   sortedEntityData,
-  top50ExecutionTime,
+  top50Occurrences,
   homelessGrouped,
-  totalEntityExecutionTime,
+  totalEntityOccurrences,
 } = currentDatasetStats
 
 const changesSinceLast = computeChangesSinceLast(currentDatasetStats, lastDatasetStats)
@@ -133,37 +131,10 @@ console.log(homelessGrouped.length, 'domains without attribution')
 console.log(
   homelessGrouped
     .slice(0, 15)
-    .map(item => [
-      item.domain,
-      item.domains.join(','),
-      Math.round(item.totalExecutionTime / 1000).toLocaleString(),
-    ]),
+    .map(item => [item.domain, item.domains.join(','), item.totalOccurrences.toLocaleString()]),
 )
 
-console.log('Top 5 Improvements')
-console.log(
-  _(changesSinceLast)
-    .sortBy('averageExecutionTime')
-    .slice(0, 5)
-    .map(item => [item.name, item.homepage, Math.round(item.averageExecutionTime).toLocaleString()])
-    .value(),
-)
-
-console.log('Top 5 Disappearing')
-console.log(
-  _(changesSinceLast)
-    .sortBy(item => item.totalOccurrences / item._last.totalOccurrences)
-    .slice(0, 5)
-    .map(item => [
-      item.name,
-      item.homepage,
-      Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
-        '%',
-    ])
-    .value(),
-)
-
-console.log('Top 5 Increasing')
+console.log('Top 5 Winners')
 console.log(
   _(changesSinceLast)
     .sortBy(item => item.totalOccurrences / item._last.totalOccurrences)
@@ -179,25 +150,34 @@ console.log(
     .value(),
 )
 
+console.log('Top 5 Losers')
+console.log(
+  _(changesSinceLast)
+    .sortBy(item => item.totalOccurrences / item._last.totalOccurrences)
+    .slice(0, 5)
+    .map(item => [
+      item.name,
+      item.homepage,
+      Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
+        '%',
+    ])
+    .value(),
+)
+
 console.log(
   '3rd parties representing',
-  ((THIRD_PARTY_EXECUTION_TIME / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
-  '% of total script execution',
+  ((THIRD_PARTY_REQUESTS / GLOBAL_OCCURRENCES) * 100).toFixed(2),
+  '% of total requests',
 )
 console.log(
   `${sortedEntityData.length} Entities representing`,
-  ((totalEntityExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
-  '% of 3rd party script execution',
+  ((totalEntityOccurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
+  '% of 3rd party requests',
 )
 console.log(
   'Top 50 Entities representing',
-  ((top50ExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
-  '% of 3rd party script execution',
-)
-
-fs.writeFileSync(
-  path.join(__dirname, '../.tmp/combined-data.json'),
-  JSON.stringify(sortedEntityData, null, 2),
+  ((top50Occurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
+  '% of 3rd party requests',
 )
 
 console.log('Finished processing', datasetFiles[0])
