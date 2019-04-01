@@ -804,6 +804,12 @@
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   },
   {
+    "name": "VWO",
+    "homepage": "https://vwo.com",
+    "categories": ["analytics"],
+    "domains": ["dev.visualwebsiteoptimizer.com"]
+  },
+  {
     "name": "Bing Ads",
     "homepage": "https://bingads.microsoft.com",
     "categories": ["ad"],
