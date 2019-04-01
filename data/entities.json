@@ -761,5 +761,11 @@
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
     "domains": ["dl.episerver.net"]
+  },
+  {
+    "name": "Cedexis",
+    "homepage": "https://www.cedexis.com/radar/",
+    "categories": ["analytics"],
+    "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   }
 ]
