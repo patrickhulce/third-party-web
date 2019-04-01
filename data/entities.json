@@ -670,7 +670,7 @@
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
-    "domains": ["platform.linkedin.com"]
+    "domains": ["platform.linkedin.com", "snap.licdn.com"]
   },
   {
     "name": "Vox Media",
