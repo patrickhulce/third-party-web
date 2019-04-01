@@ -328,7 +328,7 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
   },
   {
     "name": "LiveChat",
@@ -757,6 +757,12 @@
     "domains": ["cdn.listrakbi.com", "s1.listrakbi.com"]
   },
   {
+    "name": "Ensighten",
+    "homepage": "https://www.ensighten.com/",
+    "categories": ["other"],
+    "domains": ["nexus.ensighten.com"]
+  },
+  {
     "name": "EpiServer",
     "homepage": "https://www.episerver.com",
     "categories": ["content"],
@@ -766,6 +772,24 @@
     "name": "mPulse",
     "homepage": "https://developer.akamai.com/akamai-mpulse",
     "categories": ["analytics"],
-    "domains": ["c.go-mpulse.net"]
+    "domains": ["c.go-mpulse.net","0211c83c.akstat.io"]
   },
+  {
+    "name": "Pingdom RUM",
+    "homepage": "https://www.pingdom.com/product/performance-monitoring/",
+    "categories": ["analytics"],
+    "domains": ["rum-static.pingdom.net", "rum-collector-2.pingdom.net"]
+  },
+  {
+    "name": "SpeedCurve LUX",
+    "homepage": "https://speedcurve.com/features/lux/",
+    "categories": ["analytics"],
+    "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
+  },
+  {
+    "name": "Cedexis",
+    "homepage": "https://www.cedexis.com/radar/",
+    "categories": ["analytics"],
+    "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
+  }
 ]
