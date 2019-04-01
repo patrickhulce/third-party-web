@@ -780,6 +780,12 @@
     "domains": ["dl.episerver.net"]
   },
   {
+    "name": "mPulse",
+    "homepage": "https://developer.akamai.com/akamai-mpulse",
+    "categories": ["analytics"],
+    "domains": ["c.go-mpulse.net","0211c83c.akstat.io"]
+  },
+  {
     "name": "Pingdom RUM",
     "homepage": "https://www.pingdom.com/product/performance-monitoring/",
     "categories": ["analytics"],
