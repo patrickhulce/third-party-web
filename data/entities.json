@@ -785,5 +785,11 @@
     "homepage": "https://www.cedexis.com/radar/",
     "categories": ["analytics"],
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
+  },
+  {
+    "name": "Byside",
+    "homepage": "http://www.byside.com",
+    "categories": ["analytics"],
+    "domains": ["byce2.byside.com","wce2.byside.com"]
   }
 ]
