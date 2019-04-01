@@ -769,6 +769,12 @@
     "domains": ["dl.episerver.net"]
   },
   {
+    "name": "SpeedCurve LUX",
+    "homepage": "https://speedcurve.com/features/lux/",
+    "categories": ["analytics"],
+    "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
+  },
+  {
     "name": "Cedexis",
     "homepage": "https://www.cedexis.com/radar/",
     "categories": ["analytics"],
