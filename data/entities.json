@@ -787,7 +787,7 @@
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
   },
   {
-    "name": "Bing",
+    "name": "Bing Ads",
     "homepage": "https://bingads.microsoft.com",
     "categories": ["ad"],
     "domains": ["bat.bing.com"]
