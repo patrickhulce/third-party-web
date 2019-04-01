@@ -785,5 +785,11 @@
     "homepage": "https://www.cedexis.com/radar/",
     "categories": ["analytics"],
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
+  },
+  {
+    "name": "GoSquared",
+    "homepage": "https://www.gosquared.com",
+    "categories": ["analytics"],
+    "domains": ["data.gosquared.com"]
   }
 ]
