@@ -91,7 +91,7 @@
     "name": "YouTube",
     "homepage": "https://youtube.com",
     "categories": ["video"],
-    "domains": ["www.youtube.com", "s.ytimg.com"]
+    "domains": ["www.youtube.com", "s.ytimg.com","yt3.ggpht.com"]
   },
   {
     "name": "Twitter",
@@ -508,7 +508,7 @@
     "name": "Segment",
     "homepage": "https://segment.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.segment.com"]
+    "domains": ["cdn.segment.com", "api.segment.io"]
   },
   {
     "name": "ShareThis",
@@ -875,5 +875,29 @@
     "homepage": "https://www.marketo.com",
     "categories": ["analytics"],
     "domains": ["munchkin.marketo.net"]
+  },
+  {
+    "name": "Intercom",
+    "homepage": "https://www.intercom.com",
+    "categories": ["analytics"],
+    "domains": ["api-iam.intercom.io"]
+  },
+  {
+    "name": "Unpkg",
+    "homepage": "https://unpkg.com",
+    "categories": ["library"],
+    "domains": ["unpkg.com"]
+  },
+  {
+    "name": "ReadSpeaker",
+    "homepage": "https://www.readspeaker.com",
+    "categories": ["other"],
+    "domains": ["sf1-eu.readspeaker.com"]
+  },
+  {
+    "name": "Browsealoud",
+    "homepage": "https://www.texthelp.com/en-gb/products/browsealoud/",
+    "categories": ["other"],
+    "domains": ["www.browsealoud.com"]
   }
 ]
