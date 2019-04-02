@@ -833,5 +833,41 @@
     "homepage": "https://usabilla.com",
     "categories": ["analytics"],
     "domains": ["w.usabilla.com"]
+  },
+  {
+    "name": "Fastly Insights",
+    "homepage": "https://insights.fastlylabs.com",
+    "categories": ["analytics"],
+    "domains": ["www.fastly-insights.com"]
+  },
+  {
+    "name": "Visual IQ",
+    "homepage": "https://www.visualiq.com",
+    "categories": ["analytics"],
+    "domains": ["t.myvisualiq.net"]
+  },
+  {
+    "name": "Snapchat",
+    "homepage": "https://www.snapchat.com",
+    "categories": ["analytics"],
+    "domains": ["tr.snapchat.com"]
+  },
+  {
+    "name": "Atlas Solutions",
+    "homepage": "https://atlassolutions.com",
+    "categories": ["analytics"],
+    "domains": ["ad.atdmt.com"]
+  },
+  {
+    "name": "Quantcast",
+    "homepage": "https://www.quantcast.com",
+    "categories": ["analytics"],
+    "domains": ["pixel.quantserve.com","rules.quantcount.com"]
+  },
+  {
+    "name": "Spiceworks",
+    "homepage": "https://www.spiceworks.com",
+    "categories": ["analytics"],
+    "domains": ["px.spiceworks.com"]
   }
 ]
