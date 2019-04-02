@@ -869,5 +869,11 @@
     "homepage": "https://www.spiceworks.com",
     "categories": ["analytics"],
     "domains": ["px.spiceworks.com"]
+  },
+  {
+    "name": "Marketo",
+    "homepage": "https://www.marketo.com",
+    "categories": ["analytics"],
+    "domains": ["munchkin.marketo.net"]
   }
 ]
