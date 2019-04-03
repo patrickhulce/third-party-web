@@ -1,6 +1,7 @@
 [
   {
     "name": "Google/Doubleclick Ads",
+    "company": "Google",
     "homepage": "https://www.doubleclickbygoogle.com/",
     "categories": ["ad"],
     "domains": [
@@ -35,25 +36,36 @@
   },
   {
     "name": "Google CDN",
+    "company": "Google",
     "homepage": "https://developers.google.com/speed/libraries/",
     "categories": ["library"],
-    "domains": ["ajax.googleapis.com", "www.gstatic.com"]
+    "domains": ["ajax.googleapis.com", "www.gstatic.com", "commondatastorage.googleapis.com"]
   },
   {
-    "name": "Google APIs/SDK",
+    "name": "Google Maps",
+    "company": "Google",
+    "homepage": "",
+    "categories": ["utility"],
+    "domains": [
+      "maps-api-ssl.google.com",
+      "maps.google.com",
+      "maps.gstatic.com",
+      "maps.googleapis.com",
+      "mts.googleapis.com"
+    ]
+  },
+  {
+    "name": "Other Google APIs/SDKs",
+    "company": "Google",
     "homepage": "https://developers.google.com/apis-explorer/#p/",
     "categories": ["utility"],
     "domains": [
       "www.google.com",
       "apis.google.com",
-      "maps.google.com",
-      "maps.googleapis.com",
       "cse.google.com",
       "translate.googleapis.com",
       "storage.googleapis.com",
-      "commondatastorage.googleapis.com",
       "imasdk.googleapis.com",
-      "maps.gstatic.com",
       "lh3.googleusercontent.com",
       "calendar.google.com"
     ]
@@ -66,24 +78,28 @@
   },
   {
     "name": "Google Analytics",
+    "company": "Google",
     "homepage": "https://www.google.com/analytics/analytics/",
     "categories": ["analytics"],
     "domains": ["www.google-analytics.com", "ssl.google-analytics.com", "google-analytics.com"]
   },
   {
     "name": "Google Tag Manager",
+    "company": "Google",
     "homepage": "https://marketingplatform.google.com/about/tag-manager/",
     "categories": ["other"],
     "domains": ["www.googletagmanager.com", "www.googletagservices.com"]
   },
   {
     "name": "Google Fonts",
+    "company": "Google",
     "homepage": "https://fonts.google.com/",
     "categories": ["library"],
     "domains": ["fonts.gstatic.com", "fonts.googleapis.com"]
   },
   {
     "name": "Adobe TypeKit",
+    "company": "Adobe",
     "homepage": "https://fonts.adobe.com/",
     "categories": ["library"],
     "domains": ["use.typekit.net"]
@@ -124,6 +140,7 @@
   },
   {
     "name": "Yandex Metrica",
+    "company": "Yandex",
     "homepage": "https://metrica.yandex.com/about?",
     "categories": ["analytics"],
     "domains": ["mc.yandex.ru", "d31j93rd8oukbv.cloudfront.net"]
@@ -142,6 +159,7 @@
   },
   {
     "name": "Adobe Analytics",
+    "company": "Adobe",
     "homepage": "https://www.adobe.com/analytics-cloud.html",
     "categories": ["analytics"],
     "domains": ["assets.adobedtm.com", "dpm.demdex.net", "sync-tm.everesttech.net"]
@@ -166,6 +184,7 @@
   },
   {
     "name": "WordPress",
+    "company": "Automattic",
     "homepage": "https://wp.com/",
     "categories": ["hosting"],
     "domains": ["s0.wp.com", "s2.wp.com"]
@@ -195,6 +214,7 @@
   },
   {
     "name": "Yandex Share",
+    "company": "Yandex",
     "homepage": "https://yastatic.net/share2/share.js",
     "categories": ["social"],
     "domains": ["yastatic.net"]
@@ -248,8 +268,8 @@
     "domains": ["x.bidswitch.net"]
   },
   {
-    "name": "TowerData / RapLeaf",
-    "homepage": "http://intelligence.towerdata.com/",
+    "name": "LiveRamp IdentityLink",
+    "homepage": "https://liveramp.com/discover-identitylink/",
     "categories": ["analytics"],
     "domains": ["idsync.rlcdn.com"]
   },
@@ -260,7 +280,7 @@
     "domains": ["p.adsymptotic.com"]
   },
   {
-    "name": "Oath / Verizon Media",
+    "name": "AOL / Oath / Verizon Media",
     "homepage": "https://www.oath.com/",
     "categories": ["ad"],
     "domains": ["pixel.advertising.com"]
@@ -270,12 +290,6 @@
     "homepage": "https://www.xaxis.com/",
     "categories": ["ad"],
     "domains": ["t.mookie1.com"]
-  },
-  {
-    "name": "Zopim",
-    "homepage": "https://www.zopim.com/",
-    "categories": ["customer-success"],
-    "domains": ["v2.zopim.com"]
   },
   {
     "name": "Freshdesk",
@@ -315,6 +329,7 @@
   },
   {
     "name": "Yandex Ads",
+    "company": "Yandex",
     "homepage": "https://yandex.com/adv/",
     "categories": ["ad"],
     "domains": ["an.yandex.ru"]
@@ -387,18 +402,20 @@
   },
   {
     "name": "Yandex APIs",
+    "company": "Yandex",
     "homepage": "https://yandex.ru/",
     "categories": ["utility"],
     "domains": ["api-maps.yandex.ru", "money.yandex.ru"]
   },
   {
     "name": "Yandex CDN",
+    "company": "Yandex",
     "homepage": "https://yandex.ru/",
     "categories": ["library"],
     "domains": ["yandex.st"]
   },
   {
-    "name": "Integral Ads",
+    "name": "Integral Ad Science",
     "homepage": "https://integralads.com/uk/",
     "categories": ["ad"],
     "domains": ["pixel.adsafeprotected.com", "static.adsafeprotected.com", "fw.adsafeprotected.com"]
@@ -443,7 +460,13 @@
     "name": "ZenDesk",
     "homepage": "https://zendesk.com/",
     "categories": ["customer-success"],
-    "domains": ["assets.zendesk.com", "static.zdassets.com"]
+    "domains": ["assets.zendesk.com", "static.zdassets.com", "v2.zopim.com"]
+  },
+  {
+    "name": "Pusher",
+    "homepage": "https://pusher.com/",
+    "categories": ["utility"],
+    "domains": ["stats.pusher.com", "pusherapp.com"]
   },
   {
     "name": "Drift",
@@ -458,16 +481,22 @@
     "domains": ["cdn.ravenjs.com", "browser.sentry-cdn.com"]
   },
   {
-    "name": "Amazon S3",
+    "name": "Amazon Web Services",
     "homepage": "https://aws.amazon.com/s3/",
     "categories": ["other"],
     "domains": ["s3.amazonaws.com"]
   },
   {
-    "name": "Yahoo Ads",
+    "name": "Media.net",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "domains": ["contextual.media.net", "ads.yahoo.com"]
+    "domains": ["contextual.media.net"]
+  },
+  {
+    "name": "Yahoo!",
+    "homepage": "https://www.yahoo.com/",
+    "categories": ["ad"],
+    "domains": ["ads.yahoo.com", "analytics.yahoo.com"]
   },
   {
     "name": "Adroll",
@@ -614,7 +643,7 @@
     "domains": ["js-agent.newrelic.com", "bam.nr-data.net"]
   },
   {
-    "name": "App Dynamics",
+    "name": "AppDynamics",
     "homepage": "https://www.appdynamics.com/",
     "categories": ["utility"],
     "domains": ["cdn.appdynamics.com"]
@@ -627,6 +656,7 @@
   },
   {
     "name": "WordAds",
+    "company": "Automattic",
     "homepage": "https://wordads.co/",
     "categories": ["ad"],
     "domains": ["s.pubmine.com"]
@@ -800,7 +830,8 @@
     "domains": ["cdn.speedcurve.com", "lux.speedcurve.com"]
   },
   {
-    "name": "Cedexis",
+    "name": "Radar",
+    "company": "Cedexis",
     "homepage": "https://www.cedexis.com/radar/",
     "categories": ["analytics"],
     "domains": ["radar.cedexis.com", "rpt.cedexis.com"]
