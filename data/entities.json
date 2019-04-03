@@ -216,6 +216,7 @@
       "cdn.blog.st-hatena.com",
       "cdn.pool.st-hatena.com",
       "cdn7.www.st-hatena.com",
+      "s.hatena.ne.jp",
       "b.st-hatena.com"
     ]
   },
@@ -272,7 +273,7 @@
   },
   {
     "name": "Amazon Ads",
-    "homepage": "https://advertising.amazon.com/",
+    "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
     "domains": ["s.amazon-adsystem.com"]
   },
@@ -311,7 +312,7 @@
     "homepage": "https://www.oath.com/",
     "categories": ["ad"],
     "domains": [
-      "pixel.advertising.com",
+      "pixel.ad.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
@@ -1069,7 +1070,7 @@
   },
   {
     "name": "2AdPro Media Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["2adpro.com"]
   },
   {
@@ -1080,7 +1081,7 @@
   {
     "name": "360 picnic platform",
     "company": "MediaV",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mediav.com"]
   },
   {
@@ -1121,7 +1122,7 @@
   },
   {
     "name": "9xb",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["9xb.com"]
   },
   {
@@ -1156,38 +1157,38 @@
   },
   {
     "name": "ADMIZED",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["admized.com"]
   },
   {
     "name": "ADNOLOGIES",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["heias.com"]
   },
   {
     "name": "ADventori",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adventori.com"]
   },
   {
     "name": "AI Media Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aimediagroup.com"]
   },
   {
     "name": "AIR.TV",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["air.tv"]
   },
   {
     "name": "AKQA",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["srtk.net"]
   },
   {
-    "name": "AOL Advertising",
+    "name": "AOL ad",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["atwola.com"]
   },
   {
@@ -1199,13 +1200,13 @@
   {
     "name": "AOL Sponsored Listiings",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adsonar.com"]
   },
   {
     "name": "APSIS Lead",
     "company": "APSIS International AB",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["prospecteye.com"]
   },
   {
@@ -1217,7 +1218,7 @@
   {
     "name": "ARENA",
     "company": "Altitude",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["altitude-arena.com"]
   },
   {
@@ -1258,7 +1259,7 @@
   },
   {
     "name": "AWeber",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aweber.com"]
   },
   {
@@ -1273,12 +1274,12 @@
   },
   {
     "name": "Accord Holdings",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["agcdn.com"]
   },
   {
     "name": "Accordant Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["segment.a3cloud.net"]
   },
   {
@@ -1298,7 +1299,7 @@
   },
   {
     "name": "Acquisio",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["acq.io"]
   },
   {
@@ -1313,114 +1314,114 @@
   },
   {
     "name": "Active Agent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["active-agent.com"]
   },
   {
     "name": "ActiveCampaign",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["trackcmp.net"]
   },
   {
     "name": "AcuityAds",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["acuityplatform.com"]
   },
   {
     "name": "Acxiom",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["acxiom-online.com", "acxiomapac.com", "delivery.net"]
   },
   {
     "name": "Ad4Screen",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["a4.tl"]
   },
   {
     "name": "Ad6Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ad6media.fr"]
   },
   {
     "name": "AdCurve",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["shop2market.com"]
   },
   {
     "name": "AdEasy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adeasy.ru"]
   },
   {
     "name": "AdExtent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adextent.com"]
   },
   {
     "name": "AdForge Edge",
     "company": "AdForge",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adforgeinc.com"]
   },
   {
     "name": "AdGear",
     "company": "Samsung Electronics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adgear.com", "adgrx.com"]
   },
   {
     "name": "AdInMedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["fastapi.net"]
   },
   {
     "name": "AdJug",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tracking.adjug.com", "uk.view.adjug.com"]
   },
   {
     "name": "AdMatic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["admatic.com.tr"]
   },
   {
     "name": "AdMedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pixel.admedia.com"]
   },
   {
     "name": "AdRecover",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adrecover.com"]
   },
   {
     "name": "AdRiver",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adriver.ru"]
   },
   {
     "name": "AdSniper",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adsniper.ru", "sniperlog.ru"]
   },
   {
     "name": "AdSpeed",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adspeed.net"]
   },
   {
     "name": "AdSpruce",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adspruce.com"]
   },
   {
     "name": "AdSupply",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["doublepimp.com"]
   },
   {
     "name": "AdTheorent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adentifi.com"]
   },
   {
@@ -1432,22 +1433,22 @@
   {
     "name": "AdTrue",
     "company": "FPT AdTrue",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adtrue.com"]
   },
   {
     "name": "AdYapper",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adyapper.com"]
   },
   {
     "name": "Adacado",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adacado.com"]
   },
   {
     "name": "Adap.tv",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adap.tv"]
   },
   {
@@ -1462,17 +1463,17 @@
   },
   {
     "name": "Adara Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yieldoptimizer.com"]
   },
   {
     "name": "Adblade",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adblade.com"]
   },
   {
     "name": "Adbrain",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adbrn.com"]
   },
   {
@@ -1493,12 +1494,12 @@
   {
     "name": "Addoox MetaNetwork",
     "company": "Addoox",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["metanetwork.net"]
   },
   {
     "name": "Addvantage Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["addvantagemedia.com", "simplytechnology.net"]
   },
   {
@@ -1508,27 +1509,27 @@
   },
   {
     "name": "Adelphic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ipredictive.com"]
   },
   {
     "name": "Adestra",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adestra.com", "msgfocus.com"]
   },
   {
     "name": "Adform",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adform.net", "adformdsp.net"]
   },
   {
     "name": "Adkontekst",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adkontekst.pl"]
   },
   {
     "name": "Adlead",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["webelapp.com"]
   },
   {
@@ -1538,23 +1539,23 @@
   },
   {
     "name": "Adloox",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adlooxtracking.com"]
   },
   {
     "name": "Adlux",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adlux.com"]
   },
   {
     "name": "Admedo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adizio.com", "admedo.com", "pool.a8723.com"]
   },
   {
     "name": "Admeta",
     "company": "Wideorbit",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["atemda.com"]
   },
   {
@@ -1565,35 +1566,35 @@
   },
   {
     "name": "Admiral",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["unknowntray.com"]
   },
   {
     "name": "Admitad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["lenmit.com"]
   },
   {
     "name": "Admixer for Publishers",
     "company": "Admixer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["admixer.net"]
   },
   {
     "name": "Adnium",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adnium.com"]
   },
   {
     "name": "Adnostic",
     "company": "Dennis Publishing",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adnostic.co.uk"]
   },
   {
     "name": "Adobe Marketing Cloud",
     "company": "Adobe Systems",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adobetag.com"]
   },
   {
@@ -1622,13 +1623,13 @@
   {
     "name": "Adocean",
     "company": "Gemius",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adocean.pl"]
   },
   {
     "name": "Adometry",
     "company": "Google",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dmtry.com"]
   },
   {
@@ -1638,7 +1639,7 @@
   },
   {
     "name": "Adotmob",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adotmob.com"]
   },
   {
@@ -1648,69 +1649,69 @@
   },
   {
     "name": "Adroit Digital Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["abmr.net", "imiclk.com"]
   },
   {
     "name": "AdsNative",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adsnative.com"]
   },
   {
     "name": "AdsWizz",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adswizz.com"]
   },
   {
     "name": "Adscale",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adscale.de"]
   },
   {
     "name": "Adschoom",
     "company": "JSWeb Production",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adschoom.com"]
   },
   {
     "name": "Adscience",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adscience.nl"]
   },
   {
     "name": "Adsiduous",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adsiduous.com"]
   },
   {
     "name": "Adsty",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adx1.com"]
   },
   {
     "name": "Adtech (AOL)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adtechus.com"]
   },
   {
     "name": "Adtegrity",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adtpix.com"]
   },
   {
     "name": "Adthink",
     "company": "Adthink Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d.adxcore.com", "dcoengine.com"]
   },
   {
     "name": "AdultWebmasterEmpire.Com",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["awempire.com"]
   },
   {
     "name": "Adunity",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adunity.com"]
   },
   {
@@ -1721,12 +1722,12 @@
   {
     "name": "Adverline Board",
     "company": "Adverline",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adnext.fr", "adverline.com"]
   },
   {
     "name": "AdvertServe",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["advertserve.com"]
   },
   {
@@ -1736,7 +1737,7 @@
   },
   {
     "name": "Adwise",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adwise.bg"]
   },
   {
@@ -1746,44 +1747,44 @@
   },
   {
     "name": "Adyoulike",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adyoulike.com", "adyoulike.net", "omnitagjs.com"]
   },
   {
     "name": "Adzerk",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adzerk.net"]
   },
   {
     "name": "Adzip",
     "company": "Adbox Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adzip.co"]
   },
   {
     "name": "AerServ",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aerserv.com"]
   },
   {
     "name": "Affectv",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["affec.tv", "affectv.com"]
   },
   {
     "name": "Affiliate Window",
     "company": "Digital Window",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dwin1.com"]
   },
   {
     "name": "Affiliatly",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.affiliatly.com"]
   },
   {
     "name": "Affino",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["affino.com"]
   },
   {
@@ -1793,13 +1794,13 @@
   },
   {
     "name": "Agenda Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["agendamedia.co.uk"]
   },
   {
     "name": "Aggregate Knowledge",
     "company": "Neustar",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["agkn.com"]
   },
   {
@@ -1829,7 +1830,7 @@
   },
   {
     "name": "Aira",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.aira.net"]
   },
   {
@@ -1845,13 +1846,13 @@
   {
     "name": "Alchemy",
     "company": "AndBeyond.Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["andbeyond.media"]
   },
   {
     "name": "AlephD",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["alephd.com"]
   },
   {
@@ -1867,7 +1868,7 @@
   },
   {
     "name": "Alliance for Audited Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aamsitecertifier.com"]
   },
   {
@@ -1882,7 +1883,7 @@
   },
   {
     "name": "Altitude",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["altitudeplatform.com"]
   },
   {
@@ -1903,7 +1904,7 @@
   },
   {
     "name": "Ambassador",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["getambassador.com"]
   },
   {
@@ -1942,7 +1943,7 @@
   {
     "name": "Ancora Platform",
     "company": "Ancora Media Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ancoraplatform.com"]
   },
   {
@@ -1978,12 +1979,12 @@
   },
   {
     "name": "Appier",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["appier.net"]
   },
   {
     "name": "Appnexus",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adrdgt.com"]
   },
   {
@@ -2020,29 +2021,29 @@
   },
   {
     "name": "Attribution",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["attributionapp.com"]
   },
   {
     "name": "Audience 360",
     "company": "Datapoint Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dpmsrv.com"]
   },
   {
     "name": "Audience Science",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["revsci.net"]
   },
   {
     "name": "AudienceSearch",
     "company": "Intimate Merger",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["im-apps.net"]
   },
   {
     "name": "Auditorius",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["audtd.com"]
   },
   {
@@ -2053,23 +2054,23 @@
   {
     "name": "Auto Link Maker",
     "company": "Apple",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["autolinkmaker.itunes.apple.com"]
   },
   {
     "name": "Autopilot",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["autopilothq.com"]
   },
   {
     "name": "Avail",
     "company": "RichRelevance",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["avail.net"]
   },
   {
     "name": "AvantLink",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["avmws.com"]
   },
   {
@@ -2084,7 +2085,7 @@
   },
   {
     "name": "Avocet Systems",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["avocet.io"]
   },
   {
@@ -2122,7 +2123,7 @@
   {
     "name": "BannerFlow",
     "company": "Nordic Factory Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bannerflow.com"]
   },
   {
@@ -2143,7 +2144,7 @@
   },
   {
     "name": "Batch Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["t4ft.de"]
   },
   {
@@ -2163,7 +2164,7 @@
   },
   {
     "name": "Beachfront Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bfmio.com"]
   },
   {
@@ -2173,7 +2174,7 @@
   },
   {
     "name": "Beeswax",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bidr.io"]
   },
   {
@@ -2188,7 +2189,7 @@
   },
   {
     "name": "Bet365",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bet365affiliates.com"]
   },
   {
@@ -2204,7 +2205,7 @@
   },
   {
     "name": "Better Banners",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["betterbannerscloud.com"]
   },
   {
@@ -2214,17 +2215,17 @@
   },
   {
     "name": "Between Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["betweendigital.com"]
   },
   {
     "name": "BidTheatre",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bidtheatre.com"]
   },
   {
     "name": "Bidtellect",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bttrack.com"]
   },
   {
@@ -2245,7 +2246,7 @@
   },
   {
     "name": "Bizible",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bizible.com"]
   },
   {
@@ -2265,7 +2266,7 @@
   },
   {
     "name": "Blis",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["blismedia.com"]
   },
   {
@@ -2275,7 +2276,7 @@
   },
   {
     "name": "BloomReach",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["brcdn.com", "brsrvr.com", "brsvr.com"]
   },
   {
@@ -2290,7 +2291,7 @@
   },
   {
     "name": "Blue State Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bsd.net"]
   },
   {
@@ -2300,13 +2301,13 @@
   },
   {
     "name": "BlueCava",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bluecava.com"]
   },
   {
     "name": "BlueKai",
     "company": "Oracle",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bkrtx.com", "bluekai.com"]
   },
   {
@@ -2332,7 +2333,7 @@
   },
   {
     "name": "Bombora",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mlno6.com"]
   },
   {
@@ -2352,17 +2353,17 @@
   },
   {
     "name": "Boomtrain",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["boomtrain.com", "boomtrain.net"]
   },
   {
     "name": "BoostSuite",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["poweredbyeden.com"]
   },
   {
     "name": "Boostable",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["boostable.com"]
   },
   {
@@ -2372,7 +2373,7 @@
   },
   {
     "name": "Booxscale",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["booxscale.com"]
   },
   {
@@ -2404,7 +2405,7 @@
   },
   {
     "name": "Branch Metrics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["app.link", "branch.io"]
   },
   {
@@ -2419,19 +2420,19 @@
   },
   {
     "name": "Brandscreen",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["match.rtbidder.net"]
   },
   {
     "name": "BridgeTrack",
     "company": "Sapient",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bridgetrack.com"]
   },
   {
     "name": "BrightRoll",
     "company": "Yahoo!",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["btrll.com"]
   },
   {
@@ -2468,7 +2469,7 @@
   },
   {
     "name": "Burst Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["1rx.io", "burstnet.com", "usermatch.burstnet.com"]
   },
   {
@@ -2478,7 +2479,7 @@
   },
   {
     "name": "Business Message",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["message-business.com"]
   },
   {
@@ -2490,27 +2491,27 @@
   {
     "name": "Buto",
     "company": "Big Button",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["buto.tv"]
   },
   {
     "name": "Button",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["btncdn.com"]
   },
   {
     "name": "BuySellAds",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["buysellads.com"]
   },
   {
     "name": "BuySight (AOL)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pulsemgr.com"]
   },
   {
     "name": "Buyapowa",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["co-buying.com"]
   },
   {
@@ -2520,7 +2521,7 @@
   },
   {
     "name": "C1X",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["c1exchange.com"]
   },
   {
@@ -2531,7 +2532,7 @@
   {
     "name": "CANDDi",
     "company": "Campaign and Digital Intelligence",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["canddi.com"]
   },
   {
@@ -2557,13 +2558,13 @@
   {
     "name": "CJ Affiliate",
     "company": "Conversant",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cj.com", "dpbolvw.net"]
   },
   {
     "name": "CJ Affiliate by Conversant",
     "company": "Conversant",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ftjcfx.com"]
   },
   {
@@ -2584,13 +2585,13 @@
   },
   {
     "name": "CPXi",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cpxinteractive.com"]
   },
   {
     "name": "CUBED Attribution",
     "company": "CUBED",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["data.withcubed.com"]
   },
   {
@@ -2615,7 +2616,7 @@
   },
   {
     "name": "Canned Banners",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cannedbanners.com"]
   },
   {
@@ -2630,17 +2631,17 @@
   },
   {
     "name": "Captify Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cpx.to"]
   },
   {
     "name": "Captiify",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["captifymedia.com"]
   },
   {
     "name": "Captivate Ai",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["captivate.ai"]
   },
   {
@@ -2655,7 +2656,7 @@
   },
   {
     "name": "Cardlytics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cardlytics.com"]
   },
   {
@@ -2665,7 +2666,7 @@
   },
   {
     "name": "Caspian Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["caspianmedia.com"]
   },
   {
@@ -2680,7 +2681,7 @@
   },
   {
     "name": "Cedato",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["algovid.com", "vdoserv.com"]
   },
   {
@@ -2690,12 +2691,12 @@
   },
   {
     "name": "Celtra",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["celtra.com"]
   },
   {
     "name": "Centro",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["brand-server.com"]
   },
   {
@@ -2726,7 +2727,7 @@
   },
   {
     "name": "Channel 5 Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["five.tv"]
   },
   {
@@ -2736,13 +2737,13 @@
   },
   {
     "name": "ChannelAdvisor",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["channeladvisor.com", "searchmarketing.com"]
   },
   {
     "name": "Chargeads Oscar",
     "company": "Chargeads",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["chargeads.com"]
   },
   {
@@ -2763,7 +2764,7 @@
   },
   {
     "name": "CheckM8",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["checkm8.com"]
   },
   {
@@ -2780,17 +2781,17 @@
   {
     "name": "CheetahMail",
     "company": "Experian",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["chtah.com"]
   },
   {
     "name": "Chitika",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["chitika.net"]
   },
   {
     "name": "ChoiceStream",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["choicestream.com"]
   },
   {
@@ -2810,7 +2811,7 @@
   },
   {
     "name": "Clearstream",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["clrstm.com"]
   },
   {
@@ -2820,7 +2821,7 @@
   },
   {
     "name": "CleverDATA",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["1dmp.io"]
   },
   {
@@ -2845,23 +2846,23 @@
   },
   {
     "name": "ClickDimensions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["clickdimensions.com"]
   },
   {
     "name": "Clickadu (Winner Solutions)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["clickadu.com"]
   },
   {
     "name": "Clickagy Audience Lab",
     "company": "Clickagy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aorta.clickagy.com"]
   },
   {
     "name": "Clickio",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": []
   },
   {
@@ -2881,7 +2882,7 @@
   },
   {
     "name": "Cloud Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["behavioralengine.com", "behavioralmailing.com"]
   },
   {
@@ -2897,7 +2898,7 @@
   },
   {
     "name": "CloudSponge",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cloudsponge.com"]
   },
   {
@@ -2929,7 +2930,7 @@
   {
     "name": "CogoCast",
     "company": "Cogo Labs",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cogocast.net"]
   },
   {
@@ -2939,7 +2940,7 @@
   },
   {
     "name": "Collective",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["collective-media.net"]
   },
   {
@@ -2959,12 +2960,12 @@
   },
   {
     "name": "Commission Factory",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cfjump.com"]
   },
   {
     "name": "Communicator",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["communicatorcorp.com", "communicatoremail.com"]
   },
   {
@@ -3013,7 +3014,7 @@
   },
   {
     "name": "Connatix",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["connatix.com"]
   },
   {
@@ -3023,7 +3024,7 @@
   },
   {
     "name": "Constant Contact",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ctctcdn.com"]
   },
   {
@@ -3048,7 +3049,7 @@
   },
   {
     "name": "ContextWeb",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["contextweb.com"]
   },
   {
@@ -3058,7 +3059,7 @@
   },
   {
     "name": "Converge-Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ads.converge-digital.com"]
   },
   {
@@ -3076,7 +3077,7 @@
   {
     "name": "Conversant Ad Server",
     "company": "Conversant",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adfarm.mediaplex.com"]
   },
   {
@@ -3087,17 +3088,17 @@
   },
   {
     "name": "Conversio",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["conversio.com"]
   },
   {
     "name": "Conversion Labs",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["conversionlabs.net.pl"]
   },
   {
     "name": "Conversion Logic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["conversionlogic.net"]
   },
   {
@@ -3107,7 +3108,7 @@
   },
   {
     "name": "ConvertMedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "admailtiser.com",
       "basebanner.com",
@@ -3118,7 +3119,7 @@
   },
   {
     "name": "Convertro",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["convertro.com"]
   },
   {
@@ -3153,9 +3154,9 @@
     "domains": ["copperegg.com", "d2vig74li2resi.cloudfront.net"]
   },
   {
-    "name": "Council Advertising Network",
-    "categories": ["Advertising"],
-    "domains": ["counciladvertising.net"]
+    "name": "Council ad Network",
+    "categories": ["ad"],
+    "domains": ["councilad.net"]
   },
   {
     "name": "Covert Pics",
@@ -3164,12 +3165,12 @@
   },
   {
     "name": "Cox Digital Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["afy11.net"]
   },
   {
     "name": "Creafi Online Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["creafi-online-media.com"]
   },
   {
@@ -3185,38 +3186,38 @@
   },
   {
     "name": "Crimtan",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ctnsnet.com"]
   },
   {
     "name": "Cross Pixel Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["crsspxl.com"]
   },
   {
     "name": "Crosswise",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["p.univide.com"]
   },
   {
     "name": "Crowd Control",
     "company": "Lotame",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["crwdcntrl.net"]
   },
   {
     "name": "Crowd Ignite",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["crowdignite.com"]
   },
   {
     "name": "CrowdTwist",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["crowdtwist.com"]
   },
   {
     "name": "Crowdskout",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["crowdskout.com"]
   },
   {
@@ -3232,12 +3233,12 @@
   {
     "name": "Customer Acquisition Cloud",
     "company": "[24]7",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["campanja.com"]
   },
   {
     "name": "Customer.io",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["customer.io"]
   },
   {
@@ -3247,7 +3248,7 @@
   },
   {
     "name": "Cxense",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cxense.com", "cxpublic.com", "emediate.dk", "emediate.eu"]
   },
   {
@@ -3268,7 +3269,7 @@
   },
   {
     "name": "D.A. Consortium",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["eff1.net"]
   },
   {
@@ -3288,7 +3289,7 @@
   },
   {
     "name": "DTSCOUT",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dtscout.com"]
   },
   {
@@ -3308,7 +3309,7 @@
   },
   {
     "name": "Datalogix",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nexac.com"]
   },
   {
@@ -3323,7 +3324,7 @@
   },
   {
     "name": "Datonics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pbid.pro-market.net"]
   },
   {
@@ -3345,12 +3346,12 @@
   {
     "name": "Deep Forest Media",
     "company": "Rakuten",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dpclk.com"]
   },
   {
     "name": "DeepIntent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["deepintent.com"]
   },
   {
@@ -3360,12 +3361,12 @@
   },
   {
     "name": "Delineo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.delineo.com"]
   },
   {
     "name": "Delta Projects AB",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["de17a.com"]
   },
   {
@@ -3395,18 +3396,18 @@
   },
   {
     "name": "Developer Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["developermedia.com"]
   },
   {
     "name": "DialogTech",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dialogtech.com"]
   },
   {
     "name": "DialogTech SourceTrak",
     "company": "DialogTech",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d31y97ze264gaa.cloudfront.net"]
   },
   {
@@ -3416,12 +3417,12 @@
   },
   {
     "name": "Digioh",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["lightboxcdn.com"]
   },
   {
-    "name": "Digital Advertising Consortium",
-    "categories": ["Advertising"],
+    "name": "Digital ad Consortium",
+    "categories": ["ad"],
     "domains": ["impact-ad.jp"]
   },
   {
@@ -3447,12 +3448,12 @@
   },
   {
     "name": "Digital Remedy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["consumedmedia.com"]
   },
   {
     "name": "Digital Window",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["awin1.com", "zenaps.com"]
   },
   {
@@ -3467,7 +3468,7 @@
   },
   {
     "name": "Diligent (Adnetik)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["wtp101.com"]
   },
   {
@@ -3477,17 +3478,17 @@
   },
   {
     "name": "Distribute Travel",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dtrck.net"]
   },
   {
     "name": "District M",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["districtm.io"]
   },
   {
     "name": "DistroScale",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["jsrdn.com"]
   },
   {
@@ -3508,7 +3509,7 @@
   {
     "name": "Drip",
     "company": "The Numa Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["getdrip.com"]
   },
   {
@@ -3524,7 +3525,7 @@
   },
   {
     "name": "DynAdmic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dyntrk.com"]
   },
   {
@@ -3540,7 +3541,7 @@
   },
   {
     "name": "Dynamic Logic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dl-rms.com", "questionmarket.com"]
   },
   {
@@ -3570,12 +3571,12 @@
   },
   {
     "name": "EMedia Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.e-shots.eu"]
   },
   {
     "name": "EQ works",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["eqads.com"]
   },
   {
@@ -3590,7 +3591,7 @@
   },
   {
     "name": "Eco Rebates",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ecorebates.com"]
   },
   {
@@ -3611,7 +3612,7 @@
   },
   {
     "name": "Edition Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["editiondigital.com"]
   },
   {
@@ -3621,12 +3622,12 @@
   },
   {
     "name": "Effective Measure",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["effectivemeasure.net"]
   },
   {
     "name": "Effiliation sa",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["effiliation.com"]
   },
   {
@@ -3641,7 +3642,7 @@
   },
   {
     "name": "Elastic Ad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["elasticad.net"]
   },
   {
@@ -3669,18 +3670,18 @@
   },
   {
     "name": "Elogia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["elogia.net"]
   },
   {
     "name": "Email Attitude",
     "company": "1000mercis",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["email-attitude.com"]
   },
   {
     "name": "EmailCenter",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["emailcenteruk.com"]
   },
   {
@@ -3749,7 +3750,7 @@
   },
   {
     "name": "Eulerian Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["eolcdn.com"]
   },
   {
@@ -3758,7 +3759,7 @@
     "domains": ["euroland.com"]
   },
   {
-    "name": "European Interactive Digital Advertising Alli",
+    "name": "European Interactive Digital ad Alli",
     "categories": ["utility"],
     "domains": ["edaa.eu"]
   },
@@ -3779,7 +3780,7 @@
   },
   {
     "name": "Everyday Health",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["agoramedia.com"]
   },
   {
@@ -3794,12 +3795,12 @@
   },
   {
     "name": "Exactag",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["exactag.com"]
   },
   {
     "name": "ExoClick",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["exoclick.com"]
   },
   {
@@ -3873,7 +3874,7 @@
   },
   {
     "name": "Exponential Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["exponential.com"]
   },
   {
@@ -3883,7 +3884,7 @@
   },
   {
     "name": "Extole",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["extole.com", "origin.extole.io"]
   },
   {
@@ -3893,18 +3894,18 @@
   },
   {
     "name": "EyeView",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["eyeviewads.com"]
   },
   {
     "name": "Eyeota",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["eyeota.net"]
   },
   {
     "name": "Ezakus Pretargeting",
     "company": "Ezakus",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ezakus.net"]
   },
   {
@@ -3915,7 +3916,7 @@
   {
     "name": "FLXone",
     "company": "Teradata",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d2hlpp31teaww3.cloudfront.net", "flx1.com", "pangolin.blue"]
   },
   {
@@ -3931,7 +3932,7 @@
   },
   {
     "name": "Falk Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["angsrvr.com"]
   },
   {
@@ -3969,7 +3970,7 @@
   },
   {
     "name": "Fidelity Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["x.fidelity-media.com"]
   },
   {
@@ -3979,7 +3980,7 @@
   },
   {
     "name": "Finsbury Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["finsburymedia.com"]
   },
   {
@@ -3989,7 +3990,7 @@
   },
   {
     "name": "FirstImpression",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["firstimpression.io"]
   },
   {
@@ -4024,7 +4025,7 @@
   },
   {
     "name": "Flite",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["flite.com"]
   },
   {
@@ -4040,7 +4041,7 @@
   },
   {
     "name": "Flockler",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["flockler.com"]
   },
   {
@@ -4056,12 +4057,12 @@
   {
     "name": "FlxOne",
     "company": "Teradata",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["flxpxl.com"]
   },
   {
     "name": "Fomo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["notifyapp.io"]
   },
   {
@@ -4076,12 +4077,12 @@
   },
   {
     "name": "Foodity Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["foodity.com"]
   },
   {
     "name": "Force24",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["force24.co.uk"]
   },
   {
@@ -4112,7 +4113,7 @@
   },
   {
     "name": "Forward3D",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["forward3d.com"]
   },
   {
@@ -4137,7 +4138,7 @@
   },
   {
     "name": "FreakOut",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["fout.jp"]
   },
   {
@@ -4152,7 +4153,7 @@
   },
   {
     "name": "Fresh 8 Gaming",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["fresh8.co"]
   },
   {
@@ -4168,17 +4169,17 @@
   },
   {
     "name": "Friendbuy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["djnf6e5yyirys.cloudfront.net", "friendbuy.com"]
   },
   {
     "name": "Frienefit",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["frienefit.com"]
   },
   {
     "name": "FuelX",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["fuelx.com"]
   },
   {
@@ -4193,7 +4194,7 @@
   },
   {
     "name": "Fyber",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["fyber.com"]
   },
   {
@@ -4204,7 +4205,7 @@
   {
     "name": "G4 Native",
     "company": "Gravity4",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["triggit.com"]
   },
   {
@@ -4235,22 +4236,22 @@
   },
   {
     "name": "Gemius",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["gemius.pl"]
   },
   {
     "name": "Genesis Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bzgint.com", "genesismedia.com", "genesismediaus.com"]
   },
   {
     "name": "Genie Ventures",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["genieventures.co.uk"]
   },
   {
     "name": "Geniee",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cs.gssprt.jp", "genieessp.jp", "genieesspv.jp", "gssprt.jp", "href.asia"]
   },
   {
@@ -4282,12 +4283,12 @@
   {
     "name": "GetIntent RTBSuite",
     "company": "GetIntent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adhigh.net"]
   },
   {
     "name": "GetResponse",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["getresponse.com"]
   },
   {
@@ -4320,7 +4321,7 @@
   },
   {
     "name": "Giant Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["videostat.com"]
   },
   {
@@ -4350,7 +4351,7 @@
   },
   {
     "name": "Global Digital Markets",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["gdmdigital.com"]
   },
   {
@@ -4370,7 +4371,7 @@
   },
   {
     "name": "Globase International",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["globase.com"]
   },
   {
@@ -4387,7 +4388,7 @@
   {
     "name": "Google Ad Block Detection",
     "company": "Google",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["0emn.com", "0fmm.com"]
   },
   {
@@ -4399,7 +4400,7 @@
   {
     "name": "Google DoubleClick Ad Exchange",
     "company": "Google",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["admeld.com"]
   },
   {
@@ -4445,7 +4446,7 @@
   },
   {
     "name": "Grapeshot",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["grapeshot.co.uk", "gscontxt.net"]
   },
   {
@@ -4460,17 +4461,17 @@
   },
   {
     "name": "GroupM",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["qservz.com"]
   },
   {
     "name": "Guardian Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["guardian.co.uk", "oas.theguardian.com"]
   },
   {
     "name": "GumGum",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["gumgum.com"]
   },
   {
@@ -4498,7 +4499,7 @@
   {
     "name": "Has Offers",
     "company": "TUNE",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["go2cloud.org"]
   },
   {
@@ -4543,7 +4544,7 @@
   },
   {
     "name": "High Impact Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["reactx.com"]
   },
   {
@@ -4579,7 +4580,7 @@
   {
     "name": "HotWords",
     "company": "Media Response Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["hotwords.com.br"]
   },
   {
@@ -4589,7 +4590,7 @@
   },
   {
     "name": "Hoverr",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["hoverr.media"]
   },
   {
@@ -4606,7 +4607,7 @@
   {
     "name": "I-Behavior",
     "company": "WPP",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ib-ibi.com"]
   },
   {
@@ -4657,7 +4658,7 @@
   },
   {
     "name": "IPONWEB",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["company-target.com", "liadm.com", "p161.net", "pool.udsp.iponweb.net"]
   },
   {
@@ -4678,7 +4679,7 @@
   {
     "name": "IXI Digital",
     "company": "Equifax",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ixiaa.com"]
   },
   {
@@ -4713,7 +4714,7 @@
   },
   {
     "name": "Imagini Holdings",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vdna-assets.com"]
   },
   {
@@ -4728,7 +4729,7 @@
   },
   {
     "name": "Impact Radius",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "7eer.net",
       "a.impactradius-go.com",
@@ -4740,7 +4741,7 @@
   },
   {
     "name": "Improve Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["360yield.com"]
   },
   {
@@ -4750,12 +4751,12 @@
   },
   {
     "name": "InMobi",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inmobi.com"]
   },
   {
     "name": "InSkin Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inskinad.com", "inskinmedia.com"]
   },
   {
@@ -4776,7 +4777,7 @@
   {
     "name": "Index Exchange",
     "company": "WPP",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["casalemedia.com", "indexww.com"]
   },
   {
@@ -4786,12 +4787,12 @@
   },
   {
     "name": "Infectious Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["impdesk.com", "impressiondesk.com", "inmz.net"]
   },
   {
     "name": "Inference Mobile",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inferencemobile.com"]
   },
   {
@@ -4806,7 +4807,7 @@
   },
   {
     "name": "Infolinks",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["infolinks.com"]
   },
   {
@@ -4816,12 +4817,12 @@
   },
   {
     "name": "Infusionsoft",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["infusionsoft.com"]
   },
   {
     "name": "Ink",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inktad.com"]
   },
   {
@@ -4832,12 +4833,12 @@
   },
   {
     "name": "Inneractive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inner-active.mobi"]
   },
   {
     "name": "Innovid",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ag.innovid.com"]
   },
   {
@@ -4867,12 +4868,12 @@
   },
   {
     "name": "Instinctive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["instinctiveads.com"]
   },
   {
     "name": "Intelligent Reach",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ist-track.com"]
   },
   {
@@ -4882,18 +4883,18 @@
   },
   {
     "name": "Intent IQ",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["intentiq.com"]
   },
   {
     "name": "Intercept Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["undertone.com"]
   },
   {
     "name": "Interest Graph",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["gravity.com"]
   },
   {
@@ -4903,7 +4904,7 @@
   },
   {
     "name": "Interpublic Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mbww.com"]
   },
   {
@@ -4933,7 +4934,7 @@
   },
   {
     "name": "Invodo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["e.invodo.com", "invodo.com"]
   },
   {
@@ -4958,7 +4959,7 @@
   },
   {
     "name": "Jellyfish",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["jellyfish.net"]
   },
   {
@@ -4973,7 +4974,7 @@
   },
   {
     "name": "Jivox",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["jivox.com"]
   },
   {
@@ -4998,28 +4999,28 @@
   },
   {
     "name": "JuicyAds",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["juicyads.com"]
   },
   {
     "name": "JustPremium",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d2nvliyzbo36lk.cloudfrontd2nvliyzbo36lk.cloudfront.net.net"]
   },
   {
     "name": "JustPremium Ads",
     "company": "JustPremium",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["justpremium.com"]
   },
   {
     "name": "JustUno",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["justuno.com"]
   },
   {
     "name": "Justuno",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d2j3qa5nc37287.cloudfront.net"]
   },
   {
@@ -5070,7 +5071,7 @@
   },
   {
     "name": "Kauli",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["kau.li"]
   },
   {
@@ -5101,12 +5102,12 @@
   },
   {
     "name": "Keywee",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["keywee.co"]
   },
   {
     "name": "Kiosked",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["kiosked.com"]
   },
   {
@@ -5116,7 +5117,7 @@
   },
   {
     "name": "Klaviyo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["klaviyo.com"]
   },
   {
@@ -5143,7 +5144,7 @@
   },
   {
     "name": "Komoona",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["komoona.com"]
   },
   {
@@ -5154,7 +5155,7 @@
   },
   {
     "name": "LKQD",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["lkqd.net"]
   },
   {
@@ -5164,7 +5165,7 @@
   },
   {
     "name": "Lead Forensics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "200summit.com",
       "business-path-55.com",
@@ -5195,7 +5196,7 @@
   {
     "name": "Lead Intelligence",
     "company": "Magnetise Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["leadintelligence.co.uk"]
   },
   {
@@ -5211,7 +5212,7 @@
   {
     "name": "LeasdBoxer",
     "company": "LeadBoxer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["leadboxer.com"]
   },
   {
@@ -5236,7 +5237,7 @@
   },
   {
     "name": "Letter Press",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["getletterpress.com"]
   },
   {
@@ -5261,7 +5262,7 @@
   },
   {
     "name": "Ligatus",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ligadx.com"]
   },
   {
@@ -5287,17 +5288,17 @@
   },
   {
     "name": "Linking Mobile",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["linkingmobile.com"]
   },
   {
     "name": "LiveBurst",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["liveburst.com"]
   },
   {
     "name": "LiveClicker",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["liveclicker.net"]
   },
   {
@@ -5323,7 +5324,7 @@
   {
     "name": "LiveRail",
     "company": "Facebook",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["liverail.com", "scontent.lrcdn.net"]
   },
   {
@@ -5374,7 +5375,7 @@
   },
   {
     "name": "LongTail Ad Solutions",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "jwpcdn.com",
       "jwplatform.com",
@@ -5396,7 +5397,7 @@
   },
   {
     "name": "LoopMe",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["loopme.biz", "loopme.com", "loopme.me", "vntsm.com"]
   },
   {
@@ -5406,12 +5407,12 @@
   },
   {
     "name": "Loyalty Point",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["loyaltypoint.pl"]
   },
   {
     "name": "LoyaltyLion",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dg1f2pfrgjxdq.cloudfront.net", "loyaltylion.com"]
   },
   {
@@ -5426,7 +5427,7 @@
   },
   {
     "name": "Luminate",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["luminate.com"]
   },
   {
@@ -5436,18 +5437,18 @@
   },
   {
     "name": "Lyris",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["clicktracks.com"]
   },
   {
     "name": "Lytics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["lytics.io"]
   },
   {
     "name": "MEC WebTrack",
     "company": "MEC",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["e-webtrack.net"]
   },
   {
@@ -5479,23 +5480,23 @@
   },
   {
     "name": "Magnetic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d3ezl4ajpp2zy8.cloudfront.net", "domdex.com"]
   },
   {
     "name": "Magnetic Platform",
     "company": "Magnetic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["magnetic.is"]
   },
   {
     "name": "MailMunch",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mailmunch.co"]
   },
   {
     "name": "MailPlus",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mailplus.nl"]
   },
   {
@@ -5520,7 +5521,7 @@
   },
   {
     "name": "Mark and Mini",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.markandmini.com"]
   },
   {
@@ -5573,7 +5574,7 @@
   },
   {
     "name": "MaxPoint Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mxptint.net"]
   },
   {
@@ -5598,7 +5599,7 @@
   },
   {
     "name": "Media Management Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["speedshiftmedia.com"]
   },
   {
@@ -5608,7 +5609,7 @@
   },
   {
     "name": "Mediabong",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mediabong.net"]
   },
   {
@@ -5618,12 +5619,12 @@
   },
   {
     "name": "Mediahub",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["hubverifyandoptimize.com", "projectwatchtower.com"]
   },
   {
     "name": "Mediasyndicator",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["creativesyndicator.com"]
   },
   {
@@ -5633,7 +5634,7 @@
   },
   {
     "name": "Meetrics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["meetrics.net", "mxcdn.net", "research.de.com"]
   },
   {
@@ -5644,7 +5645,7 @@
   },
   {
     "name": "Melt",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["meltdsp.com", "mesp.com"]
   },
   {
@@ -5654,17 +5655,17 @@
   },
   {
     "name": "Meme",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["viewwonder.com"]
   },
   {
     "name": "MentAd",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mentad.com"]
   },
   {
     "name": "Mention Me",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tag.mention-me.com"]
   },
   {
@@ -5680,13 +5681,13 @@
   {
     "name": "Merkle Digital Data Exchange",
     "company": "Merkle",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["brilig.com"]
   },
   {
     "name": "Merkle Paid Search",
     "company": "Merkle",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rkdms.com"]
   },
   {
@@ -5701,7 +5702,7 @@
   },
   {
     "name": "Michael Associates",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.checktestsite.com"]
   },
   {
@@ -5711,7 +5712,7 @@
   },
   {
     "name": "Microad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["microad.jp"]
   },
   {
@@ -5739,7 +5740,7 @@
   },
   {
     "name": "Mightypop",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mightypop.ca"]
   },
   {
@@ -5749,7 +5750,7 @@
   },
   {
     "name": "Millennial Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["jumptap.com"]
   },
   {
@@ -5769,7 +5770,7 @@
   },
   {
     "name": "Mobivate",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mobivatebulksms.com"]
   },
   {
@@ -5784,7 +5785,7 @@
   },
   {
     "name": "Monarch Ads",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["monarchads.com"]
   },
   {
@@ -5794,7 +5795,7 @@
   },
   {
     "name": "MonetizeMore",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["m2.ai"]
   },
   {
@@ -5815,7 +5816,7 @@
   },
   {
     "name": "Moore-Wilson",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mwdev.co.uk"]
   },
   {
@@ -5860,7 +5861,7 @@
   },
   {
     "name": "Moxielinks",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["moxielinks.com"]
   },
   {
@@ -5939,12 +5940,12 @@
   },
   {
     "name": "Nanigans",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nanigans.com"]
   },
   {
     "name": "Nano Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["audiencemanager.de"]
   },
   {
@@ -5955,27 +5956,27 @@
   },
   {
     "name": "Narrative",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["narrative.io"]
   },
   {
     "name": "Native Ads",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nativeads.com"]
   },
   {
     "name": "Nativo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["postrelease.com"]
   },
   {
     "name": "Navegg",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["navdmp.com"]
   },
   {
     "name": "NaviStone",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["murdoog.com"]
   },
   {
@@ -5995,12 +5996,12 @@
   },
   {
     "name": "Nend",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nend.net"]
   },
   {
     "name": "Neodata",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["neodatagroup.com"]
   },
   {
@@ -6016,7 +6017,7 @@
   {
     "name": "NetAffiliation",
     "company": "Kwanco",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["metaffiliation.com"]
   },
   {
@@ -6038,19 +6039,19 @@
   },
   {
     "name": "NetSeer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["netseer.com", "ns-cdn.com"]
   },
   {
     "name": "NetShelter",
     "company": "Ziff Davis Tech",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["netshelter.net"]
   },
   {
     "name": "Netmining",
     "company": "Ignition One",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["netmng.com"]
   },
   {
@@ -6066,12 +6067,12 @@
   {
     "name": "Neustar AdAdvisor",
     "company": "Neustar",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adadvisor.net"]
   },
   {
     "name": "New Approach Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["newapproachmedia.co.uk"]
   },
   {
@@ -6109,13 +6110,13 @@
   },
   {
     "name": "Nexstar Media Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yashi.com"]
   },
   {
     "name": "NextPerf",
     "company": "Rakuten Marketing",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nxtck.com"]
   },
   {
@@ -6152,7 +6153,7 @@
   {
     "name": "Numberly",
     "company": "1000mercis",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mmtro.com", "nzaza.com"]
   },
   {
@@ -6178,7 +6179,7 @@
   },
   {
     "name": "OhMyAd",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pr.ohmyad.co"]
   },
   {
@@ -6215,17 +6216,17 @@
   {
     "name": "OnAudience",
     "company": "Cloud Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onaudience.com"]
   },
   {
     "name": "OnScroll",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onscroll.com"]
   },
   {
     "name": "OnState",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onstate.co.uk"]
   },
   {
@@ -6236,13 +6237,13 @@
   {
     "name": "One by AOL",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adtech.de", "adtechjp.com"]
   },
   {
     "name": "One by AOL:Mobile",
     "company": "AOL",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ads.nexage.com"]
   },
   {
@@ -6257,18 +6258,18 @@
   },
   {
     "name": "OneTag",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onetag-sys.com"]
   },
   {
     "name": "Onet",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onet.pl"]
   },
   {
     "name": "Online Rewards",
     "company": "Mastercard",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["loyaltygateway.com"]
   },
   {
@@ -6278,7 +6279,7 @@
   },
   {
     "name": "Ooyala",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ooyala.com"]
   },
   {
@@ -6290,7 +6291,7 @@
   {
     "name": "OpenX Ad Exchange",
     "company": "OpenX Technologies",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["liftdna.com"]
   },
   {
@@ -6317,7 +6318,7 @@
   },
   {
     "name": "OptiMonk",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["optimonk.com"]
   },
   {
@@ -6327,7 +6328,7 @@
   },
   {
     "name": "Optimatic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["optimatic.com", "synch.optimatic.com"]
   },
   {
@@ -6338,7 +6339,7 @@
   {
     "name": "Optimost",
     "company": "OpenText",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["optimost.com"]
   },
   {
@@ -6349,7 +6350,7 @@
   },
   {
     "name": "Optorb",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["optorb.com"]
   },
   {
@@ -6377,7 +6378,7 @@
   },
   {
     "name": "Oriel",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["oriel.io"]
   },
   {
@@ -6388,7 +6389,7 @@
   {
     "name": "OverStream",
     "company": "Coull",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ex1.coull.com"]
   },
   {
@@ -6403,7 +6404,7 @@
   },
   {
     "name": "OwnerIQ",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["owneriq.net"]
   },
   {
@@ -6413,7 +6414,7 @@
   },
   {
     "name": "Ozone Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adadyn.com"]
   },
   {
@@ -6445,7 +6446,7 @@
   },
   {
     "name": "Pagefair",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pagefair.com", "pagefair.net"]
   },
   {
@@ -6455,7 +6456,7 @@
   },
   {
     "name": "Pagesuite",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pagesuite-professional.co.uk"]
   },
   {
@@ -6471,12 +6472,12 @@
   {
     "name": "Pay per Click",
     "company": "Eysys",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pla27.eysys.com"]
   },
   {
     "name": "Paypal",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["where.com"]
   },
   {
@@ -6486,7 +6487,7 @@
   },
   {
     "name": "PebblePost",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pbbl.co"]
   },
   {
@@ -6512,7 +6513,7 @@
   },
   {
     "name": "Pepper",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["peppercorp.com"]
   },
   {
@@ -6523,12 +6524,12 @@
   {
     "name": "Perfect Audience",
     "company": "Marin Software",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["marinsm.com", "perfectaudience.com", "prfct.co"]
   },
   {
     "name": "Perfect Market",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["perfectmarket.com"]
   },
   {
@@ -6543,7 +6544,7 @@
   },
   {
     "name": "Performio",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ut.performax.cz"]
   },
   {
@@ -6559,7 +6560,7 @@
   },
   {
     "name": "Permutive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d3alqb8vzo7fun.cloudfront.net", "permutive.com"]
   },
   {
@@ -6614,7 +6615,7 @@
   },
   {
     "name": "PlayAd Media Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["youplay.se"]
   },
   {
@@ -6624,7 +6625,7 @@
   },
   {
     "name": "Pleenq",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pleenq.com"]
   },
   {
@@ -6650,17 +6651,17 @@
   },
   {
     "name": "Pointroll (Garnett)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pointroll.com"]
   },
   {
     "name": "Polar Mobile Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mediavoice.com", "polarmobile.com"]
   },
   {
     "name": "PollDaddy (Automattic)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["poll.fm", "static.polldaddy.com"]
   },
   {
@@ -6677,12 +6678,12 @@
   },
   {
     "name": "PopAds",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["megapopads.com"]
   },
   {
     "name": "Populis",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["populisengage.com"]
   },
   {
@@ -6707,12 +6708,12 @@
   },
   {
     "name": "Powerlinks.com",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["powerlinks.com"]
   },
   {
     "name": "Press+",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pipol.com", "ppjol.com", "ppjol.net"]
   },
   {
@@ -6722,7 +6723,7 @@
   },
   {
     "name": "Pretio Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pretio.in"]
   },
   {
@@ -6747,7 +6748,7 @@
   },
   {
     "name": "Privy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["privy.com", "privymktg.com"]
   },
   {
@@ -6757,12 +6758,12 @@
   },
   {
     "name": "Profitshare",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["profitshare.ro"]
   },
   {
     "name": "Programattik",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["programattik.com"]
   },
   {
@@ -6787,12 +6788,12 @@
   },
   {
     "name": "Proximic (ComScore)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["proximic.com"]
   },
   {
     "name": "Psyma",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["psyma.com"]
   },
   {
@@ -6803,18 +6804,18 @@
   },
   {
     "name": "PubNation",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pubnation.com"]
   },
   {
     "name": "Publicidad.net",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["publicidad.tv"]
   },
   {
     "name": "PublishThis",
     "company": "Ultra Unlimited",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["publishthis.com"]
   },
   {
@@ -6829,7 +6830,7 @@
   },
   {
     "name": "Purch",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bestofmedia.com", "ramp.purch.com"]
   },
   {
@@ -6839,12 +6840,12 @@
   },
   {
     "name": "PushCrew",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pushcrew.com"]
   },
   {
     "name": "Q1Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["q1media.com", "q1mediahydraplatform.com"]
   },
   {
@@ -6904,7 +6905,7 @@
   },
   {
     "name": "QuinStreet",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["Quinstreet.com", "b2btechleadform.com", "qnsr.com", "www.qsstats.com"]
   },
   {
@@ -6919,12 +6920,12 @@
   },
   {
     "name": "RCS Media Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rcsadv.it"]
   },
   {
     "name": "REVIVVE",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["revivve.com"]
   },
   {
@@ -6935,17 +6936,17 @@
   {
     "name": "RTB House AdPilot",
     "company": "RTB House",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["creativecdn.com", "erne.co"]
   },
   {
     "name": "RTB Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rtb-media.me"]
   },
   {
     "name": "RUN",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["runadtag.com", "rundsp.com"]
   },
   {
@@ -6955,7 +6956,7 @@
   },
   {
     "name": "RadiumOne",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["gwallet.com", "r1-cdn.net"]
   },
   {
@@ -6967,19 +6968,19 @@
   {
     "name": "Rakuten LinkShare",
     "company": "Rakuten",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["linksynergy.com"]
   },
   {
     "name": "Rakuten Marketing",
     "company": "Rakuten",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rakuten-static.com", "rmtag.com"]
   },
   {
     "name": "Rakuten MediaForge",
     "company": "Rakuten",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mediaforge.com"]
   },
   {
@@ -7015,27 +7016,27 @@
   },
   {
     "name": "ReTargeter",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["retargeter.com"]
   },
   {
     "name": "Reach Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["redintelligence.net"]
   },
   {
     "name": "ReachDynamics",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rdcdn.com"]
   },
   {
     "name": "ReachForce",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["reachforce.com"]
   },
   {
     "name": "ReachLocal",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rtsys.rtrk.co.nz"]
   },
   {
@@ -7056,12 +7057,12 @@
   },
   {
     "name": "Realtime Media (Brian Communications)",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rtm.com"]
   },
   {
     "name": "Realtime Targeting",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["idtargeting.com"]
   },
   {
@@ -7071,7 +7072,7 @@
   },
   {
     "name": "RebelMouse",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rbl.ms", "www.rebelmouse.com"]
   },
   {
@@ -7096,12 +7097,12 @@
   },
   {
     "name": "Red Eye International",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pajmc.com"]
   },
   {
     "name": "Redfish Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["wmps.com"]
   },
   {
@@ -7111,12 +7112,12 @@
   },
   {
     "name": "Refersion",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["refersion.com"]
   },
   {
     "name": "Refined Ads",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["refinedads.com"]
   },
   {
@@ -7127,35 +7128,35 @@
   {
     "name": "Reflow",
     "company": "Scenestealer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["reflow.tv"]
   },
   {
     "name": "Reklama",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dot.wp.pl", "px.o2.pl", "px.wp.pl"]
   },
   {
     "name": "Relevad ReleStar",
     "company": "Relevad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["relestar.com"]
   },
   {
     "name": "Remarketing Pixel",
     "company": "Adsterra Network",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["datadbs.com", "remarketingpixel.com"]
   },
   {
     "name": "Remintrex",
     "company": "SmartUp Venture",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["remintrex.com"]
   },
   {
     "name": "Republer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sync.republer.com"]
   },
   {
@@ -7181,7 +7182,7 @@
   },
   {
     "name": "Response Team",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["i-transactads.com"]
   },
   {
@@ -7196,7 +7197,7 @@
   },
   {
     "name": "Retention Science",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d1stxfv94hrhia.cloudfront.net", "retentionscience.com"]
   },
   {
@@ -7206,7 +7207,7 @@
   },
   {
     "name": "Revee",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["revee.com"]
   },
   {
@@ -7216,7 +7217,7 @@
   },
   {
     "name": "RevenueMantra",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["revenuemantra.com"]
   },
   {
@@ -7252,7 +7253,7 @@
   },
   {
     "name": "Rightster",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ads-creativesyndicator.com"]
   },
   {
@@ -7262,7 +7263,7 @@
   },
   {
     "name": "Rocket Fuel",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rfihub.com", "rfihub.net", "ru4.com"]
   },
   {
@@ -7277,7 +7278,7 @@
   },
   {
     "name": "Rondavu",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rondavu.com"]
   },
   {
@@ -7292,7 +7293,7 @@
   },
   {
     "name": "Roxot",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rxthdr.com"]
   },
   {
@@ -7319,18 +7320,18 @@
   },
   {
     "name": "S4M",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sam4m.com"]
   },
   {
     "name": "SAP Hybris Marketing Convert",
     "company": "SAP",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["seewhy.com"]
   },
   {
     "name": "SAS Institute",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aimatch.com", "sas.com"]
   },
   {
@@ -7362,13 +7363,13 @@
   },
   {
     "name": "SMARTSTREAM.TV",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smartstream.tv"]
   },
   {
     "name": "SPX",
     "company": "Smaato",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smaato.net"]
   },
   {
@@ -7394,7 +7395,7 @@
   },
   {
     "name": "SaleCycle",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "d16fk4ms6rqz1v.cloudfront.net",
       "d22j4fzzszoii2.cloudfront.net",
@@ -7410,7 +7411,7 @@
   },
   {
     "name": "Salesforce.com",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["force.com", "salesforce.com", "secure.force.com"]
   },
   {
@@ -7426,7 +7427,7 @@
   },
   {
     "name": "Say Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["saymedia.com"]
   },
   {
@@ -7452,7 +7453,7 @@
   },
   {
     "name": "Scoota",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "d31i2625d5nv27.cloudfront.net",
       "dyjnzf8evxrp2.cloudfront.net",
@@ -7462,12 +7463,12 @@
   },
   {
     "name": "ScribbleLive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["scribblelive.com"]
   },
   {
     "name": "SearchForce",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["searchforce.net"]
   },
   {
@@ -7493,7 +7494,7 @@
   {
     "name": "SecuredVisit",
     "company": "4Cite Marketing",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["securedvisit.com"]
   },
   {
@@ -7503,7 +7504,7 @@
   },
   {
     "name": "Segmento",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rutarget.ru"]
   },
   {
@@ -7528,7 +7529,7 @@
   },
   {
     "name": "Selligent",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["emsecure.net"]
   },
   {
@@ -7549,7 +7550,7 @@
   {
     "name": "Semcasting Site Visitor Attribution",
     "company": "Semcasting",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smartzonessva.com"]
   },
   {
@@ -7591,7 +7592,7 @@
   },
   {
     "name": "Sharethrough",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sharethrough.com"]
   },
   {
@@ -7622,7 +7623,7 @@
   {
     "name": "ShopiMind",
     "company": "ShopIMind",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["shopimind.com"]
   },
   {
@@ -7663,7 +7664,7 @@
   {
     "name": "Silverpop",
     "company": "IBM",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "mkt51.net",
       "mkt61.net",
@@ -7695,17 +7696,17 @@
   },
   {
     "name": "Simpli.fi",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["simpli.fi"]
   },
   {
     "name": "Simplicity Marketing",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["flashtalking.com"]
   },
   {
     "name": "SinnerSchrader Deutschland",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["s2Betrieb.de"]
   },
   {
@@ -7732,7 +7733,7 @@
   {
     "name": "SiteScout",
     "company": "Centro",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pixel.ad", "sitescout.com"]
   },
   {
@@ -7747,12 +7748,12 @@
   },
   {
     "name": "Skimbit",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["redirectingat.com", "skimresources.com", "skimresources.net"]
   },
   {
     "name": "Skimlinks",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["skimlinks.com"]
   },
   {
@@ -7784,12 +7785,12 @@
   {
     "name": "SlimCut Media Outstream",
     "company": "SlimCut Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["freeskreen.com"]
   },
   {
     "name": "Smart AdServer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sasqos.com", "smartadserver.com"]
   },
   {
@@ -7800,7 +7801,7 @@
   },
   {
     "name": "SmartAdServer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sascdn.com", "securite.01net.com"]
   },
   {
@@ -7816,7 +7817,7 @@
   },
   {
     "name": "Smarter Click",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smarterclick.co.uk", "smct.co"]
   },
   {
@@ -7831,7 +7832,7 @@
   },
   {
     "name": "Smartzer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smartzer.com"]
   },
   {
@@ -7841,7 +7842,7 @@
   },
   {
     "name": "Snacktools",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bannersnack.com"]
   },
   {
@@ -7866,7 +7867,7 @@
   },
   {
     "name": "SociableLabs",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sociablelabs.net"]
   },
   {
@@ -7887,7 +7888,7 @@
   {
     "name": "Sociomantic Labs",
     "company": "DunnHumby",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sociomantic.com"]
   },
   {
@@ -7912,7 +7913,7 @@
   },
   {
     "name": "Sonobi",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sonobi.com"]
   },
   {
@@ -7933,7 +7934,7 @@
   },
   {
     "name": "Sortable",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["deployads.com"]
   },
   {
@@ -7943,12 +7944,12 @@
   },
   {
     "name": "Soundest",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["soundest.net", "soundestlink.com"]
   },
   {
     "name": "Sourcepoint",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "d2lv4zbk7v5f93.cloudfront.net",
       "d3qxwzhswv93jk.cloudfront.net",
@@ -7964,18 +7965,18 @@
   {
     "name": "Sparkflow",
     "company": "Intercept Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sparkflow.net"]
   },
   {
     "name": "Specific Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adviva.net", "specificclick.net", "specificmedia.com"]
   },
   {
     "name": "Spicy",
     "company": "Data-Centric Alliance",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sspicy.ru"]
   },
   {
@@ -7985,7 +7986,7 @@
   },
   {
     "name": "Spongecell",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["spongecell.com"]
   },
   {
@@ -7995,12 +7996,12 @@
   },
   {
     "name": "SpotXchange",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["spotx.tv", "spotxcdn.com", "spotxchange.com"]
   },
   {
     "name": "SpringServer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["springserve.com"]
   },
   {
@@ -8016,7 +8017,7 @@
   },
   {
     "name": "StackAdapt",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["stackadapt.com"]
   },
   {
@@ -8031,7 +8032,7 @@
   },
   {
     "name": "Stailamedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["stailamedia.com"]
   },
   {
@@ -8062,12 +8063,12 @@
   },
   {
     "name": "Steelhouse",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["steelhousemedia.com"]
   },
   {
     "name": "Steepto",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["steepto.com"]
   },
   {
@@ -8077,7 +8078,7 @@
   },
   {
     "name": "StickyADS.tv",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["stickyadstv.com"]
   },
   {
@@ -8094,7 +8095,7 @@
   },
   {
     "name": "Storygize",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.storygize.net"]
   },
   {
@@ -8104,23 +8105,23 @@
   },
   {
     "name": "StreamRail",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["streamrail.com", "streamrail.net"]
   },
   {
     "name": "StrikeAd",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["strikead.com"]
   },
   {
     "name": "Struq",
     "company": "Quantcast",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["struq.com"]
   },
   {
     "name": "StrÃ¶er Digital Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["stroeerdigitalmedia.de"]
   },
   {
@@ -8135,7 +8136,7 @@
   },
   {
     "name": "SublimeSkinz",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ayads.co"]
   },
   {
@@ -8150,7 +8151,7 @@
   },
   {
     "name": "SundaySky",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dds6m601du5ji.cloudfront.net", "sundaysky.com"]
   },
   {
@@ -8185,7 +8186,7 @@
   },
   {
     "name": "Sweet Tooth",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["sweettooth.io"]
   },
   {
@@ -8195,13 +8196,13 @@
   },
   {
     "name": "Switch Concepts",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["switchadhub.com"]
   },
   {
     "name": "SwitchAds",
     "company": "Switch Concepts",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["switchads.com"]
   },
   {
@@ -8211,7 +8212,7 @@
   },
   {
     "name": "Swoop",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["swoop.com"]
   },
   {
@@ -8232,7 +8233,7 @@
   },
   {
     "name": "Synergetic",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["synergetic.ag"]
   },
   {
@@ -8268,12 +8269,12 @@
   },
   {
     "name": "TVSquared",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tvsquared.com"]
   },
   {
     "name": "TVTY",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["distribeo.com", "ogigl.com"]
   },
   {
@@ -8300,13 +8301,13 @@
   {
     "name": "Taggstar",
     "company": "Taggstar UK",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["taggstar.com"]
   },
   {
     "name": "Tail Target",
     "company": "Tail",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tailtarget.com"]
   },
   {
@@ -8322,28 +8323,28 @@
   },
   {
     "name": "Talkable",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d2jjzw81hqbuqv.cloudfront.net", "www.talkable.com"]
   },
   {
     "name": "TapSense",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tapsense.com"]
   },
   {
     "name": "Tapad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tapad.com"]
   },
   {
     "name": "Teads",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["teads.tv"]
   },
   {
     "name": "Team Internet Tonic",
     "company": "Team Internet",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dntrax.com"]
   },
   {
@@ -8354,7 +8355,7 @@
   {
     "name": "Technorati",
     "company": "Synacor",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["technoratimedia.com"]
   },
   {
@@ -8384,12 +8385,12 @@
   },
   {
     "name": "The AA",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adstheaa.com"]
   },
   {
     "name": "The ADEX",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["theadex.com"]
   },
   {
@@ -8420,7 +8421,7 @@
   },
   {
     "name": "The Publisher Desk",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["206ads.com", "publisherdesk.com"]
   },
   {
@@ -8451,7 +8452,7 @@
   },
   {
     "name": "Thirdpresence",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["thirdpresence.com"]
   },
   {
@@ -8482,7 +8483,7 @@
   },
   {
     "name": "Time2Perf",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["time2perf.com"]
   },
   {
@@ -8503,18 +8504,18 @@
   {
     "name": "Toms Native Ads",
     "company": "Purch",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["natoms.com"]
   },
   {
     "name": "ToneMedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["clickfuse.com"]
   },
   {
     "name": "Tonic",
     "company": "Team Internet",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dntx.com"]
   },
   {
@@ -8524,7 +8525,7 @@
   },
   {
     "name": "ToutApp",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["toutapp.com"]
   },
   {
@@ -8540,27 +8541,27 @@
   },
   {
     "name": "Tradedoubler",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["pvnsolutions.com", "tradedoubler.com"]
   },
   {
     "name": "Tradelab",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tradelab.fr"]
   },
   {
     "name": "TrafficFactory",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["trafficfactory.biz"]
   },
   {
     "name": "TrafficHunt",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["traffichunt.com"]
   },
   {
     "name": "TrafficStars",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["trafficstars.com", "tsyndicate.com"]
   },
   {
@@ -8597,7 +8598,7 @@
   },
   {
     "name": "Tremor Video",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tremorhub.com", "videohub.tv"]
   },
   {
@@ -8608,7 +8609,7 @@
   {
     "name": "Tribal Fusion",
     "company": "Exponential Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tribalfusion.com"]
   },
   {
@@ -8619,7 +8620,7 @@
   {
     "name": "Triggered Messaging",
     "company": "Fresh Relevance",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["triggeredmessaging.com"]
   },
   {
@@ -8646,12 +8647,12 @@
   },
   {
     "name": "TripleLift",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["3lift.com"]
   },
   {
     "name": "Tru Optik",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["truoptik.com"]
   },
   {
@@ -8692,7 +8693,7 @@
   },
   {
     "name": "TrustX",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["trustx.org"]
   },
   {
@@ -8719,12 +8720,12 @@
   },
   {
     "name": "TubeMogul",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tubemogul.com"]
   },
   {
     "name": "Turn",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["turn.com"]
   },
   {
@@ -8746,7 +8747,7 @@
   {
     "name": "Twitter Online Conversion Tracking",
     "company": "Twitter",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["static.ads-twitter.com"]
   },
   {
@@ -8757,13 +8758,13 @@
   },
   {
     "name": "Twyn Group",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["twyn.com"]
   },
   {
     "name": "Tynt",
     "company": "33 Across",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tynt.com"]
   },
   {
@@ -8784,7 +8785,7 @@
   },
   {
     "name": "US Media Consulting",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mediade.sk"]
   },
   {
@@ -8800,12 +8801,12 @@
   {
     "name": "Unanimis",
     "company": "Switch",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["unanimis.co.uk"]
   },
   {
     "name": "Unbounce",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "d2xxq4ijfwetlm.cloudfront.net",
       "d9hhrg4mnvzow.cloudfront.net",
@@ -8815,33 +8816,33 @@
   },
   {
     "name": "Underdog Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["udmserve.net", "underdog.media"]
   },
   {
     "name": "Understand Digital",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["redirecting2.net"]
   },
   {
     "name": "Undertone",
     "company": "Perion",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rt.legolas-media.com"]
   },
   {
     "name": "Unidays",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["myunidays.com", "unidays.world"]
   },
   {
     "name": "Uniqodo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["uniqodo.com"]
   },
   {
     "name": "Unite",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["uadx.com"]
   },
   {
@@ -8856,7 +8857,7 @@
   },
   {
     "name": "United Internet Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ui-portal.de"]
   },
   {
@@ -8871,12 +8872,12 @@
   },
   {
     "name": "Unruly Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["unrulymedia.com"]
   },
   {
     "name": "UpBuild",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["www.upbuild.io"]
   },
   {
@@ -8891,7 +8892,7 @@
   },
   {
     "name": "Urban Airship",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["urbanairship.com"]
   },
   {
@@ -8941,13 +8942,13 @@
   },
   {
     "name": "Varick Media Management",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vmmpxl.com"]
   },
   {
     "name": "Vdopia Chocolate",
     "company": "Vdopia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vdopia.com"]
   },
   {
@@ -8958,7 +8959,7 @@
   },
   {
     "name": "Ve Interactive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adgenie.co.uk", "vepxl1.net"]
   },
   {
@@ -8978,7 +8979,7 @@
   },
   {
     "name": "Veoxa",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["veoxa.com"]
   },
   {
@@ -9011,22 +9012,22 @@
   {
     "name": "Vero",
     "company": "Semblance",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["d3qxef4rp70elm.cloudfront.net", "getvero.com"]
   },
   {
     "name": "VertaMedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vertamedia.com"]
   },
   {
     "name": "Vertical Mass",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vmweb.net"]
   },
   {
     "name": "Vestorly",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["oodalab.com"]
   },
   {
@@ -9041,7 +9042,7 @@
   },
   {
     "name": "Vibrant Media",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["intellitxt.com", "picadmedia.com"]
   },
   {
@@ -9051,34 +9052,34 @@
   },
   {
     "name": "Video Media Groep",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["inpagevideo.nl", "vmg.host"]
   },
   {
     "name": "VideoHub",
     "company": "Tremor Video",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dt.scanscout.com"]
   },
   {
     "name": "Videology",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tidaltv.com"]
   },
   {
     "name": "Vidible",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vidible.tv"]
   },
   {
     "name": "VigLink",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["viglink.com"]
   },
   {
     "name": "Vindico",
     "company": "Viant",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vindicosuite.com"]
   },
   {
@@ -9088,12 +9089,12 @@
   },
   {
     "name": "ViralNinjas",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["viralninjas.com"]
   },
   {
     "name": "Virool",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["virool.com"]
   },
   {
@@ -9109,7 +9110,7 @@
   },
   {
     "name": "Visible Measures",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["visiblemeasures.com"]
   },
   {
@@ -9125,12 +9126,12 @@
   },
   {
     "name": "VisualDNA",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["visualdna.com"]
   },
   {
     "name": "VisualVisitor",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["frontend.id-visitors.com"]
   },
   {
@@ -9145,7 +9146,7 @@
   },
   {
     "name": "Vizury",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["vizury.com"]
   },
   {
@@ -9156,7 +9157,7 @@
   {
     "name": "Volvelle",
     "company": "Optomaton",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["volvelle.tech"]
   },
   {
@@ -9240,7 +9241,7 @@
   },
   {
     "name": "WebSpectator",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["webspectator.com"]
   },
   {
@@ -9267,7 +9268,7 @@
   },
   {
     "name": "Webcore",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["onefeed.co.uk"]
   },
   {
@@ -9283,12 +9284,12 @@
   },
   {
     "name": "Weborama",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["weborama.com", "weborama.fr"]
   },
   {
     "name": "WebpageFX",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["leadmanagerfx.com"]
   },
   {
@@ -9330,7 +9331,7 @@
   },
   {
     "name": "Whitespace",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["whitespacers.com"]
   },
   {
@@ -9416,7 +9417,7 @@
   },
   {
     "name": "Wowcher",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["wowcher.co.uk"]
   },
   {
@@ -9426,7 +9427,7 @@
   },
   {
     "name": "Wyng",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["offerpop.com"]
   },
   {
@@ -9448,13 +9449,13 @@
   {
     "name": "Yahoo! Ad Exchange",
     "company": "Yahoo!",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yieldmanager.com"]
   },
   {
     "name": "Yahoo! Japan",
     "company": "Yahoo!",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["macromill.com"]
   },
   {
@@ -9465,22 +9466,22 @@
   },
   {
     "name": "Yellow Robot",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["backinstock.org"]
   },
   {
     "name": "YieldPartners",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yieldpartners.com"]
   },
   {
     "name": "Yieldbot",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yldbt.com"]
   },
   {
     "name": "Yieldify",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": [
       "d33wq5gej88ld6.cloudfront.net",
       "dwmvwp56lzq5t.cloudfront.net",
@@ -9490,17 +9491,17 @@
   },
   {
     "name": "Yieldlab",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yieldlab.net"]
   },
   {
     "name": "Yieldmo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["yieldmo.com"]
   },
   {
     "name": "Yieldr",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["254a.com"]
   },
   {
@@ -9530,7 +9531,7 @@
   },
   {
     "name": "YuMe",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["cks.yumenetworks.com", "yume.com"]
   },
   {
@@ -9540,7 +9541,7 @@
   },
   {
     "name": "ZEDO",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["zedo.com"]
   },
   {
@@ -9550,17 +9551,17 @@
   },
   {
     "name": "Zaius",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["zaius.com"]
   },
   {
-    "name": "Zamplus Advertising",
-    "categories": ["Advertising"],
+    "name": "Zamplus ad",
+    "categories": ["ad"],
     "domains": ["zampda.net"]
   },
   {
     "name": "Zanox",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["zanox.com", "zanox.ws"]
   },
   {
@@ -9575,7 +9576,7 @@
   },
   {
     "name": "Zemanta",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["zemanta.com"]
   },
   {
@@ -9585,7 +9586,7 @@
   },
   {
     "name": "Zenovia Digital Exchange",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rhythmxchange.com", "zenoviaexchange.com"]
   },
   {
@@ -9600,7 +9601,7 @@
   },
   {
     "name": "Ziff Davis Tech",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adziff.com", "zdbb.net"]
   },
   {
@@ -9630,13 +9631,13 @@
   },
   {
     "name": "adKernel",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adkernel.com"]
   },
   {
     "name": "adMarketplace",
     "company": "AMPexchange",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["admarketplace.net", "ampxchange.com"]
   },
   {
@@ -9646,12 +9647,12 @@
   },
   {
     "name": "adnanny",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adserver01.de"]
   },
   {
     "name": "affilinet",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["reussissonsensemble.fr", "successfultogether.co.uk"]
   },
   {
@@ -9667,7 +9668,7 @@
   },
   {
     "name": "bRealTime",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["brealtime.com"]
   },
   {
@@ -9698,7 +9699,7 @@
   },
   {
     "name": "content.ad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["content.ad"]
   },
   {
@@ -9709,12 +9710,12 @@
   },
   {
     "name": "dexiMEDIA",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["deximedia.com"]
   },
   {
     "name": "dianomi",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dianomi.com", "dianomioffers.co.uk"]
   },
   {
@@ -9724,7 +9725,7 @@
   },
   {
     "name": "dotMailer",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dmtrk.com", "dotmailer.com", "emlfiles.com"]
   },
   {
@@ -9735,12 +9736,12 @@
   },
   {
     "name": "dstillery",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["dstillery.com", "media6degrees.com"]
   },
   {
     "name": "eBay",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ebay.com", "ebayimg.com", "fetchback.com"]
   },
   {
@@ -9751,7 +9752,7 @@
   {
     "name": "eBuzzing",
     "company": "Teads Managed Services",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ebz.io"]
   },
   {
@@ -9792,7 +9793,7 @@
   },
   {
     "name": "eXelate",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["exelator.com"]
   },
   {
@@ -9802,12 +9803,12 @@
   },
   {
     "name": "engage:BDR",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["bnmla.com", "ebdr3.com"]
   },
   {
     "name": "epago",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adaos-ads.net"]
   },
   {
@@ -9833,7 +9834,7 @@
   {
     "name": "exebid.DCA",
     "company": "Data-Centric Alliance",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["exe.bid"]
   },
   {
@@ -9848,12 +9849,12 @@
   },
   {
     "name": "fifty-five",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["55labs.com"]
   },
   {
     "name": "fluct",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["adingo.jp"]
   },
   {
@@ -9879,7 +9880,7 @@
   },
   {
     "name": "hyfn",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["hyfn.com"]
   },
   {
@@ -9889,12 +9890,12 @@
   },
   {
     "name": "iBillboard",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ibillboard.com"]
   },
   {
     "name": "iCrossing",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ic-live.com"]
   },
   {
@@ -9911,7 +9912,7 @@
   {
     "name": "iJento",
     "company": "Fopsha",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ijento.com"]
   },
   {
@@ -9968,7 +9969,7 @@
   },
   {
     "name": "j2 Cloud Services",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["campaigner.com"]
   },
   {
@@ -9988,22 +9989,22 @@
   },
   {
     "name": "mainADV",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["httptrack.com", "solocpm.com"]
   },
   {
     "name": "mbr targeting",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["m6r.eu"]
   },
   {
     "name": "media.ventive",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["contentspread.net"]
   },
   {
     "name": "metrigo",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["metrigo.com"]
   },
   {
@@ -10023,12 +10024,12 @@
   },
   {
     "name": "my6sense",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mynativeplatform.com"]
   },
   {
     "name": "myThings",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["mythings.com", "mythingsmedia.net"]
   },
   {
@@ -10049,7 +10050,7 @@
   },
   {
     "name": "neXeps",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nexeps.com"]
   },
   {
@@ -10059,19 +10060,19 @@
   },
   {
     "name": "nugg.ad",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["nuggad.net"]
   },
   {
     "name": "numero interactive",
     "company": "numero",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["numerointeractive.com"]
   },
   {
     "name": "optMD",
     "company": "Optimax Media Delivery",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["optmd.com"]
   },
   {
@@ -10087,12 +10088,12 @@
   },
   {
     "name": "piano",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["tinypass.com", "www.npttech.com"]
   },
   {
     "name": "piclike",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["piclike.us"]
   },
   {
@@ -10102,7 +10103,7 @@
   },
   {
     "name": "plista",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["plista.com"]
   },
   {
@@ -10122,7 +10123,7 @@
   },
   {
     "name": "rewardStyle.com",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["rewardstyle.com"]
   },
   {
@@ -10143,12 +10144,12 @@
   },
   {
     "name": "smartclip",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["smartclip.net"]
   },
   {
     "name": "sovrn",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["lijit.com"]
   },
   {
@@ -10186,13 +10187,13 @@
   },
   {
     "name": "uLogix",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["ulogix.ru"]
   },
   {
     "name": "ucfunnel ucX",
     "company": "ucfunnel",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["aralego.com"]
   },
   {
@@ -10202,17 +10203,31 @@
   },
   {
     "name": "up-value",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["up-value.de"]
   },
   {
     "name": "wywy",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["wywy.com", "wywyuserservice.com"]
   },
   {
+    "name": "CDK Dealer Management",
+    "company": "CDK Global",
+    "homepage": "https://www.cdkglobal.com/us",
+    "categories": ["hosting"],
+    "domains": ["media-cf.assets-cdk.com"]
+  },
+  {
+    "name": "fam",
+    "company": "Fing Co Ltd.",
+    "homepage": "http://admin.fam-ad.com/report/",
+    "categories": ["ad"],
+    "domains": ["fam-ad.com", "img.fam-ad.com"]
+  },
+  {
     "name": "zypmedia",
-    "categories": ["Advertising"],
+    "categories": ["ad"],
     "domains": ["extend.tv"]
   }
 ]
