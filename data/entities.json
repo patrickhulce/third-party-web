@@ -463,7 +463,7 @@
   {
     "name": "Tealium",
     "homepage": "https://tealium.com/",
-    "categories": ["analytics"],
+    "categories": ["tag-manager"],
     "domains": [
       "tags.tiqcdn.com",
       "tealium.hs.llnwd.net",
@@ -895,7 +895,7 @@
   {
     "name": "Ensighten",
     "homepage": "https://www.ensighten.com/",
-    "categories": ["other"],
+    "categories": ["tag-manager"],
     "domains": ["nexus.ensighten.com"]
   },
   {
