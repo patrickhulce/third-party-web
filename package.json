@@ -4,6 +4,7 @@
   "description": "Categorized data on third party entities on the web.",
   "main": "./lib/index.js",
   "scripts": {
+    "fix-entities": "prettier --print-width=100 --write data/entities.json",
     "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
     "test": "jest"
   },
