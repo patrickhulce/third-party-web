@@ -56,7 +56,7 @@
   {
     "name": "Google Maps",
     "company": "Google",
-    "homepage": "",
+    "homepage": "https://www.google.com/maps",
     "categories": ["utility"],
     "domains": [
       "maps-api-ssl.google.com",
