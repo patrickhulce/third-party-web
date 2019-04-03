@@ -1,7 +1,7 @@
 {
   "ad": {
     "color": "hsl(0, 90%, 60%)",
-    "title": "Ads",
+    "title": "Advertising",
     "description": "These scripts are part of advertising networks, either serving or measuring."
   },
   "analytics": {
@@ -53,7 +53,12 @@
     "color": "hsl(300, 90%, 30%)",
     "title": "Libraries",
     "description":
-      "These are mostly open source libraries (e.g. jQuery) served over different public CDNs. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the libraries being served from that origin are lighter/heavier than the ones served by another.."
+      "These are mostly open source libraries (e.g. jQuery) served over different public CDNs. This category is unique in that the origin may have no responsibility for the performance of what's being served. Note that rank here does not imply one CDN is better than the other. It simply indicates that the libraries being served from that origin are lighter/heavier than the ones served by another."
+  },
+  "tag-manager": {
+    "color": "hsl(345, 90%, 30%)",
+    "title": "Tag Management",
+    "description": "These scripts tend to load lots of other scripts and initiate many tasks."
   },
   "other": {
     "color": "hsl(330, 90%, 60%)",
