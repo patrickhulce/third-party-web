@@ -2436,8 +2436,9 @@
     "domains": ["btrll.com"]
   },
   {
-    "name": "BrightTag",
+    "name": "BrightTag / Signal",
     "company": "Signal",
+    "homepage": "https://www.signal.co",
     "categories": ["tag-manager"],
     "domains": ["btstatic.com", "thebrighttag.com"]
   },
@@ -5075,7 +5076,9 @@
     "domains": ["kau.li"]
   },
   {
-    "name": "Keen IO",
+    "name": "Keen",
+    "company": "Keen",
+    "homepage": "https://keen.io/",
     "categories": ["analytics"],
     "domains": ["d26b395fwzu5fz.cloudfront.net", "keen.io"]
   },
@@ -5319,7 +5322,8 @@
   {
     "name": "LivePerson",
     "categories": ["customer-success"],
-    "domains": ["iveperson.com", "liveperson.net", "look.io", "lpsnmedia.net"]
+    "homepage": "https://www.liveperson.com/",
+    "domains": ["liveperson.com", "liveperson.net", "look.io", "lpsnmedia.net"]
   },
   {
     "name": "LiveRail",
@@ -6032,8 +6036,9 @@
     "domains": ["nflxext.com", "nflximg.net"]
   },
   {
-    "name": "NetRatings SiteCensus",
+    "name": "Nielsen NetRatings SiteCensus",
     "company": "The Nielsen Company",
+    "homepage": "http://www.nielsen-online.com/intlpage.html",
     "categories": ["analytics"],
     "domains": ["imrworldwide.com"]
   },
@@ -6383,7 +6388,8 @@
   },
   {
     "name": "Outbrain",
-    "categories": ["content"],
+    "homepage": "https://www.outbrain.com/",
+    "categories": ["ad"],
     "domains": ["outbrain.com", "visualrevenue.com"]
   },
   {
@@ -8473,6 +8479,7 @@
   {
     "name": "Tidio Live Chat",
     "company": "Tidio",
+    "homepage": "https://www.tidiochat.com/en/",
     "categories": ["customer-success"],
     "domains": ["tidiochat.com"]
   },
@@ -9516,7 +9523,8 @@
   },
   {
     "name": "Yotpo",
-    "categories": ["analytics"],
+    "homepage": "https://www.yotpo.com/",
+    "categories": ["marketing"],
     "domains": ["yotpo.com"]
   },
   {

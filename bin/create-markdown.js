@@ -67,14 +67,14 @@ async function createChartImages() {
 }
 
 function createCategorySection(category) {
-  const categoryRows = _.sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime').map(
-    (entry, rank) => [
+  const categoryRows = _.sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime')
+    .filter(entry => entry.totalOccurrences >= 1000)
+    .map((entry, rank) => [
       rank + 1,
       entry.homepage ? `[${entry.name}](${entry.homepage})` : entry.name,
       entry.totalOccurrences.toLocaleString(),
       Math.round(entry.averageExecutionTime) + ' ms',
-    ],
-  )
+    ])
 
   const table = createMarkdownTable(['Rank', 'Name', 'Usage', 'Average Impact'], categoryRows)
   return [
