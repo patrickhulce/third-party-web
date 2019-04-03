@@ -127,6 +127,10 @@ Only about 90% of the third party script execution has been assigned to an entit
 
 ## Contributing
 
+### Thanks
+
+A **huge** thanks to [@simonhearne](https://twitter.com/simonhearne) and [@soulgalore](https://twitter.com/soulislove) for their assistance in classifying additional domains!
+
 ### Updating the Entities
 
 The domain->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
