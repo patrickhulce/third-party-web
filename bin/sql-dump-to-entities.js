@@ -75,7 +75,7 @@ const SUBCATEGORY_TO_CATEGORY = {
   'Content Measurement and Distribution': 'analytics',
   'Business Intelligence': 'analytics',
   'Social Media Analytics': 'analytics',
-  'Tag Management': 'other',
+  'Tag Management': 'tag-manager',
   'CDN JSLib': 'library',
   'CDN Fonts': 'library',
   'Hosted Libraries': 'library',
