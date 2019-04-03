@@ -1,6 +1,7 @@
 export interface IEntity {
   name: string
-  homepage: string
+  company: string
+  homepage?: string
   categories: string[]
   domains: string[]
 }
