@@ -152,6 +152,7 @@ console.log(
 console.log('Top 5 Disappearing')
 console.log(
   _(changesSinceLast)
+    .filter(item => item._last)
     .sortBy(item => item.totalOccurrences / item._last.totalOccurrences)
     .slice(0, 5)
     .map(item => [
@@ -166,6 +167,7 @@ console.log(
 console.log('Top 5 Increasing')
 console.log(
   _(changesSinceLast)
+    .filter(item => item._last)
     .sortBy(item => item.totalOccurrences / item._last.totalOccurrences)
     .reverse()
     .slice(0, 5)

@@ -70,7 +70,7 @@ function createCategorySection(category) {
   const categoryRows = _.sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime').map(
     (entry, rank) => [
       rank + 1,
-      `[${entry.name}](${entry.homepage})`,
+      entry.homepage ? `[${entry.name}](${entry.homepage})` : entry.name,
       entry.totalOccurrences.toLocaleString(),
       Math.round(entry.averageExecutionTime) + ' ms',
     ],
@@ -96,7 +96,7 @@ async function run() {
   const allDataRows = _.sortBy(ALL_DATA, 'totalExecutionTime')
     .reverse()
     .map(entry => [
-      `[${entry.name}](${entry.homepage})`,
+      entry.homepage ? `[${entry.name}](${entry.homepage})` : entry.name,
       entry.totalOccurrences.toLocaleString(),
       Math.round(entry.totalExecutionTime / 1000).toLocaleString() + ' s',
       Math.round(entry.averageExecutionTime) + ' ms',
