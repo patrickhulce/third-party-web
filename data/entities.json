@@ -315,7 +315,7 @@
     "homepage": "https://www.oath.com/",
     "categories": ["ad"],
     "domains": [
-      "pixel.ad.com",
+      "pixel.advertising.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
@@ -564,8 +564,7 @@
       "yahoo.net",
       "yahooapis.com",
       "yimg.com",
-      "zenfs.com",
-      "pixel.advertising.com"
+      "zenfs.com"
     ]
   },
   {
@@ -1006,7 +1005,7 @@
     "name": "Snapchat",
     "homepage": "https://www.snapchat.com",
     "categories": ["analytics"],
-    "domains": ["tr.snapchat.com","sc-static.net"]
+    "domains": ["tr.snapchat.com", "sc-static.net"]
   },
   {
     "name": "Atlas Solutions",
@@ -3161,7 +3160,7 @@
   {
     "name": "Council ad Network",
     "categories": ["ad"],
-    "domains": ["councilad.net"]
+    "domains": ["counciladvertising.net"]
   },
   {
     "name": "Covert Pics",
@@ -10247,5 +10246,5 @@
     "homepage": "http://www.codigo.se",
     "categories": ["analytics"],
     "domains": ["analytics.codigo.se"]
-  },
+  }
 ]
