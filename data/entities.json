@@ -41,7 +41,8 @@
       "edgesuite.net",
       "srip.net",
       "cquotient.com",
-      "demandware.net"
+      "demandware.net",
+      "platform-lookaside.fbsbx.com"
     ]
   },
   {
@@ -563,7 +564,8 @@
       "yahoo.net",
       "yahooapis.com",
       "yimg.com",
-      "zenfs.com"
+      "zenfs.com",
+      "pixel.advertising.com"
     ]
   },
   {
@@ -1004,7 +1006,7 @@
     "name": "Snapchat",
     "homepage": "https://www.snapchat.com",
     "categories": ["analytics"],
-    "domains": ["tr.snapchat.com"]
+    "domains": ["tr.snapchat.com","sc-static.net"]
   },
   {
     "name": "Atlas Solutions",
@@ -10239,5 +10241,11 @@
     "name": "zypmedia",
     "categories": ["ad"],
     "domains": ["extend.tv"]
-  }
+  },
+  {
+    "name": "codigo",
+    "homepage": "http://www.codigo.se",
+    "categories": ["analytics"],
+    "domains": ["analytics.codigo.se"]
+  },
 ]
