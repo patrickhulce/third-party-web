@@ -1219,6 +1219,12 @@
     "domains": ["innomdc.com"]
   },
   {
+    "name": "APSIS Forms",
+    "company": "APSIS",
+    "categories": ["other"],
+    "domains": ["forms.apsisforms.com"]
+  },
+  {
     "name": "ARENA",
     "company": "Altitude",
     "categories": ["ad"],
@@ -10246,5 +10252,71 @@
     "homepage": "http://www.codigo.se",
     "categories": ["analytics"],
     "domains": ["analytics.codigo.se"]
+  },
+  {
+    "name": "Playground",
+    "homepage": "https://playground.xyz",
+    "categories": ["ad"],
+    "domains": ["ads.playground.xyz"]
+  },
+  {
+    "name": "RAM",
+    "homepage": "http://www2.rampanel.com/en/",
+    "categories": ["analytics"],
+    "domains": ["inviso.rampanel.com"]
+  },
+  {
+    "name": "Adition",
+    "homepage": "https://www.adition.com",
+    "categories": ["ad"],
+    "domains": ["dsp.adfarm1.adition.com"]
+  },
+  {
+    "name": "Widespace",
+    "homepage": "https://www.widespace.com",
+    "categories": ["ad"],
+    "domains": ["sync.widespace.com"]
+  },
+  {
+    "name": "Colpirio",
+    "homepage": "https://www.widespace.com",
+    "categories": ["analytics"],
+    "domains": ["proxy-tracker.colpirio.com"]
+  },
+  {
+    "name": "Brandmetrics",
+    "homepage": "https://www.brandmetrics.com",
+    "categories": ["analytics"],
+    "domains": ["collector.brandmetrics.com"]
+  },
+  {
+    "name": "EasyAd",
+    "homepage": "hhttp://www.easy-ads.com/en/",
+    "categories": ["ad"],
+    "domains": ["ads.easy-ads.com"]
+  },
+  {
+    "name": "Glimr",
+    "homepage": "https://glimr.io/",
+    "categories": ["analytics"],
+    "domains": ["pixel.glimr.io"]
+  },
+  {
+    "name": "Webtreck",
+    "homepage": "https://www.webtrekk.com/en/home/",
+    "categories": ["analytics"],
+    "domains": ["fbc.wcfbc.net"]
+  },
+  {
+    "name": "DigiTrust",
+    "homepage": "http://www.digitru.st/",
+    "categories": ["analytics"],
+    "domains": ["cdn.digitru.st"]
+  },
+  {
+    "name": "Kantar Sifo",
+    "homepage": "https://www.kantarsifo.se",
+    "categories": ["analytics"],
+    "domains": ["trafficgateway.research-int.se"]
   }
 ]
