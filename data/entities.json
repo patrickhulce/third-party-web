@@ -9,9 +9,12 @@
       "tpc.googlesyndication.com",
       "googleads.g.doubleclick.net",
       "securepubads.g.doubleclick.net",
+      "cm.g.doubleclick.net",
       "s0.2mdn.net",
       "stats.g.doubleclick.net",
       "survey.g.doubleclick.net",
+      "fls.doubleclick.net",
+      "ad.doubleclick.net",
       "www.googleadservices.com",
       "adservice.google.se",
       "adservice.google.com",
@@ -84,7 +87,8 @@
       "storage.googleapis.com",
       "imasdk.googleapis.com",
       "lh3.googleusercontent.com",
-      "calendar.google.com"
+      "calendar.google.com",
+      "pay.google.com"
     ]
   },
   {
@@ -124,7 +128,7 @@
     "company": "Adobe",
     "homepage": "https://fonts.adobe.com/",
     "categories": ["library"],
-    "domains": ["use.typekit.net", "typekit.com"]
+    "domains": ["use.typekit.net", "typekit.com", "p.typekit.net"]
   },
   {
     "name": "YouTube",
@@ -142,7 +146,7 @@
     "name": "AddThis",
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
-    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com"]
+    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com", "r.dlx.addthis.com"]
   },
   {
     "name": "Blogger",
@@ -268,6 +272,8 @@
       "uk-ads.openx.net",
       "us-ads.openx.net",
       "33across-d.openx.net",
+      "rtb.openx.net",
+      "us-u.openx.net",
       "deliverimp.com",
       "jump-time.net",
       "openxadexchange.com",
@@ -278,19 +284,28 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com"]
+    "domains": ["s.amazon-adsystem.com","c.amazon-adsystem.com","aax.amazon-adsystem.com"]
   },
   {
     "name": "Rubicon Project",
     "homepage": "https://rubiconproject.com/",
     "categories": ["ad"],
-    "domains": ["pixel.rubiconproject.com", "ads.rubiconproject.com", "chango.com", "fimserve.com"]
+    "domains": [
+      "pixel.rubiconproject.com",
+      "fastlane.rubiconproject.com",
+      "secure-assets.rubiconproject.com",
+      "eus.rubiconproject.com",
+      "pixel-us-east.rubiconproject.com",
+      "token.rubiconproject.com",
+      "ads.rubiconproject.com",
+      "chango.com",
+      "fimserve.com"]
   },
   {
     "name": "The Trade Desk",
     "homepage": "https://www.thetradedesk.com/",
     "categories": ["ad"],
-    "domains": ["js.adsrvr.org", "match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net"]
+    "domains": ["js.adsrvr.org", "match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net", "snap.adsrvr.org"]
   },
   {
     "name": "Bidswitch",
@@ -316,12 +331,15 @@
     "categories": ["ad"],
     "domains": [
       "pixel.advertising.com",
+      "dtm.advertising.com",
+      "tag.sp.advertising.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
       "blogsmithmedia.com",
       "mighty.aol.net",
-      "tacoda.net"
+      "tacoda.net",
+      "consent.cmp.oath.com"
     ]
   },
   {
@@ -383,7 +401,7 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com", "cdn3.optimizely.com"]
   },
   {
     "name": "LiveChat",
@@ -564,7 +582,8 @@
       "yahoo.net",
       "yahooapis.com",
       "yimg.com",
-      "zenfs.com"
+      "zenfs.com",
+      "geo.yahoo.com"
     ]
   },
   {
@@ -654,7 +673,7 @@
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "domains": ["mathid.mathtag.com", "mathads.com"]
+    "domains": ["mathid.mathtag.com", "mathads.com","sync.mathtag.com"]
   },
   {
     "name": "Mixpanel",
@@ -719,7 +738,7 @@
     "name": "Pinterest",
     "homepage": "https://pinterest.com/",
     "categories": ["social"],
-    "domains": ["assets.pinterest.com", "pinimg.com"]
+    "domains": ["assets.pinterest.com", "pinimg.com", "ct.pinterest.com"]
   },
   {
     "name": "New Relic",
@@ -968,6 +987,7 @@
     "categories": ["ad"],
     "domains": [
       "bat.bing.com",
+      "c.bing.com",
       "bat.r.msn.com",
       "ajax.microsoft.com",
       "msads.net",
@@ -8764,7 +8784,7 @@
     "name": "Twitter Online Conversion Tracking",
     "company": "Twitter",
     "categories": ["ad"],
-    "domains": ["static.ads-twitter.com"]
+    "domains": ["static.ads-twitter.com","analytics.twitter.com"]
   },
   {
     "name": "Twitter Short URL",
@@ -10318,5 +10338,11 @@
     "homepage": "https://www.kantarsifo.se",
     "categories": ["analytics"],
     "domains": ["trafficgateway.research-int.se"]
+  },
+  {
+    "name": "Concert",
+    "homepage": "https://concert.io/",
+    "categories": ["ad"],
+    "domains": ["cdn.concert.io"]
   }
 ]
