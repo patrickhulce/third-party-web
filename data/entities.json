@@ -719,7 +719,7 @@
     "name": "Pinterest",
     "homepage": "https://pinterest.com/",
     "categories": ["social"],
-    "domains": ["assets.pinterest.com", "pinimg.com"]
+    "domains": ["assets.pinterest.com", "pinimg.com", "ct.pinterest.com"]
   },
   {
     "name": "New Relic",
