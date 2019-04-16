@@ -9,6 +9,7 @@
       "tpc.googlesyndication.com",
       "googleads.g.doubleclick.net",
       "securepubads.g.doubleclick.net",
+      "cm.g.doubleclick.net",
       "s0.2mdn.net",
       "stats.g.doubleclick.net",
       "survey.g.doubleclick.net",
@@ -283,7 +284,7 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com","c.amazon-adsystem.com"]
+    "domains": ["s.amazon-adsystem.com","c.amazon-adsystem.com","aax.amazon-adsystem.com"]
   },
   {
     "name": "Rubicon Project",
@@ -672,7 +673,7 @@
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "domains": ["mathid.mathtag.com", "mathads.com"]
+    "domains": ["mathid.mathtag.com", "mathads.com","sync.mathtag.com"]
   },
   {
     "name": "Mixpanel",
@@ -986,6 +987,7 @@
     "categories": ["ad"],
     "domains": [
       "bat.bing.com",
+      "c.bing.com",
       "bat.r.msn.com",
       "ajax.microsoft.com",
       "msads.net",
@@ -1023,7 +1025,7 @@
     "name": "Snapchat",
     "homepage": "https://www.snapchat.com",
     "categories": ["analytics"],
-    "domains": ["tr.snapchat.com", "sc-static.net"]
+    "domains": ["tr.snapchat.com", "sc-static.net", "snap.adsrvr.org"]
   },
   {
     "name": "Atlas Solutions",
@@ -8782,7 +8784,7 @@
     "name": "Twitter Online Conversion Tracking",
     "company": "Twitter",
     "categories": ["ad"],
-    "domains": ["static.ads-twitter.com"]
+    "domains": ["static.ads-twitter.com","analytics.twitter.com"]
   },
   {
     "name": "Twitter Short URL",
