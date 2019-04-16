@@ -13,6 +13,7 @@
       "stats.g.doubleclick.net",
       "survey.g.doubleclick.net",
       "fls.doubleclick.net",
+      "ad.doubleclick.net",
       "www.googleadservices.com",
       "adservice.google.se",
       "adservice.google.com",
@@ -85,7 +86,8 @@
       "storage.googleapis.com",
       "imasdk.googleapis.com",
       "lh3.googleusercontent.com",
-      "calendar.google.com"
+      "calendar.google.com",
+      "pay.google.com"
     ]
   },
   {
@@ -125,7 +127,7 @@
     "company": "Adobe",
     "homepage": "https://fonts.adobe.com/",
     "categories": ["library"],
-    "domains": ["use.typekit.net", "typekit.com"]
+    "domains": ["use.typekit.net", "typekit.com", "p.typekit.net"]
   },
   {
     "name": "YouTube",
@@ -143,7 +145,7 @@
     "name": "AddThis",
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
-    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com"]
+    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com", "r.dlx.addthis.com"]
   },
   {
     "name": "Blogger",
@@ -269,6 +271,8 @@
       "uk-ads.openx.net",
       "us-ads.openx.net",
       "33across-d.openx.net",
+      "rtb.openx.net",
+      "us-u.openx.net",
       "deliverimp.com",
       "jump-time.net",
       "openxadexchange.com",
@@ -279,13 +283,22 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com"]
+    "domains": ["s.amazon-adsystem.com","c.amazon-adsystem.com"]
   },
   {
     "name": "Rubicon Project",
     "homepage": "https://rubiconproject.com/",
     "categories": ["ad"],
-    "domains": ["pixel.rubiconproject.com", "ads.rubiconproject.com", "chango.com", "fimserve.com"]
+    "domains": [
+      "pixel.rubiconproject.com",
+      "fastlane.rubiconproject.com",
+      "secure-assets.rubiconproject.com",
+      "eus.rubiconproject.com",
+      "pixel-us-east.rubiconproject.com",
+      "token.rubiconproject.com",
+      "ads.rubiconproject.com",
+      "chango.com",
+      "fimserve.com"]
   },
   {
     "name": "The Trade Desk",
@@ -317,12 +330,15 @@
     "categories": ["ad"],
     "domains": [
       "pixel.advertising.com",
+      "dtm.advertising.com",
+      "tag.sp.advertising.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
       "blogsmithmedia.com",
       "mighty.aol.net",
-      "tacoda.net"
+      "tacoda.net",
+      "consent.cmp.oath.com"
     ]
   },
   {
@@ -565,7 +581,8 @@
       "yahoo.net",
       "yahooapis.com",
       "yimg.com",
-      "zenfs.com"
+      "zenfs.com",
+      "geo.yahoo.com"
     ]
   },
   {
@@ -10319,5 +10336,11 @@
     "homepage": "https://www.kantarsifo.se",
     "categories": ["analytics"],
     "domains": ["trafficgateway.research-int.se"]
+  },
+  {
+    "name": "Concert",
+    "homepage": "https://concert.io/",
+    "categories": ["ad"],
+    "domains": ["cdn.concert.io"]
   }
 ]
