@@ -383,7 +383,7 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com"]
+    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com", "cdn3.optimizely.com"]
   },
   {
     "name": "LiveChat",
