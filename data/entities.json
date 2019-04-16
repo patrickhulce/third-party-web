@@ -305,7 +305,7 @@
     "name": "The Trade Desk",
     "homepage": "https://www.thetradedesk.com/",
     "categories": ["ad"],
-    "domains": ["match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net"]
+    "domains": ["match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net", "snap.adsrvr.org"]
   },
   {
     "name": "Bidswitch",
@@ -1025,7 +1025,7 @@
     "name": "Snapchat",
     "homepage": "https://www.snapchat.com",
     "categories": ["analytics"],
-    "domains": ["tr.snapchat.com", "sc-static.net", "snap.adsrvr.org"]
+    "domains": ["tr.snapchat.com", "sc-static.net"]
   },
   {
     "name": "Atlas Solutions",
