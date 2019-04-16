@@ -305,7 +305,7 @@
     "name": "The Trade Desk",
     "homepage": "https://www.thetradedesk.com/",
     "categories": ["ad"],
-    "domains": ["match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net"]
+    "domains": ["js.adsrvr.org", "match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net", "snap.adsrvr.org"]
   },
   {
     "name": "Bidswitch",
