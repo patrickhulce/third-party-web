@@ -2,4 +2,6 @@ node_modules/
 .tmp/
 dist/
 
+*-subset.js
+*-subset.d.ts
 *.generated.sql
