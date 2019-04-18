@@ -2,6 +2,7 @@ data/
 bin/
 sql/
 .tmp/
+www/
 
 *.log
 *.png
