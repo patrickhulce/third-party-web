@@ -1,6 +1,4 @@
-data/*
-!data/entities.json
-
+data/
 bin/
 sql/
 .tmp/
