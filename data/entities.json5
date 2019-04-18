@@ -284,7 +284,7 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com","c.amazon-adsystem.com","aax.amazon-adsystem.com"]
+    "domains": ["s.amazon-adsystem.com", "c.amazon-adsystem.com", "aax.amazon-adsystem.com"]
   },
   {
     "name": "Rubicon Project",
@@ -299,13 +299,19 @@
       "token.rubiconproject.com",
       "ads.rubiconproject.com",
       "chango.com",
-      "fimserve.com"]
+      "fimserve.com"
+    ]
   },
   {
     "name": "The Trade Desk",
     "homepage": "https://www.thetradedesk.com/",
     "categories": ["ad"],
-    "domains": ["js.adsrvr.org", "match.adsrvr.org", "d1eoo1tco6rr5e.cloudfront.net", "snap.adsrvr.org"]
+    "domains": [
+      "js.adsrvr.org",
+      "match.adsrvr.org",
+      "d1eoo1tco6rr5e.cloudfront.net",
+      "snap.adsrvr.org" // This domain is used for SnapChat-specific tracking
+    ]
   },
   {
     "name": "Bidswitch",
@@ -401,7 +407,12 @@
     "name": "Optimizely",
     "homepage": "https://www.optimizely.com/",
     "categories": ["analytics"],
-    "domains": ["cdn.optimizely.com", "cdn-pci.optimizely.com", "logx.optimizely.com", "cdn3.optimizely.com"]
+    "domains": [
+      "cdn.optimizely.com",
+      "cdn-pci.optimizely.com",
+      "logx.optimizely.com",
+      "cdn3.optimizely.com"
+    ]
   },
   {
     "name": "LiveChat",
@@ -673,7 +684,7 @@
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "domains": ["mathid.mathtag.com", "mathads.com","sync.mathtag.com"]
+    "domains": ["mathid.mathtag.com", "mathads.com", "sync.mathtag.com"]
   },
   {
     "name": "Mixpanel",
@@ -8784,7 +8795,7 @@
     "name": "Twitter Online Conversion Tracking",
     "company": "Twitter",
     "categories": ["ad"],
-    "domains": ["static.ads-twitter.com","analytics.twitter.com"]
+    "domains": ["static.ads-twitter.com", "analytics.twitter.com"]
   },
   {
     "name": "Twitter Short URL",
