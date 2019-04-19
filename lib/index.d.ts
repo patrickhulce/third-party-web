@@ -4,6 +4,9 @@ export interface IEntity {
   homepage?: string
   categories: string[]
   domains: string[]
+  averageExecutionTime: number
+  totalExecutionTime: number
+  totalOccurrences: number
 }
 
 export declare const entities: IEntity[]
