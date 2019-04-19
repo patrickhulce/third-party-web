@@ -29,7 +29,7 @@ const Layout = ({children}) => {
           <Sidebar siteTitle={data.site.siteMetadata.title} />
           <main className="transparent-container">{children}</main>
           <footer className="footer">
-            © {new Date().getFullYear()}{' '}
+            Made with 😅 in Texas, © {new Date().getFullYear()}{' '}
             <a href="https://twitter.com/patrickhulce" target="_blank" rel="noopener">
               @patrickhulce
             </a>
