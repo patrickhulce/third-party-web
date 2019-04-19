@@ -42,7 +42,7 @@ const DataVisualizationD3 = ({width, height}) => {
     visualizations.treemap
       .width(width)
       .height(height)
-      .sum('value')
+      .sum('totalExecutionTime')
       .groupBy(['category', 'id'])
       .shapeConfig({
         fill: d => d.color,
@@ -50,11 +50,18 @@ const DataVisualizationD3 = ({width, height}) => {
           fontSize: 8,
         },
       })
+      .tooltipConfig({
+        body: entity => `
+          Occurences: ${entity.totalOccurrences.toLocaleString()}<br />
+          Average Execution Time: ${entity.averageExecutionTime.toFixed(2)} ms
+        `,
+      })
       .data(
         thirdPartyWeb.entities.slice(0, 100).map(entity => {
           const category = categories.find(c => c.id === entity.categories[0])
 
           return {
+            ...entity,
             id: entity.name,
             category: category.displayName,
             color: category.color,
