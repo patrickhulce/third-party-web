@@ -1,27 +1,26 @@
-import React, {useState, useEffect} from 'react'
-
-/** @type {typeof import('third-party-web')} */
-let thirdPartyWebModule
-const asyncThirdPartyData = import('third-party-web').then(value => (thirdPartyWebModule = value))
+import React, {useState, useEffect, useRef, Suspense} from 'react'
+import useComponentSize from '@rehooks/component-size'
 
 const DataVisualization = () => {
-  const [hasLoaded, setHasLoaded] = useState(false)
+  const ref = useRef(null)
+  const {width: clientWidth, height: clientHeight} = useComponentSize(ref)
+  const loader = <div className="loader-ring" />
 
-  useEffect(() => {
-    const requestData = async () => {
-      setHasLoaded(!!thirdPartyWebModule)
-      await asyncThirdPartyData
-      setHasLoaded(!!thirdPartyWebModule)
-    }
+  let element = loader
+  if (typeof window !== 'undefined') {
+    const DataVisualizationD3 = React.lazy(() => import('./data-visualization-d3'))
 
-    requestData()
-    return requestData
-  })
-
-  if (!hasLoaded) {
-    return <h1>Loading...</h1>
+    element = (
+      <Suspense fallback={loader}>
+        <DataVisualizationD3 width={clientWidth} height={clientHeight - 180} />
+      </Suspense>
+    )
   }
 
-  return <h1>Loaded!</h1>
+  return (
+    <div ref={ref} className="data-visualization transparent-container">
+      {element}
+    </div>
+  )
 }
 export default DataVisualization

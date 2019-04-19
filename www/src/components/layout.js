@@ -35,8 +35,8 @@ const Layout = ({children}) => {
               paddingTop: 0,
             }}
           >
-            <main>{children}</main>
-            <footer>
+            <main className="transparent-container">{children}</main>
+            <footer className="footer">
               © {new Date().getFullYear()}, Built with
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>

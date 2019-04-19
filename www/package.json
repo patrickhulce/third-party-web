@@ -4,7 +4,12 @@
   "description": "",
   "version": "0.1.0",
   "dependencies": {
+    "@rehooks/component-size": "^1.0.2",
     "classnames": "^2.2.6",
+    "color": "^3.1.0",
+    "d3": "^5.9.2",
+    "d3plus": "^2.0.0-alpha.18",
+    "d3plus-react": "^0.5.3",
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-layout": "^1.0.14",
@@ -15,10 +20,12 @@
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.17",
+    "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "third-party-web": "^0.5.0"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
