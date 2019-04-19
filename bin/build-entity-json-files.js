@@ -18,11 +18,16 @@ fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 const httpArchiveData = require('../data/2019-03-01-origin-scripting.json')
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
 const entityExecutionStats = _(httpArchiveData)
-  .groupBy(({origin}) => getEntity(origin))
-  .mapValues(dataset => ({
-    totalExecutionTime: Math.round(_.sum(dataset.map(x => Number(x.totalExecutionTime)))),
-    totalOccurrences: Math.round(_.sum(dataset.map(x => Number(x.totalOccurrences)))),
-  }))
+  .groupBy(({origin}) => {
+    const entity = getEntity(origin)
+    return entity && entity.name
+  })
+  .mapValues(dataset => {
+    return {
+      totalExecutionTime: Math.round(_.sum(dataset.map(x => Number(x.totalExecutionTime)))),
+      totalOccurrences: Math.round(_.sum(dataset.map(x => Number(x.totalOccurrences)))),
+    }
+  })
   .value()
 
 const entitiesInHTTPArchive = _(httpArchiveData)
@@ -35,7 +40,7 @@ const entitiesInHTTPArchive = _(httpArchiveData)
   .value()
 
 for (const entity of entitiesInHTTPArchive) {
-  Object.assign(entity, entityExecutionStats[entity])
+  Object.assign(entity, entityExecutionStats[entity.name])
 }
 
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
