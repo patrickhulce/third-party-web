@@ -5,28 +5,46 @@ const Chart = require('chartjs-node')
 const exec = require('child_process').execFileSync
 
 const LIB_FOLDER = path.join(__dirname, '../lib')
-const MD_TEMPLATE = fs.readFileSync(path.join(LIB_FOLDER, 'template.md'), 'utf8')
+const UPDATES_FOLDER = path.join(LIB_FOLDER, 'markdown/updates')
+const PARTIALS_FOLDER = path.join(LIB_FOLDER, 'markdown/')
+const MD_TEMPLATE = fs.readFileSync(path.join(LIB_FOLDER, 'markdown/template.md'), 'utf8')
 const createMarkdownString = _.template(MD_TEMPLATE)
 
 const ALL_DATA = require('../.tmp/combined-data.json')
 const ALL_CATEGORIES = require('../data/categories.json')
 const DATA_BY_CATEGORY = _.groupBy(ALL_DATA, entity => entity.categories[0])
 _.forEach(ALL_CATEGORIES, (value, id) =>
-  _.assign(value, {id, totalExecutionTime: _.sumBy(DATA_BY_CATEGORY[id], 'totalExecutionTime')}),
+  _.assign(value, {id, totalExecutionTime: _.sumBy(DATA_BY_CATEGORY[id], 'totalExecutionTime')})
 )
 
 function createUpdatesContent() {
   let updates = []
-  for (const file of fs.readdirSync(LIB_FOLDER)) {
+  for (const file of fs.readdirSync(UPDATES_FOLDER)) {
     const dateRegex = /^(\d{4}-\d{2}-\d{2})/
     if (!dateRegex.test(file)) continue
     const datePart = file.match(dateRegex)[1]
     updates.push(
-      `## ${datePart} dataset\n\n` + fs.readFileSync(path.join(LIB_FOLDER, file), 'utf8'),
+      `## ${datePart} dataset\n\n` + fs.readFileSync(path.join(UPDATES_FOLDER, file), 'utf8')
     )
   }
 
   return updates.join('\n\n')
+}
+
+function createPartialsContent() {
+  const partials = {}
+
+  for (const file of fs.readdirSync(PARTIALS_FOLDER)) {
+    const partialsRegex = /^(.*)\.partial\.md$/
+    if (!file.includes('.partial.')) continue
+    if (!partialsRegex.test(file)) continue
+    const partialName = file.match(partialsRegex)[1]
+    partials[partialName] = fs
+      .readFileSync(path.join(PARTIALS_FOLDER, file), 'utf8')
+      .replace(/---(.|\s)*?---/m, '')
+  }
+
+  return partials
 }
 
 function createMarkdownTable(headers, rows) {
@@ -88,7 +106,7 @@ function createCategorySection(category) {
 async function run() {
   const categoryTOC = _.map(
     ALL_CATEGORIES,
-    category => `1.  [${category.title}](#${category.id})`,
+    category => `1.  [${category.title}](#${category.id})`
   ).join('\n         ')
 
   const categoryContents = _.map(ALL_CATEGORIES, createCategorySection).join('\n\n')
@@ -108,14 +126,15 @@ async function run() {
   fs.writeFileSync(
     readmePath,
     createMarkdownString({
+      partials: createPartialsContent(),
       updates_contents: createUpdatesContent(),
       category_table_of_contents: categoryTOC,
       category_contents: categoryContents,
       all_data: createMarkdownTable(
         ['Name', 'Popularity', 'Total Impact', 'Average Impact'],
-        allDataRows,
+        allDataRows
       ),
-    }),
+    })
   )
 
   exec(path.join(__dirname, '../node_modules/.bin/prettier'), ['--write', readmePath])

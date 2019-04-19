@@ -22,15 +22,11 @@ This document is a summary of which third party scripts are most responsible for
 
 ## Goals
 
-1.  Quantify the impact of third party scripts on the web.
-1.  Identify the third party scripts on the web that have the greatest performance cost.
-1.  Give developers the information they need to make informed decisions about which third parties to include on their sites.
-1.  Incentivize responsible third party script behavior.
-1.  Make this information accessible and useful.
+<%= partials.goals %>
 
 ## Methodology
 
-[HTTP Archive](https://httparchive.org/) is an inititiave that tracks how the web is built. Twice a month, ~4 million sites are crawled with [Lighthouse](https://github.com/GoogleChrome/lighthouse) on mobile. Lighthouse breaks down the total script execution time of each page and attributes the execution to a URL. Using [BigQuery](https://cloud.google.com/bigquery/), this project aggregates the script execution to the origin-level and assigns each origin to the responsible entity.
+<%= partials.methodology %>
 
 ## NPM Module
 
@@ -96,34 +92,7 @@ This section highlights the entities responsible for the most script execution a
 
 ## FAQs
 
-### I don't see entity X in the list. What's up with that?
-
-This can be for one of several reasons:
-
-1.  The entity does not have at least 100 references to their origin in the dataset.
-1.  The entity's origins have not yet been identified. See [How can I contribute?](#contribute)
-
-### How is the "Average Impact" determined?
-
-The HTTP Archive dataset includes Lighthouse reports for each URL on mobile. Lighthouse has an audit called "bootup-time" that summarizes the amount of time that each script spent on the main thread. The "Average Impact" for an entity is the total execution time of scripts whose domain matches one of the entity's domains divided by the total number of occurences of those scripts.
-
-```
-Average Impact = Total Execution Time / Total Occurences
-```
-
-### How does Lighthouse determine the execution time of each script?
-
-Lighthouse's bootup time audit attempts to attribute all toplevel main-thread tasks to a URL. A main thread task is attributed to the first script URL found in the stack. If you're interested in helping us improve this logic, see [Contributing](#contributing) for details.
-
-### The data for entity X seems wrong. How can it be corrected?
-
-Verify that the origins in `data/entities.json` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
-
-<a name="contribute"></a>
-
-### How can I contribute?
-
-Only about 90% of the third party script execution has been assigned to an entity. We could use your help identifying the rest! See [Contributing](#contributing) for details.
+<%= partials.faqs %>
 
 ## Contributing
 
@@ -166,3 +135,7 @@ This README is auto-generated from the templates `lib/` and the computed data. I
 # Install `cairo` and dependencies for node-canvas
 brew install pkg-config cairo pango libpng jpeg giflib
 ```
+
+### Updating the website
+
+The web code is located in `www/` directory of this repository. Open a PR to make changes.
