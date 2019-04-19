@@ -58,7 +58,7 @@ const DataVisualizationD3 = ({width, height}) => {
             id: entity.name,
             category: category.displayName,
             color: category.color,
-            value: Math.random(),
+            value: entity.totalExecutionTime,
           }
         })
       )
