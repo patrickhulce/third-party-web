@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Third Party Web`,
+    title: `Third-Party Web`,
     description: `Analysis and reports on the impact of third party entities on the web as a whole.`,
     author: `Patrick Hulce (@patrickhulce)`,
   },
