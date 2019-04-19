@@ -30,13 +30,15 @@ const Sidebar = ({siteTitle}) => {
           <ul style={{margin: 0, padding: 0}}>
             <NavLink href="/" text="Data" />
             <NavLink href="/about" text="About" />
-            <a
-              href="https://github.com/patrickhulce/third-party-web"
-              target="_blank"
-              rel="noopener"
-            >
-              GitHub
-            </a>
+            <li>
+              <a
+                href="https://github.com/patrickhulce/third-party-web"
+                target="_blank"
+                rel="noopener"
+              >
+                GitHub
+              </a>
+            </li>
           </ul>
         </nav>
       </aside>

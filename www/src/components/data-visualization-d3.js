@@ -11,9 +11,6 @@ const visualizations = {
 }
 
 const categories = _.uniq(thirdPartyWeb.entities.map(e => e.categories[0])).map((category, idx) => {
-  const saturationIdx = Math.floor(idx / 3)
-  const lumaIdx = idx % 3
-
   return {
     id: category,
     displayName: _.startCase(category),
