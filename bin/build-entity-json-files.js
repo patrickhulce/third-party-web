@@ -8,6 +8,10 @@ const DATA_DIR = path.join(__dirname, '../data')
 
 if (!fs.existsSync(DIST_DIR)) fs.mkdirSync(DIST_DIR)
 
+function cleanStatsFromEntity(entity) {
+  return _.omit(entity, ['totalExecutionTime', 'totalOccurrences'])
+}
+
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 
@@ -36,3 +40,7 @@ for (const entity of entitiesInHTTPArchive) {
 
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 fs.writeFileSync(`${DIST_DIR}/entities-httparchive.json`, JSON.stringify(entitiesInHTTPArchive))
+fs.writeFileSync(
+  `${DIST_DIR}/entities-httparchive-nostats.json`,
+  JSON.stringify(entitiesInHTTPArchive.map(e => cleanStatsFromEntity(e))),
+)
