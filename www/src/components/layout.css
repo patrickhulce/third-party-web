@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 0;
   background: #282828;
-  color: hsl(175, 60%, 45%); /* #2eb9aa */
+  color: #aaa;
   font-family: 'Montserrat', 'Open Sans', 'Arial', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
 
 a,
 a:visited {
-  color: #aaa;
+  color: hsl(175, 60%, 45%); /* #2eb9aa */
   text-decoration: none;
 }
 
@@ -32,7 +32,6 @@ a.active-link:hover {
 }
 
 a.active-link {
-  color: hsl(175, 60%, 45%);
   font-weight: 600;
 }
 
@@ -171,6 +170,7 @@ a.active-link {
 }
 
 .footer {
+  font-size: 80%;
   position: absolute;
   bottom: 20px;
   left: 0;
