@@ -6,7 +6,7 @@ import DataVisualization from '../components/data-visualization'
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Data" keywords={['third-party', 'report', 'web', 'lighthouse', 'HTTPArchive']} />
     <DataVisualization />
   </>
 )

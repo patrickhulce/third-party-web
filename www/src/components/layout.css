@@ -73,6 +73,21 @@ a.active-link {
   list-style: none;
 }
 
+.sidebar__nav li {
+  margin-bottom: 15px;
+}
+
+.sidebar__nav a {
+  will-change: transform;
+  transition: padding 0.5s;
+  padding-left: 3px;
+}
+
+.sidebar__nav a.active-link {
+  border-left: 3px solid hsl(175, 60%, 45%);
+  padding-left: 10px;
+}
+
 .sidebar__logo {
   pointer-events: all;
 }

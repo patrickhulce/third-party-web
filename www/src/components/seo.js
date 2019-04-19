@@ -34,8 +34,7 @@ function SEO({description, lang, meta, keywords, title}) {
       }}
       link={[
         {
-          href:
-            'https://fonts.googleapis.com/css?family=Montserrat:300,400,600',
+          href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,600',
           rel: 'stylesheet',
         },
       ]}
