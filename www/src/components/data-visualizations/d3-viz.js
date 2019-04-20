@@ -33,7 +33,7 @@ Average Execution Time: ${entity.averageExecutionTime.toFixed(2)} ms
 `,
 }
 
-function renderTreemap(viz, metric) {
+function configureTreemap(viz, metric) {
   viz
     .sum(metric)
     .groupBy(['category', 'id'])
@@ -43,10 +43,9 @@ function renderTreemap(viz, metric) {
         fontSize: 8,
       },
     })
-    .render()
 }
 
-function renderBarChart(viz, metric) {
+function configureBarChart(viz, metric) {
   viz
     .x('id')
     .y(metric)
@@ -64,38 +63,64 @@ const DataVisualizationD3 = vizType => ({metric, width, height}) => {
   const vizRef = useRef()
   const [viz, setViz] = useState(undefined)
   const [vizEl, setVizEl] = useState()
+  const [hasRendered, setRendered] = useState(false)
 
   useEffect(() => {
     if (vizRef.current === vizEl) return
 
-    const newViz = vizType === 'treemap' ? new d3plus.Treemap() : new d3plus.BarChart()
+    let newViz
+    if (vizType === 'treemap') {
+      newViz = new d3plus.Treemap()
+    } else {
+      newViz = new d3plus.BarChart()
+      const {_xAxis: xAxis, _yAxis: yAxis} = newViz
+      xAxis._shapeConfig.labelConfig.fontColor = '#fff'
+      xAxis._barConfig.stroke = '#fff'
+      xAxis.tickSize(0)
+      yAxis._gridConfig['stroke-width'] = 0
+      yAxis._shapeConfig.labelConfig.fontColor = 'none'
+      yAxis._barConfig.stroke = 'none'
+      yAxis.tickSize(0)
+
+      window.xAxis = xAxis
+      window.yAxis = yAxis
+    }
+
+    window.viz = newViz
+
+    newViz.legendConfig({shapeConfig: {labelConfig: {fontColor: '#fff', fontSize: 16}}})
     newViz.select(vizRef.current)
+
     setViz(newViz)
     setVizEl(vizRef.current)
+    setRendered(false)
 
     return () => {
       setViz(undefined)
       setVizEl(undefined)
+      setRendered(false)
     }
   }, [vizRef.current])
 
   useEffect(() => {
     if (!viz) return
 
-    const vizWithDimensions = viz
+    viz
       .width(width)
       .height(height)
       .tooltipConfig(tooltipConfig)
       .data(data)
 
-    vizType === 'treemap'
-      ? renderTreemap(vizWithDimensions, metric)
-      : renderBarChart(vizWithDimensions, metric)
+    vizType === 'treemap' ? configureTreemap(viz, metric) : configureBarChart(viz, metric)
+
+    viz.render(() => setRendered(true))
   })
 
   return (
     <>
-      <div className="transparent-container" ref={vizRef} />
+      <div className="transparent-container" ref={vizRef}>
+        {hasRendered ? null : <div className="loader-ring" />}
+      </div>
     </>
   )
 }
