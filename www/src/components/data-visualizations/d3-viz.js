@@ -96,6 +96,10 @@ const DataVisualizationD3 = vizType => ({metric, width, height}) => {
     newViz.legendConfig({shapeConfig: {labelConfig: {fontColor: '#fff', fontSize: 16}}})
     newViz.select(vizRef.current)
 
+    if (width < 600) {
+      newViz.legendConfig({width: 0, height: 0})
+    }
+
     setViz(newViz)
     setVizEl(vizRef.current)
     setRendered(false)

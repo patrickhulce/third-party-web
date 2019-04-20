@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+  .page-content {
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .data-pickers-container {
+    justify-content: flex-end;
+    font-size: 14px;
+    top: 35px;
+  }
+
+  .data-picker__option {
+    max-width: 20vw;
+    text-align: center;
+  }
+
+  .entity-data > h1 {
+    text-align: right;
+    font-size: 32px;
+    padding-right: 5vw;
+  }
+
+  .entity-data__search input {
+    height: 40px;
+    min-width: 80vw;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .entity-data__data-view > .data-table-wrapper {
+    width: 100vw;
+    margin-left: 0;
+    display: none;
+  }
+
+  .entity-data__data-view .data-table tbody {
+    height: 30vh;
+  }
+
+  .entity-data__data-view > .selected-entity {
+    width: 100vw;
+  }
+
+  .selected-entity__empty {
+    text-align: center;
+    width: 100%;
+  }
+
+  .entity-data__data-view > .selected-entity h2 {
+    margin: 5px 0;
+  }
+
+  .selected-entity .label-value-pair {
+    font-size: 12px;
+  }
+
+  .selected-entity .label {
+    width: 100px;
+  }
+
+  .selected-entity .label-value-pair--domains .value {
+    max-height: 200px;
+    overflow: auto;
+  }
+}

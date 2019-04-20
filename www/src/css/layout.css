@@ -2,6 +2,7 @@
 @import './data-table.css';
 @import './sidebar.css';
 @import './visualizations.css';
+@import './mobile.css';
 
 :root {
   --background-color: #282828;
@@ -92,6 +93,6 @@ a.active-link {
   position: absolute;
   bottom: 20px;
   left: 0;
-  right: 0;
+  width: 100vw;
   text-align: center;
 }

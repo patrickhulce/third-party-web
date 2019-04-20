@@ -47,6 +47,7 @@
 .entity-data__data-view > .data-table-wrapper {
   width: calc(60vw - 20px);
   margin-left: 20px;
+  overflow: hidden;
 }
 
 .entity-data__data-view > .selected-entity {
@@ -56,6 +57,12 @@
 .selected-entity {
   padding-left: 20px;
   color: var(--text-active-color);
+}
+
+.selected-entity__empty {
+  padding-left: 20px;
+  color: var(--text-active-color);
+  font-size: 24px;
 }
 
 .selected-entity .label-value-pair {

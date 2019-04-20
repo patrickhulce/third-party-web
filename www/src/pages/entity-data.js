@@ -33,7 +33,7 @@ const KeyValuePair = ({label, value}) => {
 }
 
 const EntityViewer = ({entity, getRootDomain, getEntity}) => {
-  if (!entity) return null
+  if (!entity) return <div className="selected-entity__empty">No entity selected</div>
 
   const {
     name,
