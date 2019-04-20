@@ -28,7 +28,8 @@ const Sidebar = ({siteTitle}) => {
         </div>
         <nav className="sidebar__nav">
           <ul style={{margin: 0, padding: 0}}>
-            <NavLink href="/" text="Data" />
+            <NavLink href="/" text="Visualizations" />
+            <NavLink href="/entity-data" text="Entity Data" />
             <NavLink href="/about" text="About" />
             <li>
               <a
