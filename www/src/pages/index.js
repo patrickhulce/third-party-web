@@ -82,11 +82,13 @@ const VisualizationPage = () => {
             },
           ]}
         />
-        <DataPicker
-          currentValue={vizType}
-          setValue={setVizType}
-          options={[{label: 'Treemap', value: 'treemap'}, {label: 'Bar', value: 'barchart'}]}
-        />
+        {clientWidth < 600 ? null : (
+          <DataPicker
+            currentValue={vizType}
+            setValue={setVizType}
+            options={[{label: 'Treemap', value: 'treemap'}, {label: 'Bar', value: 'barchart'}]}
+          />
+        )}
       </div>
       <div ref={ref} className="visualizations transparent-container">
         {element}
