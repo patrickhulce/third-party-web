@@ -76,6 +76,10 @@
   padding-top: 7px;
 }
 
+.selected-entity .label-value-pair--domains .value {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .selected-entity .label {
   display: inline-block;
   width: 175px;

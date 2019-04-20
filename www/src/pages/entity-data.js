@@ -14,8 +14,9 @@ const KeyValuePair = ({label, value}) => {
   )
 }
 
-const EntityViewer = ({selectedEntity}) => {
-  if (!selectedEntity) return null
+const EntityViewer = ({entity, getRootDomain, getEntity}) => {
+  if (!entity) return null
+
   const {
     name,
     company,
@@ -24,7 +25,18 @@ const EntityViewer = ({selectedEntity}) => {
     totalOccurrences,
     averageExecutionTime,
     domains,
-  } = selectedEntity
+  } = entity
+
+  const prettifiedDomains = Array.from(
+    new Set(
+      domains.map(domain => {
+        const rootDomain = getRootDomain(domain)
+        if (rootDomain === domain) return `*.${rootDomain}`
+        if (getEntity(rootDomain) === entity) return `*.${rootDomain}`
+        return domain
+      })
+    )
+  ).sort()
 
   return (
     <div className="selected-entity">
@@ -45,7 +57,7 @@ const EntityViewer = ({selectedEntity}) => {
       {averageExecutionTime ? (
         <KeyValuePair label="Average Impact" value={averageExecutionTime.toFixed(0) + ' ms'} />
       ) : null}
-      <KeyValuePair label="Domains" value={domains.join('\n')} />
+      <KeyValuePair label="Domains" value={prettifiedDomains.join('\n')} />
     </div>
   )
 }
@@ -53,7 +65,7 @@ const EntityViewer = ({selectedEntity}) => {
 const EntityData = thirdPartyWeb => () => {
   const [selectedEntity, setSelectedEntity] = useState()
   const [searchText, setSearchText] = useState('')
-  const {entities} = thirdPartyWeb
+  const {entities, getRootDomain, getEntity} = thirdPartyWeb
   const filteredEntities = entities.filter(entity => {
     const searchTerms = searchText
       .trim()
@@ -93,7 +105,11 @@ const EntityData = thirdPartyWeb => () => {
             onEntityClick={entity => setSelectedEntity(entity)}
           />
         </div>
-        <EntityViewer selectedEntity={inferredSelection} />
+        <EntityViewer
+          entity={inferredSelection}
+          getRootDomain={getRootDomain}
+          getEntity={getEntity}
+        />
       </div>
     </>
   )
