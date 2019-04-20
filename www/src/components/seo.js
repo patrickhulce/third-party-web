@@ -37,7 +37,8 @@ function SEO({description, lang, meta, keywords, title}) {
           href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,600',
           rel: 'preload',
           as: 'style',
-          onLoad: event => (event.target.rel = 'stylesheet'),
+          crossOrigin: 'anonymous',
+          onLoad: `this.rel = 'stylesheet'`,
         },
       ]}
       title={title}
