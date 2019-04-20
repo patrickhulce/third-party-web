@@ -22,7 +22,7 @@ const DataPicker = ({currentValue, setValue, options}) => {
   )
 }
 
-const DataPage = () => {
+const VisualizationPage = () => {
   const [metric, setMetric] = useState('totalExecutionTime')
   const [vizType, setVizType] = useState('treemap')
   const ref = useRef(null)
@@ -66,11 +66,11 @@ const DataPage = () => {
           options={[{label: 'Treemap', value: 'treemap'}, {label: 'Bar', value: 'barchart'}]}
         />
       </div>
-      <div ref={ref} className="data-visualization transparent-container">
+      <div ref={ref} className="visualizations transparent-container">
         {element}
       </div>
     </>
   )
 }
 
-export default DataPage
+export default VisualizationPage
