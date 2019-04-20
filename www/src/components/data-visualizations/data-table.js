@@ -10,13 +10,13 @@ const DataTable = ({entities, selectedEntity, onEntityClick}) => {
         <tr>
           <th style={{width: '50%'}}>Product</th>
           <th style={{width: '25%'}}>Category</th>
-          <th style={{width: '25%'}}>Popularity</th>
+          <th style={{width: '25%'}}>Usage</th>
         </tr>
       </thead>
       <tbody>
         {entities.map(entity => (
           <tr
-            key={entity.name}
+            key={`${entity.name} ${entity.domains.join(' ')}`}
             onClick={() => onEntityClick(entity)}
             className={classNames({
               'row-selected': selectedEntity === entity,
@@ -27,6 +27,12 @@ const DataTable = ({entities, selectedEntity, onEntityClick}) => {
             <td style={{width: '25%'}}>{entity.totalOccurrences.toLocaleString()}</td>
           </tr>
         ))}
+        {entities.length === 0 ? (
+          <tr>
+            {' '}
+            <td style={{width: '100%'}}>No matching results</td>
+          </tr>
+        ) : null}
       </tbody>
     </table>
   )

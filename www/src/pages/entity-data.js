@@ -1,6 +1,6 @@
 import React, {Suspense, useState} from 'react'
-import classNames from 'classnames'
 import startCase from 'lodash/startCase'
+import debounce from 'lodash/debounce'
 
 import SEO from '../components/seo'
 import DataTable from '../components/data-visualizations/data-table'
@@ -41,7 +41,7 @@ const EntityViewer = ({selectedEntity}) => {
           }
         />
       ) : null}
-      <KeyValuePair label="Total Occurrences" value={totalOccurrences.toLocaleString()} />
+      <KeyValuePair label="Usage" value={totalOccurrences.toLocaleString()} />
       {averageExecutionTime ? (
         <KeyValuePair label="Average Impact" value={averageExecutionTime.toFixed(0) + ' ms'} />
       ) : null}
@@ -50,34 +50,56 @@ const EntityViewer = ({selectedEntity}) => {
   )
 }
 
-const EntityData = thirdPartyWeb => ({selectedEntity, setSelectedEntity}) => {
+const EntityData = thirdPartyWeb => () => {
+  const [selectedEntity, setSelectedEntity] = useState()
+  const [searchText, setSearchText] = useState('')
   const {entities} = thirdPartyWeb
+  const filteredEntities = entities.filter(entity => {
+    const searchTerms = searchText
+      .trim()
+      .toLowerCase()
+      .split(/\s+/g)
+      .filter(Boolean)
+
+    return searchTerms.every(term => {
+      return (
+        entity.name.includes(term) ||
+        entity.company.includes(term) ||
+        entity.domains.some(domain => domain.includes(term))
+      )
+    })
+  })
+
+  const inferredSelection =
+    selectedEntity || (filteredEntities.length === 1 ? filteredEntities[0] : undefined)
+
+  const debouncedSearchTextUpdate = debounce(setSearchText, 75)
 
   return (
     <>
       <div className="entity-data__search">
         <input
           type="text"
+          onChange={e => debouncedSearchTextUpdate(e.target.value)}
           placeholder="search for an entity..."
-          ariaLabel="Search input text to find an entity"
+          aria-label="Search input text to find an entity"
         />
       </div>
       <div className="entity-data__data-view">
         <div className="data-table-wrapper">
           <DataTable
-            entities={entities}
+            entities={filteredEntities}
             selectedEntity={selectedEntity}
             onEntityClick={entity => setSelectedEntity(entity)}
           />
         </div>
-        <EntityViewer selectedEntity={selectedEntity} />
+        <EntityViewer selectedEntity={inferredSelection} />
       </div>
     </>
   )
 }
 
 const EntityDataPage = () => {
-  const [selectedEntity, setSelectedEntity] = useState()
   const loader = <div className="loader-ring" />
 
   let element = loader
@@ -93,7 +115,7 @@ const EntityDataPage = () => {
 
     element = (
       <Suspense fallback={loader}>
-        <LazyView selectedEntity={selectedEntity} setSelectedEntity={setSelectedEntity} />
+        <LazyView />
       </Suspense>
     )
   }
