@@ -92,7 +92,7 @@ a.active-link {
 }
 
 .sidebar__logo svg {
-  fill: #2eb9aa;
+  fill: hsl(175, 60%, 45%);
   width: 80px;
   margin: 20px;
   height: auto;
@@ -126,6 +126,35 @@ a.active-link {
   width: 100vw;
   height: 100vh;
   padding-top: 120px;
+}
+
+.data-pickers-container {
+  z-index: 100;
+  position: absolute;
+  top: 45px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.data-picker {
+  display: flex;
+  width: max-content;
+}
+
+.data-picker__option {
+  color: hsl(175, 60%, 45%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.data-picker__option:hover {
+  color: white;
+}
+
+.data-picker__option--active {
+  font-weight: bold;
+  border-bottom: 3px solid hsl(175, 60%, 45%);
 }
 
 .data-visualization__legend {

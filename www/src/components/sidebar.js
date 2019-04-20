@@ -34,7 +34,7 @@ const Sidebar = ({siteTitle}) => {
               <a
                 href="https://github.com/patrickhulce/third-party-web"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
