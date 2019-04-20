@@ -15,16 +15,21 @@ const categories = _.uniq(thirdPartyWeb.entities.map(e => e.categories[0])).map(
   }
 })
 
-const data = thirdPartyWeb.entities.slice(0, 100).map(entity => {
-  const category = categories.find(c => c.id === entity.categories[0])
+const data = thirdPartyWeb.entities
+  .filter(entity => entity.totalOccurrences)
+  .sort((a, b) => b.totalExecutionTime - a.totalExecutionTime)
+  .slice(0, 100)
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .map(entity => {
+    const category = categories.find(c => c.id === entity.categories[0])
 
-  return {
-    ...entity,
-    id: entity.name,
-    category: category.displayName,
-    color: category.color,
-  }
-})
+    return {
+      ...entity,
+      id: entity.name,
+      category: category.displayName,
+      color: category.color,
+    }
+  })
 
 const tooltipConfig = {
   body: entity => `
