@@ -55,6 +55,7 @@
 
 .selected-entity {
   padding-left: 20px;
+  color: var(--text-active-color);
 }
 
 .selected-entity .label-value-pair {
@@ -83,4 +84,8 @@
 .selected-entity .label {
   display: inline-block;
   width: 175px;
+}
+
+.selected-entity .value {
+  font-weight: bold;
 }

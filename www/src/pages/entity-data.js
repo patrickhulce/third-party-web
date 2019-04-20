@@ -6,9 +6,27 @@ import SEO from '../components/seo'
 import DataTable from '../components/data-visualizations/data-table'
 
 const KeyValuePair = ({label, value}) => {
+  const fileIssueLink = (
+    <sup>
+      <a
+        title="Something looks wrong? File an issue to help us out!"
+        href="https://github.com/patrickhulce/third-party-web/issues"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ?
+      </a>
+    </sup>
+  )
+
+  const labelName = label.toLowerCase()
+
   return (
-    <div className={`label-value-pair label-value-pair--${label.toLowerCase()}`}>
-      <span className="label">{label}</span>
+    <div className={`label-value-pair label-value-pair--${labelName}`}>
+      <span className="label">
+        {label}
+        {labelName === 'domains' ? fileIssueLink : null}
+      </span>
       <span className="value">{value}</span>
     </div>
   )
@@ -83,7 +101,8 @@ const EntityData = thirdPartyWeb => () => {
   })
 
   const inferredSelection =
-    selectedEntity || (filteredEntities.length === 1 ? filteredEntities[0] : undefined)
+    filteredEntities.find(e => e === selectedEntity) ||
+    (filteredEntities.length === 1 ? filteredEntities[0] : undefined)
 
   const debouncedSearchTextUpdate = debounce(setSearchText, 75)
 
