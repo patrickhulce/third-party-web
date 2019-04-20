@@ -1,0 +1,79 @@
+.sidebar {
+  pointer-events: none;
+  z-index: 10000;
+  height: 100vh;
+  position: absolute;
+  background-color: none;
+  transition: background-color 1s;
+}
+
+.sidebar__clickhole {
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.sidebar__nav {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  right: 0;
+
+  padding-left: 45px;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.sidebar__nav ul {
+  list-style: none;
+}
+
+.sidebar__nav li {
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.sidebar__nav a {
+  will-change: transform;
+  transition: padding 0.5s;
+  padding-left: 3px;
+}
+
+.sidebar__nav a.active-link {
+  border-left: 3px solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.sidebar__logo {
+  pointer-events: all;
+}
+
+.sidebar__logo svg {
+  fill: var(--primary-color);
+  width: 80px;
+  margin: 20px;
+  height: auto;
+
+  transition: width 2s, height 2s, margin 2s;
+}
+
+.sidebar__logo:hover svg {
+  fill: white;
+  cursor: pointer;
+}
+
+.sidebar--expanded {
+  pointer-events: all;
+  background-color: var(--secondary-semi-transparent-color);
+}
+
+.sidebar--expanded .sidebar__logo svg {
+  width: 120px;
+  margin: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.sidebar--expanded .sidebar__nav {
+  opacity: 1;
+}
