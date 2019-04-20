@@ -7,8 +7,9 @@ import SEO from '../components/seo'
 const DataPicker = ({currentValue, setValue, options}) => {
   return (
     <div className="data-picker">
-      {options.map(({label, value}) => (
+      {options.map(({label, value, tooltip}) => (
         <div
+          title={tooltip}
           key={value}
           className={classNames('data-picker__option', {
             'data-picker__option--active': value === currentValue,
@@ -55,9 +56,30 @@ const VisualizationPage = () => {
           currentValue={metric}
           setValue={setMetric}
           options={[
-            {label: 'Total Impact', value: 'totalExecutionTime'},
-            {label: 'Popularity', value: 'totalOccurrences'},
-            {label: 'Average Impact', value: 'averageExecutionTime'},
+            {
+              label: 'Total Impact',
+              value: 'totalExecutionTime',
+              tooltip: [
+                'This measure how long all of the scripts across the entire web for the entity take to execute, in aggregate.',
+                'Largest entities here have the most impact on the performance of the web as a whole.',
+              ].join(' '),
+            },
+            {
+              label: 'Total Usage',
+              value: 'totalOccurrences',
+              tooltip: [
+                'This measure how many scripts across the entire web are seen for the entity.',
+                'Largest visualizations here are the most popular third parties.',
+              ].join(' '),
+            },
+            {
+              label: 'Average Impact',
+              value: 'averageExecutionTime',
+              tooltip: [
+                'This measure how long each script for the entity takes to execute, on average.',
+                'Largest entities here are the worst performing third parties.',
+              ].join(' '),
+            },
           ]}
         />
         <DataPicker
