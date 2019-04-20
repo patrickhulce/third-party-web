@@ -1,0 +1,43 @@
+.visualizations {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 120px;
+}
+
+.data-pickers-container {
+  z-index: 100;
+  position: absolute;
+  top: 45px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.data-picker {
+  display: flex;
+  width: max-content;
+  padding: 0 15px;
+}
+
+.data-picker__option {
+  color: var(--primary-color);
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.data-picker__option:hover {
+  color: var(--text-active-color);
+}
+
+.data-picker__option--active {
+  font-weight: bold;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.visualizations .loader-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
