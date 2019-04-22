@@ -7,6 +7,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {trackingId: 'UA-20833280-8', respectDNT: true},
+    },
+    {
       resolve: 'gatsby-plugin-layout',
       options: {
         component: require.resolve('./src/components/layout.js'),

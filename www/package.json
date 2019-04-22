@@ -12,6 +12,7 @@
     "d3plus-react": "^0.5.3",
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
+    "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-layout": "^1.0.14",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-offline": "^2.0.25",
