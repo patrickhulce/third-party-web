@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  padding-top: 120px;
+  padding-top: 130px;
 }
 
 .data-pickers-container {
@@ -18,6 +18,15 @@
   display: flex;
   width: max-content;
   padding: 0 15px;
+}
+
+.data-picker__explanation {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .data-picker__option {

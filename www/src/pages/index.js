@@ -5,26 +5,33 @@ import classNames from 'classnames'
 import SEO from '../components/seo'
 
 const DataPicker = ({currentValue, setValue, options}) => {
+  const activeOption = options.find(option => option.value === currentValue)
+
   return (
-    <div className="data-picker">
-      {options.map(({label, value, tooltip}) => (
-        <div
-          title={tooltip}
-          key={value}
-          className={classNames('data-picker__option', {
-            'data-picker__option--active': value === currentValue,
-          })}
-          onClick={() => setValue(value)}
-        >
-          {label}
-        </div>
-      ))}
-    </div>
+    <>
+      <div className="data-picker">
+        {options.map(({label, value, tooltip}) => (
+          <div
+            title={tooltip}
+            key={value}
+            className={classNames('data-picker__option', {
+              'data-picker__option--active': value === currentValue,
+            })}
+            onClick={() => setValue(value)}
+          >
+            {label}
+          </div>
+        ))}
+      </div>
+      {activeOption && activeOption.tooltip ? (
+        <div className="data-picker__explanation">{activeOption.tooltip}</div>
+      ) : null}
+    </>
   )
 }
 
 const VisualizationPage = () => {
-  const [metric, setMetric] = useState('totalExecutionTime')
+  const [metric, setMetric] = useState('averageExecutionTime')
   const [vizType, setVizType] = useState('treemap')
   const ref = useRef(null)
   const {width: clientWidth, height: clientHeight} = useComponentSize(ref)
@@ -57,27 +64,27 @@ const VisualizationPage = () => {
           setValue={setMetric}
           options={[
             {
+              label: 'Average Cost',
+              value: 'averageExecutionTime',
+              tooltip: [
+                'This visualizes how long each script takes to execute, on average.',
+                'Largest entities here are the worst performing third parties.',
+              ].join(' '),
+            },
+            {
               label: 'Total Impact',
               value: 'totalExecutionTime',
               tooltip: [
-                'This measure how long all of the scripts across the entire web for the entity take to execute, in aggregate.',
-                'Largest entities here have the most impact on the performance of the web as a whole.',
+                'This visualizes how long all of the scripts across the entire web take to execute, in aggregate.',
+                'Largest entities here have the largest impact on the performance of the web as a whole.',
               ].join(' '),
             },
             {
-              label: 'Total Usage',
+              label: 'Popularity',
               value: 'totalOccurrences',
               tooltip: [
-                'This measure how many scripts across the entire web are seen for the entity.',
+                'This visualizes how many scripts across the entire web are seen for the entity.',
                 'Largest visualizations here are the most popular third parties.',
-              ].join(' '),
-            },
-            {
-              label: 'Average Impact',
-              value: 'averageExecutionTime',
-              tooltip: [
-                'This measure how long each script for the entity takes to execute, on average.',
-                'Largest entities here are the worst performing third parties.',
               ].join(' '),
             },
           ]}
