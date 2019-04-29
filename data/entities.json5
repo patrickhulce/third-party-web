@@ -88,7 +88,10 @@
       "imasdk.googleapis.com",
       "lh3.googleusercontent.com",
       "calendar.google.com",
-      "pay.google.com"
+      "pay.google.com",
+      "news.google.com",
+      "payments.google.com",
+      "clients2.google.com"
     ]
   },
   {
@@ -146,7 +149,7 @@
     "name": "AddThis",
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
-    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com", "r.dlx.addthis.com"]
+    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com", "r.dlx.addthis.com", "su.addthis.com", "x.dlx.addthis.com"]
   },
   {
     "name": "Blogger",
@@ -162,7 +165,7 @@
     "name": "Gravatar",
     "homepage": "http://en.gravatar.com/",
     "categories": ["social"],
-    "domains": ["secure.gravatar.com"]
+    "domains": ["secure.gravatar.com", "www.gravatar.com"]
   },
   {
     "name": "Yandex Metrica",
@@ -213,7 +216,7 @@
     "company": "Automattic",
     "homepage": "https://wp.com/",
     "categories": ["hosting"],
-    "domains": ["s0.wp.com", "s2.wp.com", "s.w.org", "wordpress.com"]
+    "domains": ["s0.wp.com", "s2.wp.com", "s.w.org", "wordpress.com", "stats.wp.com"]
   },
   {
     "name": "Hatena Blog",
@@ -256,7 +259,7 @@
     "name": "Moat",
     "homepage": "https://moat.com/",
     "categories": ["ad"],
-    "domains": ["z.moatads.com", "moatpixel.com"]
+    "domains": ["z.moatads.com", "moatpixel.com", "px.moatads.com", "geo.moatads.com", "sejs.moatads.com", "mb.moatads.com", "v4.moatads.com"]
   },
   {
     "name": "33 Across",
@@ -274,6 +277,8 @@
       "33across-d.openx.net",
       "rtb.openx.net",
       "us-u.openx.net",
+      "eu-u.openx.net",
+      "u.openx.net",
       "deliverimp.com",
       "jump-time.net",
       "openxadexchange.com",
@@ -284,7 +289,7 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com", "c.amazon-adsystem.com", "aax.amazon-adsystem.com"]
+    "domains": ["s.amazon-adsystem.com", "c.amazon-adsystem.com", "aax.amazon-adsystem.com", "z-na.amazon-adsystem.com"]
   },
   {
     "name": "Rubicon Project",
@@ -339,6 +344,8 @@
       "pixel.advertising.com",
       "dtm.advertising.com",
       "tag.sp.advertising.com",
+      "service.sp.advertising.com",
+      "adtech.advertising.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
@@ -401,7 +408,7 @@
     "name": "Salesforce",
     "homepage": "https://www.salesforce.com/products/marketing-cloud/",
     "categories": ["analytics"],
-    "domains": ["cdn.krxd.net"]
+    "domains": ["cdn.krxd.net", "beacon.krxd.net", "consumer.krxd.net", "usermatch.krxd.net"]
   },
   {
     "name": "Optimizely",
@@ -490,6 +497,8 @@
       "pixel.adsafeprotected.com",
       "static.adsafeprotected.com",
       "fw.adsafeprotected.com",
+      "cdn.adsafeprotected.com",
+      "dt.adsafeprotected.com",
       "iasds01.com"
     ]
   },
@@ -509,7 +518,7 @@
     "name": "Pubmatic",
     "homepage": "https://pubmatic.com/",
     "categories": ["ad"],
-    "domains": ["image6.pubmatic.com", "ads.pubmatic.com"]
+    "domains": ["image6.pubmatic.com", "ads.pubmatic.com", "image2.pubmatic.com", "simage2.pubmatic.com", "image4.pubmatic.com", "simage4.pubmatic.com"]
   },
   {
     "name": "Intercom",
@@ -624,7 +633,7 @@
     "name": "Sizmek",
     "homepage": "https://www.sizmek.com/",
     "categories": ["ad"],
-    "domains": ["secure-ds.serving-sys.com", "ds.serving-sys.com", "peer39.net"]
+    "domains": ["secure-ds.serving-sys.com", "ds.serving-sys.com", "peer39.net", "bs.serving-sys.com"]
   },
   {
     "name": "Scorecard Research",
@@ -684,7 +693,7 @@
     "name": "Media Math",
     "homepage": "http://www.mediamath.com/",
     "categories": ["ad"],
-    "domains": ["mathid.mathtag.com", "mathads.com", "sync.mathtag.com"]
+    "domains": ["mathid.mathtag.com", "mathads.com", "sync.mathtag.com", "pixel.mathtag.com"]
   },
   {
     "name": "Mixpanel",
@@ -780,7 +789,7 @@
     "name": "AppNexus",
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
-    "domains": ["acdn.adnxs.com", "secure.adnxs.com", "ctasnet.com"]
+    "domains": ["acdn.adnxs.com", "secure.adnxs.com", "ctasnet.com", "ib.adnxs.com"],
   },
   {
     "name": "Histats",
@@ -824,11 +833,15 @@
     "categories": ["social"],
     "domains": [
       "platform.linkedin.com",
-      "snap.licdn.com",
       "bizographics.com",
       "slideshare.com",
       "slidesharecdn.com"
     ]
+  },
+  {
+    "name": "LinkedIn Ads",
+    "categories": ["ad"],
+    "domains": ["ads.linkedin.com", "snap.licdn.com", "www.linkedin.com"]
   },
   {
     "name": "Vox Media",
@@ -1042,7 +1055,7 @@
     "name": "Atlas Solutions",
     "homepage": "https://atlassolutions.com",
     "categories": ["analytics"],
-    "domains": ["ad.atdmt.com"]
+    "domains": ["ad.atdmt.com", "cx.atdmt.com"]
   },
   {
     "name": "Quantcast",
@@ -1050,6 +1063,7 @@
     "categories": ["analytics"],
     "domains": [
       "pixel.quantserve.com",
+      "secure.quantserve.com",
       "rules.quantcount.com",
       "brtstats.com",
       "ntv.io",
@@ -2423,9 +2437,10 @@
     "domains": ["borderfree.com", "fiftyone.com"]
   },
   {
-    "name": "Bounce Exchange",
+    "name": "BounceX",
     "categories": ["analytics"],
-    "domains": ["bounceexchange.com"]
+    "homepage": "https://www.bouncex.com/",
+    "domains": ["bounceexchange.com", "events.bouncex.net"]
   },
   {
     "name": "Box",
@@ -4880,7 +4895,8 @@
   {
     "name": "Innovid",
     "categories": ["ad"],
-    "domains": ["ag.innovid.com"]
+    "homepage": "https://www.innovid.com/",
+    "domains": ["ag.innovid.com", "rtr.innovid.com"]
   },
   {
     "name": "Insight Express",
@@ -8508,8 +8524,9 @@
   },
   {
     "name": "Throtle",
+    "homepage": "https://throtle.io/",
     "categories": ["analytics"],
-    "domains": ["v12group.com"]
+    "domains": ["v12group.com", "thrtle.com"]
   },
   {
     "name": "TicketMaster",
@@ -10318,7 +10335,7 @@
     "name": "Brandmetrics",
     "homepage": "https://www.brandmetrics.com",
     "categories": ["analytics"],
-    "domains": ["collector.brandmetrics.com"]
+    "domains": ["collector.brandmetrics.com", "cdn.brandmetrics.com"]
   },
   {
     "name": "EasyAd",
@@ -10355,5 +10372,47 @@
     "homepage": "https://concert.io/",
     "categories": ["ad"],
     "domains": ["cdn.concert.io"]
+  },
+  {
+    "name": "Emerse",
+    "homepage": "https://www.emerse.com/",
+    "categories": ["ad"],
+    "domains": ["tracking.emerse.com"]
+  },
+  {
+    "name": "Iterate",
+    "homepage": "https://iteratehq.com/",
+    "categories": ["analytics"],
+    "domains": ["iteratehq.com"]
+  },
+  {
+    "name": "Cookiebot",
+    "homepage": "https://www.cookiebot.com/",
+    "categories": ["utility"],
+    "domains": ["consent.cookiebot.com"]
+  },
+  {
+    "name": "Netlify",
+    "homepage": "https://www.netlify.com/",
+    "categories": ["utility"],
+    "domains": ["netlify.com", "cloud.netlifyusercontent.com"]
+  },
+  {
+    "name": "Scroll",
+    "homepage": "https://scroll.com/",
+    "categories": ["utility"],
+    "domains": ["static.scroll.com", "connect.scroll.com"]
+  },
+  {
+    "name": "Consumable",
+    "homepage": "http://consumable.com/",
+    "categories": ["ad"],
+    "domains": ["serverbid.com"]
+  },
+  {
+    "name": "DMD Marketing",
+    "homepage": "https://www.dmdconnects.com/",
+    "categories": ["ad"],
+    "domains": ["medtargetsystem.com"]
   }
 ]
