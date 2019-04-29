@@ -997,7 +997,7 @@ Lighthouse's bootup time audit attempts to attribute all toplevel main-thread ta
 
 ### The data for entity X seems wrong. How can it be corrected?
 
-Verify that the origins in `data/entities.json` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
+Verify that the origins in `data/entities.json5` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
 
 <a name="contribute"></a>
 
@@ -1013,7 +1013,7 @@ A **huge** thanks to [@simonhearne](https://twitter.com/simonhearne) and [@soulg
 
 ### Updating the Entities
 
-The domain->entity mapping can be found in `data/entities.json`. Adding a new entity is as simple as adding a new array item with the following form.
+The domain->entity mapping can be found in `data/entities.json5`. Adding a new entity is as simple as adding a new array item with the following form.
 
 ```js
 {
