@@ -178,7 +178,7 @@
     "name": "Hotjar",
     "homepage": "https://www.hotjar.com/",
     "categories": ["analytics"],
-    "domains": ["script.hotjar.com", "static.hotjar.com"]
+    "domains": ["script.hotjar.com", "static.hotjar.com", "in.hotjar.com", "vc.hotjar.io", "vars.hotjar.com"]
   },
   {
     "name": "Baidu Analytics",
@@ -359,7 +359,7 @@
     "name": "Xaxis",
     "homepage": "https://www.xaxis.com/",
     "categories": ["ad"],
-    "domains": ["t.mookie1.com", "247realmedia.com", "gmads.net"]
+    "domains": ["t.mookie1.com", "247realmedia.com", "gmads.net", "odr.mookie1.com"],
   },
   {
     "name": "Freshdesk",
@@ -371,7 +371,7 @@
     "name": "Help Scout",
     "homepage": "https://www.helpscout.net/",
     "categories": ["customer-success"],
-    "domains": ["djtflbt20bdde.cloudfront.net"]
+    "domains": ["djtflbt20bdde.cloudfront.net", "beacon-v2.helpscout.net"]
   },
   {
     "name": "Alexa",
@@ -542,7 +542,7 @@
     "name": "OptinMonster",
     "homepage": "https://optinmonster.com/",
     "categories": ["marketing"],
-    "domains": ["a.optmstr.com"]
+    "domains": ["a.optmstr.com", "api.opmnstr.com", "a.optmnstr.com"]
   },
   {
     "name": "ZenDesk",
@@ -560,7 +560,7 @@
     "name": "Drift",
     "homepage": "https://www.drift.com/",
     "categories": ["marketing"],
-    "domains": ["js.driftt.com"]
+    "domains": ["js.driftt.com", "api.drift.com"]
   },
   {
     "name": "Sentry",
@@ -610,7 +610,7 @@
     "name": "Adroll",
     "homepage": "https://www.adroll.com/",
     "categories": ["ad"],
-    "domains": ["d.adroll.com"]
+    "domains": ["d.adroll.com", "s.adroll.com"]
   },
   {
     "name": "Twitch",
@@ -1025,7 +1025,7 @@
     "name": "GoSquared",
     "homepage": "https://www.gosquared.com",
     "categories": ["analytics"],
-    "domains": ["data.gosquared.com", "d1l6p2sc9645hc.cloudfront.net"]
+    "domains": ["data.gosquared.com", "d1l6p2sc9645hc.cloudfront.net", "data2.gosquared.com"]
   },
   {
     "name": "Usabilla",
@@ -1086,7 +1086,7 @@
     "name": "Intercom",
     "homepage": "https://www.intercom.com",
     "categories": ["analytics"],
-    "domains": ["api-iam.intercom.io"]
+    "domains": ["api-iam.intercom.io", "intercomcdn.com", "widget.intercom.io", "nexus-websocket-a.intercom.io"]
   },
   {
     "name": "Unpkg",
@@ -4246,7 +4246,7 @@
   {
     "name": "FullStory",
     "categories": ["analytics"],
-    "domains": ["www.fullstory.com"]
+    "domains": ["fullstory.com", "rs.fullstory.com"]
   },
   {
     "name": "Fyber",
@@ -10414,5 +10414,17 @@
     "homepage": "https://www.dmdconnects.com/",
     "categories": ["ad"],
     "domains": ["medtargetsystem.com"]
+  },
+  {
+    "name": "Catchpoint",
+    "homepage": "https://www.catchpoint.com/",
+    "categories": ["analytics"],
+    "domains": ["3gl.net"]
+  },
+  {
+    "name": "Terminus",
+    "homepage": "https://terminus.com/",
+    "categories": ["ad"],
+    "domains": ["terminus.services"]
   }
 ]
