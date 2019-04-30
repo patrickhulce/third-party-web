@@ -841,7 +841,11 @@
   {
     "name": "LinkedIn Ads",
     "categories": ["ad"],
-    "domains": ["ads.linkedin.com", "snap.licdn.com", "www.linkedin.com"]
+    "domains": [
+      "ads.linkedin.com",
+      "snap.licdn.com",
+      "www.linkedin.com" // path to pixel request www.linkedin.com/px/li_sync
+    ]
   },
   {
     "name": "Vox Media",
