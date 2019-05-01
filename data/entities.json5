@@ -8,8 +8,12 @@
       "pagead2.googlesyndication.com",
       "tpc.googlesyndication.com",
       "googleads.g.doubleclick.net",
+      "googleads4.g.doubleclick.net",
       "securepubads.g.doubleclick.net",
+      "pubads.g.doubleclick.net",
+      "static.doubleclick.net",
       "cm.g.doubleclick.net",
+      "bid.g.doubleclick.net",
       "s0.2mdn.net",
       "stats.g.doubleclick.net",
       "survey.g.doubleclick.net",
@@ -31,6 +35,7 @@
       "staticxx.facebook.com",
       "static.xx.fbcdn.net",
       "m.facebook.com",
+      "an.facebook.com",
       "atlassbx.com",
       "fbcdn-photos-e-a.akamaihd.net",
       "23.62.3.183",
@@ -91,7 +96,8 @@
       "pay.google.com",
       "news.google.com",
       "payments.google.com",
-      "clients2.google.com"
+      "clients2.google.com",
+      "accounts.google.com"
     ]
   },
   {
@@ -109,6 +115,7 @@
       "www.google-analytics.com",
       "ssl.google-analytics.com",
       "google-analytics.com",
+      "ampcid.google.com",
       "urchin.com"
     ]
   },
@@ -143,7 +150,7 @@
     "name": "Twitter",
     "homepage": "https://twitter.com",
     "categories": ["social"],
-    "domains": ["platform.twitter.com", "cdn.syndication.twimg.com", "twitpic.com", "vine.co"]
+    "domains": ["platform.twitter.com", "cdn.syndication.twimg.com", "twitpic.com", "vine.co", "abs.twimg.com", "syndication.twitter.com", "pbs.twimg.com"]
   },
   {
     "name": "AddThis",
@@ -328,7 +335,7 @@
     "name": "LiveRamp IdentityLink",
     "homepage": "https://liveramp.com/discover-identitylink/",
     "categories": ["analytics"],
-    "domains": ["idsync.rlcdn.com", "circulate.com"]
+    "domains": ["idsync.rlcdn.com", "circulate.com", "id.rlcdn.com", "api.rlcdn.com"]
   },
   {
     "name": "Drawbridge",
@@ -377,13 +384,16 @@
     "name": "Alexa",
     "homepage": "https://www.alexa.com/",
     "categories": ["analytics"],
-    "domains": ["d31qbv1cthcecs.cloudfront.net"]
+    "domains": ["d31qbv1cthcecs.cloudfront.net", "certify.alexametrics.com"]
   },
   {
     "name": "OneSignal",
     "homepage": "https://onesignal.com/",
     "categories": ["utility"],
-    "domains": ["cdn.onesignal.com"]
+    "domains": [
+      "cdn.onesignal.com",
+      "onesignal.com" // example path onesignal.com/api/v1/sync/
+    ]
   },
   {
     "name": "Lucky Orange",
@@ -443,7 +453,13 @@
     "name": "Wistia",
     "homepage": "https://wistia.com/",
     "categories": ["video"],
-    "domains": ["fast.wistia.com", "fast.wistia.net"]
+    "domains": [
+      "fast.wistia.com",
+      "fast.wistia.net",
+      "distillery.wistia.com",
+      "pipedream.wistia.com",
+      "embedwistia-a.akamaihd.net" // video thumbnails shown in the player
+    ]
   },
   {
     "name": "Brightcove",
@@ -518,7 +534,7 @@
     "name": "Pubmatic",
     "homepage": "https://pubmatic.com/",
     "categories": ["ad"],
-    "domains": ["image6.pubmatic.com", "ads.pubmatic.com", "image2.pubmatic.com", "simage2.pubmatic.com", "image4.pubmatic.com", "simage4.pubmatic.com"]
+    "domains": ["image6.pubmatic.com", "ads.pubmatic.com", "image2.pubmatic.com", "simage2.pubmatic.com", "image4.pubmatic.com", "simage4.pubmatic.com", "image5.pubmatic.com"]
   },
   {
     "name": "Intercom",
@@ -645,7 +661,7 @@
     "name": "Criteo",
     "homepage": "https://www.criteo.com/",
     "categories": ["ad"],
-    "domains": ["static.criteo.net", "bidder.criteo.com", "emailretargeting.com"]
+    "domains": ["static.criteo.net", "bidder.criteo.com", "emailretargeting.com", "dis.criteo.com", "gum.criteo.com", "sslwidget.criteo.com", "dis.us.criteo.com"]
   },
   {
     "name": "Segment",
@@ -803,6 +819,9 @@
     "categories": ["ad"],
     "domains": [
       "cdn.doubleverify.com",
+      "cdn3.doubleverify.com",
+      "tps.doubleverify.com",
+      "tps712.doubleverify.com",
       "rtb0.doubleverify.com",
       "rtbcdn.doubleverify.com",
       "dvtps.com",
@@ -6309,7 +6328,7 @@
     "name": "One by AOL:Mobile",
     "company": "AOL",
     "categories": ["ad"],
-    "domains": ["ads.nexage.com"]
+    "domains": ["ads.nexage.com", "hb.nexage.com"]
   },
   {
     "name": "OneAll",
@@ -6450,7 +6469,7 @@
     "name": "Outbrain",
     "homepage": "https://www.outbrain.com/",
     "categories": ["ad"],
-    "domains": ["outbrain.com", "visualrevenue.com"]
+    "domains": ["outbrain.com", "visualrevenue.com", "outbrainimg.com"]
   },
   {
     "name": "OverStream",
@@ -8020,7 +8039,8 @@
       "d2lv4zbk7v5f93.cloudfront.net",
       "d3qxwzhswv93jk.cloudfront.net",
       "www.decenthat.com",
-      "www.fallingfalcon.com"
+      "www.fallingfalcon.com",
+      "www.summerhamster.com"
     ]
   },
   {
@@ -10430,5 +10450,26 @@
     "homepage": "https://terminus.com/",
     "categories": ["ad"],
     "domains": ["terminus.services"]
+  },
+  {
+    "name": "Acceptable Ads",
+    "homepage": "https://acceptableads.com/",
+    "categories": ["ad"],
+    "domains": ["aaxdetect.com", "aaxads.com"]
+  },
+  {
+    "name": "ClearBrain",
+    "homepage": "https://www.clearbrain.com/",
+    "categories": ["analytics"],
+    "domains": ["api.clearbrain.com"]
+  },
+  {
+    "name": "Optanon",
+    "homepage": "https://www.cookielaw.org/",
+    "categories": ["utility"],
+    "domains": [
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com" // onetrust is the parent company
+    ]
   }
 ]
