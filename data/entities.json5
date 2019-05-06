@@ -18,7 +18,8 @@
       "www.googleadservices.com",
       "adservice.google.se",
       "adservice.google.com",
-      "adservice.google.de"
+      "adservice.google.de",
+      "www.googletagservices.com"
     ]
   },
   {
@@ -117,7 +118,7 @@
     "company": "Google",
     "homepage": "https://marketingplatform.google.com/about/tag-manager/",
     "categories": ["tag-manager"],
-    "domains": ["www.googletagmanager.com", "www.googletagservices.com"]
+    "domains": ["www.googletagmanager.com"]
   },
   {
     "name": "Google Fonts",
