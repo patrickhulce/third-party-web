@@ -19,6 +19,7 @@
       "adservice.google.se",
       "adservice.google.com",
       "adservice.google.de",
+      // Mostly https://www.googletagservices.com/tag/js/gpt.js
       "www.googletagservices.com"
     ]
   },
