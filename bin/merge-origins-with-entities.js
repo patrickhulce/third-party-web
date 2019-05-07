@@ -5,8 +5,8 @@ const thirdPartyLib = require('../lib')
 
 const DATA_FOLDER = path.join(__dirname, '../data')
 
-// from total-time-query.generated.sql
-const GLOBAL_EXECUTION_TIME = 4.518238367405001e9
+// from total-time-query.generated.sql, based on2019-03-01 data
+const GLOBAL_EXECUTION_TIME = 4.346887045954005e9
 
 const datasetFiles = fs
   .readdirSync(DATA_FOLDER)
@@ -95,7 +95,7 @@ function computeAllStats(dataset) {
 
   const top50ExecutionTime = _.sumBy(
     sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 50),
-    'totalExecutionTime',
+    'totalExecutionTime'
   )
 
   return {sortedEntityData, top50ExecutionTime, homelessGrouped, totalEntityExecutionTime}
@@ -137,7 +137,7 @@ console.log(
       item.domain,
       item.domains.join(','),
       Math.round(item.totalExecutionTime / 1000).toLocaleString(),
-    ]),
+    ])
 )
 
 console.log('Top 5 Improvements')
@@ -146,7 +146,7 @@ console.log(
     .sortBy('averageExecutionTime')
     .slice(0, 5)
     .map(item => [item.name, item.homepage, Math.round(item.averageExecutionTime).toLocaleString()])
-    .value(),
+    .value()
 )
 
 console.log('Top 5 Disappearing')
@@ -161,7 +161,7 @@ console.log(
       Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
         '%',
     ])
-    .value(),
+    .value()
 )
 
 console.log('Top 5 Increasing')
@@ -178,28 +178,28 @@ console.log(
         Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
         '%',
     ])
-    .value(),
+    .value()
 )
 
 console.log(
   '3rd parties representing',
   ((THIRD_PARTY_EXECUTION_TIME / GLOBAL_EXECUTION_TIME) * 100).toFixed(2),
-  '% of total script execution',
+  '% of total script execution'
 )
 console.log(
   `${sortedEntityData.length} Entities representing`,
   ((totalEntityExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
-  '% of 3rd party script execution',
+  '% of 3rd party script execution'
 )
 console.log(
   'Top 50 Entities representing',
   ((top50ExecutionTime / THIRD_PARTY_EXECUTION_TIME) * 100).toFixed(2),
-  '% of 3rd party script execution',
+  '% of 3rd party script execution'
 )
 
 fs.writeFileSync(
   path.join(__dirname, '../.tmp/combined-data.json'),
-  JSON.stringify(sortedEntityData, null, 2),
+  JSON.stringify(sortedEntityData, null, 2)
 )
 
 console.log('Finished processing', datasetFiles[0])
