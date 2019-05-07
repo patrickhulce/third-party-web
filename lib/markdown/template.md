@@ -52,7 +52,7 @@ console.log(entity)
 
 ### Summary
 
-Across top ~1 million sites, ~800 origins account for ~65% of all script execution time with the top 100 entities already accounting for ~59%. Third party script execution is the majority chunk of the web today, and it's important to make informed choices.
+Across top ~4 million sites, ~2700 origins account for ~57% of all script execution time with the top 50 entities already accounting for ~47%. Third party script execution is the majority chunk of the web today, and it's important to make informed choices.
 
 ### How to Interpret
 
@@ -71,7 +71,7 @@ This section breaks down third parties by category. The third parties in each ca
 
 #### Overall Breakdown
 
-Unsurprisingly, ads account for the largest identifiable chunk of third party script execution. Other balloons as a category primarily due to Google Tag Manager which is used to deliver scripts in multiple categories. Google Tag Manager script execution alone is responsible for more than half of the "Mixed / Other" category.
+Unsurprisingly, ads account for the largest identifiable chunk of third party script execution.
 
 ![breakdown by category](./by-category.png)
 

@@ -48,9 +48,9 @@ This document is a summary of which third party scripts are most responsible for
 The entity classification data is available as an NPM module.
 
 ```js
-const { getEntity } = require("third-party-web");
-const entity = getEntity("https://d36mpcpuzc4ztk.cloudfront.net/js/visitor.js");
-console.log(entity);
+const {getEntity} = require('third-party-web')
+const entity = getEntity('https://d36mpcpuzc4ztk.cloudfront.net/js/visitor.js')
+console.log(entity)
 //   {
 //     "name": "Freshdesk",
 //     "homepage": "https://freshdesk.com/",
@@ -69,11 +69,15 @@ Huge props to [WordAds](https://wordads.co/) for reducing their impact from ~2.5
 
 Almost 2,000 entities tracked now across ~3,000+ domains! Huge props to [@simonhearne](https://twitter.com/simonhearne) for making this massive increase possible. Tag Managers have now been split out into their own category since they represented such a large percentage of the "Mixed / Other" category.
 
+## 2019-05-06 dataset
+
+Google Ads clarified that `www.googletagservices.com` serves more ad scripts than generic tag management, and it has been reclassified accordingly. This has dropped the overall Tag Management share considerably back down to its earlier position.
+
 ## Data
 
 ### Summary
 
-Across top ~1 million sites, ~800 origins account for ~65% of all script execution time with the top 100 entities already accounting for ~59%. Third party script execution is the majority chunk of the web today, and it's important to make informed choices.
+Across top ~4 million sites, ~2700 origins account for ~57% of all script execution time with the top 50 entities already accounting for ~47%. Third party script execution is the majority chunk of the web today, and it's important to make informed choices.
 
 ### How to Interpret
 
@@ -92,7 +96,7 @@ This section breaks down third parties by category. The third parties in each ca
 
 #### Overall Breakdown
 
-Unsurprisingly, ads account for the largest identifiable chunk of third party script execution. Other balloons as a category primarily due to Google Tag Manager which is used to deliver scripts in multiple categories. Google Tag Manager script execution alone is responsible for more than half of the "Mixed / Other" category.
+Unsurprisingly, ads account for the largest identifiable chunk of third party script execution.
 
 ![breakdown by category](./by-category.png)
 
@@ -124,36 +128,36 @@ These scripts are part of advertising networks, either serving or measuring.
 | 18   | [Amazon Ads](https://ad.amazon.com/)                           | 24,660    | 108 ms         |
 | 19   | OwnerIQ                                                        | 1,541     | 110 ms         |
 | 20   | [Adroll](https://www.adroll.com/)                              | 3,119     | 111 ms         |
-| 21   | Digital ad Consortium                                          | 3,777     | 117 ms         |
-| 22   | AudienceSearch                                                 | 4,389     | 117 ms         |
-| 23   | Smart AdServer                                                 | 3,223     | 121 ms         |
-| 24   | TrafficStars                                                   | 1,093     | 122 ms         |
-| 25   | DTSCOUT                                                        | 7,417     | 130 ms         |
-| 26   | Adocean                                                        | 1,319     | 136 ms         |
-| 27   | Adverline Board                                                | 1,307     | 137 ms         |
-| 28   | [Yahoo!](https://www.yahoo.com/)                               | 3,830     | 138 ms         |
-| 29   | [Criteo](https://www.criteo.com/)                              | 66,114    | 139 ms         |
-| 30   | Skimbit                                                        | 15,074    | 146 ms         |
-| 31   | Microad                                                        | 1,328     | 149 ms         |
-| 32   | Chitika                                                        | 1,010     | 150 ms         |
-| 33   | Cxense                                                         | 3,773     | 153 ms         |
-| 34   | JustUno                                                        | 1,944     | 154 ms         |
-| 35   | Tynt                                                           | 25,583    | 154 ms         |
-| 36   | Adform                                                         | 9,062     | 155 ms         |
-| 37   | Rocket Fuel                                                    | 5,755     | 161 ms         |
-| 38   | [MGID](https://www.mgid.com/)                                  | 10,481    | 161 ms         |
-| 39   | JuicyAds                                                       | 2,935     | 163 ms         |
-| 40   | [Bing Ads](https://bingads.microsoft.com)                      | 13,332    | 167 ms         |
-| 41   | Sharethrough                                                   | 2,195     | 170 ms         |
-| 42   | sovrn                                                          | 5,371     | 172 ms         |
-| 43   | [Pubmatic](https://pubmatic.com/)                              | 6,439     | 173 ms         |
-| 44   | Klaviyo                                                        | 7,677     | 181 ms         |
-| 45   | Teads                                                          | 6,589     | 187 ms         |
-| 46   | [Market GID](https://www.marketgid.com/)                       | 3,124     | 190 ms         |
-| 47   | Index Exchange                                                 | 3,336     | 196 ms         |
-| 48   | [Taboola](https://www.taboola.com/)                            | 25,671    | 200 ms         |
-| 49   | LongTail Ad Solutions                                          | 2,789     | 203 ms         |
-| 50   | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/) | 1,165,800 | 221 ms         |
+| 21   | [AOL / Oath / Verizon Media](https://www.oath.com/)            | 2,623     | 115 ms         |
+| 22   | Digital ad Consortium                                          | 3,777     | 117 ms         |
+| 23   | AudienceSearch                                                 | 4,389     | 117 ms         |
+| 24   | Smart AdServer                                                 | 3,223     | 121 ms         |
+| 25   | TrafficStars                                                   | 1,093     | 122 ms         |
+| 26   | DTSCOUT                                                        | 7,417     | 130 ms         |
+| 27   | Adocean                                                        | 1,319     | 136 ms         |
+| 28   | Adverline Board                                                | 1,307     | 137 ms         |
+| 29   | [Yahoo!](https://www.yahoo.com/)                               | 3,830     | 138 ms         |
+| 30   | [Criteo](https://www.criteo.com/)                              | 66,114    | 139 ms         |
+| 31   | Skimbit                                                        | 15,074    | 146 ms         |
+| 32   | Microad                                                        | 1,328     | 149 ms         |
+| 33   | Chitika                                                        | 1,010     | 150 ms         |
+| 34   | Cxense                                                         | 3,773     | 153 ms         |
+| 35   | JustUno                                                        | 1,944     | 154 ms         |
+| 36   | Tynt                                                           | 25,583    | 154 ms         |
+| 37   | Adform                                                         | 9,062     | 155 ms         |
+| 38   | Rocket Fuel                                                    | 5,755     | 161 ms         |
+| 39   | [MGID](https://www.mgid.com/)                                  | 10,481    | 161 ms         |
+| 40   | JuicyAds                                                       | 2,935     | 163 ms         |
+| 41   | [Bing Ads](https://bingads.microsoft.com)                      | 13,332    | 167 ms         |
+| 42   | Sharethrough                                                   | 2,195     | 170 ms         |
+| 43   | sovrn                                                          | 5,371     | 172 ms         |
+| 44   | [Pubmatic](https://pubmatic.com/)                              | 6,439     | 173 ms         |
+| 45   | Klaviyo                                                        | 7,677     | 181 ms         |
+| 46   | Teads                                                          | 6,589     | 187 ms         |
+| 47   | [Market GID](https://www.marketgid.com/)                       | 3,124     | 190 ms         |
+| 48   | Index Exchange                                                 | 3,336     | 196 ms         |
+| 49   | [Taboola](https://www.taboola.com/)                            | 25,671    | 200 ms         |
+| 50   | LongTail Ad Solutions                                          | 2,789     | 203 ms         |
 | 51   | Sortable                                                       | 1,028     | 252 ms         |
 | 52   | [WordAds](https://wordads.co/)                                 | 33,392    | 252 ms         |
 | 53   | [Yandex Ads](https://yandex.com/adv/)                          | 38,205    | 266 ms         |
@@ -165,21 +169,22 @@ These scripts are part of advertising networks, either serving or measuring.
 | 59   | Privy                                                          | 9,952     | 329 ms         |
 | 60   | [Media.net](https://www.media.net/)                            | 11,818    | 334 ms         |
 | 61   | [Integral Ad Science](https://integralads.com/uk/)             | 25,277    | 368 ms         |
-| 62   | [MediaVine](https://www.mediavine.com/)                        | 9,768     | 520 ms         |
-| 63   | Infolinks                                                      | 4,090     | 524 ms         |
-| 64   | [DoubleVerify](https://www.doubleverify.com/)                  | 4,033     | 537 ms         |
-| 65   | GumGum                                                         | 4,172     | 589 ms         |
-| 66   | Between Digital                                                | 1,107     | 600 ms         |
-| 67   | [Popads](https://www.popads.net/)                              | 4,548     | 681 ms         |
-| 68   | Vidible                                                        | 1,566     | 746 ms         |
-| 69   | [Moat](https://moat.com/)                                      | 18,342    | 756 ms         |
-| 70   | AdMatic                                                        | 2,707     | 759 ms         |
-| 71   | [33 Across](https://33across.com/)                             | 15,704    | 876 ms         |
-| 72   | LKQD                                                           | 2,090     | 885 ms         |
-| 73   | [OpenX](https://www.openx.com/)                                | 8,892     | 954 ms         |
-| 74   | [fam](http://admin.fam-ad.com/report/)                         | 3,505     | 1086 ms        |
-| 75   | Yieldmo                                                        | 2,227     | 1235 ms        |
-| 76   | StickyADS.tv                                                   | 2,010     | 1292 ms        |
+| 62   | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/) | 1,748,957 | 402 ms         |
+| 63   | [MediaVine](https://www.mediavine.com/)                        | 9,768     | 520 ms         |
+| 64   | Infolinks                                                      | 4,090     | 524 ms         |
+| 65   | [DoubleVerify](https://www.doubleverify.com/)                  | 4,033     | 537 ms         |
+| 66   | GumGum                                                         | 4,172     | 589 ms         |
+| 67   | Between Digital                                                | 1,107     | 600 ms         |
+| 68   | [Popads](https://www.popads.net/)                              | 4,548     | 681 ms         |
+| 69   | Vidible                                                        | 1,566     | 746 ms         |
+| 70   | [Moat](https://moat.com/)                                      | 18,342    | 756 ms         |
+| 71   | AdMatic                                                        | 2,707     | 759 ms         |
+| 72   | [33 Across](https://33across.com/)                             | 15,704    | 876 ms         |
+| 73   | LKQD                                                           | 2,090     | 885 ms         |
+| 74   | [OpenX](https://www.openx.com/)                                | 8,892     | 954 ms         |
+| 75   | [fam](http://admin.fam-ad.com/report/)                         | 3,505     | 1086 ms        |
+| 76   | Yieldmo                                                        | 2,227     | 1235 ms        |
+| 77   | StickyADS.tv                                                   | 2,010     | 1292 ms        |
 
 <a name="analytics"></a>
 
@@ -216,26 +221,28 @@ These scripts measure or track users and their actions. There's a wide range in 
 | 25   | Treasure Data                                                                | 9,714     | 131 ms         |
 | 26   | [Nielsen NetRatings SiteCensus](http://www.nielsen-online.com/intlpage.html) | 15,441    | 141 ms         |
 | 27   | Evidon                                                                       | 1,208     | 142 ms         |
-| 28   | Gigya                                                                        | 1,949     | 176 ms         |
-| 29   | Bazaarvoice                                                                  | 3,285     | 184 ms         |
-| 30   | Maxymiser                                                                    | 1,139     | 189 ms         |
-| 31   | Bounce Exchange                                                              | 1,374     | 190 ms         |
-| 32   | [Segment](https://segment.com/)                                              | 6,940     | 198 ms         |
-| 33   | FullStory                                                                    | 4,996     | 223 ms         |
-| 34   | Ezoic                                                                        | 3,016     | 241 ms         |
-| 35   | [Optimizely](https://www.optimizely.com/)                                    | 13,098    | 249 ms         |
-| 36   | Feefo.com                                                                    | 2,218     | 251 ms         |
-| 37   | [Salesforce](https://www.salesforce.com/products/marketing-cloud/)           | 36,481    | 300 ms         |
-| 38   | [Radar](https://www.cedexis.com/radar/)                                      | 4,912     | 303 ms         |
-| 39   | [Yandex Metrica](https://metrica.yandex.com/about?)                          | 218,992   | 316 ms         |
-| 40   | Inspectlet                                                                   | 4,984     | 320 ms         |
-| 41   | [Keen](https://keen.io/)                                                     | 2,382     | 373 ms         |
-| 42   | SessionCam                                                                   | 1,456     | 380 ms         |
-| 43   | [Histats](http://histats.com/)                                               | 13,937    | 408 ms         |
-| 44   | AB Tasty                                                                     | 3,111     | 455 ms         |
-| 45   | [mPulse](https://developer.akamai.com/akamai-mpulse)                         | 2,841     | 543 ms         |
-| 46   | Mouseflow                                                                    | 1,391     | 569 ms         |
-| 47   | [Lucky Orange](https://www.luckyorange.com/)                                 | 5,987     | 872 ms         |
+| 28   | [Snapchat](https://www.snapchat.com)                                         | 5,087     | 170 ms         |
+| 29   | Gigya                                                                        | 1,949     | 176 ms         |
+| 30   | Bazaarvoice                                                                  | 3,285     | 184 ms         |
+| 31   | [DigiTrust](http://www.digitru.st/)                                          | 3,697     | 184 ms         |
+| 32   | Maxymiser                                                                    | 1,139     | 189 ms         |
+| 33   | [BounceX](https://www.bouncex.com/)                                          | 1,374     | 190 ms         |
+| 34   | [Segment](https://segment.com/)                                              | 6,940     | 198 ms         |
+| 35   | FullStory                                                                    | 4,996     | 223 ms         |
+| 36   | Ezoic                                                                        | 3,016     | 241 ms         |
+| 37   | [Optimizely](https://www.optimizely.com/)                                    | 13,098    | 249 ms         |
+| 38   | Feefo.com                                                                    | 2,218     | 251 ms         |
+| 39   | [Salesforce](https://www.salesforce.com/products/marketing-cloud/)           | 36,481    | 300 ms         |
+| 40   | [Radar](https://www.cedexis.com/radar/)                                      | 4,912     | 303 ms         |
+| 41   | [Yandex Metrica](https://metrica.yandex.com/about?)                          | 218,992   | 316 ms         |
+| 42   | Inspectlet                                                                   | 4,984     | 320 ms         |
+| 43   | [Keen](https://keen.io/)                                                     | 2,382     | 373 ms         |
+| 44   | SessionCam                                                                   | 1,456     | 380 ms         |
+| 45   | [Histats](http://histats.com/)                                               | 13,937    | 408 ms         |
+| 46   | AB Tasty                                                                     | 3,111     | 455 ms         |
+| 47   | [mPulse](https://developer.akamai.com/akamai-mpulse)                         | 2,841     | 543 ms         |
+| 48   | Mouseflow                                                                    | 1,391     | 569 ms         |
+| 49   | [Lucky Orange](https://www.luckyorange.com/)                                 | 5,987     | 872 ms         |
 
 <a name="social"></a>
 
@@ -252,9 +259,9 @@ These scripts enable social features.
 | 5    | [Pinterest](https://pinterest.com/)                  | 15,097    | 102 ms         |
 | 6    | AddShoppers                                          | 1,147     | 109 ms         |
 | 7    | [Facebook](https://www.facebook.com)                 | 1,103,174 | 120 ms         |
-| 8    | [LinkedIn](https://www.linkedin.com/)                | 12,119    | 122 ms         |
+| 8    | [LinkedIn](https://www.linkedin.com/)                | 11,768    | 124 ms         |
 | 9    | [Yandex Share](https://yastatic.net/share2/share.js) | 30,092    | 133 ms         |
-| 10   | [Twitter](https://twitter.com)                       | 260,919   | 147 ms         |
+| 10   | [Twitter](https://twitter.com)                       | 260,664   | 147 ms         |
 | 11   | [ShareThis](https://www.sharethis.com/)              | 31,606    | 246 ms         |
 | 12   | [Shareaholic](https://www.shareaholic.com/)          | 15,606    | 253 ms         |
 | 13   | [AddThis](http://www.addthis.com/)                   | 177,056   | 278 ms         |
@@ -292,28 +299,29 @@ These scripts are developer utilities (API clients, site monitoring, fraud detec
 | 6    | iubenda                                                                   | 9,614   | 83 ms          |
 | 7    | GetSiteControl                                                            | 3,144   | 84 ms          |
 | 8    | iovation                                                                  | 1,009   | 85 ms          |
-| 9    | Siteimprove                                                               | 1,637   | 86 ms          |
-| 10   | [Google Maps](https://www.google.com/maps)                                | 247,910 | 119 ms         |
-| 11   | [Other Google APIs/SDKs](https://developers.google.com/apis-explorer/#p/) | 477,821 | 121 ms         |
-| 12   | [AppDynamics](https://www.appdynamics.com/)                               | 1,841   | 123 ms         |
-| 13   | Bold Commerce                                                             | 11,530  | 127 ms         |
-| 14   | Po.st                                                                     | 1,660   | 134 ms         |
-| 15   | Sift Science                                                              | 1,117   | 145 ms         |
-| 16   | MaxCDN Enterprise                                                         | 2,325   | 170 ms         |
-| 17   | Seznam                                                                    | 1,424   | 173 ms         |
-| 18   | Swiftype                                                                  | 1,300   | 177 ms         |
-| 19   | Fastly                                                                    | 3,396   | 225 ms         |
-| 20   | Affirm                                                                    | 1,067   | 245 ms         |
-| 21   | Rambler                                                                   | 8,226   | 249 ms         |
-| 22   | [Cloudflare](https://www.cloudflare.com/website-optimization/)            | 5,861   | 254 ms         |
-| 23   | [PayPal](https://paypal.com)                                              | 6,948   | 325 ms         |
-| 24   | Secomapp                                                                  | 1,062   | 341 ms         |
-| 25   | [Yandex APIs](https://yandex.ru/)                                         | 53,493  | 393 ms         |
-| 26   | Datacamp                                                                  | 10,609  | 425 ms         |
-| 27   | [Distil Networks](https://www.distilnetworks.com/)                        | 10,392  | 445 ms         |
-| 28   | [Sentry](https://sentry.io/)                                              | 14,388  | 515 ms         |
-| 29   | Okas Concepts                                                             | 1,109   | 573 ms         |
-| 30   | Mapbox                                                                    | 2,558   | 1215 ms        |
+| 9    | [Cookiebot](https://www.cookiebot.com/)                                   | 8,535   | 85 ms          |
+| 10   | Siteimprove                                                               | 1,637   | 86 ms          |
+| 11   | [Google Maps](https://www.google.com/maps)                                | 247,910 | 119 ms         |
+| 12   | [Other Google APIs/SDKs](https://developers.google.com/apis-explorer/#p/) | 477,946 | 121 ms         |
+| 13   | [AppDynamics](https://www.appdynamics.com/)                               | 1,841   | 123 ms         |
+| 14   | Bold Commerce                                                             | 11,530  | 127 ms         |
+| 15   | Po.st                                                                     | 1,660   | 134 ms         |
+| 16   | Sift Science                                                              | 1,117   | 145 ms         |
+| 17   | MaxCDN Enterprise                                                         | 2,325   | 170 ms         |
+| 18   | Seznam                                                                    | 1,424   | 173 ms         |
+| 19   | Swiftype                                                                  | 1,300   | 177 ms         |
+| 20   | Fastly                                                                    | 3,396   | 225 ms         |
+| 21   | Affirm                                                                    | 1,067   | 245 ms         |
+| 22   | Rambler                                                                   | 8,226   | 249 ms         |
+| 23   | [Cloudflare](https://www.cloudflare.com/website-optimization/)            | 5,861   | 254 ms         |
+| 24   | [PayPal](https://paypal.com)                                              | 6,948   | 325 ms         |
+| 25   | Secomapp                                                                  | 1,062   | 341 ms         |
+| 26   | [Yandex APIs](https://yandex.ru/)                                         | 53,493  | 393 ms         |
+| 27   | Datacamp                                                                  | 10,609  | 425 ms         |
+| 28   | [Distil Networks](https://www.distilnetworks.com/)                        | 10,392  | 445 ms         |
+| 29   | [Sentry](https://sentry.io/)                                              | 14,388  | 515 ms         |
+| 30   | Okas Concepts                                                             | 1,109   | 573 ms         |
+| 31   | Mapbox                                                                    | 2,558   | 1215 ms        |
 
 <a name="hosting"></a>
 
@@ -349,7 +357,7 @@ These scripts are from marketing tools that add popups/newsletters/etc.
 | 6    | Ve                                          | 3,415  | 157 ms         |
 | 7    | [Hubspot](https://hubspot.com/)             | 22,456 | 169 ms         |
 | 8    | [Yotpo](https://www.yotpo.com/)             | 9,652  | 206 ms         |
-| 9    | [OptinMonster](https://optinmonster.com/)   | 1,125  | 248 ms         |
+| 9    | [OptinMonster](https://optinmonster.com/)   | 8,324  | 251 ms         |
 | 10   | [Sumo](https://sumo.com/)                   | 55,139 | 263 ms         |
 | 11   | Bigcommerce                                 | 11,802 | 301 ms         |
 | 12   | [Albacross](https://albacross.com/)         | 1,332  | 732 ms         |
@@ -375,8 +383,9 @@ These scripts are from customer support/marketing providers that offer chat and 
 | 11   | [Intercom](https://www.intercom.com/)            | 16,322 | 334 ms         |
 | 12   | Dynamic Yield                                    | 1,773  | 340 ms         |
 | 13   | [Tawk.to](https://www.tawk.to/)                  | 39,669 | 344 ms         |
-| 14   | LiveTex                                          | 2,673  | 371 ms         |
-| 15   | [ZenDesk](https://zendesk.com/)                  | 84,795 | 508 ms         |
+| 14   | [Help Scout](https://www.helpscout.net/)         | 1,412  | 365 ms         |
+| 15   | LiveTex                                          | 2,673  | 371 ms         |
+| 16   | [ZenDesk](https://zendesk.com/)                  | 84,795 | 508 ms         |
 
 <a name="content"></a>
 
@@ -419,14 +428,14 @@ These are mostly open source libraries (e.g. jQuery) served over different publi
 
 These scripts tend to load lots of other scripts and initiate many tasks.
 
-| Rank | Name                                                                          | Usage     | Average Impact |
-| ---- | ----------------------------------------------------------------------------- | --------- | -------------- |
-| 1    | TagCommander                                                                  | 1,213     | 96 ms          |
-| 2    | [BrightTag / Signal](https://www.signal.co)                                   | 7,380     | 134 ms         |
-| 3    | [Adobe Tag Manager](https://www.adobe.com/experience-platform/)               | 32,414    | 220 ms         |
-| 4    | [Ensighten](https://www.ensighten.com/)                                       | 7,689     | 252 ms         |
-| 5    | [Tealium](https://tealium.com/)                                               | 15,237    | 267 ms         |
-| 6    | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 1,043,021 | 471 ms         |
+| Rank | Name                                                                          | Usage   | Average Impact |
+| ---- | ----------------------------------------------------------------------------- | ------- | -------------- |
+| 1    | TagCommander                                                                  | 1,213   | 96 ms          |
+| 2    | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 460,846 | 100 ms         |
+| 3    | [BrightTag / Signal](https://www.signal.co)                                   | 7,380   | 134 ms         |
+| 4    | [Adobe Tag Manager](https://www.adobe.com/experience-platform/)               | 32,414  | 220 ms         |
+| 5    | [Ensighten](https://www.ensighten.com/)                                       | 7,689   | 252 ms         |
+| 6    | [Tealium](https://tealium.com/)                                               | 15,237  | 267 ms         |
 
 <a name="other"></a>
 
@@ -438,7 +447,7 @@ These are miscellaneous scripts delivered via a shared origin with no precise ca
 | ---- | ------------------------------------------------- | ------- | -------------- |
 | 1    | [Amazon Web Services](https://aws.amazon.com/s3/) | 47,840  | 164 ms         |
 | 2    | Pagely                                            | 1,047   | 234 ms         |
-| 3    | [All Other 3rd Parties](#by-category)             | 922,130 | 243 ms         |
+| 3    | [All Other 3rd Parties](#by-category)             | 892,376 | 245 ms         |
 | 4    | [Parking Crew](http://parkingcrew.net/)           | 5,208   | 474 ms         |
 | 5    | uLogin                                            | 2,353   | 1170 ms        |
 
@@ -450,18 +459,18 @@ This section highlights the entities responsible for the most script execution a
 
 | Name                                                                          | Popularity | Total Impact | Average Impact |
 | ----------------------------------------------------------------------------- | ---------- | ------------ | -------------- |
-| [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 1,043,021  | 491,642 s    | 471 ms         |
-| [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)                | 1,165,800  | 257,973 s    | 221 ms         |
-| [All Other 3rd Parties](#by-category)                                         | 922,130    | 223,876 s    | 243 ms         |
+| [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)                | 1,748,957  | 703,698 s    | 402 ms         |
+| [All Other 3rd Parties](#by-category)                                         | 892,376    | 218,793 s    | 245 ms         |
 | [Wix](https://www.wix.com/)                                                   | 164,599    | 159,967 s    | 972 ms         |
 | [Google CDN](https://developers.google.com/speed/libraries/)                  | 728,840    | 146,739 s    | 201 ms         |
 | [Facebook](https://www.facebook.com)                                          | 1,103,174  | 132,167 s    | 120 ms         |
 | [Google Analytics](https://www.google.com/analytics/analytics/)               | 1,082,088  | 84,606 s     | 78 ms          |
 | [Yandex Metrica](https://metrica.yandex.com/about?)                           | 218,992    | 69,273 s     | 316 ms         |
-| [Other Google APIs/SDKs](https://developers.google.com/apis-explorer/#p/)     | 477,821    | 57,719 s     | 121 ms         |
+| [Other Google APIs/SDKs](https://developers.google.com/apis-explorer/#p/)     | 477,946    | 57,726 s     | 121 ms         |
 | [AddThis](http://www.addthis.com/)                                            | 177,056    | 49,149 s     | 278 ms         |
+| [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 460,846    | 46,103 s     | 100 ms         |
 | [ZenDesk](https://zendesk.com/)                                               | 84,795     | 43,066 s     | 508 ms         |
-| [Twitter](https://twitter.com)                                                | 260,919    | 38,408 s     | 147 ms         |
+| [Twitter](https://twitter.com)                                                | 260,664    | 38,396 s     | 147 ms         |
 | [Shopify](https://www.shopify.com/)                                           | 208,073    | 36,713 s     | 176 ms         |
 | [Squarespace](https://www.squarespace.com/)                                   | 88,270     | 35,142 s     | 398 ms         |
 | [Google Maps](https://www.google.com/maps)                                    | 247,910    | 29,396 s     | 119 ms         |
@@ -534,6 +543,7 @@ This section highlights the entities responsible for the most script execution a
 | [DoubleVerify](https://www.doubleverify.com/)                                 | 4,033      | 2,167 s      | 537 ms         |
 | Infolinks                                                                     | 4,090      | 2,144 s      | 524 ms         |
 | [FontAwesome CDN](https://fontawesome.com/)                                   | 16,717     | 2,112 s      | 126 ms         |
+| [OptinMonster](https://optinmonster.com/)                                     | 8,324      | 2,086 s      | 251 ms         |
 | AdMatic                                                                       | 2,707      | 2,055 s      | 759 ms         |
 | Rambler                                                                       | 8,226      | 2,050 s      | 249 ms         |
 | [Yotpo](https://www.yotpo.com/)                                               | 9,652      | 1,991 s      | 206 ms         |
@@ -550,8 +560,8 @@ This section highlights the entities responsible for the most script execution a
 | [mPulse](https://developer.akamai.com/akamai-mpulse)                          | 2,841      | 1,544 s      | 543 ms         |
 | [Cloudflare](https://www.cloudflare.com/website-optimization/)                | 5,861      | 1,490 s      | 254 ms         |
 | [Radar](https://www.cedexis.com/radar/)                                       | 4,912      | 1,489 s      | 303 ms         |
-| [LinkedIn](https://www.linkedin.com/)                                         | 12,119     | 1,475 s      | 122 ms         |
 | Bold Commerce                                                                 | 11,530     | 1,465 s      | 127 ms         |
+| [LinkedIn](https://www.linkedin.com/)                                         | 11,768     | 1,454 s      | 124 ms         |
 | AB Tasty                                                                      | 3,111      | 1,416 s      | 455 ms         |
 | Adform                                                                        | 9,062      | 1,408 s      | 155 ms         |
 | Klaviyo                                                                       | 7,677      | 1,391 s      | 181 ms         |
@@ -572,6 +582,7 @@ This section highlights the entities responsible for the most script execution a
 | sovrn                                                                         | 5,371      | 922 s        | 172 ms         |
 | [Keen](https://keen.io/)                                                      | 2,382      | 888 s        | 373 ms         |
 | iBillboard                                                                    | 3,258      | 885 s        | 272 ms         |
+| [Snapchat](https://www.snapchat.com)                                          | 5,087      | 866 s        | 170 ms         |
 | [Scorecard Research](https://www.scorecardresearch.com/)                      | 9,088      | 857 s        | 94 ms          |
 | Monotype                                                                      | 4,142      | 805 s        | 194 ms         |
 | iubenda                                                                       | 9,614      | 799 s        | 83 ms          |
@@ -581,11 +592,13 @@ This section highlights the entities responsible for the most script execution a
 | Microsoft Hosted Libs                                                         | 4,639      | 761 s        | 164 ms         |
 | [Baidu Analytics](https://tongji.baidu.com/web/welcome/login)                 | 8,169      | 744 s        | 91 ms          |
 | Ezoic                                                                         | 3,016      | 727 s        | 241 ms         |
+| [Cookiebot](https://www.cookiebot.com/)                                       | 8,535      | 726 s        | 85 ms          |
 | Admixer for Publishers                                                        | 2,597      | 726 s        | 280 ms         |
 | Kakao                                                                         | 8,746      | 724 s        | 83 ms          |
 | [Quantcast](https://www.quantcast.com)                                        | 6,607      | 705 s        | 107 ms         |
 | [Hotmart](https://www.hotmart.com/)                                           | 855        | 693 s        | 811 ms         |
 | [Blogger](http://www.blogger.com/)                                            | 14,174     | 683 s        | 48 ms          |
+| [DigiTrust](http://www.digitru.st/)                                           | 3,697      | 682 s        | 184 ms         |
 | Chartbeat                                                                     | 6,959      | 671 s        | 96 ms          |
 | Between Digital                                                               | 1,107      | 664 s        | 600 ms         |
 | Pure Chat                                                                     | 4,086      | 662 s        | 162 ms         |
@@ -607,6 +620,7 @@ This section highlights the entities responsible for the most script execution a
 | fluct                                                                         | 6,732      | 532 s        | 79 ms          |
 | [Yahoo!](https://www.yahoo.com/)                                              | 3,830      | 527 s        | 138 ms         |
 | [LivePerson](https://www.liveperson.com/)                                     | 4,547      | 517 s        | 114 ms         |
+| [Help Scout](https://www.helpscout.net/)                                      | 1,412      | 516 s        | 365 ms         |
 | [Outbrain](https://www.outbrain.com/)                                         | 5,244      | 514 s        | 98 ms          |
 | AudienceSearch                                                                | 4,389      | 514 s        | 117 ms         |
 | Meetrics                                                                      | 881        | 506 s        | 575 ms         |
@@ -643,17 +657,17 @@ This section highlights the entities responsible for the most script execution a
 | ForeSee                                                                       | 2,612      | 325 s        | 124 ms         |
 | [Rubicon Project](https://rubiconproject.com/)                                | 3,011      | 321 s        | 107 ms         |
 | [Vox Media](https://www.voxmedia.com/)                                        | 1,129      | 308 s        | 273 ms         |
+| [AOL / Oath / Verizon Media](https://www.oath.com/)                           | 2,623      | 301 s        | 115 ms         |
 | JustUno                                                                       | 1,944      | 299 s        | 154 ms         |
 | Parse.ly                                                                      | 2,616      | 296 s        | 113 ms         |
 | Kaltura Video Platform                                                        | 440        | 294 s        | 668 ms         |
 | StatCounter                                                                   | 4,693      | 283 s        | 60 ms          |
 | Digioh                                                                        | 844        | 281 s        | 333 ms         |
-| [OptinMonster](https://optinmonster.com/)                                     | 1,125      | 279 s        | 248 ms         |
 | Clicktale                                                                     | 2,351      | 278 s        | 118 ms         |
 | Best Of Media S.A.                                                            | 254        | 267 s        | 1051 ms        |
 | GetSiteControl                                                                | 3,144      | 263 s        | 84 ms          |
 | Affirm                                                                        | 1,067      | 262 s        | 245 ms         |
-| Bounce Exchange                                                               | 1,374      | 261 s        | 190 ms         |
+| [BounceX](https://www.bouncex.com/)                                           | 1,374      | 261 s        | 190 ms         |
 | [Yandex CDN](https://yandex.ru/)                                              | 1,885      | 260 s        | 138 ms         |
 | Sortable                                                                      | 1,028      | 259 s        | 252 ms         |
 | iAdvize SAS                                                                   | 2,584      | 259 s        | 100 ms         |
@@ -739,7 +753,6 @@ This section highlights the entities responsible for the most script execution a
 | Clerk.io ApS                                                                  | 736        | 117 s        | 159 ms         |
 | Flowplayer                                                                    | 492        | 117 s        | 237 ms         |
 | TagCommander                                                                  | 1,213      | 116 s        | 96 ms          |
-| [Help Scout](https://www.helpscout.net/)                                      | 629        | 116 s        | 184 ms         |
 | MonetizeMore                                                                  | 109        | 113 s        | 1038 ms        |
 | Net Reviews                                                                   | 1,893      | 112 s        | 59 ms          |
 | Fanplayr                                                                      | 144        | 109 s        | 754 ms         |
@@ -841,6 +854,7 @@ This section highlights the entities responsible for the most script execution a
 | Navegg                                                                        | 559        | 47 s         | 84 ms          |
 | ClickDesk                                                                     | 510        | 45 s         | 89 ms          |
 | TruConversion                                                                 | 228        | 45 s         | 198 ms         |
+| [Concert](https://concert.io/)                                                | 301        | 44 s         | 145 ms         |
 | SpringServer                                                                  | 103        | 44 s         | 425 ms         |
 | ShopRunner                                                                    | 149        | 44 s         | 293 ms         |
 | WebSpectator                                                                  | 218        | 43 s         | 198 ms         |
@@ -853,6 +867,7 @@ This section highlights the entities responsible for the most script execution a
 | Nend                                                                          | 945        | 40 s         | 42 ms          |
 | Clicktripz                                                                    | 118        | 39 s         | 331 ms         |
 | TripleLift                                                                    | 349        | 39 s         | 111 ms         |
+| [DMD Marketing](https://www.dmdconnects.com/)                                 | 235        | 39 s         | 165 ms         |
 | Reflektion                                                                    | 198        | 39 s         | 195 ms         |
 | Adloox                                                                        | 122        | 38 s         | 314 ms         |
 | reEmbed                                                                       | 159        | 38 s         | 240 ms         |
@@ -887,6 +902,7 @@ This section highlights the entities responsible for the most script execution a
 | Appier                                                                        | 347        | 29 s         | 85 ms          |
 | [The Trade Desk](https://www.thetradedesk.com/)                               | 213        | 29 s         | 137 ms         |
 | [Browsealoud](https://www.texthelp.com/en-gb/products/browsealoud/)           | 551        | 29 s         | 53 ms          |
+| [Adition](https://www.adition.com)                                            | 324        | 29 s         | 88 ms          |
 | Exponea                                                                       | 298        | 28 s         | 95 ms          |
 | Unruly Media                                                                  | 273        | 28 s         | 102 ms         |
 | Fresh Relevance                                                               | 325        | 27 s         | 85 ms          |
@@ -909,6 +925,7 @@ This section highlights the entities responsible for the most script execution a
 | FLXone                                                                        | 164        | 22 s         | 132 ms         |
 | VoiceFive                                                                     | 188        | 22 s         | 115 ms         |
 | [Byside](http://www.byside.com)                                               | 162        | 21 s         | 131 ms         |
+| LinkedIn Ads                                                                  | 351        | 20 s         | 58 ms          |
 | ResponsiveVoice                                                               | 258        | 20 s         | 78 ms          |
 | Transifex                                                                     | 104        | 20 s         | 191 ms         |
 | Vee24                                                                         | 103        | 20 s         | 190 ms         |
@@ -959,6 +976,7 @@ This section highlights the entities responsible for the most script execution a
 | Drip                                                                          | 204        | 10 s         | 48 ms          |
 | SecuredVisit                                                                  | 136        | 10 s         | 72 ms          |
 | Auto Link Maker                                                               | 111        | 10 s         | 87 ms          |
+| [Widespace](https://www.widespace.com)                                        | 118        | 9 s          | 80 ms          |
 | FreakOut                                                                      | 147        | 9 s          | 64 ms          |
 | Friendbuy                                                                     | 140        | 9 s          | 66 ms          |
 | Twitter Online Conversion Tracking                                            | 135        | 9 s          | 64 ms          |
@@ -1046,3 +1064,7 @@ This README is auto-generated from the templates `lib/` and the computed data. I
 # Install `cairo` and dependencies for node-canvas
 brew install pkg-config cairo pango libpng jpeg giflib
 ```
+
+### Updating the website
+
+The web code is located in `www/` directory of this repository. Open a PR to make changes.
