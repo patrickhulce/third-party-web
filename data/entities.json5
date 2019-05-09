@@ -7,6 +7,7 @@
     "domains": [
       "pagead2.googlesyndication.com",
       "tpc.googlesyndication.com",
+      "ade.googlesyndication.com",
       "googleads.g.doubleclick.net",
       "googleads4.g.doubleclick.net",
       "securepubads.g.doubleclick.net",
@@ -95,6 +96,7 @@
       "imasdk.googleapis.com",
       "lh3.googleusercontent.com",
       "calendar.google.com",
+      "play.google.com",
       "pay.google.com",
       "news.google.com",
       "payments.google.com",
@@ -330,6 +332,7 @@
     "domains": [
       "js.adsrvr.org",
       "match.adsrvr.org",
+      "data.adsrvr.org",
       "d1eoo1tco6rr5e.cloudfront.net",
       "snap.adsrvr.org" // This domain is used for SnapChat-specific tracking
     ]
@@ -599,6 +602,7 @@
     "categories": ["other"],
     "domains": [
       "s3.amazonaws.com",
+      "us-east-1.amazonaws.com",
       "amazonwebservices.com",
       "api-cdn.amazon.com",
       "ecx.images-amazon.com",
@@ -628,7 +632,10 @@
       "yahooapis.com",
       "yimg.com",
       "zenfs.com",
-      "geo.yahoo.com"
+      "geo.yahoo.com",
+      "udc.yahoo.com",
+      "ganon.yahoo.com",
+      "ads.yap.yahoo.com"
     ]
   },
   {
@@ -651,7 +658,8 @@
       "cdn.taboola.com",
       "trc.taboola.com",
       "vidstat.taboola.com",
-      "taboolasyndication.com"
+      "taboolasyndication.com",
+      "images.taboola.com"
     ]
   },
   {
@@ -664,7 +672,7 @@
     "name": "Scorecard Research",
     "homepage": "https://www.scorecardresearch.com/",
     "categories": ["ad"],
-    "domains": ["sb.scorecardresearch.com"]
+    "domains": ["sb.scorecardresearch.com", "sa.scorecardresearch.com"]
   },
   {
     "name": "Criteo",
@@ -783,7 +791,7 @@
     "name": "Pinterest",
     "homepage": "https://pinterest.com/",
     "categories": ["social"],
-    "domains": ["assets.pinterest.com", "pinimg.com", "ct.pinterest.com"]
+    "domains": ["assets.pinterest.com", "pinimg.com", "ct.pinterest.com", "log.pinterest.com"]
   },
   {
     "name": "New Relic",
@@ -831,8 +839,10 @@
       "cdn3.doubleverify.com",
       "tps.doubleverify.com",
       "tps712.doubleverify.com",
+      "tps706.doubleverify.com",
       "rtb0.doubleverify.com",
       "rtbcdn.doubleverify.com",
+      "tps11020.doubleverify.com",
       "dvtps.com",
       "tm.iqfp1.com"
     ]
@@ -1096,6 +1106,7 @@
     "domains": [
       "pixel.quantserve.com",
       "secure.quantserve.com",
+      "cms.quantserve.com",
       "rules.quantcount.com",
       "brtstats.com",
       "ntv.io",
