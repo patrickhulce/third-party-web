@@ -223,7 +223,14 @@
     "company": "Automattic",
     "homepage": "https://wp.com/",
     "categories": ["hosting"],
-    "domains": ["s0.wp.com", "s2.wp.com", "s.w.org", "wordpress.com", "stats.wp.com"]
+    "domains": ["s0.wp.com", "s2.wp.com", "s.w.org", "wordpress.com"]
+  },
+  {
+    "name": "WordPress Site Stats",
+    "company": "Automattic",
+    "homepage": "https://wp.com/",
+    "categories": ["analytics"],
+    "domains": ["pixel.wp.com", "stats.wp.com"]
   },
   {
     "name": "Hatena Blog",
