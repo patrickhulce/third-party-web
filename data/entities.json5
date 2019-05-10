@@ -332,6 +332,8 @@
     "domains": [
       "js.adsrvr.org",
       "match.adsrvr.org",
+      "insight.adsrvr.org",
+      "usw-lax.adsrvr.org",
       "data.adsrvr.org",
       "d1eoo1tco6rr5e.cloudfront.net",
       "snap.adsrvr.org" // This domain is used for SnapChat-specific tracking
@@ -365,6 +367,7 @@
       "tag.sp.advertising.com",
       "service.sp.advertising.com",
       "adtech.advertising.com",
+      "adaptv.advertising.com",
       "aol.co.uk",
       "aol.com",
       "aolcdn.com",
@@ -546,7 +549,16 @@
     "name": "Pubmatic",
     "homepage": "https://pubmatic.com/",
     "categories": ["ad"],
-    "domains": ["image6.pubmatic.com", "ads.pubmatic.com", "image2.pubmatic.com", "simage2.pubmatic.com", "image4.pubmatic.com", "simage4.pubmatic.com", "image5.pubmatic.com"]
+    "domains": [
+      "image6.pubmatic.com",
+      "ads.pubmatic.com",
+      "image2.pubmatic.com",
+      "simage2.pubmatic.com",
+      "image4.pubmatic.com",
+      "simage4.pubmatic.com",
+      "image5.pubmatic.com",
+      "hbopenbid.pubmatic.com"
+    ]
   },
   {
     "name": "Intercom",
@@ -616,7 +628,7 @@
     "name": "Media.net",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "domains": ["contextual.media.net", "mnet-ad.net"]
+    "domains": ["contextual.media.net", "mnet-ad.net", "cdnwest-xch.media.net"]
   },
   {
     "name": "Yahoo!",
@@ -839,7 +851,10 @@
       "cdn3.doubleverify.com",
       "tps.doubleverify.com",
       "tps712.doubleverify.com",
+      "tps714.doubleverify.com",
       "tps706.doubleverify.com",
+      "tps700.doubleverify.com",
+      "rtb2.doubleverify.com",
       "rtb0.doubleverify.com",
       "rtbcdn.doubleverify.com",
       "tps11020.doubleverify.com",
@@ -6760,9 +6775,25 @@
     "domains": ["pointroll.com"]
   },
   {
-    "name": "Polar Mobile Group",
+    "name": "Polar",
+    "homepage": "https://polar.me/",
     "categories": ["ad"],
-    "domains": ["mediavoice.com", "polarmobile.com"]
+    "domains": [
+      "mediavoice.com",
+      "mediaeverywhere.com",
+      "plrsrvcs.com",
+      "polaracademy.me",
+      "poweredbypolar.com",
+      "polarcdn.com",
+      "polarmobile.com",
+      "polarmobile.ca",
+      "mediaconductor.me",
+      "polarcdn-engine.com",
+      "polarcdn-meraxes.com",
+      "polarcdn-static.com",
+      "polarcdn-terrax.com",
+      "polarcdn-pentos.com"
+    ]
   },
   {
     "name": "PollDaddy (Automattic)",
@@ -10490,6 +10521,14 @@
     "domains": [
       "cdn.cookielaw.org",
       "geolocation.onetrust.com" // onetrust is the parent company
+    ]
+  },
+  {
+    "name": "TrustArc",
+    "homepage": "https://www.trustarc.com/",
+    "categories": ["utility"],
+    "domains": [
+      "choices.trustarc.com"
     ]
   }
 ]
