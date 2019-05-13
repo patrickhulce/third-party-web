@@ -99,7 +99,9 @@
       "news.google.com",
       "payments.google.com",
       "clients2.google.com",
-      "accounts.google.com"
+      "accounts.google.com",
+      "smartlock.google.com",
+      "csi.gstatic.com"
     ]
   },
   {
@@ -200,7 +202,12 @@
     "company": "Adobe",
     "homepage": "https://www.adobe.com/experience-platform/",
     "categories": ["tag-manager"],
-    "domains": ["assets.adobedtm.com", "dpm.demdex.net", "sync-tm.everesttech.net"]
+    "domains": [
+      "assets.adobedtm.com",
+      "demdex.net", // all requests to this domain are for Audience Manager
+      "sync-tm.everesttech.net",
+      "cm.everesttech.net"
+    ]
   },
   {
     "name": "jQuery CDN",
@@ -305,7 +312,15 @@
     "name": "Amazon Ads",
     "homepage": "https://ad.amazon.com/",
     "categories": ["ad"],
-    "domains": ["s.amazon-adsystem.com", "c.amazon-adsystem.com", "aax.amazon-adsystem.com", "z-na.amazon-adsystem.com"]
+    "domains": [
+      "s.amazon-adsystem.com",
+      "c.amazon-adsystem.com",
+      "aax.amazon-adsystem.com",
+      "z-na.amazon-adsystem.com",
+      "fls-na.amazon-adsystem.com",
+      "aax-us-east.amazon-adsystem.com",
+      "ir-na.amazon-adsystem.com"
+    ]
   },
   {
     "name": "Rubicon Project",
@@ -347,13 +362,13 @@
     "name": "LiveRamp IdentityLink",
     "homepage": "https://liveramp.com/discover-identitylink/",
     "categories": ["analytics"],
-    "domains": ["idsync.rlcdn.com", "circulate.com", "id.rlcdn.com", "api.rlcdn.com"]
+    "domains": ["idsync.rlcdn.com", "circulate.com", "id.rlcdn.com", "api.rlcdn.com", "cdn.rlcdn.com"]
   },
   {
     "name": "Drawbridge",
     "homepage": "https://www.drawbridge.com/",
     "categories": ["ad"],
-    "domains": ["p.adsymptotic.com"]
+    "domains": ["p.adsymptotic.com", "pinterest.adsymptotic.com"]
   },
   {
     "name": "AOL / Oath / Verizon Media",
@@ -626,7 +641,7 @@
     "name": "Media.net",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "domains": ["contextual.media.net", "mnet-ad.net", "cdnwest-xch.media.net"]
+    "domains": ["contextual.media.net", "mnet-ad.net", "cdnwest-xch.media.net", "hbx.media.net", "cs.media.net", "hblg.media.net"]
   },
   {
     "name": "Yahoo!",
@@ -682,7 +697,7 @@
     "name": "Scorecard Research",
     "homepage": "https://www.scorecardresearch.com/",
     "categories": ["ad"],
-    "domains": ["sb.scorecardresearch.com", "sa.scorecardresearch.com"]
+    "domains": ["sb.scorecardresearch.com", "sa.scorecardresearch.com", "b.scorecardresearch.com"]
   },
   {
     "name": "Criteo",
@@ -832,7 +847,7 @@
     "name": "AppNexus",
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
-    "domains": ["acdn.adnxs.com", "secure.adnxs.com", "ctasnet.com", "ib.adnxs.com"],
+    "domains": ["acdn.adnxs.com", "secure.adnxs.com", "ctasnet.com", "ib.adnxs.com", "sharethrough.adnxs.com"]
   },
   {
     "name": "Histats",
@@ -852,6 +867,7 @@
       "tps714.doubleverify.com",
       "tps706.doubleverify.com",
       "tps700.doubleverify.com",
+      "tps707.doubleverify.com",
       "rtb2.doubleverify.com",
       "rtb0.doubleverify.com",
       "rtbcdn.doubleverify.com",
@@ -3407,7 +3423,7 @@
   {
     "name": "Dailymotion",
     "categories": ["content"],
-    "domains": ["ad.pxlad.io", "dm.gg", "dmcdn.net", "sublimevideo.net", "www.dailymotion.com"]
+    "domains": ["ad.pxlad.io", "dm.gg", "dmcdn.net", "sublimevideo.net", "www.dailymotion.com", "dmxleo.com"]
   },
   {
     "name": "Datacamp",
@@ -10526,7 +10542,25 @@
     "homepage": "https://www.trustarc.com/",
     "categories": ["utility"],
     "domains": [
-      "choices.trustarc.com"
+      "choices.trustarc.com",
+      "consent.trustarc.com"
+    ]
+  },
+  {
+    "name": "iSpot.tv",
+    "homepage": "https://www.ispot.tv/",
+    "categories": ["ad"],
+    "domains": [
+      "pt.ispot.tv"
+    ]
+  },
+  {
+    "name": "RevJet",
+    "homepage": "https://www.revjet.com/",
+    "categories": ["ad"],
+    "domains": [
+      "pix.revjet.com",
+      "ads.revjet.com"
     ]
   }
 ]
