@@ -11332,10 +11332,10 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-third-party-web@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.8.1.tgz#e38bc52d5d5fda9c3a9884e53b7d9234a3add2ef"
-  integrity sha512-XVuKfnIuZrq4FOk2eYNal3IiIOCv1vqFVgFPw/voLMFk0930ivyzI77zKtzEg17bTfWJAZilbVflUZ6P80knmg==
+third-party-web@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.8.2.tgz#9a13841174a2b2333a15233cb6dbf6553c03a7be"
+  integrity sha512-HVsNbtlvshQ7X+HwiMvVbes+aH5KwvfncUcUR1EaJ9qENZO/I3fNysunKBUtJZeVoIYq3HHKqeDayarTmBtdPw==
 
 through2@^2.0.0, through2@^2.0.1:
   version "2.0.5"
