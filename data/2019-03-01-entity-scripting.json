@@ -1,0 +1,1546 @@
+[
+  {
+    "origin": "www.google-analytics.com",
+    "totalExecutionTime": "8.4606211076E7",
+    "totalOccurrences": "1036103",
+    "totalScripts": "1082088",
+    "averageExecutionTime": "81.65810838883779",
+    "averageScriptExecutionTime": "77.72492736507193"
+  },
+  {
+    "origin": "www.facebook.com",
+    "totalExecutionTime": "1.2769052026799993E8",
+    "totalOccurrences": "923834",
+    "totalScripts": "1088929",
+    "averageExecutionTime": "138.21803513185228",
+    "averageScriptExecutionTime": "117.7799151401449"
+  },
+  {
+    "origin": "ajax.googleapis.com",
+    "totalExecutionTime": "1.4673921959099993E8",
+    "totalOccurrences": "644872",
+    "totalScripts": "728840",
+    "averageExecutionTime": "227.54782280979828",
+    "averageScriptExecutionTime": "199.2726948108492"
+  },
+  {
+    "origin": "pagead2.googlesyndication.com",
+    "totalExecutionTime": "7.036977225189993E8",
+    "totalOccurrences": "564885",
+    "totalScripts": "1748957",
+    "averageExecutionTime": "1245.736251660072",
+    "averageScriptExecutionTime": "359.163416442839"
+  },
+  {
+    "origin": "www.googletagmanager.com",
+    "totalExecutionTime": "4.608718864099998E7",
+    "totalOccurrences": "426856",
+    "totalScripts": "460731",
+    "averageExecutionTime": "107.96893716147835",
+    "averageScriptExecutionTime": "98.81980594461123"
+  },
+  {
+    "origin": "www.google.com",
+    "totalExecutionTime": "5.772909445400007E7",
+    "totalOccurrences": "272522",
+    "totalScripts": "477991",
+    "averageExecutionTime": "211.83278580811805",
+    "averageScriptExecutionTime": "119.57228766415273"
+  },
+  {
+    "origin": "platform.twitter.com",
+    "totalExecutionTime": "3.839574358999999E7",
+    "totalOccurrences": "233746",
+    "totalScripts": "260664",
+    "averageExecutionTime": "164.26267653778027",
+    "averageScriptExecutionTime": "144.27775470750615"
+  },
+  {
+    "origin": "mc.yandex.ru",
+    "totalExecutionTime": "6.927269853400016E7",
+    "totalOccurrences": "208893",
+    "totalScripts": "218992",
+    "averageExecutionTime": "331.6180941151698",
+    "averageScriptExecutionTime": "306.94376419985343"
+  },
+  {
+    "origin": "code.jquery.com",
+    "totalExecutionTime": "2.6650875356000036E7",
+    "totalOccurrences": "126679",
+    "totalScripts": "137421",
+    "averageExecutionTime": "210.38116306570166",
+    "averageScriptExecutionTime": "197.0039631393789"
+  },
+  {
+    "origin": "s7.addthis.com",
+    "totalExecutionTime": "4.8255999407000065E7",
+    "totalOccurrences": "105430",
+    "totalScripts": "166682",
+    "averageExecutionTime": "457.706529517215",
+    "averageScriptExecutionTime": "308.0914340352211"
+  },
+  {
+    "origin": "maps-api-ssl.google.com",
+    "totalExecutionTime": "2.939607155900003E7",
+    "totalOccurrences": "103036",
+    "totalScripts": "247910",
+    "averageExecutionTime": "285.2990368317873",
+    "averageScriptExecutionTime": "99.7644417179709"
+  },
+  {
+    "origin": "script.hotjar.com",
+    "totalExecutionTime": "9073400.166999988",
+    "totalOccurrences": "93741",
+    "totalScripts": "95859",
+    "averageExecutionTime": "96.7922271684748",
+    "averageScriptExecutionTime": "94.30627215768277"
+  },
+  {
+    "origin": "cdnjs.cloudflare.com",
+    "totalExecutionTime": "1.904753952300002E7",
+    "totalOccurrences": "80468",
+    "totalScripts": "94162",
+    "averageExecutionTime": "236.7094935005223",
+    "averageScriptExecutionTime": "195.32411931261063"
+  },
+  {
+    "origin": "s0.wp.com",
+    "totalExecutionTime": "9773217.216000004",
+    "totalOccurrences": "73649",
+    "totalScripts": "93051",
+    "averageExecutionTime": "132.69993096987073",
+    "averageScriptExecutionTime": "85.92188321743613"
+  },
+  {
+    "origin": "static.criteo.net",
+    "totalExecutionTime": "8984325.603000004",
+    "totalOccurrences": "63695",
+    "totalScripts": "63966",
+    "averageExecutionTime": "141.0522898657666",
+    "averageScriptExecutionTime": "140.22790253813739"
+  },
+  {
+    "origin": "cdn.shopify.com",
+    "totalExecutionTime": "3.6665090004999906E7",
+    "totalOccurrences": "61623",
+    "totalScripts": "207520",
+    "averageExecutionTime": "594.9903445953616",
+    "averageScriptExecutionTime": "165.7304408825156"
+  },
+  {
+    "origin": "assets.zendesk.com",
+    "totalExecutionTime": "4.3066157772999905E7",
+    "totalOccurrences": "60300",
+    "totalScripts": "84795",
+    "averageExecutionTime": "714.1983046931999",
+    "averageScriptExecutionTime": "539.7866837464667"
+  },
+  {
+    "origin": "embed.tawk.to",
+    "totalExecutionTime": "1.3635855031999959E7",
+    "totalOccurrences": "39582",
+    "totalScripts": "39669",
+    "averageExecutionTime": "344.49636279116754",
+    "averageScriptExecutionTime": "344.0334083674399"
+  },
+  {
+    "origin": "cdn.ampproject.org",
+    "totalExecutionTime": "1.2591365676999949E7",
+    "totalOccurrences": "38114",
+    "totalScripts": "58086",
+    "averageExecutionTime": "330.36064640289595",
+    "averageScriptExecutionTime": "216.71394914816918"
+  },
+  {
+    "origin": "static.parastorage.com",
+    "totalExecutionTime": "1.5996743486399996E8",
+    "totalOccurrences": "28897",
+    "totalScripts": "164603",
+    "averageExecutionTime": "5535.780007059568",
+    "averageScriptExecutionTime": "910.3907203228332"
+  },
+  {
+    "origin": "static.squarespace.com",
+    "totalExecutionTime": "3.514164828099997E7",
+    "totalOccurrences": "27751",
+    "totalScripts": "88270",
+    "averageExecutionTime": "1266.3200706641196",
+    "averageScriptExecutionTime": "397.8467442288652"
+  },
+  {
+    "origin": "front.pixfs.net",
+    "totalExecutionTime": "2.6440653263000045E7",
+    "totalOccurrences": "25854",
+    "totalScripts": "48564",
+    "averageExecutionTime": "1022.691005763132",
+    "averageScriptExecutionTime": "561.9975855309297"
+  },
+  {
+    "origin": "s3.amazonaws.com",
+    "totalExecutionTime": "4219975.5260000015",
+    "totalOccurrences": "25679",
+    "totalScripts": "27902",
+    "averageExecutionTime": "164.3356643950307",
+    "averageScriptExecutionTime": "139.10519042989236"
+  },
+  {
+    "origin": "www.youtube.com",
+    "totalExecutionTime": "3800988.9189999998",
+    "totalOccurrences": "24628",
+    "totalScripts": "25349",
+    "averageExecutionTime": "154.3360775946077",
+    "averageScriptExecutionTime": "137.0614644814844"
+  },
+  {
+    "origin": "assets.adobedtm.com",
+    "totalExecutionTime": "7116871.593000007",
+    "totalOccurrences": "24371",
+    "totalScripts": "32414",
+    "averageExecutionTime": "292.022140782077",
+    "averageScriptExecutionTime": "221.69434684392664"
+  },
+  {
+    "origin": "cdn-ca.jivosite.com",
+    "totalExecutionTime": "7592881.519000001",
+    "totalOccurrences": "23130",
+    "totalScripts": "23555",
+    "averageExecutionTime": "328.26984517942077",
+    "averageScriptExecutionTime": "323.36377364894093"
+  },
+  {
+    "origin": "yastatic.net",
+    "totalExecutionTime": "4007848.3190000015",
+    "totalOccurrences": "22100",
+    "totalScripts": "30092",
+    "averageExecutionTime": "181.3506026696834",
+    "averageScriptExecutionTime": "120.71212746342377"
+  },
+  {
+    "origin": "an.yandex.ru",
+    "totalExecutionTime": "1.0172452728999982E7",
+    "totalOccurrences": "21257",
+    "totalScripts": "38205",
+    "averageExecutionTime": "478.546019146634",
+    "averageScriptExecutionTime": "277.2880462553511"
+  },
+  {
+    "origin": "cdn.jsdelivr.net",
+    "totalExecutionTime": "5917533.221000016",
+    "totalOccurrences": "21002",
+    "totalScripts": "21987",
+    "averageExecutionTime": "281.7604619083902",
+    "averageScriptExecutionTime": "272.56291649842933"
+  },
+  {
+    "origin": "cdn.krxd.net",
+    "totalExecutionTime": "1.0937717662000004E7",
+    "totalOccurrences": "18483",
+    "totalScripts": "36481",
+    "averageExecutionTime": "591.771772006709",
+    "averageScriptExecutionTime": "316.54541728920157"
+  },
+  {
+    "origin": "sumo.b-cdn.net",
+    "totalExecutionTime": "1.4227341325999992E7",
+    "totalOccurrences": "17948",
+    "totalScripts": "53377",
+    "averageExecutionTime": "792.6978675061282",
+    "averageScriptExecutionTime": "307.01018094826844"
+  },
+  {
+    "origin": "api-maps.yandex.ru",
+    "totalExecutionTime": "2.1002022394000024E7",
+    "totalOccurrences": "17895",
+    "totalScripts": "53503",
+    "averageExecutionTime": "1173.6251687063418",
+    "averageScriptExecutionTime": "396.68787578395717"
+  },
+  {
+    "origin": "s.amazon-adsystem.com",
+    "totalExecutionTime": "1982529.9899999984",
+    "totalOccurrences": "17438",
+    "totalScripts": "17983",
+    "averageExecutionTime": "113.69021619451775",
+    "averageScriptExecutionTime": "102.81809188936043"
+  },
+  {
+    "origin": "sdk-cdn.beeketing.com",
+    "totalExecutionTime": "8093172.619999986",
+    "totalOccurrences": "17224",
+    "totalScripts": "58691",
+    "averageExecutionTime": "469.87764862981857",
+    "averageScriptExecutionTime": "126.12063954790956"
+  },
+  {
+    "origin": "s.pubmine.com",
+    "totalExecutionTime": "8418204.114999993",
+    "totalOccurrences": "17055",
+    "totalScripts": "33392",
+    "averageExecutionTime": "493.5915634711234",
+    "averageScriptExecutionTime": "240.05696450210118"
+  },
+  {
+    "origin": "w.sharethis.com",
+    "totalExecutionTime": "7138322.543999992",
+    "totalOccurrences": "16231",
+    "totalScripts": "22799",
+    "averageExecutionTime": "439.7956098823243",
+    "averageScriptExecutionTime": "332.6285680860515"
+  },
+  {
+    "origin": "use.fontawesome.com",
+    "totalExecutionTime": "2067102.3840000017",
+    "totalOccurrences": "16178",
+    "totalScripts": "16371",
+    "averageExecutionTime": "127.77243070836941",
+    "averageScriptExecutionTime": "125.10338523509301"
+  },
+  {
+    "origin": "cdn.blog.st-hatena.com",
+    "totalExecutionTime": "2.1372364044000022E7",
+    "totalOccurrences": "16041",
+    "totalScripts": "61615",
+    "averageExecutionTime": "1332.3585838788108",
+    "averageScriptExecutionTime": "306.52869653331254"
+  },
+  {
+    "origin": "cdn.onesignal.com",
+    "totalExecutionTime": "1221260.7969999986",
+    "totalOccurrences": "15326",
+    "totalScripts": "16318",
+    "averageExecutionTime": "79.68555376484414",
+    "averageScriptExecutionTime": "74.58002361999223"
+  },
+  {
+    "origin": "downloads.mailchimp.com",
+    "totalExecutionTime": "3364482.4230000004",
+    "totalOccurrences": "14839",
+    "totalScripts": "24237",
+    "averageExecutionTime": "226.73242287216115",
+    "averageScriptExecutionTime": "153.47815696812464"
+  },
+  {
+    "origin": "cdn.ravenjs.com",
+    "totalExecutionTime": "7413018.142999993",
+    "totalOccurrences": "14381",
+    "totalScripts": "14388",
+    "averageExecutionTime": "515.4730646686606",
+    "averageScriptExecutionTime": "515.3145351505442"
+  },
+  {
+    "origin": "z.moatads.com",
+    "totalExecutionTime": "1.3618886662000021E7",
+    "totalOccurrences": "14221",
+    "totalScripts": "18074",
+    "averageExecutionTime": "957.660267351101",
+    "averageScriptExecutionTime": "727.240442897829"
+  },
+  {
+    "origin": "assets.pinterest.com",
+    "totalExecutionTime": "1456294.2530000003",
+    "totalOccurrences": "13989",
+    "totalScripts": "14025",
+    "averageExecutionTime": "104.10281313889492",
+    "averageScriptExecutionTime": "103.84847183501319"
+  },
+  {
+    "origin": "1.bp.blogspot.com",
+    "totalExecutionTime": "682852.6279999996",
+    "totalOccurrences": "13820",
+    "totalScripts": "14174",
+    "averageExecutionTime": "49.41046512301007",
+    "averageScriptExecutionTime": "47.70739627351663"
+  },
+  {
+    "origin": "cdn.optimizely.com",
+    "totalExecutionTime": "3257467.187000002",
+    "totalOccurrences": "12866",
+    "totalScripts": "13098",
+    "averageExecutionTime": "253.18414324576423",
+    "averageScriptExecutionTime": "246.1872614643249"
+  },
+  {
+    "origin": "cdn.taboola.com",
+    "totalExecutionTime": "5126294.266",
+    "totalOccurrences": "12516",
+    "totalScripts": "25559",
+    "averageExecutionTime": "409.57927980185343",
+    "averageScriptExecutionTime": "147.55891708812715"
+  },
+  {
+    "origin": "s10.histats.com",
+    "totalExecutionTime": "5690996.449000002",
+    "totalOccurrences": "12070",
+    "totalScripts": "13937",
+    "averageExecutionTime": "471.49929154929686",
+    "averageScriptExecutionTime": "408.4766918530804"
+  },
+  {
+    "origin": "forms.hubspot.com",
+    "totalExecutionTime": "1322476.4500000002",
+    "totalOccurrences": "11808",
+    "totalScripts": "14185",
+    "averageExecutionTime": "111.99834434281837",
+    "averageScriptExecutionTime": "89.07918340672997"
+  },
+  {
+    "origin": "js.intercomcdn.com",
+    "totalExecutionTime": "5453491.307000002",
+    "totalOccurrences": "11582",
+    "totalScripts": "16322",
+    "averageExecutionTime": "470.8592045415301",
+    "averageScriptExecutionTime": "361.4105810122024"
+  },
+  {
+    "origin": "platform.linkedin.com",
+    "totalExecutionTime": "1444387.241999997",
+    "totalOccurrences": "11580",
+    "totalScripts": "11587",
+    "averageExecutionTime": "124.73119533678734",
+    "averageScriptExecutionTime": "124.6710575129532"
+  },
+  {
+    "origin": "pixel.adsafeprotected.com",
+    "totalExecutionTime": "9302330.928000014",
+    "totalOccurrences": "10799",
+    "totalScripts": "25277",
+    "averageExecutionTime": "861.40669765719",
+    "averageScriptExecutionTime": "385.70850477990876"
+  },
+  {
+    "origin": "cdn.livechatinc.com",
+    "totalExecutionTime": "1614871.6890000002",
+    "totalOccurrences": "10762",
+    "totalScripts": "16750",
+    "averageExecutionTime": "150.05312107414952",
+    "averageScriptExecutionTime": "90.9596219413988"
+  },
+  {
+    "origin": "assets.tumblr.com",
+    "totalExecutionTime": "1.2395123253000053E7",
+    "totalOccurrences": "10372",
+    "totalScripts": "36783",
+    "averageExecutionTime": "1195.0562334168967",
+    "averageScriptExecutionTime": "297.89448966063884"
+  },
+  {
+    "origin": "n-cdn.areyouahuman.com",
+    "totalExecutionTime": "4621987.254999995",
+    "totalOccurrences": "10336",
+    "totalScripts": "10392",
+    "averageExecutionTime": "447.17368953173354",
+    "averageScriptExecutionTime": "444.80912366163585"
+  },
+  {
+    "origin": "tags.tiqcdn.com",
+    "totalExecutionTime": "3149844.7850000043",
+    "totalOccurrences": "10279",
+    "totalScripts": "14634",
+    "averageExecutionTime": "306.43494357427795",
+    "averageScriptExecutionTime": "228.11299471710413"
+  },
+  {
+    "origin": "fast.wistia.com",
+    "totalExecutionTime": "5640337.793000012",
+    "totalOccurrences": "8848",
+    "totalScripts": "20701",
+    "averageExecutionTime": "637.4703653933091",
+    "averageScriptExecutionTime": "258.4116490447159"
+  },
+  {
+    "origin": "dsms0mj1bbhn4.cloudfront.net",
+    "totalExecutionTime": "3767584.2080000015",
+    "totalOccurrences": "8452",
+    "totalScripts": "13668",
+    "averageExecutionTime": "445.7624477046854",
+    "averageScriptExecutionTime": "290.6778368630702"
+  },
+  {
+    "origin": "consent.cookiebot.com",
+    "totalExecutionTime": "726343.3000000005",
+    "totalOccurrences": "7991",
+    "totalScripts": "8535",
+    "averageExecutionTime": "90.8951695657616",
+    "averageScriptExecutionTime": "83.47165792766863"
+  },
+  {
+    "origin": "uk-ads.openx.net",
+    "totalExecutionTime": "8335972.454999993",
+    "totalOccurrences": "7719",
+    "totalScripts": "8403",
+    "averageExecutionTime": "1079.9290652934312",
+    "averageScriptExecutionTime": "1060.6768839825347"
+  },
+  {
+    "origin": "sb.scorecardresearch.com",
+    "totalExecutionTime": "689116.373",
+    "totalOccurrences": "7335",
+    "totalScripts": "7379",
+    "averageExecutionTime": "93.94906244035454",
+    "averageScriptExecutionTime": "92.40751963190196"
+  },
+  {
+    "origin": "static.dealer.com",
+    "totalExecutionTime": "3519543.583",
+    "totalOccurrences": "6952",
+    "totalScripts": "26634",
+    "averageExecutionTime": "506.26346130609886",
+    "averageScriptExecutionTime": "125.57163246145595"
+  },
+  {
+    "origin": "a.optmstr.com",
+    "totalExecutionTime": "2086095.3419999997",
+    "totalOccurrences": "6881",
+    "totalScripts": "8324",
+    "averageExecutionTime": "303.16746722860046",
+    "averageScriptExecutionTime": "248.04701010027608"
+  },
+  {
+    "origin": "cdn.segment.com",
+    "totalExecutionTime": "1344723.9840000004",
+    "totalOccurrences": "6775",
+    "totalScripts": "6799",
+    "averageExecutionTime": "198.4832448708487",
+    "averageScriptExecutionTime": "197.86826295202943"
+  },
+  {
+    "origin": "use.typekit.net",
+    "totalExecutionTime": "646266.483999999",
+    "totalOccurrences": "6737",
+    "totalScripts": "6773",
+    "averageExecutionTime": "95.92793290782258",
+    "averageScriptExecutionTime": "95.26973177972398"
+  },
+  {
+    "origin": "sic.33across.com",
+    "totalExecutionTime": "1.3752736878000002E7",
+    "totalOccurrences": "6732",
+    "totalScripts": "15704",
+    "averageExecutionTime": "2042.8902076648865",
+    "averageScriptExecutionTime": "880.9368883208085"
+  },
+  {
+    "origin": "hm.baidu.com",
+    "totalExecutionTime": "610577.3089999998",
+    "totalOccurrences": "6495",
+    "totalScripts": "6857",
+    "averageExecutionTime": "94.00728391070037",
+    "averageScriptExecutionTime": "88.52601252758532"
+  },
+  {
+    "origin": "static.olark.com",
+    "totalExecutionTime": "4047238.7189999963",
+    "totalOccurrences": "6457",
+    "totalScripts": "12238",
+    "averageExecutionTime": "626.7986245934644",
+    "averageScriptExecutionTime": "356.6907090857467"
+  },
+  {
+    "origin": "www.paypalobjects.com",
+    "totalExecutionTime": "2194441.8159999894",
+    "totalOccurrences": "6393",
+    "totalScripts": "6440",
+    "averageExecutionTime": "343.256971062097",
+    "averageScriptExecutionTime": "340.93614974711807"
+  },
+  {
+    "origin": "vk.com",
+    "totalExecutionTime": "438769.14400000044",
+    "totalOccurrences": "6297",
+    "totalScripts": "6380",
+    "averageExecutionTime": "69.67907638558046",
+    "averageScriptExecutionTime": "69.08476012122172"
+  },
+  {
+    "origin": "d10lpsik1i8c69.cloudfront.net",
+    "totalExecutionTime": "5217894.408000002",
+    "totalOccurrences": "5892",
+    "totalScripts": "5987",
+    "averageExecutionTime": "885.5896822810591",
+    "averageScriptExecutionTime": "875.9346661575025"
+  },
+  {
+    "origin": "ajax.cloudflare.com",
+    "totalExecutionTime": "1489718.8299999984",
+    "totalOccurrences": "5733",
+    "totalScripts": "5861",
+    "averageExecutionTime": "259.8497871969304",
+    "averageScriptExecutionTime": "253.20444365951494"
+  },
+  {
+    "origin": "tr.snapchat.com",
+    "totalExecutionTime": "865527.1729999993",
+    "totalOccurrences": "5087",
+    "totalScripts": "5087",
+    "averageExecutionTime": "170.14491311185395",
+    "averageScriptExecutionTime": "170.14491311185395"
+  },
+  {
+    "origin": "nexus.ensighten.com",
+    "totalExecutionTime": "1934296.9429999974",
+    "totalOccurrences": "4945",
+    "totalScripts": "7689",
+    "averageExecutionTime": "391.16217249747166",
+    "averageScriptExecutionTime": "230.67552598825134"
+  },
+  {
+    "origin": "m.stripe.network",
+    "totalExecutionTime": "340483.35899999953",
+    "totalOccurrences": "4636",
+    "totalScripts": "4716",
+    "averageExecutionTime": "73.44334749784305",
+    "averageScriptExecutionTime": "71.30772640104341"
+  },
+  {
+    "origin": "serve.popads.net",
+    "totalExecutionTime": "3100012.0850000065",
+    "totalOccurrences": "4549",
+    "totalScripts": "4571",
+    "averageExecutionTime": "681.4711112332394",
+    "averageScriptExecutionTime": "679.3971118560861"
+  },
+  {
+    "origin": "vjs.zencdn.net",
+    "totalExecutionTime": "2778434.625000015",
+    "totalOccurrences": "4483",
+    "totalScripts": "4737",
+    "averageExecutionTime": "619.7712748159744",
+    "averageScriptExecutionTime": "595.413642453505"
+  },
+  {
+    "origin": "ajax.aspnetcdn.com",
+    "totalExecutionTime": "760863.4409998951",
+    "totalOccurrences": "4330",
+    "totalScripts": "4639",
+    "averageExecutionTime": "175.71903949189286",
+    "averageScriptExecutionTime": "166.45446085447952"
+  },
+  {
+    "origin": "image6.pubmatic.com",
+    "totalExecutionTime": "720710.0809999991",
+    "totalOccurrences": "4278",
+    "totalScripts": "4616",
+    "averageExecutionTime": "168.46892964001879",
+    "averageScriptExecutionTime": "158.0074768583448"
+  },
+  {
+    "origin": "cdn.mxpnl.com",
+    "totalExecutionTime": "337428.24499999953",
+    "totalOccurrences": "4227",
+    "totalScripts": "4230",
+    "averageExecutionTime": "79.82688549798915",
+    "averageScriptExecutionTime": "79.76255287437894"
+  },
+  {
+    "origin": "js.driftt.com",
+    "totalExecutionTime": "610605.5109999999",
+    "totalOccurrences": "4078",
+    "totalScripts": "4126",
+    "averageExecutionTime": "149.73161132908314",
+    "averageScriptExecutionTime": "147.81037908988986"
+  },
+  {
+    "origin": "d1lxhc4jvstzrp.cloudfront.net",
+    "totalExecutionTime": "1626334.9430000004",
+    "totalOccurrences": "4051",
+    "totalScripts": "4051",
+    "averageExecutionTime": "401.46505628239964",
+    "averageScriptExecutionTime": "401.46505628239964"
+  },
+  {
+    "origin": "scripts.mediavine.com",
+    "totalExecutionTime": "5080971.925000002",
+    "totalOccurrences": "4015",
+    "totalScripts": "9768",
+    "averageExecutionTime": "1265.4973661270233",
+    "averageScriptExecutionTime": "453.56901860523044"
+  },
+  {
+    "origin": "pixel.quantserve.com",
+    "totalExecutionTime": "406575.75000000064",
+    "totalOccurrences": "3720",
+    "totalScripts": "3793",
+    "averageExecutionTime": "109.29455645161296",
+    "averageScriptExecutionTime": "107.24213091397854"
+  },
+  {
+    "origin": "cdn.digitru.st",
+    "totalExecutionTime": "681638.8509999989",
+    "totalOccurrences": "3688",
+    "totalScripts": "3697",
+    "averageExecutionTime": "184.82615265726702",
+    "averageScriptExecutionTime": "184.55068248373115"
+  },
+  {
+    "origin": "secure-ds.serving-sys.com",
+    "totalExecutionTime": "1267554.453999999",
+    "totalOccurrences": "3684",
+    "totalScripts": "3973",
+    "averageExecutionTime": "344.0701558089028",
+    "averageScriptExecutionTime": "308.7317813201218"
+  },
+  {
+    "origin": "d32hwlnfiv2gyn.cloudfront.net",
+    "totalExecutionTime": "399176.6249999996",
+    "totalOccurrences": "3615",
+    "totalScripts": "3615",
+    "averageExecutionTime": "110.42230290456415",
+    "averageScriptExecutionTime": "110.42230290456415"
+  },
+  {
+    "origin": "fullstory.com",
+    "totalExecutionTime": "764445.1489999995",
+    "totalOccurrences": "3578",
+    "totalScripts": "3578",
+    "averageExecutionTime": "213.6515229178312",
+    "averageScriptExecutionTime": "213.6515229178312"
+  },
+  {
+    "origin": "contextual.media.net",
+    "totalExecutionTime": "3804818.828999998",
+    "totalOccurrences": "3467",
+    "totalScripts": "11353",
+    "averageExecutionTime": "1097.4383700605704",
+    "averageScriptExecutionTime": "367.85195589023056"
+  },
+  {
+    "origin": "media-cf.assets-cdk.com",
+    "totalExecutionTime": "4028207.4539999967",
+    "totalOccurrences": "3422",
+    "totalScripts": "11772",
+    "averageExecutionTime": "1177.1500450029228",
+    "averageScriptExecutionTime": "338.5660048986249"
+  },
+  {
+    "origin": "servicer.mgid.com",
+    "totalExecutionTime": "581063.1429999995",
+    "totalOccurrences": "3406",
+    "totalScripts": "5132",
+    "averageExecutionTime": "170.5998658250145",
+    "averageScriptExecutionTime": "125.13486961873998"
+  },
+  {
+    "origin": "dev.visualwebsiteoptimizer.com",
+    "totalExecutionTime": "648354.748",
+    "totalOccurrences": "3330",
+    "totalScripts": "6352",
+    "averageExecutionTime": "194.70112552552524",
+    "averageScriptExecutionTime": "96.21469889889893"
+  },
+  {
+    "origin": "acdn.adnxs.com",
+    "totalExecutionTime": "570778.8229999999",
+    "totalOccurrences": "3089",
+    "totalScripts": "3803",
+    "averageExecutionTime": "184.77786435739742",
+    "averageScriptExecutionTime": "146.27426884644416"
+  },
+  {
+    "origin": "js-agent.newrelic.com",
+    "totalExecutionTime": "231096.2479999998",
+    "totalOccurrences": "3064",
+    "totalScripts": "3183",
+    "averageExecutionTime": "75.42305744125316",
+    "averageScriptExecutionTime": "71.8504596932114"
+  },
+  {
+    "origin": "d335luupugsy2.cloudfront.net",
+    "totalExecutionTime": "202641.5960000001",
+    "totalOccurrences": "2741",
+    "totalScripts": "2819",
+    "averageExecutionTime": "73.92980518059086",
+    "averageScriptExecutionTime": "71.2924077587255"
+  },
+  {
+    "origin": "d.adroll.com",
+    "totalExecutionTime": "344870.19900000043",
+    "totalOccurrences": "2717",
+    "totalScripts": "3119",
+    "averageExecutionTime": "126.93051122561643",
+    "averageScriptExecutionTime": "106.95348414304986"
+  },
+  {
+    "origin": "pixel.advertising.com",
+    "totalExecutionTime": "305665.57300000015",
+    "totalOccurrences": "2470",
+    "totalScripts": "2680",
+    "averageExecutionTime": "123.75124412955469",
+    "averageScriptExecutionTime": "109.87592732793514"
+  },
+  {
+    "origin": "www.searchanise.com",
+    "totalExecutionTime": "216813.31899999978",
+    "totalOccurrences": "2439",
+    "totalScripts": "2459",
+    "averageExecutionTime": "88.89434973349736",
+    "averageScriptExecutionTime": "87.96111890118897"
+  },
+  {
+    "origin": "unpkg.com",
+    "totalExecutionTime": "579412.3390000013",
+    "totalOccurrences": "2436",
+    "totalScripts": "2508",
+    "averageExecutionTime": "237.85399794745575",
+    "averageScriptExecutionTime": "226.08184418445603"
+  },
+  {
+    "origin": "d1z2jf7jlzjs58.cloudfront.net",
+    "totalExecutionTime": "275409.80000000005",
+    "totalOccurrences": "2406",
+    "totalScripts": "2439",
+    "averageExecutionTime": "114.46791354945968",
+    "averageScriptExecutionTime": "112.78487489609311"
+  },
+  {
+    "origin": "d26b395fwzu5fz.cloudfront.net",
+    "totalExecutionTime": "888539.4370000028",
+    "totalOccurrences": "2373",
+    "totalScripts": "2383",
+    "averageExecutionTime": "374.4371837336723",
+    "averageScriptExecutionTime": "373.4966036662465"
+  },
+  {
+    "origin": "ulogin.ru",
+    "totalExecutionTime": "2754077.815000003",
+    "totalOccurrences": "2254",
+    "totalScripts": "2353",
+    "averageExecutionTime": "1221.8623846495116",
+    "averageScriptExecutionTime": "1189.425756433009"
+  },
+  {
+    "origin": "pixel.rubiconproject.com",
+    "totalExecutionTime": "139648.3930000003",
+    "totalOccurrences": "2071",
+    "totalScripts": "2100",
+    "averageExecutionTime": "67.43041670690481",
+    "averageScriptExecutionTime": "66.04332512473854"
+  },
+  {
+    "origin": "fam-ad.com",
+    "totalExecutionTime": "3806614.7360000024",
+    "totalOccurrences": "2041",
+    "totalScripts": "3505",
+    "averageExecutionTime": "1865.0733640372375",
+    "averageScriptExecutionTime": "1334.7349936154073"
+  },
+  {
+    "origin": "yandex.st",
+    "totalExecutionTime": "260267.19199999998",
+    "totalOccurrences": "1793",
+    "totalScripts": "1885",
+    "averageExecutionTime": "145.15738538761872",
+    "averageScriptExecutionTime": "138.94773675404346"
+  },
+  {
+    "origin": "code.createjs.com",
+    "totalExecutionTime": "5025851.876999996",
+    "totalOccurrences": "1573",
+    "totalScripts": "1649",
+    "averageExecutionTime": "3195.074301970757",
+    "averageScriptExecutionTime": "3120.295397647806"
+  },
+  {
+    "origin": "cdn.doubleverify.com",
+    "totalExecutionTime": "2058776.181000002",
+    "totalOccurrences": "1495",
+    "totalScripts": "3309",
+    "averageExecutionTime": "1377.1078133779267",
+    "averageScriptExecutionTime": "636.710931142699"
+  },
+  {
+    "origin": "cdn.appdynamics.com",
+    "totalExecutionTime": "227081.35000000036",
+    "totalOccurrences": "1416",
+    "totalScripts": "1841",
+    "averageExecutionTime": "160.3681850282487",
+    "averageScriptExecutionTime": "115.06498234463298"
+  },
+  {
+    "origin": "djtflbt20bdde.cloudfront.net",
+    "totalExecutionTime": "516083.26000000024",
+    "totalOccurrences": "1400",
+    "totalScripts": "1412",
+    "averageExecutionTime": "368.6308999999999",
+    "averageScriptExecutionTime": "365.27853571428585"
+  },
+  {
+    "origin": "c.disquscdn.com",
+    "totalExecutionTime": "410244.23400000035",
+    "totalOccurrences": "1364",
+    "totalScripts": "1379",
+    "averageExecutionTime": "300.7655674486807",
+    "averageScriptExecutionTime": "293.5758153714568"
+  },
+  {
+    "origin": "siteimprove.com",
+    "totalExecutionTime": "110381.33199999994",
+    "totalOccurrences": "1359",
+    "totalScripts": "1359",
+    "averageExecutionTime": "81.22246651949965",
+    "averageScriptExecutionTime": "81.22246651949965"
+  },
+  {
+    "origin": "serve.albacross.com",
+    "totalExecutionTime": "974584.7349999992",
+    "totalOccurrences": "1332",
+    "totalScripts": "1332",
+    "averageExecutionTime": "731.6702214714705",
+    "averageScriptExecutionTime": "731.6702214714705"
+  },
+  {
+    "origin": "d31qbv1cthcecs.cloudfront.net",
+    "totalExecutionTime": "65148.01499999997",
+    "totalOccurrences": "1261",
+    "totalScripts": "1261",
+    "averageExecutionTime": "51.663770816812054",
+    "averageScriptExecutionTime": "51.663770816812054"
+  },
+  {
+    "origin": "jsc.marketgid.com",
+    "totalExecutionTime": "410162.36000000127",
+    "totalOccurrences": "1144",
+    "totalScripts": "1427",
+    "averageExecutionTime": "358.5335314685324",
+    "averageScriptExecutionTime": "318.8905989219124"
+  },
+  {
+    "origin": "d2oh4tlt9mrke9.cloudfront.net",
+    "totalExecutionTime": "180364.966",
+    "totalOccurrences": "1093",
+    "totalScripts": "1093",
+    "averageExecutionTime": "165.0182671546204",
+    "averageScriptExecutionTime": "165.0182671546204"
+  },
+  {
+    "origin": "foursixty.com",
+    "totalExecutionTime": "85424.50700000006",
+    "totalOccurrences": "1070",
+    "totalScripts": "1084",
+    "averageExecutionTime": "79.83598785046725",
+    "averageScriptExecutionTime": "78.79417990654204"
+  },
+  {
+    "origin": "c.go-mpulse.net",
+    "totalExecutionTime": "497792.5409999995",
+    "totalOccurrences": "1039",
+    "totalScripts": "1047",
+    "averageExecutionTime": "479.10735418671726",
+    "averageScriptExecutionTime": "477.4299769008652"
+  },
+  {
+    "origin": "cdn.listrakbi.com",
+    "totalExecutionTime": "137315.10999999996",
+    "totalOccurrences": "1021",
+    "totalScripts": "1078",
+    "averageExecutionTime": "134.49080313418213",
+    "averageScriptExecutionTime": "126.21860936989879"
+  },
+  {
+    "origin": "d3c3cq33003psk.cloudfront.net",
+    "totalExecutionTime": "172384.45999999993",
+    "totalOccurrences": "945",
+    "totalScripts": "984",
+    "averageExecutionTime": "182.41741798941806",
+    "averageScriptExecutionTime": "177.26576419753087"
+  },
+  {
+    "origin": "maxcdn.bootstrapcdn.com",
+    "totalExecutionTime": "51076.88800000002",
+    "totalOccurrences": "927",
+    "totalScripts": "928",
+    "averageExecutionTime": "55.09912405609491",
+    "averageScriptExecutionTime": "55.02759708737862"
+  },
+  {
+    "origin": "d36mpcpuzc4ztk.cloudfront.net",
+    "totalExecutionTime": "134742.53199999998",
+    "totalOccurrences": "875",
+    "totalScripts": "875",
+    "averageExecutionTime": "153.99146514285707",
+    "averageScriptExecutionTime": "153.99146514285707"
+  },
+  {
+    "origin": "cmcore.com",
+    "totalExecutionTime": "432982.44100000226",
+    "totalOccurrences": "865",
+    "totalScripts": "957",
+    "averageExecutionTime": "500.55773526011774",
+    "averageScriptExecutionTime": "469.8147666666687"
+  },
+  {
+    "origin": "addshoppers.com",
+    "totalExecutionTime": "125289.56100000013",
+    "totalOccurrences": "845",
+    "totalScripts": "1147",
+    "averageExecutionTime": "148.2716698224851",
+    "averageScriptExecutionTime": "99.26578954635104"
+  },
+  {
+    "origin": "w.usabilla.com",
+    "totalExecutionTime": "60528.530000000006",
+    "totalOccurrences": "796",
+    "totalScripts": "815",
+    "averageExecutionTime": "76.04086683417084",
+    "averageScriptExecutionTime": "73.65161557788944"
+  },
+  {
+    "origin": "ml314.com",
+    "totalExecutionTime": "89295.1890000001",
+    "totalOccurrences": "777",
+    "totalScripts": "798",
+    "averageExecutionTime": "114.92302316602326",
+    "averageScriptExecutionTime": "112.61289918489933"
+  },
+  {
+    "origin": "cdn.rawgit.com",
+    "totalExecutionTime": "214980.71100000045",
+    "totalOccurrences": "770",
+    "totalScripts": "828",
+    "averageExecutionTime": "279.1957285714287",
+    "averageScriptExecutionTime": "269.5923627705626"
+  },
+  {
+    "origin": "d2wy8f7a9ursnm.cloudfront.net",
+    "totalExecutionTime": "344351.7830000065",
+    "totalOccurrences": "768",
+    "totalScripts": "769",
+    "averageExecutionTime": "448.3747174479252",
+    "averageScriptExecutionTime": "448.2665611979251"
+  },
+  {
+    "origin": "po.st",
+    "totalExecutionTime": "76414.08400000008",
+    "totalOccurrences": "754",
+    "totalScripts": "804",
+    "averageExecutionTime": "101.34493899204233",
+    "averageScriptExecutionTime": "95.75660610079579"
+  },
+  {
+    "origin": "photobucket.com",
+    "totalExecutionTime": "64454.570000000065",
+    "totalOccurrences": "630",
+    "totalScripts": "841",
+    "averageExecutionTime": "102.30884126984135",
+    "averageScriptExecutionTime": "75.47362473544975"
+  },
+  {
+    "origin": "plus.google.com",
+    "totalExecutionTime": "65291.19100000001",
+    "totalOccurrences": "599",
+    "totalScripts": "599",
+    "averageExecutionTime": "109.00031886477447",
+    "averageScriptExecutionTime": "109.00031886477447"
+  },
+  {
+    "origin": "mathid.mathtag.com",
+    "totalExecutionTime": "254306.8329999998",
+    "totalOccurrences": "590",
+    "totalScripts": "633",
+    "averageExecutionTime": "431.0285305084742",
+    "averageScriptExecutionTime": "425.05378531073393"
+  },
+  {
+    "origin": "snapwidget.com",
+    "totalExecutionTime": "24811.076999999987",
+    "totalOccurrences": "589",
+    "totalScripts": "599",
+    "averageExecutionTime": "42.124069609507636",
+    "averageScriptExecutionTime": "40.51854230333903"
+  },
+  {
+    "origin": "radar.cedexis.com",
+    "totalExecutionTime": "284669.99800000037",
+    "totalOccurrences": "572",
+    "totalScripts": "812",
+    "averageExecutionTime": "497.6748216783226",
+    "averageScriptExecutionTime": "228.12322013403312"
+  },
+  {
+    "origin": "clickdesk.com",
+    "totalExecutionTime": "45208.467",
+    "totalOccurrences": "510",
+    "totalScripts": "510",
+    "averageExecutionTime": "88.64405294117651",
+    "averageScriptExecutionTime": "88.64405294117651"
+  },
+  {
+    "origin": "ads.linkedin.com",
+    "totalExecutionTime": "28588.94099999997",
+    "totalOccurrences": "408",
+    "totalScripts": "409",
+    "averageExecutionTime": "70.0709338235295",
+    "averageScriptExecutionTime": "69.95507352941179"
+  },
+  {
+    "origin": "smarterclick.co.uk",
+    "totalExecutionTime": "102023.117",
+    "totalOccurrences": "382",
+    "totalScripts": "477",
+    "averageExecutionTime": "267.0762225130888",
+    "averageScriptExecutionTime": "218.1012085514834"
+  },
+  {
+    "origin": "bat.bing.com",
+    "totalExecutionTime": "52817.12199999998",
+    "totalOccurrences": "382",
+    "totalScripts": "382",
+    "averageExecutionTime": "138.2647172774869",
+    "averageScriptExecutionTime": "138.2647172774869"
+  },
+  {
+    "origin": "www.browsealoud.com",
+    "totalExecutionTime": "19067.28100000001",
+    "totalOccurrences": "360",
+    "totalScripts": "360",
+    "averageExecutionTime": "52.964669444444404",
+    "averageScriptExecutionTime": "52.964669444444404"
+  },
+  {
+    "origin": "d16fk4ms6rqz1v.cloudfront.net",
+    "totalExecutionTime": "26550.857000000004",
+    "totalOccurrences": "343",
+    "totalScripts": "343",
+    "averageExecutionTime": "77.40774635568513",
+    "averageScriptExecutionTime": "77.40774635568513"
+  },
+  {
+    "origin": "d1m54pdnjzjnhe.cloudfront.net",
+    "totalExecutionTime": "156288.46099999998",
+    "totalOccurrences": "342",
+    "totalScripts": "345",
+    "averageExecutionTime": "456.9838040935675",
+    "averageScriptExecutionTime": "450.51280701754405"
+  },
+  {
+    "origin": "d3v27wwd40f0xu.cloudfront.net",
+    "totalExecutionTime": "82060.13000000006",
+    "totalOccurrences": "342",
+    "totalScripts": "343",
+    "averageExecutionTime": "239.9419005847955",
+    "averageScriptExecutionTime": "239.64322807017538"
+  },
+  {
+    "origin": "cdn.vox-cdn.com",
+    "totalExecutionTime": "258952.452",
+    "totalOccurrences": "341",
+    "totalScripts": "680",
+    "averageExecutionTime": "759.3913548387095",
+    "averageScriptExecutionTime": "380.100134897361"
+  },
+  {
+    "origin": "d1y9qtn9cuc3xw.cloudfront.ne",
+    "totalExecutionTime": "29390.83000000001",
+    "totalOccurrences": "330",
+    "totalScripts": "357",
+    "averageExecutionTime": "89.06312121212123",
+    "averageScriptExecutionTime": "82.19233333333327"
+  },
+  {
+    "origin": "cdn.concert.io",
+    "totalExecutionTime": "43746.905000000115",
+    "totalOccurrences": "299",
+    "totalScripts": "301",
+    "averageExecutionTime": "146.31071906354543",
+    "averageScriptExecutionTime": "132.19251337792667"
+  },
+  {
+    "origin": "cdn.kaizenplatform.net",
+    "totalExecutionTime": "52990.95400000001",
+    "totalOccurrences": "289",
+    "totalScripts": "290",
+    "averageExecutionTime": "183.35970242214532",
+    "averageScriptExecutionTime": "182.86969550173012"
+  },
+  {
+    "origin": "dnn506yrbagrg.cloudfront.net",
+    "totalExecutionTime": "25177.195000000003",
+    "totalOccurrences": "244",
+    "totalScripts": "244",
+    "averageExecutionTime": "103.18522540983608",
+    "averageScriptExecutionTime": "103.18522540983608"
+  },
+  {
+    "origin": "js.adsrvr.org",
+    "totalExecutionTime": "29978.866000000005",
+    "totalOccurrences": "220",
+    "totalScripts": "222",
+    "averageExecutionTime": "136.26757272727272",
+    "averageScriptExecutionTime": "135.4702545454545"
+  },
+  {
+    "origin": "npmcdn.com",
+    "totalExecutionTime": "35159.099999999984",
+    "totalOccurrences": "213",
+    "totalScripts": "215",
+    "averageExecutionTime": "165.06619718309855",
+    "averageScriptExecutionTime": "162.45263615023484"
+  },
+  {
+    "origin": "d33wq5gej88ld6.cloudfront.net",
+    "totalExecutionTime": "71392.66999999969",
+    "totalOccurrences": "203",
+    "totalScripts": "203",
+    "averageExecutionTime": "351.6880295566486",
+    "averageScriptExecutionTime": "351.6880295566486"
+  },
+  {
+    "origin": "sync.republer.com",
+    "totalExecutionTime": "21095.051000000014",
+    "totalOccurrences": "199",
+    "totalScripts": "199",
+    "averageExecutionTime": "106.00528140703514",
+    "averageScriptExecutionTime": "106.00528140703514"
+  },
+  {
+    "origin": "data.gosquared.com",
+    "totalExecutionTime": "14201.327999999996",
+    "totalOccurrences": "196",
+    "totalScripts": "196",
+    "averageExecutionTime": "72.45575510204084",
+    "averageScriptExecutionTime": "72.45575510204084"
+  },
+  {
+    "origin": "d2zah9y47r7bi2.cloudfront.net",
+    "totalExecutionTime": "81251.30000000034",
+    "totalOccurrences": "193",
+    "totalScripts": "193",
+    "averageExecutionTime": "420.99119170984676",
+    "averageScriptExecutionTime": "420.99119170984676"
+  },
+  {
+    "origin": "rum-static.pingdom.net",
+    "totalExecutionTime": "33570.29599999998",
+    "totalOccurrences": "184",
+    "totalScripts": "184",
+    "averageExecutionTime": "182.4472608695652",
+    "averageScriptExecutionTime": "182.4472608695652"
+  },
+  {
+    "origin": "d3alqb8vzo7fun.cloudfront.net",
+    "totalExecutionTime": "28780.417999999998",
+    "totalOccurrences": "174",
+    "totalScripts": "174",
+    "averageExecutionTime": "165.40470114942534",
+    "averageScriptExecutionTime": "165.40470114942534"
+  },
+  {
+    "origin": "d2r1yp2w7bby2u.cloudfront.net",
+    "totalExecutionTime": "14489.531999999996",
+    "totalOccurrences": "174",
+    "totalScripts": "174",
+    "averageExecutionTime": "83.27317241379312",
+    "averageScriptExecutionTime": "83.27317241379312"
+  },
+  {
+    "origin": "d31y97ze264gaa.cloudfront.net",
+    "totalExecutionTime": "11097.503999999997",
+    "totalOccurrences": "169",
+    "totalScripts": "169",
+    "averageExecutionTime": "65.66570414201182",
+    "averageScriptExecutionTime": "65.66570414201182"
+  },
+  {
+    "origin": "f.vimeocdn.com",
+    "totalExecutionTime": "31621.72700000001",
+    "totalOccurrences": "156",
+    "totalScripts": "199",
+    "averageExecutionTime": "202.70337820512822",
+    "averageScriptExecutionTime": "150.8553186965811"
+  },
+  {
+    "origin": "d2jjzw81hqbuqv.cloudfront.net",
+    "totalExecutionTime": "12544.760999999997",
+    "totalOccurrences": "152",
+    "totalScripts": "154",
+    "averageExecutionTime": "82.53132236842109",
+    "averageScriptExecutionTime": "80.50381578947363"
+  },
+  {
+    "origin": "247-inc.net",
+    "totalExecutionTime": "148920.06400000007",
+    "totalOccurrences": "149",
+    "totalScripts": "294",
+    "averageExecutionTime": "999.4635167785236",
+    "averageScriptExecutionTime": "500.59888366890385"
+  },
+  {
+    "origin": "d2tgfbvjf3q6hn.cloudfront.net",
+    "totalExecutionTime": "12382.222000000007",
+    "totalOccurrences": "147",
+    "totalScripts": "147",
+    "averageExecutionTime": "84.23280272108846",
+    "averageScriptExecutionTime": "84.23280272108846"
+  },
+  {
+    "origin": "polldaddy.com",
+    "totalExecutionTime": "15383.770999999999",
+    "totalOccurrences": "144",
+    "totalScripts": "150",
+    "averageExecutionTime": "106.83174305555556",
+    "averageScriptExecutionTime": "96.88948148148148"
+  },
+  {
+    "origin": "d38nbbai6u794i.cloudfront.net",
+    "totalExecutionTime": "108617.96999999993",
+    "totalOccurrences": "144",
+    "totalScripts": "144",
+    "averageExecutionTime": "754.2914583333329",
+    "averageScriptExecutionTime": "754.2914583333329"
+  },
+  {
+    "origin": "use.edgefonts.net",
+    "totalExecutionTime": "10172.308000000003",
+    "totalOccurrences": "143",
+    "totalScripts": "149",
+    "averageExecutionTime": "71.135020979021",
+    "averageScriptExecutionTime": "68.12273193473192"
+  },
+  {
+    "origin": "djnf6e5yyirys.cloudfront.net",
+    "totalExecutionTime": "9187.220999999998",
+    "totalOccurrences": "140",
+    "totalScripts": "140",
+    "averageExecutionTime": "65.62300714285712",
+    "averageScriptExecutionTime": "65.62300714285712"
+  },
+  {
+    "origin": "static.ads-twitter.com",
+    "totalExecutionTime": "8792.587",
+    "totalOccurrences": "135",
+    "totalScripts": "136",
+    "averageExecutionTime": "65.13027407407407",
+    "averageScriptExecutionTime": "64.66097407407405"
+  },
+  {
+    "origin": "www.opinionstage.com",
+    "totalExecutionTime": "11405.655",
+    "totalOccurrences": "135",
+    "totalScripts": "140",
+    "averageExecutionTime": "84.48633333333338",
+    "averageScriptExecutionTime": "81.03998271604938"
+  },
+  {
+    "origin": "api.ipify.org",
+    "totalExecutionTime": "17409.614000000005",
+    "totalOccurrences": "133",
+    "totalScripts": "133",
+    "averageExecutionTime": "130.89935338345862",
+    "averageScriptExecutionTime": "130.89935338345862"
+  },
+  {
+    "origin": "d26opx5dl8t69i.cloudfront.net",
+    "totalExecutionTime": "38532.25099999999",
+    "totalOccurrences": "130",
+    "totalScripts": "198",
+    "averageExecutionTime": "296.4019307692309",
+    "averageScriptExecutionTime": "185.64101538461532"
+  },
+  {
+    "origin": "static.clicktripz.com",
+    "totalExecutionTime": "41257.11300000001",
+    "totalOccurrences": "120",
+    "totalScripts": "136",
+    "averageExecutionTime": "343.80927500000007",
+    "averageScriptExecutionTime": "317.27857916666665"
+  },
+  {
+    "origin": "udmserve.net",
+    "totalExecutionTime": "42665.022",
+    "totalOccurrences": "112",
+    "totalScripts": "125",
+    "averageExecutionTime": "380.93769642857137",
+    "averageScriptExecutionTime": "318.2442485119048"
+  },
+  {
+    "origin": "autolinkmaker.itunes.apple.com",
+    "totalExecutionTime": "9620.186",
+    "totalOccurrences": "110",
+    "totalScripts": "111",
+    "averageExecutionTime": "87.45623636363638",
+    "averageScriptExecutionTime": "86.23070454545454"
+  },
+  {
+    "origin": "extole.com",
+    "totalExecutionTime": "18305.38799999999",
+    "totalOccurrences": "104",
+    "totalScripts": "105",
+    "averageExecutionTime": "176.01334615384613",
+    "averageScriptExecutionTime": "174.92110576923082"
+  },
+  {
+    "origin": "d2lv4zbk7v5f93.cloudfront.net",
+    "totalExecutionTime": "23637.319999999996",
+    "totalOccurrences": "102",
+    "totalScripts": "102",
+    "averageExecutionTime": "231.73843137254906",
+    "averageScriptExecutionTime": "231.73843137254906"
+  },
+  {
+    "origin": "www.avis-verifies.com",
+    "totalExecutionTime": "7735.168999999999",
+    "totalOccurrences": "102",
+    "totalScripts": "103",
+    "averageExecutionTime": "75.83499019607848",
+    "averageScriptExecutionTime": "75.3387598039216"
+  },
+  {
+    "origin": "www.fastly-insights.com",
+    "totalExecutionTime": "6108.466000000003",
+    "totalOccurrences": "99",
+    "totalScripts": "102",
+    "averageExecutionTime": "61.70167676767677",
+    "averageScriptExecutionTime": "60.09811616161617"
+  },
+  {
+    "origin": "analytics.freespee.com",
+    "totalExecutionTime": "7664.764000000001",
+    "totalOccurrences": "98",
+    "totalScripts": "102",
+    "averageExecutionTime": "78.21187755102042",
+    "averageScriptExecutionTime": "74.49117857142859"
+  },
+  {
+    "origin": "jwpcdn.com",
+    "totalExecutionTime": "6731.485000000002",
+    "totalOccurrences": "95",
+    "totalScripts": "95",
+    "averageExecutionTime": "70.85773684210524",
+    "averageScriptExecutionTime": "70.85773684210524"
+  },
+  {
+    "origin": "d3ezl4ajpp2zy8.cloudfront.net",
+    "totalExecutionTime": "8158.015999999997",
+    "totalOccurrences": "92",
+    "totalScripts": "92",
+    "averageExecutionTime": "88.67408695652173",
+    "averageScriptExecutionTime": "88.67408695652173"
+  },
+  {
+    "origin": "d22xmn10vbouk4.cloudfront.net",
+    "totalExecutionTime": "9589.297999999999",
+    "totalOccurrences": "92",
+    "totalScripts": "92",
+    "averageExecutionTime": "104.23149999999997",
+    "averageScriptExecutionTime": "104.23149999999997"
+  },
+  {
+    "origin": "amplitude.com",
+    "totalExecutionTime": "6059.8240000000005",
+    "totalOccurrences": "89",
+    "totalScripts": "89",
+    "averageExecutionTime": "68.08791011235952",
+    "averageScriptExecutionTime": "68.08791011235952"
+  },
+  {
+    "origin": "dg1f2pfrgjxdq.cloudfront.net",
+    "totalExecutionTime": "23338.257000000307",
+    "totalOccurrences": "88",
+    "totalScripts": "88",
+    "averageExecutionTime": "265.20746590909425",
+    "averageScriptExecutionTime": "265.20746590909425"
+  },
+  {
+    "origin": "www.mlveda.com",
+    "totalExecutionTime": "23943.127999999597",
+    "totalOccurrences": "85",
+    "totalScripts": "87",
+    "averageExecutionTime": "281.6838588235248",
+    "averageScriptExecutionTime": "277.6660588235247"
+  },
+  {
+    "origin": "munchkin.marketo.net",
+    "totalExecutionTime": "13255.877999999997",
+    "totalOccurrences": "83",
+    "totalScripts": "91",
+    "averageExecutionTime": "159.7093734939759",
+    "averageScriptExecutionTime": "152.76384939759035"
+  },
+  {
+    "origin": "p1.answerdash.com",
+    "totalExecutionTime": "10530.342000000002",
+    "totalOccurrences": "77",
+    "totalScripts": "126",
+    "averageExecutionTime": "136.75768831168833",
+    "averageScriptExecutionTime": "81.2749090909091"
+  },
+  {
+    "origin": "browser-update.org",
+    "totalExecutionTime": "4592.634",
+    "totalOccurrences": "76",
+    "totalScripts": "76",
+    "averageExecutionTime": "60.42939473684209",
+    "averageScriptExecutionTime": "60.42939473684209"
+  },
+  {
+    "origin": "cookie-script.com",
+    "totalExecutionTime": "6877.878999999996",
+    "totalOccurrences": "75",
+    "totalScripts": "76",
+    "averageExecutionTime": "91.70505333333334",
+    "averageScriptExecutionTime": "87.90667333333336"
+  },
+  {
+    "origin": "tribl.io",
+    "totalExecutionTime": "6290.806999999997",
+    "totalOccurrences": "74",
+    "totalScripts": "85",
+    "averageExecutionTime": "85.01090540540544",
+    "averageScriptExecutionTime": "74.18201801801801"
+  },
+  {
+    "origin": "tinypass.com",
+    "totalExecutionTime": "2604.1620000000003",
+    "totalOccurrences": "73",
+    "totalScripts": "73",
+    "averageExecutionTime": "35.67345205479454",
+    "averageScriptExecutionTime": "35.67345205479454"
+  },
+  {
+    "origin": "doug1izaerwt3.cloudfront.net",
+    "totalExecutionTime": "8523.044999999998",
+    "totalOccurrences": "70",
+    "totalScripts": "75",
+    "averageExecutionTime": "121.75778571428573",
+    "averageScriptExecutionTime": "108.4579678571429"
+  },
+  {
+    "origin": "content-square.net",
+    "totalExecutionTime": "5831.349999999999",
+    "totalOccurrences": "57",
+    "totalScripts": "58",
+    "averageExecutionTime": "102.3043859649123",
+    "averageScriptExecutionTime": "100.92348245614035"
+  },
+  {
+    "origin": "curalate.com",
+    "totalExecutionTime": "3786.7439999999997",
+    "totalOccurrences": "57",
+    "totalScripts": "57",
+    "averageExecutionTime": "66.4341052631579",
+    "averageScriptExecutionTime": "66.4341052631579"
+  },
+  {
+    "origin": "soundest.net",
+    "totalExecutionTime": "3679.1659999999993",
+    "totalOccurrences": "54",
+    "totalScripts": "54",
+    "averageExecutionTime": "68.1327037037037",
+    "averageScriptExecutionTime": "68.1327037037037"
+  },
+  {
+    "origin": "cdn.cnetcontent.com",
+    "totalExecutionTime": "23550.968000000004",
+    "totalOccurrences": "54",
+    "totalScripts": "60",
+    "averageExecutionTime": "436.12903703703705",
+    "averageScriptExecutionTime": "404.1938518518518"
+  },
+  {
+    "origin": "www.upsellit.com",
+    "totalExecutionTime": "3838.615",
+    "totalOccurrences": "53",
+    "totalScripts": "56",
+    "averageExecutionTime": "72.42669811320755",
+    "averageScriptExecutionTime": "68.26659433962267"
+  }
+]
