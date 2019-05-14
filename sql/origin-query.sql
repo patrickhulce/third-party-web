@@ -10,5 +10,3 @@ HAVING
   totalOccurrences > 100
 ORDER BY
   totalOccurrences DESC
-LIMIT
-  1000

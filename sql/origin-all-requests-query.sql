@@ -2,7 +2,7 @@ SELECT
   REGEXP_EXTRACT(url, r'http.*?://([^\/]+)') AS origin,
   COUNT(url) AS totalOccurrences,
 FROM
-  [httparchive:requests.2019_02_01_mobile]
+  `httparchive.lighthouse.2019_04_01_mobile`
 GROUP BY
   origin
 HAVING
