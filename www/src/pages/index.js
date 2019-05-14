@@ -67,8 +67,8 @@ const VisualizationPage = () => {
               label: 'Average Cost',
               value: 'averageExecutionTime',
               tooltip: [
-                'This visualizes how long each script takes to execute, on average.',
-                'Largest entities here are the worst performing third parties.',
+                "This visualizes how long the entity's scripts take to execute, on average.",
+                "Largest entities here have the worst performance impact to the pages they're on.",
               ].join(' '),
             },
             {
@@ -83,7 +83,7 @@ const VisualizationPage = () => {
               label: 'Popularity',
               value: 'totalOccurrences',
               tooltip: [
-                'This visualizes how many scripts across the entire web are seen for the entity.',
+                'This visualizes how many pages across the entire web include the entity.',
                 'Largest visualizations here are the most popular third parties.',
               ].join(' '),
             },
