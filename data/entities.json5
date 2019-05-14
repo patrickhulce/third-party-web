@@ -119,8 +119,16 @@
       "www.google-analytics.com",
       "ssl.google-analytics.com",
       "google-analytics.com",
-      "ampcid.google.com",
       "urchin.com"
+    ]
+  },
+  {
+    "name": "Google AMP",
+    "company": "Google",
+    "homepage": "https://github.com/google/amp-client-id-library",
+    "categories": ["analytics"],
+    "domains": [
+      "ampcid.google.com"
     ]
   },
   {
@@ -940,7 +948,7 @@
   },
   {
     "name": "AMP",
-    "homepage": "https://www.ampproject.org/",
+    "homepage": "https://amp.dev/",
     "categories": ["content"],
     "domains": ["cdn.ampproject.org"]
   },
