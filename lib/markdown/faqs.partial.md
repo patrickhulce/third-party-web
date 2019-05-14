@@ -6,15 +6,19 @@ name: faqs
 
 This can be for one of several reasons:
 
-1.  The entity does not have at least 100 references to their origin in the dataset.
+1.  The entity does not have references to their origin on at least 50 pages in the dataset.
 1.  The entity's origins have not yet been identified. See [How can I contribute?](#contribute)
+
+### What is "Total Occurences"?
+
+Total Occurrences is the number of pages on which the entity is included.
 
 ### How is the "Average Impact" determined?
 
-The HTTP Archive dataset includes Lighthouse reports for each URL on mobile. Lighthouse has an audit called "bootup-time" that summarizes the amount of time that each script spent on the main thread. The "Average Impact" for an entity is the total execution time of scripts whose domain matches one of the entity's domains divided by the total number of occurences of those scripts.
+The HTTP Archive dataset includes Lighthouse reports for each URL on mobile. Lighthouse has an audit called "bootup-time" that summarizes the amount of time that each script spent on the main thread. The "Average Impact" for an entity is the total execution time of scripts whose domain matches one of the entity's domains divided by the total number of pages that included the entity.
 
 ```
-Average Impact = Total Execution Time / Total Occurences
+Average Impact = Total Execution Time / Total Occurrences
 ```
 
 ### How does Lighthouse determine the execution time of each script?

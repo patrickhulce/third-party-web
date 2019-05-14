@@ -5,29 +5,37 @@ const thirdPartyLib = require('../lib')
 
 const DATA_FOLDER = path.join(__dirname, '../data')
 
-// from total-time-query.generated.sql, based on2019-03-01 data
+// from total-time-query.generated.sql, based on 2019-03-01 data
 const GLOBAL_EXECUTION_TIME = 4.346887045954005e9
 
 const datasetFiles = fs
+  .readdirSync(DATA_FOLDER)
+  .filter(f => f.includes('entity-scripting'))
+  .sort()
+  .reverse()
+
+const allOriginDatasetFiles = fs
   .readdirSync(DATA_FOLDER)
   .filter(f => f.includes('origin-scripting'))
   .sort()
   .reverse()
 
+const ALL_ORIGIN_DATASET = importDataset(allOriginDatasetFiles[0])
 const CURRENT_DATASET = importDataset(datasetFiles[0])
 const LAST_DATASET = importDataset(datasetFiles[1])
 
-const THIRD_PARTY_EXECUTION_TIME = _.sumBy(CURRENT_DATASET, 'totalExecutionTime')
+const THIRD_PARTY_EXECUTION_TIME = _.sumBy(ALL_ORIGIN_DATASET, 'totalExecutionTime')
 
 function importDataset(datasetName) {
   return require(path.join(DATA_FOLDER, datasetName))
     .map(entry => {
-      return {..._.mapValues(entry, x => Number(x)), domain: entry.origin}
+      return _.omit({..._.mapValues(entry, x => Number(x)), domain: entry.origin}, 'origin')
     })
     .filter(entry => entry.domain)
 }
 
 function combineGroup(entries) {
+  if (!entries.length) return {}
   const domain = thirdPartyLib.getRootDomain(entries[0].domain)
   const domains = _.map(entries, 'domain')
   const totalExecutionTime = _.sumBy(entries, 'totalExecutionTime')
@@ -117,15 +125,13 @@ function computeChangesSinceLast(currentDataset, lastDataset) {
   })
 }
 
+const allOriginDatasetStats = computeAllStats(ALL_ORIGIN_DATASET)
 const currentDatasetStats = computeAllStats(CURRENT_DATASET)
 const lastDatasetStats = computeAllStats(LAST_DATASET)
 
-const {
-  sortedEntityData,
-  top50ExecutionTime,
-  homelessGrouped,
-  totalEntityExecutionTime,
-} = currentDatasetStats
+const {sortedEntityData: originSortedEntityData, homelessGrouped} = allOriginDatasetStats
+
+const {sortedEntityData, top50ExecutionTime, totalEntityExecutionTime} = currentDatasetStats
 
 const changesSinceLast = computeChangesSinceLast(currentDatasetStats, lastDatasetStats)
 
@@ -197,9 +203,13 @@ console.log(
   '% of 3rd party script execution'
 )
 
+const finalEntityData = originSortedEntityData
+  .filter(item => item.domain === '<all others>')
+  .concat(sortedEntityData.filter(item => item.domain !== '<all others>'))
+
 fs.writeFileSync(
   path.join(__dirname, '../.tmp/combined-data.json'),
-  JSON.stringify(sortedEntityData, null, 2)
+  JSON.stringify(finalEntityData, null, 2)
 )
 
 console.log('Finished processing', datasetFiles[0])
