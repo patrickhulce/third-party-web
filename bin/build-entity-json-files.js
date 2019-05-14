@@ -15,7 +15,7 @@ function cleanStatsFromEntity(entity) {
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 
-const httpArchiveData = require('../data/2019-03-01-origin-scripting.json')
+const httpArchiveData = require('../data/2019-04-01-entity-scripting.json')
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
 const entityExecutionStats = _(httpArchiveData)
   .groupBy(({origin}) => {
@@ -47,5 +47,5 @@ fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 fs.writeFileSync(`${DIST_DIR}/entities-httparchive.json`, JSON.stringify(entitiesInHTTPArchive))
 fs.writeFileSync(
   `${DIST_DIR}/entities-httparchive-nostats.json`,
-  JSON.stringify(entitiesInHTTPArchive.map(e => cleanStatsFromEntity(e))),
+  JSON.stringify(entitiesInHTTPArchive.map(e => cleanStatsFromEntity(e)))
 )
