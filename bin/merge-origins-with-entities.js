@@ -1,6 +1,7 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
+const {importMergedData} = require('./shared/merge-entity-origin-data')
 const thirdPartyLib = require('../lib')
 
 const DATA_FOLDER = path.join(__dirname, '../data')
@@ -20,19 +21,10 @@ const allOriginDatasetFiles = fs
   .sort()
   .reverse()
 
-const ALL_ORIGIN_DATASET = importDataset(allOriginDatasetFiles[0])
-const CURRENT_DATASET = importDataset(datasetFiles[0])
-const LAST_DATASET = importDataset(datasetFiles[1])
+const CURRENT_DATASET = importMergedData(datasetFiles[0])
+const LAST_DATASET = importMergedData(datasetFiles[1])
 
-const THIRD_PARTY_EXECUTION_TIME = _.sumBy(ALL_ORIGIN_DATASET, 'totalExecutionTime')
-
-function importDataset(datasetName) {
-  return require(path.join(DATA_FOLDER, datasetName))
-    .map(entry => {
-      return _.omit({..._.mapValues(entry, x => Number(x)), domain: entry.origin}, 'origin')
-    })
-    .filter(entry => entry.domain)
-}
+const THIRD_PARTY_EXECUTION_TIME = _.sumBy(CURRENT_DATASET, 'totalExecutionTime')
 
 function combineGroup(entries) {
   if (!entries.length) return {}
@@ -125,13 +117,15 @@ function computeChangesSinceLast(currentDataset, lastDataset) {
   })
 }
 
-const allOriginDatasetStats = computeAllStats(ALL_ORIGIN_DATASET)
 const currentDatasetStats = computeAllStats(CURRENT_DATASET)
 const lastDatasetStats = computeAllStats(LAST_DATASET)
 
-const {sortedEntityData: originSortedEntityData, homelessGrouped} = allOriginDatasetStats
-
-const {sortedEntityData, top50ExecutionTime, totalEntityExecutionTime} = currentDatasetStats
+const {
+  sortedEntityData,
+  top50ExecutionTime,
+  totalEntityExecutionTime,
+  homelessGrouped,
+} = currentDatasetStats
 
 const changesSinceLast = computeChangesSinceLast(currentDatasetStats, lastDatasetStats)
 
@@ -203,13 +197,9 @@ console.log(
   '% of 3rd party script execution'
 )
 
-const finalEntityData = originSortedEntityData
-  .filter(item => item.domain === '<all others>')
-  .concat(sortedEntityData.filter(item => item.domain !== '<all others>'))
-
 fs.writeFileSync(
   path.join(__dirname, '../.tmp/combined-data.json'),
-  JSON.stringify(finalEntityData, null, 2)
+  JSON.stringify(sortedEntityData, null, 2)
 )
 
 console.log('Finished processing', datasetFiles[0])

@@ -2,6 +2,7 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 const JSON5 = require('json5')
+const {importMergedData} = require('./shared/merge-entity-origin-data')
 
 const DIST_DIR = path.join(__dirname, '../dist')
 const DATA_DIR = path.join(__dirname, '../data')
@@ -15,11 +16,11 @@ function cleanStatsFromEntity(entity) {
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 
-const httpArchiveData = require('../data/2019-04-01-entity-scripting.json')
+const httpArchiveData = importMergedData('2019-04-01-entity-scripting.json')
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
 const entityExecutionStats = _(httpArchiveData)
-  .groupBy(({origin}) => {
-    const entity = getEntity(origin)
+  .groupBy(({domain}) => {
+    const entity = getEntity(domain)
     return entity && entity.name
   })
   .mapValues(dataset => {
@@ -31,8 +32,8 @@ const entityExecutionStats = _(httpArchiveData)
   .value()
 
 const entitiesInHTTPArchive = _(httpArchiveData)
-  // Find all the unique entities for our origins found in HTTPArchive
-  .map(({origin}) => getEntity(origin))
+  // Find all the unique entities for our domains found in HTTPArchive
+  .map(({domain}) => getEntity(domain))
   .filter(Boolean)
   .uniq()
   // Use the original entity which has the minimal form
