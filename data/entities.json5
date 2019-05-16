@@ -1215,34 +1215,24 @@
       "*.cedexis-test.com",
       "*.cedexis.com",
       "*.cmdolb.com",
-      "*.leasewebcdn.com",
-      "*.mncdn.com",
-      "*.alphacdn.net",
-      "*.azureedge.net",
-      "*.cdnetworks.net",
+      "cedexis.leasewebcdn.com",
       "*.cedexis-radar.net",
       "*.cedexis.net",
-      "*.edgecastcdn.net",
-      "*.edgecastdns.net",
-      "*.fastestcdn.net",
-      "*.insnw.net",
-      "*.msedge.net"
-    ],
-    "examples": [
-      "radar.cedexis.com",
-      "rpt.cedexis.com",
-      "2-01-49cd-0002.cdx.cedexis.net",
-      "a-cedexis.msedge.net",
-      "bench.cedexis-test.com",
       "cedexis-test01.insnw.net",
-      "cedexis.leasewebcdn.com",
       "cedexisakamaitest.azureedge.net",
       "cedexispub.cdnetworks.net",
       "cs600.wac.alphacdn.net",
       "cs600.wpc.edgecastdns.net",
       "global2.cmdolb.com",
       "img-cedexis.mncdn.com",
+      "a-cedexis.msedge.net",
       "zn3vgszfh.fastestcdn.net"
+    ],
+    "examples": [
+      "radar.cedexis.com",
+      "rpt.cedexis.com",
+      "2-01-49cd-0002.cdx.cedexis.net",
+      "bench.cedexis-test.com"
     ]
   },
   {
@@ -5662,8 +5652,9 @@
   },
   {
     "name": "LeaseWeb",
-    "categories": ["other"],
-    "domains": ["*.lswcdn.net"]
+    "homepage": "https://www.leaseweb.com/",
+    "categories": ["cdn"],
+    "domains": ["*.lswcdn.net", "*.leasewebcdn.com"]
   },
   {
     "name": "Leboncoin",
