@@ -41,18 +41,6 @@
       "an.facebook.com",
       "atlassbx.com",
       "fbcdn-photos-e-a.akamaihd.net",
-      "23.62.3.183",
-      "akamai.net",
-      "akamaiedge.net",
-      "akamaitechnologies.com",
-      "akamaitechnologies.fr",
-      "akamaized.net",
-      "edgefcs.net",
-      "edgekey.net",
-      "edgesuite.net",
-      "srip.net",
-      "cquotient.com",
-      "demandware.net",
       "platform-lookaside.fbsbx.com"
     ]
   },
@@ -129,9 +117,7 @@
     "company": "Google",
     "homepage": "https://github.com/google/amp-client-id-library",
     "categories": ["analytics"],
-    "domains": [
-      "ampcid.google.com"
-    ]
+    "domains": ["ampcid.google.com"]
   },
   {
     "name": "Google Tag Manager",
@@ -171,13 +157,45 @@
     "name": "Twitter",
     "homepage": "https://twitter.com",
     "categories": ["social"],
-    "domains": ["platform.twitter.com", "cdn.syndication.twimg.com", "twitpic.com", "vine.co", "abs.twimg.com", "syndication.twitter.com", "pbs.twimg.com"]
+    "domains": [
+      "platform.twitter.com",
+      "cdn.syndication.twimg.com",
+      "twitpic.com",
+      "vine.co",
+      "abs.twimg.com",
+      "syndication.twitter.com",
+      "pbs.twimg.com"
+    ]
   },
   {
     "name": "AddThis",
     "homepage": "http://www.addthis.com/",
     "categories": ["social"],
-    "domains": ["s7.addthis.com", "addthiscdn.com", "addthisedge.com", "r.dlx.addthis.com", "su.addthis.com", "x.dlx.addthis.com"]
+    "domains": [
+      "s7.addthis.com",
+      "addthiscdn.com",
+      "addthisedge.com",
+      "r.dlx.addthis.com",
+      "su.addthis.com",
+      "x.dlx.addthis.com"
+    ]
+  },
+  {
+    "name": "Akamai",
+    "homepage": "https://www.akamai.com/",
+    "categories": ["library"],
+    "domains": [
+      "23.62.3.183",
+      "akamai.net",
+      "akamaiedge.net",
+      "akamaitechnologies.com",
+      "akamaitechnologies.fr",
+      "akamaized.net",
+      "edgefcs.net",
+      "edgekey.net",
+      "edgesuite.net",
+      "srip.net"
+    ]
   },
   {
     "name": "Blogger",
@@ -206,7 +224,13 @@
     "name": "Hotjar",
     "homepage": "https://www.hotjar.com/",
     "categories": ["analytics"],
-    "domains": ["script.hotjar.com", "static.hotjar.com", "in.hotjar.com", "vc.hotjar.io", "vars.hotjar.com"]
+    "domains": [
+      "script.hotjar.com",
+      "static.hotjar.com",
+      "in.hotjar.com",
+      "vc.hotjar.io",
+      "vars.hotjar.com"
+    ]
   },
   {
     "name": "Baidu Analytics",
@@ -299,7 +323,15 @@
     "name": "Moat",
     "homepage": "https://moat.com/",
     "categories": ["ad"],
-    "domains": ["z.moatads.com", "moatpixel.com", "px.moatads.com", "geo.moatads.com", "sejs.moatads.com", "mb.moatads.com", "v4.moatads.com"]
+    "domains": [
+      "z.moatads.com",
+      "moatpixel.com",
+      "px.moatads.com",
+      "geo.moatads.com",
+      "sejs.moatads.com",
+      "mb.moatads.com",
+      "v4.moatads.com"
+    ]
   },
   {
     "name": "33 Across",
@@ -379,7 +411,13 @@
     "name": "LiveRamp IdentityLink",
     "homepage": "https://liveramp.com/discover-identitylink/",
     "categories": ["analytics"],
-    "domains": ["idsync.rlcdn.com", "circulate.com", "id.rlcdn.com", "api.rlcdn.com", "cdn.rlcdn.com"]
+    "domains": [
+      "idsync.rlcdn.com",
+      "circulate.com",
+      "id.rlcdn.com",
+      "api.rlcdn.com",
+      "cdn.rlcdn.com"
+    ]
   },
   {
     "name": "Drawbridge",
@@ -411,7 +449,7 @@
     "name": "Xaxis",
     "homepage": "https://www.xaxis.com/",
     "categories": ["ad"],
-    "domains": ["t.mookie1.com", "247realmedia.com", "gmads.net", "odr.mookie1.com"],
+    "domains": ["t.mookie1.com", "247realmedia.com", "gmads.net", "odr.mookie1.com"]
   },
   {
     "name": "Freshdesk",
@@ -464,6 +502,12 @@
     "homepage": "https://www.salesforce.com/products/marketing-cloud/",
     "categories": ["analytics"],
     "domains": ["cdn.krxd.net", "beacon.krxd.net", "consumer.krxd.net", "usermatch.krxd.net"]
+  },
+  {
+    "name": "Salesforce Commerce Cloud",
+    "homepage": "https://www.salesforce.com/products/commerce-cloud/overview/",
+    "categories": ["hosting"],
+    "domains": ["cquotient.com", "demandware.net", "demandware.edgesuite.net"]
   },
   {
     "name": "Optimizely",
@@ -528,11 +572,7 @@
     "name": "Vimeo",
     "homepage": "http://vimeo.com/",
     "categories": ["video"],
-    "domains": [
-      "f.vimeocdn.com",
-      "player.vimeo.com",
-      "i.vimeocdn.com"
-    ]
+    "domains": ["f.vimeocdn.com", "player.vimeo.com", "i.vimeocdn.com"]
   },
   {
     "name": "Disqus",
@@ -656,7 +696,14 @@
     "name": "Media.net",
     "homepage": "https://www.media.net/",
     "categories": ["ad"],
-    "domains": ["contextual.media.net", "mnet-ad.net", "cdnwest-xch.media.net", "hbx.media.net", "cs.media.net", "hblg.media.net"]
+    "domains": [
+      "contextual.media.net",
+      "mnet-ad.net",
+      "cdnwest-xch.media.net",
+      "hbx.media.net",
+      "cs.media.net",
+      "hblg.media.net"
+    ]
   },
   {
     "name": "Yahoo!",
@@ -706,7 +753,12 @@
     "name": "Sizmek",
     "homepage": "https://www.sizmek.com/",
     "categories": ["ad"],
-    "domains": ["secure-ds.serving-sys.com", "ds.serving-sys.com", "peer39.net", "bs.serving-sys.com"]
+    "domains": [
+      "secure-ds.serving-sys.com",
+      "ds.serving-sys.com",
+      "peer39.net",
+      "bs.serving-sys.com"
+    ]
   },
   {
     "name": "Scorecard Research",
@@ -718,7 +770,15 @@
     "name": "Criteo",
     "homepage": "https://www.criteo.com/",
     "categories": ["ad"],
-    "domains": ["static.criteo.net", "bidder.criteo.com", "emailretargeting.com", "dis.criteo.com", "gum.criteo.com", "sslwidget.criteo.com", "dis.us.criteo.com"]
+    "domains": [
+      "static.criteo.net",
+      "bidder.criteo.com",
+      "emailretargeting.com",
+      "dis.criteo.com",
+      "gum.criteo.com",
+      "sslwidget.criteo.com",
+      "dis.us.criteo.com"
+    ]
   },
   {
     "name": "Segment",
@@ -921,12 +981,7 @@
     "name": "LinkedIn",
     "homepage": "https://www.linkedin.com/",
     "categories": ["social"],
-    "domains": [
-      "platform.linkedin.com",
-      "bizographics.com",
-      "slideshare.com",
-      "slidesharecdn.com"
-    ]
+    "domains": ["platform.linkedin.com", "bizographics.com", "slideshare.com", "slidesharecdn.com"]
   },
   {
     "name": "LinkedIn Ads",
@@ -1181,7 +1236,13 @@
     "name": "Intercom",
     "homepage": "https://www.intercom.com",
     "categories": ["customer-success"],
-    "domains": ["js.intercomcdn.com", "api-iam.intercom.io", "intercomcdn.com", "widget.intercom.io", "nexus-websocket-a.intercom.io"]
+    "domains": [
+      "js.intercomcdn.com",
+      "api-iam.intercom.io",
+      "intercomcdn.com",
+      "widget.intercom.io",
+      "nexus-websocket-a.intercom.io"
+    ]
   },
   {
     "name": "Unpkg",
@@ -3446,7 +3507,14 @@
   {
     "name": "Dailymotion",
     "categories": ["content"],
-    "domains": ["ad.pxlad.io", "dm.gg", "dmcdn.net", "sublimevideo.net", "www.dailymotion.com", "dmxleo.com"]
+    "domains": [
+      "ad.pxlad.io",
+      "dm.gg",
+      "dmcdn.net",
+      "sublimevideo.net",
+      "www.dailymotion.com",
+      "dmxleo.com"
+    ]
   },
   {
     "name": "Datacamp",
@@ -10564,45 +10632,30 @@
     "name": "TrustArc",
     "homepage": "https://www.trustarc.com/",
     "categories": ["utility"],
-    "domains": [
-      "choices.trustarc.com",
-      "consent.trustarc.com"
-    ]
+    "domains": ["choices.trustarc.com", "consent.trustarc.com"]
   },
   {
     "name": "iSpot.tv",
     "homepage": "https://www.ispot.tv/",
     "categories": ["ad"],
-    "domains": [
-      "pt.ispot.tv"
-    ]
+    "domains": ["pt.ispot.tv"]
   },
   {
     "name": "RevJet",
     "homepage": "https://www.revjet.com/",
     "categories": ["ad"],
-    "domains": [
-      "pix.revjet.com",
-      "ads.revjet.com"
-    ]
+    "domains": ["pix.revjet.com", "ads.revjet.com"]
   },
   {
     "name": "atlasRTX",
     "homepage": "https://www.atlasrtx.com/",
     "categories": ["customer-success"],
-    "domains": [
-      "app.atlasrtx.com",
-      "cdn.atlasrtx.com",
-      "dev.atlasrtx.com"
-    ]
+    "domains": ["app.atlasrtx.com", "cdn.atlasrtx.com", "dev.atlasrtx.com"]
   },
   {
     "name": "ContactAtOnce",
     "homepage": "https://www.contactatonce.com/",
     "categories": ["customer-success"],
-    "domains": [
-      "tag.contactatonce.com",
-      "agentpresence.contactatonce.com"
-    ]
+    "domains": ["tag.contactatonce.com", "agentpresence.contactatonce.com"]
   }
 ]
