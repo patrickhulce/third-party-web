@@ -158,7 +158,14 @@
     "name": "YouTube",
     "homepage": "https://youtube.com",
     "categories": ["video"],
-    "domains": ["www.youtube.com", "s.ytimg.com", "yt3.ggpht.com", "youtube-nocookie.com"]
+    "domains": [
+      "www.youtube.com",
+      "s.ytimg.com",
+      "yt3.ggpht.com",
+      "youtube-nocookie.com",
+      "img.youtube.com",
+      "fcmatch.youtube.com"
+    ]
   },
   {
     "name": "Twitter",
@@ -521,7 +528,11 @@
     "name": "Vimeo",
     "homepage": "http://vimeo.com/",
     "categories": ["video"],
-    "domains": ["f.vimeocdn.com", "player.vimeo.com"]
+    "domains": [
+      "f.vimeocdn.com",
+      "player.vimeo.com",
+      "i.vimeocdn.com"
+    ]
   },
   {
     "name": "Disqus",
@@ -857,7 +868,15 @@
     "name": "AppNexus",
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
-    "domains": ["acdn.adnxs.com", "secure.adnxs.com", "ctasnet.com", "ib.adnxs.com", "sharethrough.adnxs.com"]
+    "domains": [
+      "acdn.adnxs.com",
+      "secure.adnxs.com",
+      "ctasnet.com",
+      "ib.adnxs.com",
+      "sharethrough.adnxs.com",
+      "cdn.adnxs.com",
+      "vcdn.adnxs.com"
+    ]
   },
   {
     "name": "Histats",
@@ -10571,6 +10590,25 @@
     "domains": [
       "pix.revjet.com",
       "ads.revjet.com"
+    ]
+  },
+  {
+    "name": "atlasRTX",
+    "homepage": "https://www.atlasrtx.com/",
+    "categories": ["customer-success"],
+    "domains": [
+      "app.atlasrtx.com",
+      "cdn.atlasrtx.com",
+      "dev.atlasrtx.com"
+    ]
+  },
+  {
+    "name": "ContactAtOnce",
+    "homepage": "https://www.contactatonce.com/",
+    "categories": ["customer-success"],
+    "domains": [
+      "tag.contactatonce.com",
+      "agentpresence.contactatonce.com"
     ]
   }
 ]
