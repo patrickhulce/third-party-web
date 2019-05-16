@@ -2441,8 +2441,8 @@
   {
     "name": "Azure Web Services",
     "company": "Microsoft",
-    "categories": ["other"],
-    "domains": ["azurewebsites.net"]
+    "categories": ["cdn"],
+    "domains": ["*.azurewebsites.net", "*.azureedge.net", "*.msedge.net"]
   },
   {
     "name": "BAM",
@@ -5281,6 +5281,12 @@
     "name": "Instansive",
     "categories": ["utility"],
     "domains": ["*.instansive.com"]
+  },
+  {
+    "name": "Instart",
+    "homepage": "https://www.instart.com/",
+    "categories": ["utility"],
+    "domains": ["*.insnw.net"]
   },
   {
     "name": "Instembedder",
@@ -9535,6 +9541,12 @@
     "categories": ["utility"],
     "domains": ["*.public-trust.com"],
     "examples": ["www.public-trust.com"]
+  },
+  {
+    "name": "Verizon Digital Media CDN",
+    "homepage": "https://www.verizondigitalmedia.com/",
+    "categories": ["cdn"],
+    "domains": ["*.edgecastcdn.net", "*.edgecastdns.net"]
   },
   {
     "name": "Verizon Uplynk",
