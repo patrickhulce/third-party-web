@@ -67,7 +67,7 @@
     "name": "Google CDN",
     "company": "Google",
     "homepage": "https://developers.google.com/speed/libraries/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["ajax.googleapis.com", "commondatastorage.googleapis.com", "www.gstatic.com"]
   },
   {
@@ -140,14 +140,14 @@
     "name": "Google Fonts",
     "company": "Google",
     "homepage": "https://fonts.google.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["fonts.googleapis.com", "fonts.gstatic.com"]
   },
   {
     "name": "Adobe TypeKit",
     "company": "Adobe",
     "homepage": "https://fonts.adobe.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.typekit.com", "*.typekit.net"],
     "examples": ["use.typekit.net", "p.typekit.net"]
   },
@@ -187,7 +187,7 @@
   {
     "name": "Akamai",
     "homepage": "https://www.akamai.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": [
       "23.62.3.183",
       "*.akamaitechnologies.com",
@@ -262,14 +262,14 @@
   {
     "name": "jQuery CDN",
     "homepage": "https://code.jquery.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.jquery.com"],
     "examples": ["code.jquery.com"]
   },
   {
     "name": "Cloudflare CDN",
     "homepage": "https://cdnjs.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["amp.cloudflare.com", "cdnjs.cloudflare.com"]
   },
   {
@@ -589,7 +589,7 @@
   {
     "name": "JSDelivr CDN",
     "homepage": "https://www.jsdelivr.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.jsdelivr.net"],
     "examples": ["cdn.jsdelivr.net"]
   },
@@ -625,7 +625,7 @@
     "name": "Yandex CDN",
     "company": "Yandex",
     "homepage": "https://yandex.ru/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.yandex.st"]
   },
   {
@@ -863,7 +863,7 @@
   {
     "name": "CreateJS CDN",
     "homepage": "http://code.createjs.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.createjs.com"],
     "examples": ["code.createjs.com"]
   },
@@ -891,7 +891,7 @@
   {
     "name": "FontAwesome CDN",
     "homepage": "https://fontawesome.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.fontawesome.com"],
     "examples": ["use.fontawesome.com"]
   },
@@ -1121,7 +1121,7 @@
   {
     "name": "Bootstrap CDN",
     "homepage": "https://www.bootstrapcdn.com/",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.bootstrapcdn.com"],
     "examples": ["maxcdn.bootstrapcdn.com", "stackpath.bootstrapcdn.com"]
   },
@@ -1364,7 +1364,7 @@
   {
     "name": "Unpkg",
     "homepage": "https://unpkg.com",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.unpkg.com"]
   },
   {
@@ -2721,7 +2721,7 @@
   },
   {
     "name": "Bootstrap Chinese network",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.bootcss.com"]
   },
   {
@@ -3259,7 +3259,7 @@
   {
     "name": "Cloud.typography",
     "company": "Hoefler &amp; Co",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.typography.com"]
   },
   {
@@ -3996,7 +3996,7 @@
   {
     "name": "Edge Web Fonts",
     "company": "Adobe Systems",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.edgefonts.net"],
     "examples": ["use.edgefonts.net"]
   },
@@ -4282,7 +4282,7 @@
   },
   {
     "name": "Extensis WebInk",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.webink.com"]
   },
   {
@@ -4457,7 +4457,7 @@
   },
   {
     "name": "Flowzymes Ky",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.jquerytools.org"]
   },
   {
@@ -4478,7 +4478,7 @@
   },
   {
     "name": "Fontdeck",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.fontdeck.com"]
   },
   {
@@ -4504,7 +4504,7 @@
   },
   {
     "name": "Fort Awesome",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.fortawesome.com"]
   },
   {
@@ -5112,7 +5112,7 @@
   },
   {
     "name": "IcoMoon",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["d19ayerf5ehaab.cloudfront.net", "d1azc1qln24ryf.cloudfront.net"]
   },
   {
@@ -6185,7 +6185,7 @@
   {
     "name": "Microsoft Hosted Libs",
     "company": "Microsoft",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.aspnetcdn.com"],
     "examples": ["ajax.aspnetcdn.com"]
   },
@@ -6269,7 +6269,7 @@
   },
   {
     "name": "Monotype",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.fonts.com", "*.fonts.net"]
   },
   {
@@ -6357,7 +6357,7 @@
   },
   {
     "name": "MyFonts",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.myfonts.net"]
   },
   {
@@ -9868,7 +9868,7 @@
   },
   {
     "name": "Webtype",
-    "categories": ["library"],
+    "categories": ["cdn"],
     "domains": ["*.webtype.com"]
   },
   {
