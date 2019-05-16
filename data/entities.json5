@@ -595,12 +595,6 @@
     ]
   },
   {
-    "name": "Intercom",
-    "homepage": "https://www.intercom.com/",
-    "categories": ["customer-success"],
-    "domains": ["js.intercomcdn.com"]
-  },
-  {
     "name": "Olark",
     "homepage": "https://www.olark.com/",
     "categories": ["customer-success"],
@@ -1186,8 +1180,8 @@
   {
     "name": "Intercom",
     "homepage": "https://www.intercom.com",
-    "categories": ["analytics"],
-    "domains": ["api-iam.intercom.io", "intercomcdn.com", "widget.intercom.io", "nexus-websocket-a.intercom.io"]
+    "categories": ["customer-success"],
+    "domains": ["js.intercomcdn.com", "api-iam.intercom.io", "intercomcdn.com", "widget.intercom.io", "nexus-websocket-a.intercom.io"]
   },
   {
     "name": "Unpkg",
