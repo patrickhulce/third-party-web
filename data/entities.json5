@@ -2708,9 +2708,10 @@
     "domains": ["cdnplanet.com"]
   },
   {
-    "name": "CDN.net",
+    "name": "InAuth",
     "categories": ["utility"],
-    "domains": ["uk.cdn-net.com"]
+    "homepage": "https://www.inauth.com/"
+    "domains": ["cdn-net.com"]
   },
   {
     "name": "CJ Affiliate",
