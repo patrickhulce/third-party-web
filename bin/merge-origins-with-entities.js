@@ -15,12 +15,6 @@ const datasetFiles = fs
   .sort()
   .reverse()
 
-const allOriginDatasetFiles = fs
-  .readdirSync(DATA_FOLDER)
-  .filter(f => f.includes('origin-scripting'))
-  .sort()
-  .reverse()
-
 const CURRENT_DATASET = importMergedData(datasetFiles[0])
 const LAST_DATASET = importMergedData(datasetFiles[1])
 
