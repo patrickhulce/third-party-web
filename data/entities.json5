@@ -2900,8 +2900,9 @@
     "domains": ["*.cdnplanet.com"]
   },
   {
-    "name": "CDN.net",
+    "name": "InAuth",
     "categories": ["utility"],
+    "homepage": "https://www.inauth.com/",
     "domains": ["*.cdn-net.com"],
     "examples": ["uk.cdn-net.com"]
   },
