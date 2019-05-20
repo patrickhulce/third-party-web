@@ -9219,11 +9219,25 @@
     "domains": ["*.trustpilot.com"]
   },
   {
-    "name": "Trust Services",
+    "name": "Amazon Trust Services",
     "company": "Amazon",
     "categories": ["utility"],
     "domains": ["*.amazontrust.com", "o.ss2.us"],
     "examples": ["ocsp.rootca1.amazontrust.com"]
+  },
+  {
+    "name": "Google Trust Services",
+    "company": "Google",
+    "categories": ["utility"],
+    "domains": ["*.pki.goog"],
+    "examples": ["ocsp.pki.goog"]
+  },
+  {
+    "name": "Let's Encrypt",
+    "homepage": "https://letsencrypt.org/",
+    "categories": ["utility"],
+    "domains": ["*.letsencrypt.org"],
+    "examples": ["ocsp.int-x3.letsencrypt.org"]
   },
   {
     "name": "TrustX",
