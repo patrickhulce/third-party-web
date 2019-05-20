@@ -11155,5 +11155,19 @@
     "homepage": "https://www.freshworks.com/live-chat-software/",
     "categories": ["utility"],
     "domains": ["*.freshchat.com"]
+  },
+  {
+    "name": "Contentful",
+    "homepage": "https://www.contentful.com/",
+    "categories": ["utility"],
+    "domains": ["*.contentful.com"],
+    "examples": ["cdn.contentful.com"]
+  },
+  {
+    "name": "mParticle",
+    "homepage": "https://www.mparticle.com/",
+    "categories": ["utility"],
+    "domains": ["*.mparticle.com"],
+    "examples": ["jssdks.mparticle.com", "identity.mparticle.com"]
   }
 ]
