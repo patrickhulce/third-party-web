@@ -11006,5 +11006,132 @@
     "categories": ["customer-success"],
     "domains": ["*.contactatonce.com"],
     "examples": ["tag.contactatonce.com", "agentpresence.contactatonce.com"]
+  },
+  {
+    "name": "Algolia",
+    "homepage": "https://www.algolia.com/",
+    "categories": ["utility"],
+    "domains": ["*.algolianet.com", "*.algolia.net", "*.algolia.io"]
+  },
+  {
+    "name": "EMX Digital",
+    "homepage": "https://emxdigital.com",
+    "categories": ["ad"],
+    "domains": ["*.emxdgt.com"]
+  },
+  {
+    "name": "Moxie",
+    "homepage": "https://www.gomoxie.com/",
+    "categories": ["utility"],
+    "domains": ["*.gomoxie.solutions"]
+  },
+  {
+    "name": "Scripps Network Digital",
+    "homepage": "https://www.scrippsnetworksdigital.com/",
+    "categories": ["ad"],
+    "domains": ["*.snidigital.com"]
+  },
+  {
+    "name": "TurnTo",
+    "homepage": "https://www.turntonetworks.com/",
+    "categories": ["utility"],
+    "domains": ["*.turnto.com"]
+  },
+  {
+    "name": "Quantum Metric",
+    "homepage": "https://www.quantummetric.com/",
+    "categories": ["analytics"],
+    "domains": ["*.quantummetric.com"]
+  },
+  {
+    "name": "Carbon Ads",
+    "homepage": "https://www.carbonads.net/",
+    "categories": ["ad"],
+    "domains": ["*.carbonads.net", "*.carbonads.com"]
+  },
+  {
+    "name": "Ably",
+    "homepage": "https://www.ably.io/",
+    "categories": ["utility"],
+    "domains": ["*.ably.io"]
+  },
+  {
+    "name": "Sectigo",
+    "homepage": "https://sectigo.com/",
+    "categories": ["utility"],
+    "domains": ["*.sectigo.com"]
+  },
+  {
+    "name": "Specless",
+    "homepage": "http://gospecless.com/",
+    "categories": ["ad"],
+    "domains": ["*.specless.tech"]
+  },
+  {
+    "name": "Loggly",
+    "homepage": "https://www.loggly.com/",
+    "categories": ["analytics"],
+    "domains": ["*.loggly.com"]
+  },
+  {
+    "name": "Intent Media",
+    "homepage": "https://intent.com/",
+    "categories": ["ad"],
+    "domains": ["*.intentmedia.net"]
+  },
+  {
+    "name": "Supership",
+    "homepage": "https://supership.jp/",
+    "categories": ["ad"],
+    "domains": ["*.socdm.com"
+    ]
+  },
+  {
+    "name": "F@N Communications",
+    "homepage": "https://www.fancs.com/",
+    "categories": ["ad"],
+    "domains": ["*.ladsp.com"]
+  },
+  {
+    "name": "Vidyard",
+    "homepage": "https://www.vidyard.com/",
+    "categories": ["utility"],
+    "domains": ["*.vidyard.com"]
+  },
+  {
+    "name": "RapidSSL",
+    "homepage": "https://www.rapidssl.com/",
+    "categories": ["utility"],
+    "domains": ["*.rapidssl.com"]
+  },
+  {
+    "name": "Coherent Path",
+    "homepage": "https://coherentpath.com/",
+    "categories": ["utility"],
+    "domains": ["*.coherentpath.com"]
+  },
+  {
+    "name": "Attentive",
+    "homepage": "https://attentivemobile.com/",
+    "categories": ["ad"],
+    "domains": ["*.attn.tv", "*.attentivemobile.com"]
+  },
+  {
+    "name": "emetriq",
+    "homepage": "https://www.emetriq.com/",
+    "categories": ["ad"],
+    "domains": ["*.emetriq.de", "*.xplosion.de"]
+  },
+  {
+    "name": "Bonzai",
+    "homepage": "https://www.bonzai.co/",
+    "categories": ["ad"],
+    "domains": ["*.bonzai.co"]
+  },
+  {
+    "name": "Freshchat",
+    "homepage": "https://www.freshworks.com/live-chat-software/",
+    "categories": ["utility"],
+    "domains": ["*.freshchat.com"]
   }
 ]
