@@ -112,6 +112,10 @@ The domain->entity mapping can be found in `data/entities.json5`. Adding a new e
     "homepage": "https://www.facebook.com",
     "categories": ["social"],
     "domains": [
+        "*.facebook.com",
+        "*.fbcdn.net"
+    ],
+    "examples": [
         "www.facebook.com",
         "connect.facebook.net",
         "staticxx.facebook.com",
