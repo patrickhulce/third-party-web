@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "build:www": "cd www/ && npm install && npm run build",
-    "build": "node bin/build-entity-json-files.js && generate-export-aliases",
+    "build": "node bin/build-entity-json-files.js && node bin/generate-sql.js && node bin/generate-canonical-domain-csv.js && generate-export-aliases",
     "fix-entities": "prettier --print-width=100 --write data/entities.json",
     "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
     "test": "npm run build && jest 'lib/*'"
