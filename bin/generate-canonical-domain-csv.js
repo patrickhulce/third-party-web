@@ -2,12 +2,27 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 
+const DATA_FOLDER = path.join(__dirname, '../data')
+
 const {getEntity} = require('../lib/')
-const observedDomainsDataset = require('../data/2019-04-01-origin-scripting.json')
+const datasetNames = fs
+  .readdirSync(DATA_FOLDER)
+  .filter(f => f.includes('origin-scripting'))
+  .sort()
+  .reverse()
 
-const observedDomains = observedDomainsDataset.map(e => e.origin).filter(Boolean)
+const observedDomains = new Set()
 
-const entries = observedDomains
+for (const datasetName of datasetNames) {
+  const dataset = require(`../data/${datasetName}`)
+
+  dataset
+    .map(e => e.origin)
+    .filter(Boolean)
+    .forEach(domain => observedDomains.add(domain))
+}
+
+const entries = Array.from(observedDomains)
   .map(domain => {
     const entity = getEntity(domain)
     if (!entity) {
