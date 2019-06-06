@@ -131,7 +131,17 @@ The logic for attribution to individual script URLs can be found in the [Lightho
 
 ### Updating the Data
 
-The query used to compute the origin-level data is in `sql/origin-execution-time-query.sql`, running this against the latest Lighthouse HTTP Archive should give you a JSON export of the latest data that can be checked in at `data/YYYY-MM-DD-origin-scripting.json`.
+The queries used to compute the data are in the `sql/` directory.
+
+1.  Edit `bootup-time-scripting.partial.sql` to query the correct month's HTTPArchive run.
+2.  Run `origin-query.generated.sql` in BigQuery.
+3.  Download the results and check them in at `data/YYYY-MM-DD-origin-scripting.json`.
+4.  Run `yarn build` to regenerate the latest canonical domain mapping.
+5.  Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_DD` with the csv in `dist/domain-map.csv` with two columns `domain` and `canonicalDomain`.
+6.  Edit `bootup-time-scripting.partial.sql` to join on the table you just created.
+7.  Run `yarn build` to regenerate the queries.
+8.  Run `entity-per-page.generated.sql` in BigQuery.
+9.  Download the results and check them in at `data/YYYY-MM-DD-entity-scripting.json`.
 
 ### Updating this README
 
@@ -140,6 +150,10 @@ This README is auto-generated from the templates `lib/` and the computed data. I
 ```bash
 # Install `cairo` and dependencies for node-canvas
 brew install pkg-config cairo pango libpng jpeg giflib
+# Build the requirements in this repo
+yarn build
+# Regenerate the README
+yarn start
 ```
 
 ### Updating the website
