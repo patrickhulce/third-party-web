@@ -13,11 +13,10 @@ FROM (
     COUNT(executionTime) AS totalOccurrences,
     AVG(executionTime) AS averageExecutionTime
   FROM <%= from_statement %>
+  WHERE canonicalDomain IS NOT NULL
   GROUP BY pageUrl, canonicalDomain
 )
 GROUP BY
   canonicalDomain
-HAVING
-  totalOccurrences > 100
 ORDER BY
   totalOccurrences DESC

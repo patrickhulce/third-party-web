@@ -8,7 +8,7 @@ FROM <%= from_statement %>
 GROUP BY
   schemelessURL
 HAVING
-  totalOccurrences > 100
+  totalOccurrences > 50
 ORDER BY
   totalOccurrences DESC
 LIMIT
