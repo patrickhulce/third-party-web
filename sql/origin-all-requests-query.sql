@@ -6,7 +6,7 @@ FROM
 GROUP BY
   origin
 HAVING
-  totalOccurrences > 100
+  totalOccurrences > 50
 ORDER BY
   totalOccurrences DESC
 LIMIT
