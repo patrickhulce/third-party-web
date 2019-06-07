@@ -224,6 +224,7 @@
     "homepage": "http://www.blogger.com/",
     "categories": ["hosting"],
     "domains": [
+      "*.blogblog.com",
       "*.blogger.com",
       "*.blogspot.com",
       "images-blogger-opensocial.googleusercontent.com"
@@ -300,7 +301,15 @@
     "company": "Automattic",
     "homepage": "https://wp.com/",
     "categories": ["hosting"],
-    "domains": ["*.wordpress.com", "s0.wp.com", "s2.wp.com", "*.w.org"],
+    "domains": [
+      "*.wordpress.com",
+      "s0.wp.com",
+      "s2.wp.com",
+      "*.w.org",
+      "c0.wp.com",
+      "s1.wp.com",
+      "widgets.wp.com"
+    ],
     "examples": ["s.w.org"]
   },
   {
@@ -1966,6 +1975,12 @@
     "name": "Adobe Systems",
     "categories": ["content"],
     "domains": ["adobe.com"]
+  },
+  {
+    "name": "Adobe Business Catalyst",
+    "homepage": "https://www.businesscatalyst.com/",
+    "categories": ["hosting"],
+    "domains": ["*.businesscatalyst.com"]
   },
   {
     "name": "Adobe Test & Target",
@@ -6652,10 +6667,10 @@
     "examples": ["servedby.o2.co.uk"]
   },
   {
-    "name": "OCSP",
-    "company": "GoDaddy",
+    "name": "GoDaddy",
+    "homepage": "https://www.godaddy.com/",
     "categories": ["utility"],
-    "domains": ["*.godaddy.com"],
+    "domains": ["*.godaddy.com", "*.wsimg.com"],
     "examples": ["ocsp.godaddy.com", "seal.godaddy.com"]
   },
   {
@@ -11121,8 +11136,7 @@
     "name": "Supership",
     "homepage": "https://supership.jp/",
     "categories": ["ad"],
-    "domains": ["*.socdm.com"
-    ]
+    "domains": ["*.socdm.com"]
   },
   {
     "name": "F@N Communications",
@@ -11179,6 +11193,33 @@
     "categories": ["utility"],
     "domains": ["*.contentful.com"],
     "examples": ["cdn.contentful.com"]
+  },
+  {
+    "name": "PureCars",
+    "homepage": "https://www.purecars.com/",
+    "categories": ["marketing"],
+    "domains": ["*.purecars.com"],
+    "examples": ["cdn.purecars.com"]
+  },
+  {
+    "name": "Tray Commerce",
+    "homepage": "https://www.tray.com.br/",
+    "categories": ["marketing"],
+    "domains": ["*.tcdn.com.br"],
+    "examples": ["images.tcdn.com.br"]
+  },
+  {
+    "name": "AdScore",
+    "homepage": "https://www.adscore.com/",
+    "categories": ["ad"],
+    "domains": ["*.adsco.re"],
+    "examples": ["c.adsco.re"]
+  },
+  {
+    "name": "WebsiteBuilder.com",
+    "homepage": "https://www.websitebuilder.com",
+    "categories": ["hosting"],
+    "domains": ["*.mywebsitebuilder.com"]
   },
   {
     "name": "mParticle",
