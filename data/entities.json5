@@ -11227,5 +11227,12 @@
     "categories": ["utility"],
     "domains": ["*.mparticle.com"],
     "examples": ["jssdks.mparticle.com", "identity.mparticle.com"]
+  },
+  {
+    "name": "Ada",
+    "homepage": "https://www.ada.support/",
+    "categories": ["customer-success"],
+    "domains": ["*.ada.support"],
+    "examples": ["static.ada.support"]
   }
 ]
