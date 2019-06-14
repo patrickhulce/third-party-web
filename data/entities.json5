@@ -692,9 +692,10 @@
       "*.delvenetworks.com",
       "*.limelight.com",
       "*.tiqcdn.com",
-      "*.llnwd.net"
+      "*.llnwd.net",
+      "*.tealiumiq.com"
     ],
-    "examples": ["tags.tiqcdn.com", "tealium.hs.llnwd.net", "link.videoplatform.limelight.com"]
+    "examples": ["tags.tiqcdn.com", "tealium.hs.llnwd.net", "link.videoplatform.limelight.com", "datacloud.tealiumiq.com"]
   },
   {
     "name": "Pubmatic",
@@ -7830,7 +7831,7 @@
   {
     "name": "Rocket Fuel",
     "categories": ["ad"],
-    "domains": ["*.rfihub.com", "*.ru4.com", "*.rfihub.net"]
+    "domains": ["*.rfihub.com", "*.ru4.com", "*.rfihub.net", "*.ad1x.com"]
   },
   {
     "name": "Rollbar",
@@ -11250,5 +11251,19 @@
     "categories": ["customer-success"],
     "domains": ["*.ada.support"],
     "examples": ["static.ada.support"]
+  },
+  {
+    "name": "Quora Ads",
+    "homepage": "https://www.quora.com/business/",
+    "categories": ["ad"],
+    "domains": ["*.quora.com"],
+    "examples": ["q.quora.com"]
+  },
+  {
+    "name": "Auth0",
+    "homepage": "https://auth0.com/",
+    "categories": ["utility"],
+    "domains": ["*.auth0.com"],
+    "examples": ["cdn.auth0.com"]
   }
 ]
