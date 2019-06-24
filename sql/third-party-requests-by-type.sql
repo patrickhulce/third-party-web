@@ -16,6 +16,8 @@ FROM (
     SAFE_CAST(REGEXP_EXTRACT(payload, r'_bytesIn":(\d+)') AS INT64) AS bytes
   FROM
     `httparchive.requests.2019_05_01_desktop` )
+JOIN
+  `lighthouse-infrastructure.third_party_web.2019_05_22_all_observed_domains`
 GROUP BY
   contentType
 LIMIT
