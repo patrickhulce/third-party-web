@@ -5915,7 +5915,7 @@
   {
     "name": "LoyaltyLion",
     "categories": ["ad"],
-    "domains": ["*.loyaltylion.com", "dg1f2pfrgjxdq.cloudfront.net"]
+    "domains": ["*.loyaltylion.com", "*.loyaltylion.net", "dg1f2pfrgjxdq.cloudfront.net"]
   },
   {
     "name": "Luma Tag",
