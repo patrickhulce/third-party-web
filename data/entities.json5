@@ -8540,6 +8540,12 @@
     "examples": ["www.decenthat.com", "www.fallingfalcon.com", "www.summerhamster.com"]
   },
   {
+    "name": "SourceKnowledge",
+    "homepage": "http://www.sourceknowledge.com",
+    "categories": ["ad"],
+    "domains": ["*.provenpixel.com"]
+  },
+  {
     "name": "SpaceNet",
     "categories": ["hosting"],
     "domains": ["*.nmm.de"]
