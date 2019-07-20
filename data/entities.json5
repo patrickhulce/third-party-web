@@ -3461,7 +3461,7 @@
   {
     "name": "ContentSquare",
     "categories": ["analytics"],
-    "domains": ["d1m6l9dfulcyw7.cloudfront.net", "*.content-square.net"]
+    "domains": ["d1m6l9dfulcyw7.cloudfront.net", "*.content-square.net", "*.contentsquare.net"]
   },
   {
     "name": "ContextWeb",
@@ -9508,7 +9508,7 @@
   {
     "name": "Urban Airship",
     "categories": ["ad"],
-    "domains": ["*.urbanairship.com"]
+    "domains": ["*.urbanairship.com", "aswpsdkus.com"]
   },
   {
     "name": "UsabilityTools",
@@ -11273,4 +11273,12 @@
     "domains": ["*.auth0.com"],
     "examples": ["cdn.auth0.com"]
   }
+  {
+    "name": "Jaywing",
+    "homepage": "https://jaywing.com/",
+    "categories": ["marketing"],
+    "domains": ["*.almanac.jaywing.com"],
+    "examples": ["amazon.almanac.jaywing.com"]
+  }  
+  
 ]
