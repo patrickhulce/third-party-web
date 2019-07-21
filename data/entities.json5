@@ -9506,9 +9506,9 @@
     "domains": ["*.clickability.com"]
   },
   {
-    "name": "Urban Airship",
-    "categories": ["ad"],
-    "domains": ["*.urbanairship.com", "aswpsdkus.com"]
+    "name": "Airship",
+    "categories": ["marketing"],
+    "domains": ["*.urbanairship.com", "*.aswpsdkus.com"]
   },
   {
     "name": "UsabilityTools",
@@ -11277,7 +11277,7 @@
     "name": "Jaywing",
     "homepage": "https://jaywing.com/",
     "categories": ["marketing"],
-    "domains": ["*.almanac.jaywing.com"],
+    "domains": ["*.jaywing.com"],
     "examples": ["amazon.almanac.jaywing.com"]
   }  
   
