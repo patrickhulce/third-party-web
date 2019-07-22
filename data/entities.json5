@@ -11300,6 +11300,6 @@
     "homepage": "https://www.ordergroove.com/",
     "categories": ["marketing"],
     "domains": ["*.ordergroove.com"],
-    "examples": ["static.izooto.com"]
+    "examples": ["static.ordergroove.com"]
   }  
 ]
