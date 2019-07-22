@@ -11273,28 +11273,28 @@
     "categories": ["utility"],
     "domains": ["*.auth0.com"],
     "examples": ["cdn.auth0.com"]
-  }
+  },
   {
     "name": "Jaywing",
     "homepage": "https://jaywing.com/",
     "categories": ["marketing"],
     "domains": ["*.jaywing.com"],
     "examples": ["amazon.almanac.jaywing.com"]
-  }
+  },
   {
     "name": "Holimetrix",
     "homepage": "https://u360.d-bi.fr/",
     "categories": ["marketing"],
     "domains": ["*.d-bi.fr"],
     "examples": ["u360.d-bi.fr"]
-  }  
+  }, 
   {
     "name": "iZooto",
     "homepage": "https://www.izooto.com",
     "categories": ["marketing"],
     "domains": ["*.izooto.com"],
     "examples": ["cdn.izooto.com"]
-  }
+  },
   {
     "name": "Ordergroove",
     "homepage": "https://www.ordergroove.com/",
