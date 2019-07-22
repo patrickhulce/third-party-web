@@ -11279,6 +11279,13 @@
     "categories": ["marketing"],
     "domains": ["*.jaywing.com"],
     "examples": ["amazon.almanac.jaywing.com"]
+  }
+  {
+    "name": "Holimetrix",
+    "homepage": "https://u360.d-bi.fr/",
+    "categories": ["marketing"],
+    "domains": ["*.d-bi.fr"],
+    "examples": ["u360.d-bi.fr"]
   }  
   
 ]
