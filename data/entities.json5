@@ -4212,7 +4212,8 @@
   {
     "name": "Evergage",
     "categories": ["analytics"],
-    "domains": ["*.evergage.com"]
+    "domains": ["*.evergage.com", "*.evgnet.com"]
+	"examples": ["cdn.evgnet.com"]
   },
   {
     "name": "Everquote",
@@ -11287,5 +11288,18 @@
     "domains": ["*.d-bi.fr"],
     "examples": ["u360.d-bi.fr"]
   }  
-  
+  {
+    "name": "iZooto",
+    "homepage": "https://www.izooto.com",
+    "categories": ["marketing"],
+    "domains": ["*.izooto.com"],
+    "examples": ["cdn.izooto.com"]
+  }
+  {
+    "name": "Ordergroove",
+    "homepage": "https://www.ordergroove.com/",
+    "categories": ["marketing"],
+    "domains": ["*.ordergroove.com"],
+    "examples": ["static.izooto.com"]
+  }  
 ]
