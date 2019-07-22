@@ -11272,7 +11272,7 @@
     "categories": ["utility"],
     "domains": ["*.auth0.com"],
     "examples": ["cdn.auth0.com"]
-  }
+  },
   {
     "name": "Jaywing",
     "homepage": "https://jaywing.com/",
