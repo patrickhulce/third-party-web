@@ -4212,7 +4212,7 @@
   {
     "name": "Evergage",
     "categories": ["analytics"],
-    "domains": ["*.evergage.com", "*.evgnet.com"]
+    "domains": ["*.evergage.com", "*.evgnet.com"],
 	"examples": ["cdn.evgnet.com"]
   },
   {
