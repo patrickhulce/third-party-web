@@ -4212,7 +4212,8 @@
   {
     "name": "Evergage",
     "categories": ["analytics"],
-    "domains": ["*.evergage.com"]
+    "domains": ["*.evergage.com", "*.evgnet.com"],
+	"examples": ["cdn.evgnet.com"]
   },
   {
     "name": "Everquote",
@@ -11279,6 +11280,26 @@
     "categories": ["marketing"],
     "domains": ["*.jaywing.com"],
     "examples": ["amazon.almanac.jaywing.com"]
-  }  
-  
+  },
+  {
+    "name": "Holimetrix",
+    "homepage": "https://u360.d-bi.fr/",
+    "categories": ["marketing"],
+    "domains": ["*.d-bi.fr"],
+    "examples": ["u360.d-bi.fr"]
+  }, 
+  {
+    "name": "iZooto",
+    "homepage": "https://www.izooto.com",
+    "categories": ["marketing"],
+    "domains": ["*.izooto.com"],
+    "examples": ["cdn.izooto.com"]
+  },
+  {
+    "name": "Ordergroove",
+    "homepage": "https://www.ordergroove.com/",
+    "categories": ["marketing"],
+    "domains": ["*.ordergroove.com"],
+    "examples": ["static.ordergroove.com"]
+  }
 ]
