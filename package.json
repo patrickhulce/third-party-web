@@ -27,8 +27,8 @@
     "generate-export-aliases": "^1.1.0",
     "jest": "^24.5.0",
     "json5": "^2.1.0",
-    "lodash": "^4.17.10",
-    "prettier": "^1.13.7"
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2"
   },
   "config": {
     "exportAliases": {
