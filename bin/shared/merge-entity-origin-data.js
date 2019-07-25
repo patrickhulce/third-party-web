@@ -14,6 +14,14 @@ function importDataset(filename) {
 }
 
 module.exports = {
+  importDataset,
+  getEntityDatasetsMostRecentFirst() {
+    return fs
+      .readdirSync(DATA_FOLDER)
+      .filter(f => f.includes('entity-scripting'))
+      .sort()
+      .reverse()
+  },
   importMergedData(entityFilename) {
     const originFilename = entityFilename.replace('entity-scripting', 'origin-scripting')
 

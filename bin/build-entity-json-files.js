@@ -2,7 +2,10 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 const JSON5 = require('json5')
-const {importMergedData} = require('./shared/merge-entity-origin-data')
+const {
+  importMergedData,
+  getEntityDatasetsMostRecentFirst,
+} = require('./shared/merge-entity-origin-data')
 
 const DIST_DIR = path.join(__dirname, '../dist')
 const DATA_DIR = path.join(__dirname, '../data')
@@ -16,7 +19,7 @@ function cleanStatsFromEntity(entity) {
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
 fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 
-const httpArchiveData = importMergedData('2019-04-01-entity-scripting.json')
+const httpArchiveData = importMergedData(getEntityDatasetsMostRecentFirst()[0])
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
 const entityExecutionStats = _(httpArchiveData)
   .groupBy(({domain}) => {
