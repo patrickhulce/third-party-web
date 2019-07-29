@@ -135,13 +135,15 @@ The queries used to compute the data are in the `sql/` directory.
 
 1.  Edit `bootup-time-scripting.partial.sql` to query the correct month's HTTPArchive run.
 2.  Run `origin-query.generated.sql` in BigQuery.
-3.  Download the results and check them in at `data/YYYY-MM-DD-origin-scripting.json`.
+3.  Download the results and check them in at `data/YYYY-MM-01-origin-scripting.json`.
 4.  Run `yarn build` to regenerate the latest canonical domain mapping.
-5.  Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_DD` with the csv in `dist/domain-map.csv` with three columns `domain`, `canonicalDomain`, and `category`.
+5.  Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_01` with the csv in `dist/domain-map.csv` with three columns `domain`, `canonicalDomain`, and `category`.
 6.  Edit `bootup-time-scripting.partial.sql` to join on the table you just created.
 7.  Run `yarn build` to regenerate the queries.
 8.  Run `entity-per-page.generated.sql` in BigQuery.
-9.  Download the results and check them in at `data/YYYY-MM-DD-entity-scripting.json`.
+9.  Download the results and check them in at `data/YYYY-MM-01-entity-scripting.json`.
+10. Run `web-almanac-all-observed-domains-identification.sql` in BigQuery.
+11. Save the results to a BigQuery table `YYYY_MM_01_all_observed_domains`.
 
 ### Updating this README
 
