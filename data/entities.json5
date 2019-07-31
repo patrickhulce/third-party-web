@@ -9243,7 +9243,7 @@
     "domains": ["*.tm-aws.com", "*.icnetwork.co.uk"]
   },
   {
-    "name": "Trip Advisor",
+    "name": "TripAdvisor",
     "categories": ["content"],
     "domains": [
       "*.jscache.com",
