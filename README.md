@@ -901,7 +901,7 @@ This section highlights the entities responsible for the most script execution a
 | Gleam                                                                                     | 878        | 439 s        | 500 ms         |
 | [AppDynamics](https://www.appdynamics.com/)                                               | 3,118      | 429 s        | 137 ms         |
 | Perfect Market                                                                            | 1,829      | 425 s        | 232 ms         |
-| Trip Advisor                                                                              | 805        | 420 s        | 522 ms         |
+| TripAdvisor                                                                               | 805        | 420 s        | 522 ms         |
 | [BounceX](https://www.bouncex.com/)                                                       | 2,744      | 411 s        | 150 ms         |
 | iPerceptions                                                                              | 4,165      | 410 s        | 98 ms          |
 | Opentag                                                                                   | 1,987      | 408 s        | 205 ms         |
