@@ -1175,8 +1175,8 @@
     "name": "TrafficJunky",
     "homepage": "https://www.trafficjunky.com/",
     "categories": ["ad"],
-    "domains": ["*.contentabc.com"],
-    "examples": ["ads2.contentabc.com", "hw-cdn.contentabc.com"]
+    "domains": ["*.contentabc.com", "*.trafficjunky.net"],
+    "examples": ["ads2.contentabc.com", "hw-cdn.contentabc.com", "media.trafficjunky.net", "ads.trafficjunky.net", "hw-cdn.trafficjunky.net"]
   },
   {
     "name": "Bootstrap CDN",
@@ -11325,11 +11325,5 @@
     "categories": ["marketing"],
     "domains": ["*.ordergroove.com"],
     "examples": ["static.ordergroove.com"]
-  },
-  {
-    "name": "TrafficJunky",
-    "homepage": "https://www.trafficjunky.com/",
-    "categories": ["ad"],
-    "domains": ["media.trafficjunky.net", "ads.trafficjunky.net", "hw-cdn.trafficjunky.net"]
   }
 ]
