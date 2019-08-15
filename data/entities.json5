@@ -3997,7 +3997,7 @@
   {
     "name": "Dynatrace",
     "categories": ["analytics"],
-    "domains": ["*.ruxit.com"]
+    "domains": ["*.ruxit.com", "js-cdn.dynatrace.com"]
   },
   {
     "name": "ECT News Network",
