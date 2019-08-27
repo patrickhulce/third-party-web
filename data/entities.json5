@@ -2654,7 +2654,7 @@
   {
     "name": "Bizible",
     "categories": ["ad"],
-    "domains": ["*.bizible.com"]
+    "domains": ["*.bizible.com", "*.bizibly.com"]
   },
   {
     "name": "Bizrate",
