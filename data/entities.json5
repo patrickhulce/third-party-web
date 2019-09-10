@@ -11325,5 +11325,12 @@
     "categories": ["marketing"],
     "domains": ["*.ordergroove.com"],
     "examples": ["static.ordergroove.com"]
+  },
+  {
+    "name": "PageSense",
+    "homepage": "https://www.zoho.com/pagesense/",
+    "categories": ["analytics"],
+    "domains": ["*.pagesense.io"],
+    "examples": ["cdn.pagesense.io"]
   }
 ]
