@@ -640,7 +640,7 @@
     "name": "Sumo",
     "homepage": "https://sumo.com/",
     "categories": ["marketing"],
-    "domains": ["*.sumo.com", "*.sumome.com", "*.b-cdn.net"],
+    "domains": ["*.sumo.com", "*.sumome.com", "sumo.b-cdn.net"],
     "examples": ["sumo.b-cdn.net", "load.sumo.com", "load.sumome.com"]
   },
   {
