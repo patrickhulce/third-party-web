@@ -21,9 +21,9 @@ FROM (
       `lighthouse-infrastructure.third_party_web.2019_05_22_all_observed_domains` AS DomainsOver50Table
     ON NET.HOST(url) = DomainsOver50Table.requestDomain
 )
-ORDER BY
-  totalRequests DESC
 GROUP BY
   thirdPartyDomain
+ORDER BY
+  totalRequests DESC
 LIMIT 1000
 

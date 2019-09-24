@@ -9,9 +9,9 @@ FROM (
     FROM
       `httparchive.sample_data.requests_mobile_1k`
 )
-ORDER BY
-  totalRequests DESC
 GROUP BY
   requestUrl
+ORDER BY
+  totalRequests DESC
 LIMIT 1000
 
