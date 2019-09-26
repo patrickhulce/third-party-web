@@ -2,6 +2,8 @@ SELECT
   COUNT(*) as numberOfPages,
   COUNTIF(numberOfThirdPartyRequests > 0) AS numberOfPagesWithThirdParty,
   COUNTIF(numberOfAdRequests > 0) AS numberOfPagesWithAd,
+  APPROX_QUANTILES(numberOfDistinctParties, 100) AS countDistinctThirdPartyQuantiles,
+  APPROX_QUANTILES(numberOfThirdPartyRequests, 100) AS countThirdPartyRequestsQuantiles,
   APPROX_QUANTILES(numberOfThirdPartyRequests / numberOfRequests, 100) AS percentThirdPartyRequestsQuantiles,
   APPROX_QUANTILES(numberOfAdRequests / numberOfRequests, 100) AS percentAdRequestsQuantiles,
   APPROX_QUANTILES(numberOfAnalyticsRequests / numberOfRequests, 100) as percentAnalyticsRequestsQuantiles,
@@ -32,6 +34,7 @@ FROM (
   SELECT
     pageUrl,
     COUNT(*) as numberOfRequests,
+    COUNT(DISTINCT thirdPartyDomain) as numberOfDistinctParties,
     COUNTIF(thirdPartyDomain IS NULL) AS numberOfFirstPartyRequests,
     COUNTIF(thirdPartyDomain IS NOT NULL) AS numberOfThirdPartyRequests,
     COUNTIF(thirdPartyCategory = 'ad') AS numberOfAdRequests,
@@ -60,7 +63,7 @@ FROM (
     SUM(IF(thirdPartyCategory = 'content', requestBytes, 0)) as numberOfContentBytes,
     SUM(IF(thirdPartyCategory = 'cdn', requestBytes, 0)) as numberOfCdnBytes,
     SUM(IF(thirdPartyCategory = 'tag-manager', requestBytes, 0)) as numberOfTagManagerBytes,
-    SUM(IF(thirdPartyCategory = 'other', requestBytes, 0)) as numberOfOtherBytes
+    SUM(IF(thirdPartyCategory = 'other' OR thirdPartyCategory IS NULL, requestBytes, 0)) as numberOfOtherBytes
   FROM (
     SELECT
       page AS pageUrl,
@@ -74,10 +77,10 @@ FROM (
     FROM
       `httparchive.almanac.summary_requests`
     LEFT JOIN
-      `lighthouse-infrastructure.third_party_web.2019_06_20` AS ThirdPartyTable
+      `lighthouse-infrastructure.third_party_web.2019_07_01` AS ThirdPartyTable
     ON NET.HOST(url) = ThirdPartyTable.domain
     LEFT JOIN
-      `lighthouse-infrastructure.third_party_web.2019_05_22_all_observed_domains` AS DomainsOver50Table
+      `lighthouse-infrastructure.third_party_web.2019_07_01_all_observed_domains` AS DomainsOver50Table
     ON NET.HOST(url) = DomainsOver50Table.requestDomain
   )
   GROUP BY
