@@ -7,7 +7,7 @@ const DATA_FOLDER = path.join(__dirname, '../data')
 const {getEntity} = require('../lib/')
 const datasetNames = fs
   .readdirSync(DATA_FOLDER)
-  .filter(f => f.includes('origin-scripting'))
+  .filter(f => f.includes('observed-domains'))
   .sort()
   .reverse()
 
@@ -17,7 +17,7 @@ for (const datasetName of datasetNames) {
   const dataset = require(`../data/${datasetName}`)
 
   dataset
-    .map(e => e.origin)
+    .map(e => e.domain)
     .filter(Boolean)
     .forEach(domain => observedDomains.add(domain))
 }

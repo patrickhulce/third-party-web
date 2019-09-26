@@ -133,17 +133,20 @@ The logic for attribution to individual script URLs can be found in the [Lightho
 
 The queries used to compute the data are in the `sql/` directory.
 
-1.  Edit `bootup-time-scripting.partial.sql` to query the correct month's HTTPArchive run.
-2.  Run `origin-query.generated.sql` in BigQuery.
-3.  Download the results and check them in at `data/YYYY-MM-01-origin-scripting.json`.
-4.  Run `yarn build` to regenerate the latest canonical domain mapping.
-5.  Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_01` with the csv in `dist/domain-map.csv` with three columns `domain`, `canonicalDomain`, and `category`.
-6.  Edit `bootup-time-scripting.partial.sql` to join on the table you just created.
-7.  Run `yarn build` to regenerate the queries.
-8.  Run `entity-per-page.generated.sql` in BigQuery.
-9.  Download the results and check them in at `data/YYYY-MM-01-entity-scripting.json`.
-10. Run `web-almanac-all-observed-domains-identification.sql` in BigQuery.
-11. Save the results to a BigQuery table `YYYY_MM_01_all_observed_domains`.
+1. Edit `all-observed-domains-query.sql` to query the correct month's HTTPArchive run.
+1. Run `all-observed-domains-query.sql` in BigQuery.
+1. Download the results and check them in at `data/YYYY-MM-01-observed-domains.json`.
+1. Edit `bootup-time-scripting.partial.sql` to query the correct month's HTTPArchive run.
+1. Run `origin-query.generated.sql` in BigQuery.
+1. Download the results and check them in at `data/YYYY-MM-01-origin-scripting.json`.
+1. Run `yarn build` to regenerate the latest canonical domain mapping.
+1. Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_01` with the csv in `dist/domain-map.csv` with three columns `domain`, `canonicalDomain`, and `category`.
+1. Edit `bootup-time-scripting.partial.sql` to join on the table you just created.
+1. Run `yarn build` to regenerate the queries.
+1. Run `entity-per-page.generated.sql` in BigQuery.
+1. Download the results and check them in at `data/YYYY-MM-01-entity-scripting.json`.
+1. Run `web-almanac-all-observed-domains-identification.sql` in BigQuery.
+1. Save the results to a BigQuery table `YYYY_MM_01_all_observed_domains`.
 
 ### Updating this README
 
