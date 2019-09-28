@@ -11332,5 +11332,12 @@
     "categories": ["analytics"],
     "domains": ["*.pagesense.io"],
     "examples": ["cdn.pagesense.io"]
+  },
+  {
+    "name": "Vizzit",
+    "homepage": "http://www.vizzit.se",
+    "categories": ["analytics"],
+    "domains": ["*.vizzit.se"],
+    "examples": ["www.vizzit.se", "tag.vizzit.se"]
   }
 ]
