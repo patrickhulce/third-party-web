@@ -11340,5 +11340,12 @@
     "categories": ["analytics"],
     "domains": ["*.vizzit.se"],
     "examples": ["www.vizzit.se", "tag.vizzit.se"]
+  },
+  {
+    "name": "Click Guardian",
+    "homepage": "https://www.clickguardian.co.uk/",
+    "categories": ["advertising"],
+    "domains": ["*.clickguardian.app", "*.clickguardian.co.uk"],
+    "examples": ["v2.clickguardian.app", "protection.clickguardian.co.uk"]
   }
 ]
