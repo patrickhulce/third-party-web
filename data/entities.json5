@@ -11347,5 +11347,14 @@
     "categories": ["advertising"],
     "domains": ["*.clickguardian.app", "*.clickguardian.co.uk"],
     "examples": ["v2.clickguardian.app", "protection.clickguardian.co.uk"]
+  },
+  {
+    "name": "Pendo",
+    "homepage": "https://www.pendo.io",
+    "categories": ["analytics"],
+    "domains": ["*.pendo.io"],
+    "examples": [
+        "app.pendo.io",
+    ]
   }
 ]
