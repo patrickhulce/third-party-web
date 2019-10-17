@@ -11356,7 +11356,7 @@
     "domains": [
       "*.smartsuppchat.com",
       "*.smartsupp.com",
-      "smartsupp-widget-*.cdn77.org",
+      "smartsupp-widget-161959.c.cdn77.org",
       "smartsupp-files-*.cdn77.org"
     ]
   },
@@ -11364,7 +11364,7 @@
     "name": "Smartlook",
     "company": "Smartsupp.com",
     "homepage": "https://www.smartlook.com/",
-    "categories": ["customer-success"],
+    "categories": ["analytics"],
     "domains": [
       "*.smartlook.com"
     ]
