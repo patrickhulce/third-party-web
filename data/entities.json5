@@ -11365,5 +11365,15 @@
     "examples": [
         "js.appboycdn.com",
     ]
+  },
+  {
+    "name": "Usersnap",
+    "homepage": "https://usersnap.com",
+    "categories": ["customer-success"],
+    "domains": ["*.usersnap.com"],
+    "examples": [
+        "api.usersnap.com",
+        "cdn.usersnap.com",
+    ]
   }
 ]
