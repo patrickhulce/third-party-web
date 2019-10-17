@@ -11354,8 +11354,8 @@
     "homepage": "https://www.smartsupp.com",
     "categories": ["customer-success"],
     "domains": [
-      "smartsuppchat.com",
-      "smartsupp.com",
+      "*.smartsuppchat.com",
+      "*.smartsupp.com",
       "smartsupp-widget-*.cdn77.org",
       "smartsupp-files-*.cdn77.org"
     ]
@@ -11366,16 +11366,16 @@
     "homepage": "https://www.smartlook.com/",
     "categories": ["customer-success"],
     "domains": [
-      "smartlook.com"
+      "*.smartlook.com"
     ]
   },
   {
     "name": "Luigi’s Box",
     "company": "Luigi’s Box",
     "homepage": "https://www.luigisbox.com/",
-    "categories": ["search"],
+    "categories": ["utility"],
     "domains": [
-      "luigisbox.com"
+      "*.luigisbox.com"
     ]
   },    
   {
@@ -11384,7 +11384,7 @@
     "homepage": "https://www.targito.com",
     "categories": ["marketing"],
     "domains": [
-      "targito.com"
+      "*.targito.com"
     ]
   },       
   {
@@ -11393,7 +11393,7 @@
     "homepage": "https://foxentry.cz/",
     "categories": ["utility"],
     "domains": [
-      "foxentry.cz"
+      "*.foxentry.cz"
     ]
   }    
 ]
