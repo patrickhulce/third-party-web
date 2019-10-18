@@ -11349,6 +11349,53 @@
     "examples": ["v2.clickguardian.app", "protection.clickguardian.co.uk"]
   },
   {
+    "name": "Smartsupp",
+    "company": "Smartsupp.com",
+    "homepage": "https://www.smartsupp.com",
+    "categories": ["customer-success"],
+    "domains": [
+      "*.smartsuppchat.com",
+      "*.smartsupp.com",
+      "smartsupp-widget-161959.c.cdn77.org",
+    ]
+  },
+  {
+    "name": "Smartlook",
+    "company": "Smartsupp.com",
+    "homepage": "https://www.smartlook.com/",
+    "categories": ["analytics"],
+    "domains": [
+      "*.smartlook.com"
+    ]
+  },
+  {
+    "name": "Luigi’s Box",
+    "company": "Luigi’s Box",
+    "homepage": "https://www.luigisbox.com/",
+    "categories": ["utility"],
+    "domains": [
+      "*.luigisbox.com"
+    ]
+  },    
+  {
+    "name": "Targito",
+    "company": "VIVmail.cz",
+    "homepage": "https://www.targito.com",
+    "categories": ["marketing"],
+    "domains": [
+      "*.targito.com"
+    ]
+  },       
+  {
+    "name": "Foxentry",
+    "company": "AVANTRO",
+    "homepage": "https://foxentry.cz/",
+    "categories": ["utility"],
+    "domains": [
+      "*.foxentry.cz"
+    ]
+  },    
+  {
     "name": "Pendo",
     "homepage": "https://www.pendo.io",
     "categories": ["analytics"],
