@@ -11394,5 +11394,33 @@
     "domains": [
       "*.foxentry.cz"
     ]
-  }    
+  },    
+  {
+    "name": "Pendo",
+    "homepage": "https://www.pendo.io",
+    "categories": ["analytics"],
+    "domains": ["*.pendo.io"],
+    "examples": [
+        "app.pendo.io",
+    ]
+  },
+  {
+    "name": "Braze",
+    "homepage": "https://www.braze.com",
+    "categories": ["analytics"],
+    "domains": ["*.appboycdn.com"],
+    "examples": [
+        "js.appboycdn.com",
+    ]
+  },
+  {
+    "name": "Usersnap",
+    "homepage": "https://usersnap.com",
+    "categories": ["customer-success"],
+    "domains": ["*.usersnap.com"],
+    "examples": [
+        "api.usersnap.com",
+        "cdn.usersnap.com",
+    ]
+  }
 ]
