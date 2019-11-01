@@ -11427,7 +11427,7 @@
     "name": "Rewardful",
     "homepage": "https://www.getrewardful.com",
     "categories": ["analytics"],
-    "domains": ["r.wdfl.co"],
+    "domains": ["*.wdfl.co"],
     "examples": [
         "r.wdfl.co"
     ]
