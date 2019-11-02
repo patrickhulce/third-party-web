@@ -11422,5 +11422,14 @@
         "api.usersnap.com",
         "cdn.usersnap.com",
     ]
+  },
+  {
+    "name": "Rewardful",
+    "homepage": "https://www.getrewardful.com",
+    "categories": ["analytics"],
+    "domains": ["*.wdfl.co"],
+    "examples": [
+        "r.wdfl.co"
+    ]
   }
 ]
