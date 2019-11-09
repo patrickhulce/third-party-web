@@ -220,6 +220,13 @@
     "examples": ["s7.addthis.com", "r.dlx.addthis.com", "su.addthis.com", "x.dlx.addthis.com"]
   },
   {
+    "name": "AddToAny",
+    "homepage": "https://www.addtoany.com/",
+    "categories": ["social"],
+    "domains": ["*.addtoany.com"],
+    "examples": ["static.addtoany.com"]
+  },
+  {
     "name": "Akamai",
     "homepage": "https://www.akamai.com/",
     "categories": ["cdn"],
@@ -6236,11 +6243,6 @@
     "name": "Microad",
     "categories": ["ad"],
     "domains": ["*.microad.jp"]
-  },
-  {
-    "name": "Micropat",
-    "categories": ["social"],
-    "domains": ["*.addtoany.com"]
   },
   {
     "name": "Microsoft Certificate Services",
