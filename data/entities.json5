@@ -11433,5 +11433,15 @@
     "examples": [
         "r.wdfl.co"
     ]
+  },
+  {
+    "name": "Launch Darkly",
+    "homepage": "https://launchdarkly.com",
+    "categories": ["utility"],
+    "domains": ["*.launchdarkly.com"],
+    "examples": [
+        "app.launchdarkly.com",
+        "events.launchdarkly.com"
+    ]
   }
 ]
