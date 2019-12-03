@@ -11451,8 +11451,7 @@
     "categories": ["utility"],
     "domains": ["*.statuspage.io"],
     "examples": [
-        "app.launchdarkly.com",
-        "events.launchdarkly.com"
+        "1k6wzpspjf99.statuspage.io"
     ]
   }
 ]
