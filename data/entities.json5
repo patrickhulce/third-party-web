@@ -11443,5 +11443,15 @@
         "app.launchdarkly.com",
         "events.launchdarkly.com"
     ]
+  },
+  {
+    "name": "Statuspage",
+    "company": "Atlassian",
+    "homepage": "https://www.statuspage.io",
+    "categories": ["utility"],
+    "domains": ["*.statuspage.io"],
+    "examples": [
+        "1k6wzpspjf99.statuspage.io"
+    ]
   }
 ]
