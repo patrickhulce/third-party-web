@@ -3746,9 +3746,10 @@
   },
   {
     "name": "Dash Hudson",
-    "categories": ["social"],
-    "domains": ["*.dashhudson.com","likeshop.me"],
-    "examples": ["cdn.dashhudson.com","likeshop.me"]
+    "company": "Dash Hudson",
+    "categories": ["content"],
+    "domains": ["*.dashhudson.com"],
+    "examples": ["cdn.dashhudson.com"]
   },
   {
     "name": "Datacamp",
@@ -5819,6 +5820,13 @@
     "categories": ["hosting"],
     "domains": ["*.likelihood.com"],
     "examples": ["client.likelihood.com"]
+  },
+  {
+    "name": "LikeShop",
+    "company": "Dash Hudson",
+    "categories": ["content"],
+    "domains": ["likeshop.me"],
+    "examples": ["likeshop.me"]
   },
   {
     "name": "LINE Corporation",
