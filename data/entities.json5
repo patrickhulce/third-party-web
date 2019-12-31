@@ -3745,6 +3745,12 @@
     "examples": ["ad.pxlad.io", "www.dailymotion.com"]
   },
   {
+    "name": "Dash Hudson",
+    "categories": ["social"],
+    "domains": ["*.dashhudson.com","likeshop.me"],
+    "examples": ["cdn.dashhudson.com","likeshop.me"]
+  },
+  {
     "name": "Datacamp",
     "categories": ["utility"],
     "domains": ["*.cdn77.org"]
@@ -5101,6 +5107,13 @@
     "domains": ["*.ib-ibi.com"]
   },
   {
+    "name": "i-mobile",
+    "company": "i-mobile",
+    "categories": ["ad"],
+    "domains": ["*.i-mobile.co.jp"],
+    "examples": ["ssp-sync.i-mobile.co.jp"]
+  },
+  {
     "name": "IBM Digital Analytics",
     "company": "IBM",
     "categories": ["analytics"],
@@ -5132,6 +5145,13 @@
     "categories": ["analytics"],
     "domains": ["*.ibmcloud.com"],
     "examples": ["uscollector.tealeaf.ibmcloud.com"]
+  },
+  {
+    "name": "IBM Acoustic Campaign",
+    "company": "IBM",
+    "categories": ["analytics"],
+    "domains": ["www.sc.pages01.net","www.sc.pages02.net","www.sc.pages03.net","www.sc.pages04.net","www.sc.pages05.net","www.sc.pages06.net","www.sc.pages07.net","www.sc.pages08.net","www.sc.pages09.net","www.sc.pagesA.net"],
+    "examples": ["https://www.sc.pages01.net/lp/static/js/iMAWebCookie.js"]
   },
   {
     "name": "ICF Technology",
@@ -5799,6 +5819,12 @@
     "categories": ["hosting"],
     "domains": ["*.likelihood.com"],
     "examples": ["client.likelihood.com"]
+  },
+  {
+    "name": "LINE Corporation",
+    "categories": ["ad"],
+    "domains": ["*.line-scdn.net","*.line.me"],
+    "examples": ["d.line-scdn.net","tr.line.me"]
   },
   {
     "name": "Linkcious",
@@ -7987,7 +8013,9 @@
       "*.salecycle.com",
       "d16fk4ms6rqz1v.cloudfront.net",
       "d22j4fzzszoii2.cloudfront.net",
-      "d30ke5tqu2tkyx.cloudfront.net"
+      "d30ke5tqu2tkyx.cloudfront.net",
+      "d81mfvml8p5ml.cloudfront.net",
+      "dn1i8v75r669j.cloudfront.net"
     ]
   },
   {
@@ -8685,6 +8713,13 @@
     "name": "StickyADS.tv",
     "categories": ["ad"],
     "domains": ["*.stickyadstv.com"]
+  },
+  {
+    "name": "STINGRAY",
+    "company": "FlexOne",
+    "categories": ["ad"],
+    "domains": ["*.impact-ad.jp"],
+    "examples": ["y.one.impact-ad.jp"]
   },
   {
     "name": "Storify",
