@@ -11496,5 +11496,15 @@
     "examples": [
         "1k6wzpspjf99.statuspage.io"
     ]
+  },
+  {
+    "name": "Coral",
+    "company": "Coral",
+    "homepage": "https://coralproject.net",
+    "categories": ["content"],
+    "domains": ["*.coral.coralproject.net"],
+    "examples": [
+        "company.coral.coralproject.net"
+    ]
   }
 ]
