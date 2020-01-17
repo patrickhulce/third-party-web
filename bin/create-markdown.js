@@ -113,6 +113,7 @@ async function run() {
 
   const allDataRows = _.sortBy(ALL_DATA, 'totalExecutionTime')
     .reverse()
+    .filter(entry => entry.totalOccurrences >= 50)
     .map(entry => [
       entry.homepage ? `[${entry.name}](${entry.homepage})` : entry.name,
       entry.totalOccurrences.toLocaleString(),
