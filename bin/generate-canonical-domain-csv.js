@@ -26,7 +26,7 @@ const entries = Array.from(observedDomains)
   .map(domain => {
     const entity = getEntity(domain)
     if (!entity) {
-      return undefined
+      return [domain, domain, 'unknown']
     }
 
     return [domain, entity.domains[0], entity.categories[0] || 'other']

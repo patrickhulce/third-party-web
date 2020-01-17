@@ -38,7 +38,7 @@ const entitiesInHTTPArchive = _(httpArchiveData)
   // Find all the unique entities for our domains found in HTTPArchive
   .map(({domain}) => getEntity(domain))
   .filter(Boolean)
-  .uniq()
+  .uniqBy(e => e.name)
   // Use the original entity which has the minimal form
   .map(e => sourceEntities.find(candidate => candidate.name === e.name))
   .value()
