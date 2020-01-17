@@ -382,7 +382,7 @@
     "name": "PIXNET",
     "homepage": "https://www.pixnet.net/",
     "categories": ["social"],
-    "domains": ["*.pixfs.net"],
+    "domains": ["*.pixfs.net", "*.pixnet.net"],
     "examples": ["front.pixfs.net", "falcon-asset.pixfs.net", "pixgame-asset.pixfs.net"]
   },
   {
@@ -3877,11 +3877,6 @@
     "name": "Digioh",
     "categories": ["ad"],
     "domains": ["*.lightboxcdn.com"]
-  },
-  {
-    "name": "Digital ad Consortium",
-    "categories": ["ad"],
-    "domains": ["*.impact-ad.jp"]
   },
   {
     "name": "Digital Look",
@@ -7783,7 +7778,7 @@
     "name": "Research Online",
     "company": "Skills Development Scotland",
     "categories": ["content"],
-    "domains": ["*.org.uk"],
+    "domains": ["*.researchonline.org.uk"],
     "examples": ["www.researchonline.org.uk"]
   },
   {
@@ -8022,7 +8017,6 @@
       "d16fk4ms6rqz1v.cloudfront.net",
       "d22j4fzzszoii2.cloudfront.net",
       "d30ke5tqu2tkyx.cloudfront.net",
-      "d81mfvml8p5ml.cloudfront.net",
       "dn1i8v75r669j.cloudfront.net"
     ]
   },
@@ -11421,7 +11415,7 @@
     "domains": [
       "*.luigisbox.com"
     ]
-  },    
+  },
   {
     "name": "Targito",
     "company": "VIVmail.cz",
@@ -11430,7 +11424,7 @@
     "domains": [
       "*.targito.com"
     ]
-  },       
+  },
   {
     "name": "Foxentry",
     "company": "AVANTRO",
@@ -11439,7 +11433,7 @@
     "domains": [
       "*.foxentry.cz"
     ]
-  },    
+  },
   {
     "name": "Pendo",
     "homepage": "https://www.pendo.io",
@@ -11495,6 +11489,24 @@
     "domains": ["*.statuspage.io"],
     "examples": [
         "1k6wzpspjf99.statuspage.io"
+    ]
+  },
+  {
+    "name": "HyperInzerce",
+    "homepage": "https://hyperinzerce.cz",
+    "categories": ["ad"],
+    "domains": ["*.hyperinzerce.cz"],
+    "examples": [
+        "motorky.hyperinzerce.cz"
+    ]
+  },
+  {
+    "name": "POWr",
+    "homepage": "https://www.powr.io",
+    "categories": ["utility"],
+    "domains": ["*.powr.io"],
+    "examples": [
+        "www.powr.io"
     ]
   },
   {
