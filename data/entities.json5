@@ -11518,5 +11518,14 @@
     "examples": [
         "company.coral.coralproject.net"
     ]
+  },
+  {
+    "name": "Bolt",
+    "homepage": "https://www.bolt.com/",
+    "categories": ["utility"],
+    "domains": ["*.bolt.com"],
+    "examples": [
+      "connect.bolt.com"
+    ]
   }
 ]
