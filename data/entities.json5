@@ -153,8 +153,8 @@
     "company": "Google",
     "homepage": "https://www.google.com/analytics/analytics/",
     "categories": ["analytics"],
-    "domains": ["*.google-analytics.com", "*.urchin.com"],
-    "examples": ["www.google-analytics.com", "ssl.google-analytics.com"]
+    "domains": ["*.google-analytics.com", "*.urchin.com", "analytics.google.com"],
+    "examples": ["www.google-analytics.com", "ssl.google-analytics.com", "analytics.google.com/g/collect"],
   },
   {
     "name": "Google AMP",
@@ -8625,7 +8625,7 @@
   {
     "name": "Spot.IM",
     "categories": ["social"],
-    "domains": ["*.spot.im"]
+    "domains": ["*.spot.im", "*.spotim.market"],
   },
   {
     "name": "SpotXchange",
@@ -10129,7 +10129,8 @@
     "name": "Yahoo! Ad Exchange",
     "company": "Yahoo!",
     "categories": ["ad"],
-    "domains": ["*.yieldmanager.com"]
+    "domains": ["*.yieldmanager.com", "*.browsiprod.com"],
+    "examples": ["yield-manager.browsiprod.com"]
   },
   {
     "name": "Yahoo! Japan",
@@ -11487,27 +11488,21 @@
     "homepage": "https://www.statuspage.io",
     "categories": ["utility"],
     "domains": ["*.statuspage.io"],
-    "examples": [
-        "1k6wzpspjf99.statuspage.io"
-    ]
+    "examples": ["1k6wzpspjf99.statuspage.io"]
   },
   {
     "name": "HyperInzerce",
     "homepage": "https://hyperinzerce.cz",
     "categories": ["ad"],
     "domains": ["*.hyperinzerce.cz"],
-    "examples": [
-        "motorky.hyperinzerce.cz"
-    ]
+    "examples": ["motorky.hyperinzerce.cz"]
   },
   {
     "name": "POWr",
     "homepage": "https://www.powr.io",
     "categories": ["utility"],
     "domains": ["*.powr.io"],
-    "examples": [
-        "www.powr.io"
-    ]
+    "examples": ["www.powr.io"]
   },
   {
     "name": "Coral",
@@ -11515,17 +11510,13 @@
     "homepage": "https://coralproject.net",
     "categories": ["content"],
     "domains": ["*.coral.coralproject.net"],
-    "examples": [
-        "company.coral.coralproject.net"
-    ]
+    "examples": ["company.coral.coralproject.net"]
   },
   {
     "name": "Bolt",
     "homepage": "https://www.bolt.com/",
     "categories": ["utility"],
     "domains": ["*.bolt.com"],
-    "examples": [
-      "connect.bolt.com"
-    ]
+    "examples": ["connect.bolt.com"]
   }
 ]
