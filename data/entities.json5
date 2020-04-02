@@ -11518,5 +11518,12 @@
     "categories": ["utility"],
     "domains": ["*.bolt.com"],
     "examples": ["connect.bolt.com"]
+  },
+  {
+    "name": "SalesLoft",
+    "homepage": "https://salesloft.com/",
+    "categories": ["analytics", "marketing"],
+    "domains": ["*.salesloft.com"],
+    "examples": ["scout-cdn.salesloft.com"]
   }
 ]
