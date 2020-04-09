@@ -287,8 +287,8 @@
     "name": "Baidu Analytics",
     "homepage": "https://tongji.baidu.com/web/welcome/login",
     "categories": ["analytics"],
-    "domains": ["*.baidu.com"],
-    "examples": ["hm.baidu.com"]
+    "domains": ["hm.baidu.com", "hmcdn.baidu.com"],
+    "examples": ["hm.baidu.com", "hmcdn.baidu.com"]
   },
   {
     "name": "Adobe Tag Manager",
