@@ -2925,7 +2925,7 @@
   {
     "name": "BuySellAds",
     "categories": ["ad"],
-    "domains": ["*.buysellads.com"]
+    "domains": ["*.buysellads.com", "*.buysellads.net"],
   },
   {
     "name": "BuySight (AOL)",
