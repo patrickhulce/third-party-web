@@ -844,8 +844,8 @@
     "name": "Adroll",
     "homepage": "https://www.adroll.com/",
     "categories": ["ad"],
-    "domains": ["*.adroll.com"],
-    "examples": ["d.adroll.com", "s.adroll.com"]
+    "domains": ["*.adroll.com", "*.adroll.mgr.consensu.org"],
+    "examples": ["d.adroll.com", "s.adroll.com", "d.adroll.mgr.consensu.org"],
   },
   {
     "name": "Twitch",
@@ -11525,5 +11525,33 @@
     "categories": ["analytics", "marketing"],
     "domains": ["*.salesloft.com"],
     "examples": ["scout-cdn.salesloft.com"]
-  }
+  },
+  {
+    name: "Accessibe",
+    "homepage": "https://accessibe.com/",
+    "categories": ["utility"],
+    "domains": ["*.accessibe.com", "*.acsbap.com"],
+    "examples": ["accessibe.com", "acsbap.com"],
+  },
+  {
+    name: "Builder",
+    "homepage": "https://www.builder.io/",
+    "categories": ["hosting"],
+    "domains": ["*.builder.io"],
+    "examples": ["cdn.builder.io"],
+  },
+  {
+    name: "Pepperjam",
+    "homepage": "https://www.pepperjam.com/",
+    "categories": ["marketing", "analytics"],
+    "domains": ["*.pepperjam.com"],
+    "examples": ["container.pepperjam.com"],
+  },
+  {
+    name: "Reach",
+    "homepage": "https://withreach.com/",
+    "categories": ["utility"],
+    "domains": ["*.gointerpay.net"],
+    "examples": ["checkout.gointerpay.net"],
+  },
 ]
