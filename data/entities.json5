@@ -7524,6 +7524,12 @@
     "examples": ["www.qzzr.com"]
   },
   {
+    "name": "RapidAPI",
+    "categories": ["utility"],
+    "domains": ["*.rapidapi.com"],
+    "examples": ["telize-v1.p.rapidapi.com"]
+  },
+  {
     "name": "RCS Media Group",
     "categories": ["ad"],
     "domains": ["*.rcsadv.it"]
