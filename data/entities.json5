@@ -7524,6 +7524,11 @@
     "examples": ["www.qzzr.com"]
   },
   {
+    "name": "RapidAPI",
+    "categories": ["utility"],
+    "domains": ["*.rapidapi.com"]
+  },
+  {
     "name": "RCS Media Group",
     "categories": ["ad"],
     "domains": ["*.rcsadv.it"]
