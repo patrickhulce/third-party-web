@@ -7526,7 +7526,8 @@
   {
     "name": "RapidAPI",
     "categories": ["utility"],
-    "domains": ["*.rapidapi.com"]
+    "domains": ["*.rapidapi.com"],
+    "examples": ["telize-v1.p.rapidapi.com"]
   },
   {
     "name": "RCS Media Group",
