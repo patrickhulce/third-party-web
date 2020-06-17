@@ -361,8 +361,8 @@
     "name": "Shopify",
     "homepage": "https://www.shopify.com/",
     "categories": ["hosting"],
-    "domains": ["*.shopify.com", "*.shopifyapps.com", "*.shopifycdn.com"],
-    "examples": ["cdn.shopify.com", "productreviews.shopifycdn.com"]
+    "domains": ["*.shopify.com", "*.shopifyapps.com", "*.shopifycdn.com", "*.shopifysvc.com"],
+    "examples": ["cdn.shopify.com", "productreviews.shopifycdn.com", "monorail-edge.shopifysvc.com"]
   },
   {
     "name": "Dealer",
