@@ -1158,6 +1158,13 @@
     "domains": ["*.scdn.co", "*.spotify.com"],
     "examples": ["open.spotify.com", "open.scdn.co", "i.scdn.co"]
   },
+    {
+    "name": "ourdiploma",
+    "homepage": "https://www.ourdiploma.com/",
+    "categories": ["content"],
+    "domains": ["*.ourdiploma.com"],
+    "examples": ["cdn.ourdiploma.com"]
+  },
   {
     "name": "AMP",
     "homepage": "https://amp.dev/",
