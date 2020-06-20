@@ -17,7 +17,6 @@ function cleanStatsFromEntity(entity) {
 }
 
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
-fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
 
 const httpArchiveData = importMergedData(getEntityDatasetsMostRecentFirst()[0])
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
