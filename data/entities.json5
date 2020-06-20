@@ -11526,6 +11526,27 @@
     "examples": ["connect.bolt.com"]
   },
   {
+    "name": "Judge.me",
+    "homepage": "https://judge.me/",
+    "categories": ["marketing"],
+    "domains": ["*.judge.me"],
+    "examples": ["cdn.judge.me"]
+  },
+  {
+    "name": "Smartsupp",
+    "homepage": "https://www.smartsupp.com/",
+    "categories": ["customer-success"],
+    "domains": ["*.smartsuppcdn.com"],
+    "examples": ["widget-v1.smartsuppcdn.com"]
+  },
+  {
+    "name": "Tilda",
+    "homepage": "http://tilda.cc/",
+    "categories": ["hosting"],
+    "domains": ["*.tildacdn.com"],
+    "examples": ["stat.tildacdn.com", "static.tildacdn.com", "upwidget.tildacdn.com"]
+  },
+  {
     "name": "SalesLoft",
     "homepage": "https://salesloft.com/",
     "categories": ["analytics", "marketing"],
