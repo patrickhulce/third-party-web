@@ -1,5 +1,5 @@
 SELECT
-  origin,
+  observedDomain,
   SUM(totalExecutionTime) AS totalExecutionTime,
   COUNT(totalExecutionTime) AS totalOccurrences,
   SUM(totalOccurrences) AS totalScripts,
@@ -8,15 +8,15 @@ SELECT
 FROM (
   SELECT
     pageUrl,
-    origin,
+    observedDomain,
     SUM(executionTime) AS totalExecutionTime,
     COUNT(executionTime) AS totalOccurrences,
     AVG(executionTime) AS averageExecutionTime
   FROM <%= from_statement %>
-  GROUP BY pageUrl, origin
+  GROUP BY pageUrl, observedDomain
 )
 GROUP BY
-  origin
+  observedDomain
 HAVING
   totalOccurrences > 50
 ORDER BY
