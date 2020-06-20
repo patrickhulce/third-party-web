@@ -13,7 +13,7 @@ const DATA_DIR = path.join(__dirname, '../data')
 if (!fs.existsSync(DIST_DIR)) fs.mkdirSync(DIST_DIR)
 
 function cleanStatsFromEntity(entity) {
-  return _.omit(entity, ['totalExecutionTime', 'totalOccurrences'])
+  return _.omit(entity, ['totalExecutionTime', 'totalOccurrences', 'examples'])
 }
 
 const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
