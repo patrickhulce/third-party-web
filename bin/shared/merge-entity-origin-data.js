@@ -8,7 +8,10 @@ const DATA_FOLDER = path.join(__dirname, '../../data')
 function importDataset(filename) {
   return require(path.resolve(DATA_FOLDER, filename))
     .map(entry => {
-      return _.omit({..._.mapValues(entry, x => Number(x)), domain: entry.origin}, 'origin')
+      return _.omit(
+        {..._.mapValues(entry, x => Number(x)), domain: entry.origin || entry.canonicalDomain},
+        'origin'
+      )
     })
     .filter(entry => entry.domain)
 }

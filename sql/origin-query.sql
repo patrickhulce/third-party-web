@@ -1,11 +1,11 @@
 SELECT
-  REGEXP_EXTRACT(url, r'http.*?://([^\/]+)') as origin,
+  observedDomain as domain,
   SUM(executionTime) AS totalExecutionTime,
   COUNT(executionTime) AS totalOccurrences,
   AVG(executionTime) AS averageExecutionTime
 FROM <%= from_statement %>
 GROUP BY
-  origin
+  domain
 HAVING
   totalOccurrences > 50
 ORDER BY
