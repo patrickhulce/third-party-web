@@ -1050,7 +1050,7 @@
     "name": "AppNexus",
     "homepage": "https://www.appnexus.com/",
     "categories": ["ad"],
-    "domains": ["*.adnxs.com", "*.ctasnet.com"],
+    "domains": ["*.adnxs.com", "*.ctasnet.com", "*.adrdgt.com"],
     "examples": [
       "acdn.adnxs.com",
       "secure.adnxs.com",
@@ -1423,7 +1423,7 @@
     "name": "Unpkg",
     "homepage": "https://unpkg.com",
     "categories": ["cdn"],
-    "domains": ["*.unpkg.com"]
+    "domains": ["*.unpkg.com", "*.npmcdn.com"]
   },
   {
     "name": "ReadSpeaker",
@@ -1530,12 +1530,7 @@
   {
     "name": "ABA RESEARCH",
     "categories": ["analytics"],
-    "domains": ["*.abaresearch.uk"]
-  },
-  {
-    "name": "ABAResearch",
-    "categories": ["analytics"],
-    "domains": ["qmodal.azurewebsites.net"]
+    "domains": ["*.abaresearch.uk", "qmodal.azurewebsites.net"]
   },
   {
     "name": "ADMIZED",
@@ -2392,11 +2387,6 @@
     "domains": ["*.appier.net"]
   },
   {
-    "name": "Appnexus",
-    "categories": ["ad"],
-    "domains": ["*.adrdgt.com"]
-  },
-  {
     "name": "Apptus eSales",
     "company": "Apptus",
     "categories": ["analytics"],
@@ -2701,7 +2691,8 @@
     "domains": ["*.gotraffic.net"]
   },
   {
-    "name": "Bloomreach",
+    "name": "Shop Logic",
+    "company": "BloomReach",
     "categories": ["marketing"],
     "domains": ["*.goshoplogic.com"]
   },
@@ -4389,7 +4380,7 @@
     "name": "FLXone",
     "company": "Teradata",
     "categories": ["ad"],
-    "domains": ["*.pangolin.blue", "*.flx1.com", "d2hlpp31teaww3.cloudfront.net"]
+    "domains": ["*.pangolin.blue", "*.flx1.com", "d2hlpp31teaww3.cloudfront.net", "*.flxpxl.com"]
   },
   {
     "name": "Fairfax Media",
@@ -4527,12 +4518,6 @@
     "name": "Flowzymes Ky",
     "categories": ["cdn"],
     "domains": ["*.jquerytools.org"]
-  },
-  {
-    "name": "FlxOne",
-    "company": "Teradata",
-    "categories": ["ad"],
-    "domains": ["*.flxpxl.com"]
   },
   {
     "name": "Fomo",
@@ -4813,14 +4798,8 @@
   {
     "name": "GitHub",
     "categories": ["utility"],
-    "domains": ["*.rawgit.com"],
-    "examples": ["cdn.rawgit.com"]
-  },
-  {
-    "name": "Github",
-    "categories": ["utility"],
-    "domains": ["*.github.com", "*.githubusercontent.com", "*.github.io"],
-    "examples": ["raw.githubusercontent.com"]
+    "domains": ["*.github.com", "*.githubusercontent.com", "*.github.io", "*.rawgit.com"],
+    "examples": ["raw.githubusercontent.com", "cdn.rawgit.com"]
   },
   {
     "name": "Glassdoor",
@@ -5537,12 +5516,7 @@
   {
     "name": "JustUno",
     "categories": ["ad"],
-    "domains": ["*.justuno.com"]
-  },
-  {
-    "name": "Justuno",
-    "categories": ["ad"],
-    "domains": ["d2j3qa5nc37287.cloudfront.net"]
+    "domains": ["*.justuno.com", "d2j3qa5nc37287.cloudfront.net"]
   },
   {
     "name": "KINX (Korea Internet Neutral eXchange)",
@@ -5908,11 +5882,6 @@
     "categories": ["utility"],
     "domains": ["*.logentries.com"],
     "examples": ["js.logentries.com"]
-  },
-  {
-    "name": "Loggly",
-    "categories": ["utility"],
-    "domains": ["d9jmv9u00p0mv.cloudfront.net"]
   },
   {
     "name": "Logicalis",
@@ -7059,7 +7028,7 @@
     "examples": ["pla27.eysys.com"]
   },
   {
-    "name": "Paypal",
+    "name": "PayPal Ads",
     "categories": ["ad"],
     "domains": ["*.where.com"]
   },
@@ -7098,11 +7067,6 @@
     "name": "Pepper",
     "categories": ["ad"],
     "domains": ["*.peppercorp.com"]
-  },
-  {
-    "name": "Pepperjam",
-    "categories": ["analytics"],
-    "domains": ["*.affiliatetechnology.com"]
   },
   {
     "name": "Perfect Audience",
@@ -7277,7 +7241,7 @@
     "domains": ["*.polyfill.io"]
   },
   {
-    "name": "PopAds",
+    "name": "MegaPopAds",
     "categories": ["ad"],
     "domains": ["*.megapopads.com"]
   },
@@ -8417,20 +8381,15 @@
     "domains": ["*.freeskreen.com"]
   },
   {
-    "name": "Smart AdServer",
-    "categories": ["ad"],
-    "domains": ["*.sasqos.com", "*.smartadserver.com"]
-  },
-  {
     "name": "Smart Insight Tracking",
     "company": "Emarsys",
     "categories": ["analytics"],
     "domains": ["*.scarabresearch.com"]
   },
   {
-    "name": "SmartAdServer",
+    "name": "Smart AdServer",
     "categories": ["ad"],
-    "domains": ["*.01net.com", "*.sascdn.com"],
+    "domains": ["*.01net.com", "*.sascdn.com", "*.sasqos.com", "*.smartadserver.com"],
     "examples": ["securite.01net.com"]
   },
   {
@@ -8490,14 +8449,9 @@
     "domains": ["*.lognormal.net"]
   },
   {
-    "name": "Sociable Labs",
-    "categories": ["social"],
-    "domains": ["*.sociablelabs.com"]
-  },
-  {
     "name": "SociableLabs",
     "categories": ["ad"],
-    "domains": ["*.sociablelabs.net"]
+    "domains": ["*.sociablelabs.net", "*.sociablelabs.com"]
   },
   {
     "name": "Social Annex",
@@ -10446,13 +10400,8 @@
   },
   {
     "name": "eDigital Research",
-    "categories": ["analytics"],
-    "domains": ["*.ecustomeropinions.com"]
-  },
-  {
-    "name": "eDigitalResearch",
     "categories": ["customer-success"],
-    "domains": ["*.edigitalresearch.com", "*.edigitalsurvey.com", "*.edrcdn.com"]
+    "domains": ["*.edigitalresearch.com", "*.edigitalsurvey.com", "*.edrcdn.com", "*.ecustomeropinions.com"]
   },
   {
     "name": "eGain",
@@ -10899,11 +10848,6 @@
     "domains": ["*.aralego.com"]
   },
   {
-    "name": "unpkg",
-    "categories": ["utility"],
-    "domains": ["*.npmcdn.com"]
-  },
-  {
     "name": "up-value",
     "categories": ["ad"],
     "domains": ["*.up-value.de"]
@@ -11205,7 +11149,7 @@
     "name": "Loggly",
     "homepage": "https://www.loggly.com/",
     "categories": ["analytics"],
-    "domains": ["*.loggly.com"],
+    "domains": ["*.loggly.com", "d9jmv9u00p0mv.cloudfront.net"],
     "examples": ["logs-01.loggly.com"]
   },
   {
@@ -11403,6 +11347,10 @@
       "*.smartsuppchat.com",
       "*.smartsupp.com",
       "smartsupp-widget-161959.c.cdn77.org",
+      "*.smartsuppcdn.com",
+    ],
+    "examples": [
+      "widget-v1.smartsuppcdn.com"
     ]
   },
   {
@@ -11533,13 +11481,6 @@
     "examples": ["cdn.judge.me"]
   },
   {
-    "name": "Smartsupp",
-    "homepage": "https://www.smartsupp.com/",
-    "categories": ["customer-success"],
-    "domains": ["*.smartsuppcdn.com"],
-    "examples": ["widget-v1.smartsuppcdn.com"]
-  },
-  {
     "name": "Tilda",
     "homepage": "http://tilda.cc/",
     "categories": ["hosting"],
@@ -11571,7 +11512,7 @@
     name: "Pepperjam",
     "homepage": "https://www.pepperjam.com/",
     "categories": ["marketing", "analytics"],
-    "domains": ["*.pepperjam.com"],
+    "domains": ["*.pepperjam.com", "*.affiliatetechnology.com"],
     "examples": ["container.pepperjam.com"],
   },
   {
