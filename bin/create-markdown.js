@@ -111,9 +111,9 @@ async function run() {
 
   const categoryContents = _.map(ALL_CATEGORIES, createCategorySection).join('\n\n')
 
-  const allDataRows = _.sortBy(ALL_DATA, 'totalExecutionTime')
+  const topDataRows = _.sortBy(ALL_DATA, 'totalExecutionTime')
     .reverse()
-    .filter(entry => entry.totalOccurrences >= 50)
+    .slice(0, 200)
     .map(entry => [
       entry.homepage ? `[${entry.name}](${entry.homepage})` : entry.name,
       entry.totalOccurrences.toLocaleString(),
@@ -133,7 +133,7 @@ async function run() {
       category_contents: categoryContents,
       all_data: createMarkdownTable(
         ['Name', 'Popularity', 'Total Impact', 'Average Impact'],
-        allDataRows
+        topDataRows
       ),
     })
   )
