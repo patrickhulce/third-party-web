@@ -11526,4 +11526,11 @@
     domains: ['*.gointerpay.net'],
     examples: ['checkout.gointerpay.net'],
   },
+  {
+    name: 'Chameleon',
+    homepage: 'https://www.trychameleon.com/',
+    categories: ['marketing'],
+    domains: ['*.trychameleon.com'],
+    examples: ['fast.trychameleon.com'],
+  }
 ]
