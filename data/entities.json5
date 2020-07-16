@@ -11532,5 +11532,10 @@
     categories: ['marketing'],
     domains: ['*.trychameleon.com'],
     examples: ['fast.trychameleon.com'],
-  }
+  },
+  {
+    name: 'Matomo',
+    categories: ['analytics'],
+    domains: ['*.matomo.cloud', '*.analytics.ozzi.io'],
+  },
 ]
