@@ -11537,5 +11537,5 @@
     name: 'Matomo',
     categories: ['analytics'],
     domains: ['*.matomo.cloud', '*.analytics.ozzi.io'],
-  },
+  }
 ]
