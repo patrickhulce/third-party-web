@@ -11537,6 +11537,6 @@
     name: 'Matomo',
     homepage: 'https://www.innocraft.com/',
     categories: ['analytics'],
-    domains: ['*.matomo.cloud', '*.analytics.ozzi.io'],
+    domains: ['*.matomo.cloud'],
   }
 ]
