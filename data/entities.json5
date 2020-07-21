@@ -1093,7 +1093,7 @@
     ],
   },
   {
-    name: 'MediaVine',
+    name: 'Mediavine',
     homepage: 'https://www.mediavine.com/',
     categories: ['ad'],
     domains: ['*.mediavine.com'],
