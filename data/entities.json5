@@ -11532,5 +11532,12 @@
     categories: ['marketing'],
     domains: ['*.trychameleon.com'],
     examples: ['fast.trychameleon.com'],
+  },
+  {
+    name: 'Segmanta',
+    homepage: 'https://segmanta.com/',
+    categories: ['marketing', 'analytics'],
+    domains: ['*.segmanta.com'],
+    examples: ['clientName.segmanta.com'],
   }
 ]
