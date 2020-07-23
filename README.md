@@ -196,7 +196,7 @@ These scripts are part of advertising networks, either serving or measuring.
 | 67   | [33 Across](https://33across.com/)                             | 1,188   | 615 ms         |
 | 68   | Vidible                                                        | 1,146   | 625 ms         |
 | 69   | Admixer for Publishers                                         | 1,043   | 642 ms         |
-| 70   | [MediaVine](https://www.mediavine.com/)                        | 6,490   | 655 ms         |
+| 70   | [Mediavine](https://www.mediavine.com/)                        | 6,490   | 655 ms         |
 | 71   | [Bridgewell DSP](https://www.bridgewell.com/)                  | 14,079  | 791 ms         |
 | 72   | [Moat](https://moat.com/)                                      | 6,862   | 817 ms         |
 | 73   | LoyaltyLion                                                    | 1,300   | 830 ms         |
@@ -496,7 +496,7 @@ These are miscellaneous scripts delivered via a shared origin with no precise ca
 | ---- | ------------------------------------------------- | --------- | -------------- |
 | 1    | ResponsiveVoice                                   | 1,241     | 70 ms          |
 | 2    | [Amazon Web Services](https://aws.amazon.com/s3/) | 38,265    | 161 ms         |
-| 3    | [All Other 3rd Parties](#by-category)             | 1,380,545 | 318 ms         |
+| 3    | [All Other 3rd Parties](#by-category)             | 1,380,493 | 318 ms         |
 | 4    | [Parking Crew](http://parkingcrew.net/)           | 5,147     | 326 ms         |
 | 5    | Heroku                                            | 2,002     | 607 ms         |
 | 6    | uLogin                                            | 2,316     | 1223 ms        |
@@ -510,7 +510,7 @@ This section highlights the entities responsible for the most script execution a
 | Name                                                                                      | Popularity | Total Impact | Average Impact |
 | ----------------------------------------------------------------------------------------- | ---------- | ------------ | -------------- |
 | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)                            | 680,948    | 991,570 s    | 1456 ms        |
-| [All Other 3rd Parties](#by-category)                                                     | 1,380,545  | 438,448 s    | 318 ms         |
+| [All Other 3rd Parties](#by-category)                                                     | 1,380,493  | 438,401 s    | 318 ms         |
 | [YouTube](https://youtube.com)                                                            | 408,326    | 346,661 s    | 849 ms         |
 | [Facebook](https://www.facebook.com)                                                      | 1,461,331  | 334,392 s    | 229 ms         |
 | [Wix](https://www.wix.com/)                                                               | 54,909     | 327,376 s    | 5962 ms        |
@@ -591,7 +591,7 @@ This section highlights the entities responsible for the most script execution a
 | [SoundCloud](https://www.soundcloud.com/)                                                 | 4,464      | 4,404 s      | 986 ms         |
 | [Tealium](https://tealium.com/)                                                           | 12,103     | 4,385 s      | 362 ms         |
 | [Optimizely](https://www.optimizely.com/)                                                 | 19,583     | 4,375 s      | 223 ms         |
-| [MediaVine](https://www.mediavine.com/)                                                   | 6,490      | 4,251 s      | 655 ms         |
+| [Mediavine](https://www.mediavine.com/)                                                   | 6,490      | 4,251 s      | 655 ms         |
 | Privy                                                                                     | 13,047     | 4,036 s      | 309 ms         |
 | [fam](http://admin.fam-ad.com/report/)                                                    | 2,135      | 3,857 s      | 1807 ms        |
 | [Intercom](https://www.intercom.com)                                                      | 15,656     | 3,829 s      | 245 ms         |

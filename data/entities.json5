@@ -1093,7 +1093,7 @@
     ],
   },
   {
-    name: 'MediaVine',
+    name: 'Mediavine',
     homepage: 'https://www.mediavine.com/',
     categories: ['ad'],
     domains: ['*.mediavine.com'],
@@ -11538,5 +11538,12 @@
     homepage: 'https://www.innocraft.com/',
     categories: ['analytics'],
     domains: ['*.matomo.cloud'],
+  },
+  {
+    name: 'Segmanta',
+    homepage: 'https://segmanta.com/',
+    categories: ['marketing', 'analytics'],
+    domains: ['*.segmanta.com'],
+    examples: ['clientName.segmanta.com']
   }
 ]
