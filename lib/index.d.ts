@@ -6,7 +6,7 @@ export interface IFacade {
 export interface IProduct {
   name: string
   urlPatterns: string[]
-  facades: IFacade[]
+  facades?: IFacade[]
 }
 
 export interface IEntity {
