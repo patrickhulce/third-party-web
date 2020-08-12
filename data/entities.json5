@@ -202,6 +202,20 @@
       'img.youtube.com',
       'fcmatch.youtube.com',
     ],
+    products: [
+      {
+        name: 'YouTube Embedded Player',
+        urlPatterns: [
+          '.*\\.youtube\\.com/embed/.*',
+        ],
+        facades: [
+          {
+            name: 'Lite YouTube',
+            repo: 'https://github.com/paulirish/lite-youtube-embed#other-lite-embeds',
+          },
+        ],
+      },
+    ],
   },
   {
     name: 'Twitter',
