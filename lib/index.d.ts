@@ -15,7 +15,7 @@ export interface IEntity {
   homepage?: string
   categories: string[]
   domains: string[]
-  products: IProduct[]
+  products?: IProduct[]
   averageExecutionTime: number
   totalExecutionTime: number
   totalOccurrences: number
