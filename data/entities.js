@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     name: 'Google/Doubleclick Ads',
     company: 'Google',
