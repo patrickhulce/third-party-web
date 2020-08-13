@@ -72,6 +72,18 @@
       'an.facebook.com',
       'platform-lookaside.fbsbx.com',
     ],
+    products: [
+      {
+        name: 'Facebook Messenger Customer Chat',
+        urlPatterns: ['.*connect\\.facebook\\.net/.*/sdk/xfbml\\.customerchat\\.js'],
+        facades: [
+          {
+            name: 'React Live Chat Loader',
+            repo: 'https://github.com/calibreapp/react-live-chat-loader'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Instagram',
@@ -553,6 +565,18 @@
     categories: ['customer-success'],
     domains: ['djtflbt20bdde.cloudfront.net', '*.helpscout.net'],
     examples: ['beacon-v2.helpscout.net'],
+    products: [
+      {
+        name: 'Help Scout Beacon',
+        urlPatterns: ['.*beacon-v2\\.helpscout\\.net'],
+        facades: [
+          {
+            name: 'React Live Chat Loader',
+            repo: 'https://github.com/calibreapp/react-live-chat-loader'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Alexa',
@@ -675,6 +699,22 @@
     categories: ['video'],
     domains: ['*.vimeo.com', '*.vimeocdn.com'],
     examples: ['f.vimeocdn.com', 'player.vimeo.com', 'i.vimeocdn.com'],
+    products: [
+      {
+        name: 'Vimeo Embedded Player',
+        urlPatterns: ['.*player\\.vimeo\\.com/video/.*'],
+        facades: [
+          {
+            name: 'Lite Vimeo',
+            repo: 'https://github.com/slightlyoff/lite-vimeo'
+          },
+          {
+            name: 'Lite Vimeo Embed',
+            repo: 'https://github.com/luwes/lite-vimeo-embed'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Disqus',
@@ -786,6 +826,18 @@
     categories: ['marketing'],
     domains: ['*.drift.com', '*.driftt.com'],
     examples: ['js.driftt.com', 'api.drift.com'],
+    products: [
+      {
+        name: 'Drift Live Chat',
+        urlPatterns: ['.*js\\.driftt\\.com/include/.*/.*\\.js'],
+        facades: [
+          {
+            name: 'React Live Chat Loader',
+            repo: 'https://github.com/calibreapp/react-live-chat-loader'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Sentry',
@@ -1442,6 +1494,21 @@
       'widget.intercom.io',
       'nexus-websocket-a.intercom.io',
     ],
+    products: [
+      {
+        name: 'Intercom Widget',
+        urlPatterns: [
+          '.*widget\\.intercom\\.io.*',
+          '.*js\\.intercomcdn\\.com/shim\\.latest\\.js'
+        ],
+        facades: [
+          {
+            name: 'React Live Chat Loader',
+            repo: 'https://github.com/calibreapp/react-live-chat-loader'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Unpkg',
