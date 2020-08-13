@@ -11615,10 +11615,16 @@
     examples: ['fast.trychameleon.com'],
   },
   {
+    name: 'Matomo',
+    homepage: 'https://www.innocraft.com/',
+    categories: ['analytics'],
+    domains: ['*.matomo.cloud'],
+  },
+  {
     name: 'Segmanta',
     homepage: 'https://segmanta.com/',
     categories: ['marketing', 'analytics'],
     domains: ['*.segmanta.com'],
-    examples: ['clientName.segmanta.com'],
+    examples: ['clientName.segmanta.com']
   }
 ]
