@@ -6,7 +6,7 @@
   "scripts": {
     "build:www": "cd www/ && npm install && npm run build",
     "build": "node bin/convert-entities-db.js && node bin/generate-canonical-domain-csv.js && node bin/build-entity-json-files.js && node bin/generate-sql.js && generate-export-aliases",
-    "lint:fix": "prettier --print-width=100 --write data/entities.js",
+    "lint:fix": "prettier --print-width=100 --write '**/*.js'",
     "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
     "test": "npm run build && jest 'lib/*'"
   },

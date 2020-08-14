@@ -88,7 +88,7 @@ function computeAllStats(dataset) {
 
   const top50Occurrences = _.sumBy(
     sortedEntityData.filter(e => e !== homelessMegaEntity).slice(0, 50),
-    'totalOccurrences',
+    'totalOccurrences'
   )
 
   return {
@@ -131,7 +131,7 @@ console.log(homelessGrouped.length, 'domains without attribution')
 console.log(
   homelessGrouped
     .slice(0, 15)
-    .map(item => [item.domain, item.domains.join(','), item.totalOccurrences.toLocaleString()]),
+    .map(item => [item.domain, item.domains.join(','), item.totalOccurrences.toLocaleString()])
 )
 
 console.log('Top 5 Winners')
@@ -147,7 +147,7 @@ console.log(
         Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
         '%',
     ])
-    .value(),
+    .value()
 )
 
 console.log('Top 5 Losers')
@@ -161,23 +161,23 @@ console.log(
       Math.round((100 * item.totalOccurrences) / item._last.totalOccurrences).toLocaleString() +
         '%',
     ])
-    .value(),
+    .value()
 )
 
 console.log(
   '3rd parties representing',
   ((THIRD_PARTY_REQUESTS / GLOBAL_OCCURRENCES) * 100).toFixed(2),
-  '% of total requests',
+  '% of total requests'
 )
 console.log(
   `${sortedEntityData.length} Entities representing`,
   ((totalEntityOccurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
-  '% of 3rd party requests',
+  '% of 3rd party requests'
 )
 console.log(
   'Top 50 Entities representing',
   ((top50Occurrences / THIRD_PARTY_REQUESTS) * 100).toFixed(2),
-  '% of 3rd party requests',
+  '% of 3rd party requests'
 )
 
 console.log('Finished processing', datasetFiles[0])
