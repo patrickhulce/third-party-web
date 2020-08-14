@@ -31,6 +31,7 @@
   },
   "config": {
     "exportAliases": {
+      "nostats-subset": "./lib/subsets/nostats.js",
       "httparchive-nostats-subset": "./lib/subsets/httparchive-nostats.js",
       "httparchive-subset": "./lib/subsets/httparchive.js"
     }

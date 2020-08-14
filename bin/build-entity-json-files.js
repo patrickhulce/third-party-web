@@ -47,6 +47,10 @@ for (const entity of entitiesInHTTPArchive) {
 }
 
 fs.writeFileSync(`${DIST_DIR}/entities.json`, stringifyEntities(sourceEntities))
+fs.writeFileSync(
+  `${DIST_DIR}/entities-nostats.json`,
+  stringifyEntities(sourceEntities.map(e => cleanStatsFromEntity(e)))
+)
 fs.writeFileSync(`${DIST_DIR}/entities-httparchive.json`, stringifyEntities(entitiesInHTTPArchive))
 fs.writeFileSync(
   `${DIST_DIR}/entities-httparchive-nostats.json`,
