@@ -5,7 +5,10 @@ export interface IFacade {
 
 export interface IProduct {
   name: string
-  urlPatterns: string[]
+  company: string
+  homepage?: string
+  categories: string[]
+  urlPatterns?: string[]
   facades?: IFacade[]
 }
 

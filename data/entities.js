@@ -1343,6 +1343,7 @@ module.exports = [
   },
   {
     name: 'SpeedCurve LUX',
+    company: 'SpeedCurve',
     homepage: 'https://speedcurve.com/features/lux/',
     categories: ['analytics'],
     domains: ['*.speedcurve.com'],
