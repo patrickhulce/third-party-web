@@ -1,12 +1,10 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
-const json5 = require('json5')
 
 const {getRootDomain} = require('../lib/')
 
-const sourceAsString = fs.readFileSync(path.join(__dirname, '../data/entities.json5'), 'utf8')
-const entities = json5.parse(sourceAsString)
+const entities = require('../data/entities.js')
 
 function sortDomains(domains) {
   // Sort as if it were com.example.sub.domain

@@ -1,7 +1,7 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
-const JSON5 = require('json5')
+const {stringifyEntities} = require('./shared/utils')
 const {
   importMergedData,
   getEntityDatasetsMostRecentFirst,
@@ -16,7 +16,7 @@ function cleanStatsFromEntity(entity) {
   return _.omit(entity, ['totalExecutionTime', 'totalOccurrences', 'examples'])
 }
 
-const sourceEntities = JSON5.parse(fs.readFileSync(`${DATA_DIR}/entities.json5`, 'utf8'))
+const sourceEntities = require(`${DATA_DIR}/entities.js`)
 
 const httpArchiveData = importMergedData(getEntityDatasetsMostRecentFirst()[0])
 const {getEntity} = require('../lib/index.js') // IMPORTANT: require this after entities have been written
@@ -46,9 +46,9 @@ for (const entity of entitiesInHTTPArchive) {
   Object.assign(entity, entityExecutionStats[entity.name])
 }
 
-fs.writeFileSync(`${DIST_DIR}/entities.json`, JSON.stringify(sourceEntities))
-fs.writeFileSync(`${DIST_DIR}/entities-httparchive.json`, JSON.stringify(entitiesInHTTPArchive))
+fs.writeFileSync(`${DIST_DIR}/entities.json`, stringifyEntities(sourceEntities))
+fs.writeFileSync(`${DIST_DIR}/entities-httparchive.json`, stringifyEntities(entitiesInHTTPArchive))
 fs.writeFileSync(
   `${DIST_DIR}/entities-httparchive-nostats.json`,
-  JSON.stringify(entitiesInHTTPArchive.map(e => cleanStatsFromEntity(e)))
+  stringifyEntities(entitiesInHTTPArchive.map(e => cleanStatsFromEntity(e)))
 )

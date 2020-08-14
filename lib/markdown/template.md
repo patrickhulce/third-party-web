@@ -104,7 +104,7 @@ A **huge** thanks to [@simonhearne](https://twitter.com/simonhearne) and [@soulg
 
 ### Updating the Entities
 
-The domain->entity mapping can be found in `data/entities.json5`. Adding a new entity is as simple as adding a new array item with the following form.
+The domain->entity mapping can be found in `data/entities.js`. Adding a new entity is as simple as adding a new array item with the following form.
 
 ```js
 {

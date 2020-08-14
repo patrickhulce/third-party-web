@@ -27,7 +27,7 @@ Lighthouse's bootup time audit attempts to attribute all toplevel main-thread ta
 
 ### The data for entity X seems wrong. How can it be corrected?
 
-Verify that the origins in `data/entities.json5` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
+Verify that the origins in `data/entities.js` are correct. Most issues will simply be the result of mislabelling of shared origins. If everything checks out, there is likely no further action and the data is valid. If you still believe there's errors, file an issue to discuss futher.
 
 <a name="contribute"></a>
 
