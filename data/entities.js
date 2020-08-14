@@ -75,7 +75,7 @@ module.exports = [
     products: [
       {
         name: 'Facebook Messenger Customer Chat',
-        urlPatterns: ['.*connect\\.facebook\\.net/.*/sdk/xfbml\\.customerchat\\.js'],
+        urlPatterns: [/connect\.facebook\.net\/.*\/sdk\/xfbml\.customerchat\.js/],
         facades: [
           {
             name: 'React Live Chat Loader',
@@ -217,7 +217,7 @@ module.exports = [
     products: [
       {
         name: 'YouTube Embedded Player',
-        urlPatterns: ['.*\\.youtube\\.com/embed/.*'],
+        urlPatterns: ['youtube.com/embed/'],
         facades: [
           {
             name: 'Lite YouTube',
@@ -566,7 +566,7 @@ module.exports = [
     products: [
       {
         name: 'Help Scout Beacon',
-        urlPatterns: ['.*beacon-v2\\.helpscout\\.net'],
+        urlPatterns: ['beacon-v2.helpscout.net'],
         facades: [
           {
             name: 'React Live Chat Loader',
@@ -700,7 +700,7 @@ module.exports = [
     products: [
       {
         name: 'Vimeo Embedded Player',
-        urlPatterns: ['.*player\\.vimeo\\.com/video/.*'],
+        urlPatterns: ['player.vimeo.com/video/'],
         facades: [
           {
             name: 'Lite Vimeo',
@@ -827,7 +827,7 @@ module.exports = [
     products: [
       {
         name: 'Drift Live Chat',
-        urlPatterns: ['.*js\\.driftt\\.com/include/.*/.*\\.js'],
+        urlPatterns: [/js\.driftt\.com\/include\/.*\/.*\.js/],
         facades: [
           {
             name: 'React Live Chat Loader',
@@ -1495,7 +1495,7 @@ module.exports = [
     products: [
       {
         name: 'Intercom Widget',
-        urlPatterns: ['.*widget\\.intercom\\.io.*', '.*js\\.intercomcdn\\.com/shim\\.latest\\.js'],
+        urlPatterns: ['widget.intercom.io', 'js.intercomcdn.com/shim.latest.js'],
         facades: [
           {
             name: 'React Live Chat Loader',
