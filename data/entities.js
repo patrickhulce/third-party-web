@@ -400,13 +400,6 @@ module.exports = [
     examples: ['static.dealer.com'],
   },
   {
-    name: 'Yandex Share',
-    company: 'Yandex',
-    homepage: 'https://yastatic.net/share2/share.js',
-    categories: ['social'],
-    domains: ['*.yastatic.net'],
-  },
-  {
     name: 'PIXNET',
     homepage: 'https://www.pixnet.net/',
     categories: ['social'],
@@ -733,7 +726,11 @@ module.exports = [
     company: 'Yandex',
     homepage: 'https://yandex.ru/',
     categories: ['cdn'],
-    domains: ['*.yandex.st'],
+    domains: ['*.yandex.st', '*.yastatic.net'],
+    examples: [
+      'https://yastatic.net/share2/share.js',
+      'https://yastatic.net/jquery/2.1.4/jquery.min.js',
+    ],
   },
   {
     name: 'Integral Ad Science',
@@ -9173,10 +9170,12 @@ module.exports = [
     domains: ['*.t-x.io', '*.tmcs.net'],
   },
   {
-    name: 'Tiktok',
+    name: 'TikTok',
+    company: 'ByteDance Ltd',
     homepage: 'https://www.tiktok.com/en/',
     categories: ['social'],
-    domains: ['analytics.tiktok.com'],
+    domains: ['*.tiktok.com', '*.ipstatp.com'],
+    examples: ['analytics.tiktok.com', 'https://s0.ipstatp.com/ad/business/track-log.js'],
   },
   {
     name: 'Tidio Live Chat',
