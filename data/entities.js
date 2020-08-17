@@ -9173,6 +9173,12 @@ module.exports = [
     domains: ['*.t-x.io', '*.tmcs.net'],
   },
   {
+    name: 'Tiktok',
+    homepage: 'https://www.tiktok.com/en/',
+    categories: ['social'],
+    domains: ['analytics.tiktok.com'],
+  },
+  {
     name: 'Tidio Live Chat',
     company: 'Tidio',
     homepage: 'https://www.tidiochat.com/en/',
