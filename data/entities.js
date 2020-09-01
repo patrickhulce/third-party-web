@@ -629,9 +629,9 @@ module.exports = [
   },
   {
     name: 'LiveChat',
-    homepage: 'https://www.livechatinc.com/',
+    homepage: 'https://www.livechat.com/',
     categories: ['customer-success'],
-    domains: ['*.livechatinc.com'],
+    domains: ['*.livechatinc.com', '*.livechat.com', '*.livechat-static.com'],
     examples: ['cdn.livechatinc.com', 'secure.livechatinc.com'],
   },
   {
