@@ -56,8 +56,8 @@ module.exports = [
     homepage: 'https://www.facebook.com',
     categories: ['social'],
     domains: [
-      '*.atlassbx.com',
       '*.facebook.com',
+      '*.atlassbx.com',
       '*.fbsbx.com',
       'fbcdn-photos-e-a.akamaihd.net',
       '*.facebook.net',
@@ -206,7 +206,7 @@ module.exports = [
     name: 'YouTube',
     homepage: 'https://youtube.com',
     categories: ['video'],
-    domains: ['*.ggpht.com', '*.youtube-nocookie.com', '*.youtube.com', '*.ytimg.com'],
+    domains: ['*.youtube.com', '*.ggpht.com', '*.youtube-nocookie.com', '*.ytimg.com'],
     examples: [
       'www.youtube.com',
       's.ytimg.com',
@@ -296,7 +296,7 @@ module.exports = [
     company: 'Yandex',
     homepage: 'https://metrica.yandex.com/about?',
     categories: ['analytics'],
-    domains: ['d31j93rd8oukbv.cloudfront.net', 'mc.yandex.ru'],
+    domains: ['mc.yandex.ru', 'd31j93rd8oukbv.cloudfront.net'],
   },
   {
     name: 'Hotjar',
@@ -467,7 +467,7 @@ module.exports = [
     name: 'Rubicon Project',
     homepage: 'https://rubiconproject.com/',
     categories: ['ad'],
-    domains: ['*.chango.com', '*.fimserve.com', '*.rubiconproject.com'],
+    domains: ['*.rubiconproject.com', '*.chango.com', '*.fimserve.com'],
     examples: [
       'pixel.rubiconproject.com',
       'fastlane.rubiconproject.com',
@@ -482,7 +482,7 @@ module.exports = [
     name: 'The Trade Desk',
     homepage: 'https://www.thetradedesk.com/',
     categories: ['ad'],
-    domains: ['d1eoo1tco6rr5e.cloudfront.net', '*.adsrvr.org'],
+    domains: ['*.adsrvr.org', 'd1eoo1tco6rr5e.cloudfront.net'],
     examples: [
       'js.adsrvr.org',
       'match.adsrvr.org',
