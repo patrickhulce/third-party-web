@@ -11629,4 +11629,11 @@ module.exports = [
     domains: ['*.segmanta.com'],
     examples: ['clientName.segmanta.com'],
   },
+  {
+    name: 'Podsights',
+    homepage: 'https://podsights.com/',
+    categories: ['marketing'],
+    domains: ['*.pdst.fm'],
+    examples: ['cdn.pdst.fm'],
+  },
 ]
