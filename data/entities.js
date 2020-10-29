@@ -10181,7 +10181,9 @@ module.exports = [
     name: 'XiTi',
     company: 'AT Internet',
     categories: ['analytics'],
-    domains: ['*.xiti.com'],
+    domains: ['*.xiti.com', '*.aticdn.net'],
+    homepage: 'https://www.atinternet.com/en/',
+    examples: ['tag.aticdn.net/123456789/smarttag.js'],
   },
   {
     name: 'YUDU',
