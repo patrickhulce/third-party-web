@@ -10181,7 +10181,7 @@ module.exports = [
     name: 'XiTi',
     company: 'AT Internet',
     categories: ['analytics'],
-    domains: ['*.xiti.com'],
+    domains: ['*.xiti.com', '*.aticdn.net'],
   },
   {
     name: 'YUDU',
