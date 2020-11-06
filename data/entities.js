@@ -11642,7 +11642,14 @@ module.exports = [
     name: 'Chatwoot',
     homepage: 'https://www.chatwoot.com/',
     categories: ['customer-success'],
-    domains: ['*.chatwoot.com','],
+    domains: ['*.chatwoot.com'],
     examples: ['cdn.chatwoot.com', 'app.chatwoot.com'],
+  },
+  {
+    name: 'Crisp',
+    homepage: 'https://crisp.chat/',
+    categories: ['customer-success'],
+    domains: ['*.crisp.chat'],
+    examples: ['client.crisp.chat', 'client.relay.crisp.chat'],
   },
 ]
