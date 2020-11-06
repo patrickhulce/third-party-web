@@ -11638,4 +11638,11 @@ module.exports = [
     domains: ['*.pdst.fm'],
     examples: ['cdn.pdst.fm'],
   },
+  {
+    name: 'Chatwoot',
+    homepage: 'https://www.chatwoot.com/',
+    categories: ['customer-success'],
+    domains: ['*.chatwoot.com','],
+    examples: ['cdn.chatwoot.com', 'app.chatwoot.com'],
+  },
 ]
