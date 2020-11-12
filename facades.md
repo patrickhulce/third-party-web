@@ -1,6 +1,6 @@
 # Adding a new facade to third-party-web
 
-Lighthouse v7 includes a new audit to flag third-party 
+Lighthouse 7.0 includes a new audit to flag third-party 
 embeds (link coming soon) that can be lazy loaded with a facade. The 
 documentation lists recommended facades. If you'd like to add a facade to the 
 list of recommendations, please read the guidance below.
