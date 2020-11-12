@@ -44,7 +44,9 @@ list of recommendations, please read the guidance below.
       product it's mimicking)
     * We'd expect the facade to score 99+ in Lighthouse if it's tested on an 
       otherwise-blank page.
-    * Any required images should be small as is reasonable.
+    * Any required images should be small as is reasonable. Using blurred, low-res,
+      or [SQIP](https://calendar.perfplanet.com/2017/sqip-vague-vectors-for-performant-previews/) 
+      techniques may be advantageous.
 
 ## Submitting
 
