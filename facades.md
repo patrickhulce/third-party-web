@@ -11,7 +11,7 @@ list of recommendations, please read the guidance below.
     * For example: a YouTube embed iframe.
 * **facade**: a frontend component/library/project of HTML/CSS/JS/etc that 
   mimics the look of a third-party product and lazily loads it upon user 
-  interaction.
+  interaction. It's expected to be significantly more lightweight/faster.
     * For example: a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
 
 ## Criteria
