@@ -1,11 +1,9 @@
-# Adding a new facade to third-party-web
+# Facade data in third-party-web
 
 In addition to identifying entities and products, third-party-web also includes data on available alternative libraries for products known as _facades_. A _facade_ is a static element which looks similar to the actual embedded resource, but is not functional and therefore much less taxing on the page load.
 
-Lighthouse 7.0 includes a new audit to flag third-party 
-embeds (link coming soon) that can be lazy loaded with a facade. The 
-documentation lists recommended facades. If you'd like to add a facade to the 
-list of recommendations, please read the guidance below.
+[Lighthouse](https://github.com/GoogleChrome/lighthouse/find/master) 7.0 has a new audit that identifies third-party 
+embeds (link coming soon) that can be lazy loaded with a facade. The Lighthouse audit is powered by the facade data in third-party-web.
 
 ## Terminology
 
@@ -16,8 +14,8 @@ list of recommendations, please read the guidance below.
   interaction. It's expected to be significantly more lightweight/faster.
     * For example: a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
 
-## Criteria
-### Functions as a facade
+## Criteria for adding a new facade
+### Basic functionality
 
 * Loads an HTML component on page load which looks like the actual third-party 
   embed.
@@ -50,7 +48,7 @@ list of recommendations, please read the guidance below.
       or [SQIP](https://calendar.perfplanet.com/2017/sqip-vague-vectors-for-performant-previews/) 
       techniques may be advantageous.
 
-## Submitting
+## Submission Process
 
 Anyone can propose changes, by making a pull request to this repo. Proposals 
 don't necessarily need to be submitted by the creator.
