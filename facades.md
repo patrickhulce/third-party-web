@@ -1,5 +1,7 @@
 # Adding a new facade to third-party-web
 
+In addition to identifying entities and products, third-party-web also includes data on available alternative libraries for products known as _facades_. A _facade_ is a static element which looks similar to the actual embedded resource, but is not functional and therefore much less taxing on the page load.
+
 Lighthouse 7.0 includes a new audit to flag third-party 
 embeds (link coming soon) that can be lazy loaded with a facade. The 
 documentation lists recommended facades. If you'd like to add a facade to the 
