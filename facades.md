@@ -17,7 +17,7 @@ list of recommendations, please read the guidance below.
 ## Criteria
 ### Functions as a facade
 
-* Loads a HTML component on page load which looks like the actual third-party 
+* Loads an HTML component on page load which looks like the actual third-party 
   embed.
 * Replaces that component with the actual third-party embed after some user 
   interaction
@@ -44,7 +44,7 @@ list of recommendations, please read the guidance below.
       product it's mimicking)
     * We'd expect the facade to score 99+ in Lighthouse if it's tested on an 
       otherwise-blank page.
-    * Any required images should be small as is reasonable. Using blurred, low-res,
+    * Any required images should be as small as is reasonable. Using blurred, low-res,
       or [SQIP](https://calendar.perfplanet.com/2017/sqip-vague-vectors-for-performant-previews/) 
       techniques may be advantageous.
 
