@@ -20,7 +20,7 @@ embeds (link coming soon) that can be lazy loaded with a facade. The Lighthouse 
 * Loads an HTML component on page load which looks like the actual third-party 
   embed.
 * Replaces that component with the actual third-party embed after some user 
-  interaction
+  interaction.
     * User clicks on it, mouses over, etc.
 
 ### Well Maintained
