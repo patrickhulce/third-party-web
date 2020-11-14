@@ -2,7 +2,7 @@
 
 In addition to identifying entities and products, third-party-web also includes data on available alternative libraries for products known as _facades_. A _facade_ is a static element which looks similar to the actual embedded resource, but is not functional and therefore much less taxing on the page load.
 
-[Lighthouse](https://github.com/GoogleChrome/lighthouse/find/master) 7.0 has a new audit that identifies third-party 
+[Lighthouse](https://github.com/GoogleChrome/lighthouse) 7.0 has a new audit that identifies third-party 
 embeds (link coming soon) that can be lazy loaded with a facade. The Lighthouse audit is powered by the facade data in third-party-web.
 
 ## Terminology
