@@ -1,6 +1,6 @@
 # Facade data in third-party-web
 
-In addition to identifying entities, third-party-web also includes data on entities' _products_, and available alternative libraries for products known as _facades_. A **third-party product** is a third-party resource that is included on a page, for example: a YouTube embed iframe. A **facade** is a frontend element which looks similar to the actual product and lazily loads it upon user interaction.  It's expected to be significantly more lightweight/faster. For example: [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
+In addition to identifying entities, third-party-web also includes data on entities' _products_, and available alternative libraries for products known as _facades_. A **third-party product** is a third-party resource that is included on a page associated with a specific integration/SDK/API, for example: a YouTube embed iframe. A **facade** is a frontend element which looks similar to the actual product and lazily loads it upon user interaction.  It's expected to be significantly more lightweight/faster. For example: [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
 
 [Lighthouse](https://github.com/GoogleChrome/lighthouse) 7.0 has a new audit that identifies third-party 
 embeds (link coming soon) that can be lazy loaded with a facade. The Lighthouse audit is powered by the facade data in third-party-web.
