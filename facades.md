@@ -17,7 +17,7 @@ embeds (link coming soon) that can be lazy loaded with a facade. The Lighthouse 
 ### Well Maintained
 
 * The projects issues and contributions are managed responsibly. Bugs are 
-  handled swiftly.
+  handled swiftly (e.g within 60 days of filing).
 * Is already used in production, ideally by users other than the creator.
 
 ### Orthogonal
