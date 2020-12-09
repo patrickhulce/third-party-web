@@ -909,8 +909,8 @@ module.exports = [
     name: 'Adroll',
     homepage: 'https://www.adroll.com/',
     categories: ['ad'],
-    domains: ['*.adroll.com', '*.adroll.mgr.consensu.org'],
-    examples: ['d.adroll.com', 's.adroll.com', 'd.adroll.mgr.consensu.org'],
+    domains: ['*.adroll.com'],
+    examples: ['d.adroll.com', 's.adroll.com'],
   },
   {
     name: 'Twitch',
