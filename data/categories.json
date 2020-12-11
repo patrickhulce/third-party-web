@@ -60,11 +60,11 @@
     "title": "Tag Management",
     "description": "These scripts tend to load lots of other scripts and initiate many tasks."
   },
-  "cmp": {
+  "consent-provider": {
     "color": "hsl(345, 90%, 60%)",
     "title": "Consent Management Provider",
     "description":
-      "IAB Consent Managment Providers are the 'Cookie Consent' popups used by many publishers. They're invoked for every page and sit on the critical path between a page loading and adverts being displayed."
+      "IAB Consent Management Providers are the 'Cookie Consent' popups used by many publishers. They're invoked for every page and sit on the critical path between a page loading and adverts being displayed."
   },
   "other": {
     "color": "hsl(330, 90%, 60%)",
