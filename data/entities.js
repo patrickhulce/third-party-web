@@ -11692,7 +11692,7 @@ module.exports = [
     name: 'Bedrock',
     homepage: 'https://www.bedrockstreaming.com',
     categories: ['consent-provider'],
-    domains: ['bedrock.mgr.consensu.org'. '*.bedrock.mgr.consensu.org'],
+    domains: ['bedrock.mgr.consensu.org', '*.bedrock.mgr.consensu.org'],
   },
   {
     name: 'BMIND',
