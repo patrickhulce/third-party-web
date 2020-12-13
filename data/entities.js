@@ -11965,7 +11965,7 @@ module.exports = [
     domains: ['seznam.mgr.consensu.org', '*.seznam.mgr.consensu.org'],
   },
   {
-    name: 'ShareThis',
+    name: 'ShareThis CMP',
     homepage: 'https://sharethis.com',
     categories: ['consent-provider'],
     domains: ['sharethis.mgr.consensu.org', '*.sharethis.mgr.consensu.org'],
