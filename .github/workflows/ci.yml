@@ -19,3 +19,12 @@ jobs:
         run: sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
       - run: yarn
       - run: yarn test
+      - name: Update failed snapshots
+        run: |
+          yarn test:unit -u
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add lib/__snapshots__
+          git commit -m "Update snapshots"
+          git push
+        if: ${{ failure() }}
