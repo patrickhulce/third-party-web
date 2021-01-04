@@ -11153,7 +11153,7 @@ module.exports = [
   {
     name: 'Optanon',
     homepage: 'https://www.cookielaw.org/',
-    categories: ['utility'],
+    categories: ['consent-provider'],
     domains: [
       '*.onetrust.com', // onetrust is the parent company
       '*.cookielaw.org',
