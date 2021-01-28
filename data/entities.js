@@ -12048,4 +12048,19 @@ module.exports = [
     categories: ['consent-provider'],
     domains: ['webads.mgr.consensu.org', '*.webads.mgr.consensu.org'],
   },
+  {
+    name: 'Trustcommander',
+    company: 'Commandersact',
+    homepage: 'https://www.commandersact.com',
+    categories: ['consent-provider'],
+    domains: ['*.trustcommander.net'],
+    examples: ['cdn.trustcommander.net', 'privacy.trustcommander.net'],
+  },
+  {
+    name: 'Hubvisor',
+    homepage: 'https://www.hubvisor.io',
+    categories: ['ad'],
+    domains: ['*.hubvisor.io'],
+    examples: ['cdn.hubvisor.io', 'stream.hubvisor.io'],
+  },
 ]
