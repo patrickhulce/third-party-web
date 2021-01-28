@@ -12061,6 +12061,6 @@ module.exports = [
     homepage: 'https://www.hubvisor.io',
     categories: ['ad'],
     domains: ['*.hubvisor.io'],
-    examples: ['stream.hubvisor.io', 'stream.hubvisor.io'],
+    examples: ['cdn.hubvisor.io', 'stream.hubvisor.io'],
   },
 ]
