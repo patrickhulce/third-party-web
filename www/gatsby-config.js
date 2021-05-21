@@ -54,6 +54,7 @@ module.exports = {
         icon: `src/images/3p-web-logo.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`,
+    // it's currently broken
+    // `gatsby-plugin-offline`,
   ],
 }
