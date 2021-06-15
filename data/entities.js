@@ -12073,4 +12073,11 @@ module.exports = [
     ],
     examples: ['t.castle.io'],
   },
+  {
+    name: 'Wigzo',
+    homepage: 'https://www.wigzo.com/',
+    categories: ['marketing'],
+    domains: ['*.wigzo.com','*.wigzopush.com'],
+    examples: ['app.wigzo.com', 'tracker.wigzopush.com'],
+  },
 ]
