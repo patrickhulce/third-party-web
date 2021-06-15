@@ -12063,4 +12063,11 @@ module.exports = [
     domains: ['*.hubvisor.io'],
     examples: ['cdn.hubvisor.io', 'stream.hubvisor.io'],
   },
+  {
+    name: 'Wigzo',
+    homepage: 'https://www.wigzo.com/',
+    categories: ['marketing'],
+    domains: ['*.wigzo.com','*.wigzopush.com'],
+    examples: ['app.wigzo.com', 'tracker.wigzopush.com'],
+  },
 ]
