@@ -12064,6 +12064,16 @@ module.exports = [
     examples: ['cdn.hubvisor.io', 'stream.hubvisor.io'],
   },
   {
+    name: 'Castle',
+    homepage: 'https://castle.io',
+    categories: ['utility'],
+    domains: [
+      '*.castle.io',
+      'd2t77mnxyo7adj.cloudfront.net'
+    ],
+    examples: ['t.castle.io'],
+  },
+  {
     name: 'Wigzo',
     homepage: 'https://www.wigzo.com/',
     categories: ['marketing'],
