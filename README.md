@@ -785,16 +785,17 @@ The logic for attribution to individual script URLs can be found in the [Lightho
 
 ### Updating the Data
 
+You need to have a BigQuery project called `lighthouse-infrastructure` with a dataset called `third_party_web`
 The queries used to compute the data are in the `sql/` directory.
 
 1. Edit `all-observed-domains-query.sql` to query the correct month's HTTPArchive run.
 1. Run `all-observed-domains-query.sql` in BigQuery.
 1. Download the results and check them in at `data/YYYY-MM-01-observed-domains.json`.
 1. Edit `bootup-time-scripting.partial.sql` to query the correct month's HTTPArchive run.
-1. Run `origin-query.generated.sql` in BigQuery.
-1. Download the results and check them in at `data/YYYY-MM-01-origin-scripting.json`.
 1. Run `yarn build` to regenerate the latest canonical domain mapping.
 1. Create a new table in `lighthouse-infrastructure.third_party_web` BigQuery table of the format `YYYY_MM_01` with the csv in `dist/domain-map.csv` with three columns `domain`, `canonicalDomain`, and `category`.
+1. Run `origin-query.generated.sql` in BigQuery.
+1. Download the results and check them in at `data/YYYY-MM-01-origin-scripting.json`.
 1. Edit `bootup-time-scripting.partial.sql` to join on the table you just created.
 1. Run `yarn build` to regenerate the queries.
 1. Run `entity-per-page.generated.sql` in BigQuery.
