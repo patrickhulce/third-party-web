@@ -10210,7 +10210,7 @@ module.exports = [
     categories: ['ad'],
     homepage: 'https://global-marketing.yahoo.co.jp/',
     domains: ['*.yimg.jp'],
-    examples: ['shopping.yahoo.co.jp'],
+    examples: ['s.yimg.jp/images/listing/tool/cv/ytag.js'],
   },
   {
     name: 'Yahoo! Tag Manager',
@@ -10218,7 +10218,7 @@ module.exports = [
     categories: ['tag-manager'],
     homepage: 'https://marketing.yahoo.co.jp/service/tagmanager/',
     domains: ['*.yjtag.jp'],
-    examples: ['www.yahoo.co.jp']
+    examples: ['s.yjtag.jp/tag.js']
   },
   {
     name: 'Yahoo! Small Business',
