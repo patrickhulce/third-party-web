@@ -6079,7 +6079,7 @@ module.exports = [
   {
     name: 'Macromill',
     company: 'Macromill',
-    categories: ['marketing'],
+    categories: ['analytics'],
     homepage: 'https://group.macromill.com/',
     domains: ['*.macromill.com'],
     examples: ['jp.moony.com/ja/home.html']
