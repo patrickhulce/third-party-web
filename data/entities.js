@@ -6082,7 +6082,7 @@ module.exports = [
     categories: ['analytics'],
     homepage: 'https://group.macromill.com/',
     domains: ['*.macromill.com'],
-    examples: ['jp.moony.com/ja/home.html']
+    examples: ['img.macromill.com/js/us000131vfg/4000000570-56/lognos.js']
   },
   {
     name: 'Macropod BugHerd',
