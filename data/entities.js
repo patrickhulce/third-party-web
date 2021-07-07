@@ -892,7 +892,6 @@ module.exports = [
       '*.yahoo.com',
       '*.yahooapis.com',
       '*.yimg.com',
-      '*.yimg.jp',
       '*.zenfs.com',
       '*.yahoo.net',
     ],
@@ -10204,6 +10203,22 @@ module.exports = [
     categories: ['ad'],
     domains: ['*.yieldmanager.com', '*.browsiprod.com'],
     examples: ['yield-manager.browsiprod.com'],
+  },
+  {
+    name: 'Yahoo! JAPAN Ads',
+    company: 'Yahoo! JAPAN',
+    categories: ['ad'],
+    homepage: 'https://global-marketing.yahoo.co.jp/',
+    domains: ['*.yimg.jp'],
+    examples: ['shopping.yahoo.co.jp'],
+  },
+  {
+    name: 'Yahoo! Tag Manager',
+    company: 'Yahoo! JAPAN',
+    categories: ['tag-manager'],
+    homepage: 'https://marketing.yahoo.co.jp/service/tagmanager/',
+    domains: ['*.yjtag.jp'],
+    examples: ['www.yahoo.co.jp']
   },
   {
     name: 'Yahoo! Small Business',
