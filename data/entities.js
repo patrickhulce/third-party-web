@@ -6078,6 +6078,14 @@ module.exports = [
     examples: ['www.mlveda.com'],
   },
   {
+    name: 'Macromill',
+    company: 'Macromill',
+    categories: ['marketing'],
+    homepage: 'https://group.macromill.com/',
+    domains: ['*.macromill.com'],
+    examples: ['jp.moony.com/ja/home.html']
+  },
+  {
     name: 'Macropod BugHerd',
     company: 'Macropod',
     categories: ['utility'],
@@ -10196,12 +10204,6 @@ module.exports = [
     categories: ['ad'],
     domains: ['*.yieldmanager.com', '*.browsiprod.com'],
     examples: ['yield-manager.browsiprod.com'],
-  },
-  {
-    name: 'Yahoo! Japan',
-    company: 'Yahoo!',
-    categories: ['ad'],
-    domains: ['*.macromill.com'],
   },
   {
     name: 'Yahoo! Small Business',
