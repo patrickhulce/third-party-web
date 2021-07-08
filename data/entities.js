@@ -892,7 +892,6 @@ module.exports = [
       '*.yahoo.com',
       '*.yahooapis.com',
       '*.yimg.com',
-      '*.yimg.jp',
       '*.zenfs.com',
       '*.yahoo.net',
     ],
@@ -6078,6 +6077,14 @@ module.exports = [
     examples: ['www.mlveda.com'],
   },
   {
+    name: 'Macromill',
+    company: 'Macromill',
+    categories: ['analytics'],
+    homepage: 'https://group.macromill.com/',
+    domains: ['*.macromill.com'],
+    examples: ['img.macromill.com/js/us000131vfg/4000000570-56/lognos.js']
+  },
+  {
     name: 'Macropod BugHerd',
     company: 'Macropod',
     categories: ['utility'],
@@ -10198,10 +10205,20 @@ module.exports = [
     examples: ['yield-manager.browsiprod.com'],
   },
   {
-    name: 'Yahoo! Japan',
-    company: 'Yahoo!',
+    name: 'Yahoo! JAPAN Ads',
+    company: 'Yahoo! JAPAN',
     categories: ['ad'],
-    domains: ['*.macromill.com'],
+    homepage: 'https://global-marketing.yahoo.co.jp/',
+    domains: ['*.yimg.jp'],
+    examples: ['s.yimg.jp/images/listing/tool/cv/ytag.js'],
+  },
+  {
+    name: 'Yahoo! Tag Manager',
+    company: 'Yahoo! JAPAN',
+    categories: ['tag-manager'],
+    homepage: 'https://marketing.yahoo.co.jp/service/tagmanager/',
+    domains: ['*.yjtag.jp'],
+    examples: ['s.yjtag.jp/tag.js']
   },
   {
     name: 'Yahoo! Small Business',
