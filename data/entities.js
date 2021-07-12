@@ -8005,6 +8005,14 @@ module.exports = [
     domains: ['*.getclicky.com'],
   },
   {
+    name: 'Rtoaster',
+    company: 'Brainpad',
+    homepage: 'https://www.brainpad.co.jp/rtoaster/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.rtoaster.jp'],
+    examples: ['rt.rtoaster.jp']
+  },
+  {
     name: 'Rubikloud.com',
     categories: ['analytics'],
     domains: ['*.rubikloud.com'],
