@@ -4581,6 +4581,13 @@ module.exports = [
     domains: ['*.flipboard.com'],
   },
   {
+    name: 'Flipdesk',
+    categories: ['customer-success'],
+    homepage: 'https://flipdesk.jp/',
+    domains: ['*.flipdesk.jp'],
+    examples: ['api.flipdesk.jp']
+  },
+  {
     name: 'Flipp',
     categories: ['analytics'],
     domains: ['*.wishabi.com', 'd2e0sxz09bo7k2.cloudfront.net', '*.wishabi.net'],
