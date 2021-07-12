@@ -5661,6 +5661,17 @@ module.exports = [
     domains: ['*.kargo.com'],
   },
   {
+    name: 'KARTE',
+    company: 'Plaid',
+    homepage: 'https://karte.io/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.karte.io'],
+    examples: [
+      'static.karte.io',
+      't.karte.io'
+    ]
+  },
+  {
     name: 'Kauli',
     categories: ['ad'],
     domains: ['*.kau.li'],
