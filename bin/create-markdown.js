@@ -1,7 +1,7 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
-const Chart = require('chartjs-node')
+const {ChartJSNodeCanvas} = require('chartjs-node-canvas')
 const exec = require('child_process').execFileSync
 
 const LIB_FOLDER = path.join(__dirname, '../lib')
@@ -62,8 +62,8 @@ async function createChartImages() {
     .reverse()
     .value()
 
-  const chartByCategory = new Chart(600, 300)
-  await chartByCategory.drawChart({
+  const chartByCategory = new ChartJSNodeCanvas({width: 600, height: 300})
+  const buffer = await chartByCategory.renderToBuffer({
     options: {
       legend: {position: 'left'},
     },
@@ -78,9 +78,8 @@ async function createChartImages() {
         },
       ],
     },
-  })
+  }, 'image/png')
 
-  const buffer = await chartByCategory.getImageBuffer('image/png')
   fs.writeFileSync(path.join(__dirname, '../by-category.png'), buffer)
 }
 
