@@ -1976,7 +1976,7 @@ module.exports = [
   },
   {
     name: 'AD EBis',
-    categoris: ['analytics'],
+    categories: ['analytics'],
     homepage: 'https://www.ebis.ne.jp/',
     domains: ['*.ebis.ne.jp'],
     examples: ['taj1.ebis.ne.jp']
