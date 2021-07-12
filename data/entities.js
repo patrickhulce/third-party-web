@@ -4091,6 +4091,13 @@ module.exports = [
     domains: ['*.ruxit.com', 'js-cdn.dynatrace.com'],
   },
   {
+    name: 'ec-concier',
+    homepage: 'https://ec-concier.com/',
+    categories: ['marketing'],
+    domains: ['*.ec-concier.com'],
+    examples: ['s.ec-concier.com', 'gsync.ec-concier.com']
+  },
+  {
     name: 'ECT News Network',
     categories: ['content'],
     domains: ['*.ectnews.com'],
