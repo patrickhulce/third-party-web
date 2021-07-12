@@ -1975,6 +1975,13 @@ module.exports = [
     domains: ['*.addvantagemedia.com', '*.simplytechnology.net'],
   },
   {
+    name: 'AD EBis',
+    categoris: ['analytics'],
+    homepage: 'https://www.ebis.ne.jp/',
+    domains: ['*.ebis.ne.jp'],
+    examples: ['taj1.ebis.ne.jp']
+  },
+  {
     name: 'Adecs',
     categories: ['customer-success'],
     domains: ['*.adecs.co.uk'],
