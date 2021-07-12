@@ -8039,6 +8039,13 @@ module.exports = [
     domains: ['*.aimatch.com', '*.sas.com'],
   },
   {
+    name: 'SATORI',
+    homepage: 'https://satori.marketing/',
+    categories: ['marketing'],
+    domains: ['satori.segs.jp'],
+    examples: ['satori.segs.jp/s.js']
+  },
+  {
     name: 'SC ShopMania Net SRL',
     categories: ['content'],
     domains: ['*.shopmania.com'],
