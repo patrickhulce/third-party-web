@@ -481,11 +481,12 @@ These scripts tend to load lots of other scripts and initiate many tasks.
 | Rank | Name                                                                          | Usage   | Average Impact |
 | ---- | ----------------------------------------------------------------------------- | ------- | -------------- |
 | 1    | [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) | 721,295 | 115 ms         |
-| 2    | TagCommander                                                                  | 1,072   | 145 ms         |
-| 3    | [BrightTag / Signal](https://www.signal.co)                                   | 3,666   | 158 ms         |
-| 4    | [Adobe Tag Manager](https://www.adobe.com/experience-platform/)               | 32,466  | 311 ms         |
-| 5    | [Tealium](https://tealium.com/)                                               | 12,103  | 362 ms         |
-| 6    | [Ensighten](https://www.ensighten.com/)                                       | 3,761   | 444 ms         |
+| 2    | [Yahoo! Tag Manager](https://marketing.yahoo.co.jp/service/tagmanager/)       | 5,822   | 116 ms         |
+| 3    | TagCommander                                                                  | 1,072   | 145 ms         |
+| 4    | [BrightTag / Signal](https://www.signal.co)                                   | 3,666   | 158 ms         |
+| 5    | [Adobe Tag Manager](https://www.adobe.com/experience-platform/)               | 32,466  | 311 ms         |
+| 6    | [Tealium](https://tealium.com/)                                               | 12,103  | 362 ms         |
+| 7    | [Ensighten](https://www.ensighten.com/)                                       | 3,761   | 444 ms         |
 
 <a name="consent-provider"></a>
 
@@ -507,7 +508,7 @@ These are miscellaneous scripts delivered via a shared origin with no precise ca
 | ---- | ------------------------------------------------- | --------- | -------------- |
 | 1    | ResponsiveVoice                                   | 1,241     | 70 ms          |
 | 2    | [Amazon Web Services](https://aws.amazon.com/s3/) | 38,265    | 161 ms         |
-| 3    | [All Other 3rd Parties](#by-category)             | 1,370,568 | 319 ms         |
+| 3    | [All Other 3rd Parties](#by-category)             | 1,364,746 | 320 ms         |
 | 4    | [Parking Crew](http://parkingcrew.net/)           | 5,147     | 326 ms         |
 | 5    | Heroku                                            | 2,002     | 607 ms         |
 | 6    | uLogin                                            | 2,316     | 1223 ms        |
@@ -521,7 +522,7 @@ This section highlights the entities responsible for the most script execution a
 | Name                                                                                      | Popularity | Total Impact | Average Impact |
 | ----------------------------------------------------------------------------------------- | ---------- | ------------ | -------------- |
 | [Google/Doubleclick Ads](https://www.doubleclickbygoogle.com/)                            | 680,948    | 991,570 s    | 1456 ms        |
-| [All Other 3rd Parties](#by-category)                                                     | 1,370,568  | 437,499 s    | 319 ms         |
+| [All Other 3rd Parties](#by-category)                                                     | 1,364,746  | 436,825 s    | 320 ms         |
 | [YouTube](https://youtube.com)                                                            | 408,326    | 346,661 s    | 849 ms         |
 | [Facebook](https://www.facebook.com)                                                      | 1,461,331  | 334,392 s    | 229 ms         |
 | [Wix](https://www.wix.com/)                                                               | 54,909     | 327,376 s    | 5962 ms        |
@@ -695,6 +696,7 @@ This section highlights the entities responsible for the most script execution a
 | Revolver Maps                                                                             | 1,144      | 697 s        | 609 ms         |
 | Yieldify                                                                                  | 513        | 683 s        | 1332 ms        |
 | [AppDynamics](https://www.appdynamics.com/)                                               | 1,281      | 675 s        | 527 ms         |
+| [Yahoo! Tag Manager](https://marketing.yahoo.co.jp/service/tagmanager/)                   | 5,822      | 674 s        | 116 ms         |
 | Admixer for Publishers                                                                    | 1,043      | 669 s        | 642 ms         |
 | [RevJet](https://www.revjet.com/)                                                         | 1,210      | 665 s        | 550 ms         |
 | Index Exchange                                                                            | 4,946      | 655 s        | 133 ms         |
@@ -719,7 +721,6 @@ This section highlights the entities responsible for the most script execution a
 | Medium                                                                                    | 1,157      | 549 s        | 474 ms         |
 | IBM Digital Analytics                                                                     | 806        | 546 s        | 677 ms         |
 | piano                                                                                     | 1,183      | 543 s        | 459 ms         |
-| [RD Station](https://www.rdstation.com/en/)                                               | 6,545      | 496 s        | 76 ms          |
 
 ## Future Work
 
