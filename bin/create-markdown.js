@@ -65,7 +65,12 @@ async function createChartImages() {
   const chartByCategory = new ChartJSNodeCanvas({width: 600, height: 300})
   const buffer = await chartByCategory.renderToBuffer({
     options: {
-      legend: {position: 'left'},
+      legend: {
+        position: 'left',
+        labels: {
+          fontStyle: 'bold'
+        }
+      },
     },
     type: 'doughnut',
     data: {
@@ -74,6 +79,7 @@ async function createChartImages() {
         {
           label: 'Breakdown By Category',
           backgroundColor: _.map(categories, 'color'),
+          borderWidth: 1.5,
           data: _.map(categories, 'totalExecutionTime'),
         },
       ],
