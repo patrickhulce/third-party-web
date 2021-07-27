@@ -10208,9 +10208,9 @@ module.exports = [
     name: 'Yahoo! JAPAN Ads',
     company: 'Yahoo! JAPAN',
     categories: ['ad'],
-    homepage: 'https://global-marketing.yahoo.co.jp/',
-    domains: ['*.yimg.jp'],
-    examples: ['s.yimg.jp/images/listing/tool/cv/ytag.js'],
+    homepage: 'https://marketing.yahoo.co.jp/service/yahooads/',
+    domains: ['yads.c.yimg.jp', 's.yimg.jp', 'b92.yahoo.co.jp'],
+    examples: ['yads.c.yimg.jp/js/yads-async.js', 's.yimg.jp/images/listing/tool/yads/ydn/creative/video/ytop_video_timeline_sp.min.js', 'b92.yahoo.co.jp/js/s_retargeting.js'],
   },
   {
     name: 'Yahoo! Tag Manager',
