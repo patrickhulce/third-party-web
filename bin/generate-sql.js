@@ -36,7 +36,7 @@ const whereIsCDN =
     .join(' OR ')
 
 for (const file of fs.readdirSync(SQL_DIR)) {
-  if (!/^[^.]+\.sql$/.test(file)) continue
+  if (!/^(library-query|url-query).sql$/.test(file)) continue
   const fullPath = path.join(SQL_DIR, file)
   const outPath = fullPath.replace('.sql', '.generated.sql')
   const template = fs.readFileSync(fullPath, 'utf8')
