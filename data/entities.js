@@ -2888,6 +2888,13 @@ module.exports = [
     examples: ['events.bouncex.net'],
   },
   {
+    name: 'BowNow',
+    categories: ['analytics'],
+    homepage: 'https://bow-now.jp/',
+    domains: ['*.bownow.jp'],
+    examples: ['contents.bownow.jp']
+  },
+  {
     name: 'Box',
     categories: ['hosting'],
     domains: ['*.box.com'],
