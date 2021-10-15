@@ -173,6 +173,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Google Optimize',
+    company: 'Google',
+    homepage: 'https://marketingplatform.google.com/about/optimize/',
+    categories: ['analytics'],
+    domains: ['www.googleoptimize.com'],
+    examples: [
+      'https://www.googleoptimize.com/optimize.js?id=',
+    ],
+  },
+  {
     name: 'Google AMP',
     company: 'Google',
     homepage: 'https://github.com/google/amp-client-id-library',
