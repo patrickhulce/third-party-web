@@ -351,7 +351,7 @@ module.exports = [
     name: 'Cloudflare CDN',
     homepage: 'https://cdnjs.com/',
     categories: ['cdn'],
-    domains: ['amp.cloudflare.com', 'cdnjs.cloudflare.com'],
+    domains: ['cdnjs.cloudflare.com', 'amp.cloudflare.com'],
   },
   {
     name: 'Cloudflare',
