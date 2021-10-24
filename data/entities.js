@@ -357,7 +357,7 @@ module.exports = [
     name: 'Cloudflare',
     homepage: 'https://www.cloudflare.com/website-optimization/',
     categories: ['utility'],
-    domains: ['ajax.cloudflare.com', '*.nel.cloudflare.com'],
+    domains: ['ajax.cloudflare.com', '*.nel.cloudflare.com', 'static.cloudflareinsights.com'],
   },
   {
     name: 'WordPress',
