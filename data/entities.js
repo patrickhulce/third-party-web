@@ -11525,7 +11525,7 @@ module.exports = [
   {
     name: 'Click Guardian',
     homepage: 'https://www.clickguardian.co.uk/',
-    categories: ['advertising'],
+    categories: ['ad'],
     domains: ['*.clickguardian.app', '*.clickguardian.co.uk'],
     examples: ['v2.clickguardian.app', 'protection.clickguardian.co.uk'],
   },
