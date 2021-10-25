@@ -1985,6 +1985,13 @@ module.exports = [
     domains: ['*.addvantagemedia.com', '*.simplytechnology.net'],
   },
   {
+    name: 'AD EBis',
+    categories: ['analytics'],
+    homepage: 'https://www.ebis.ne.jp/',
+    domains: ['*.ebis.ne.jp'],
+    examples: ['taj1.ebis.ne.jp']
+  },
+  {
     name: 'Adecs',
     categories: ['customer-success'],
     domains: ['*.adecs.co.uk'],
@@ -2889,6 +2896,13 @@ module.exports = [
     homepage: 'https://www.bouncex.com/',
     domains: ['*.bounceexchange.com', '*.bouncex.net'],
     examples: ['events.bouncex.net'],
+  },
+  {
+    name: 'BowNow',
+    categories: ['analytics'],
+    homepage: 'https://bow-now.jp/',
+    domains: ['*.bownow.jp'],
+    examples: ['contents.bownow.jp']
   },
   {
     name: 'Box',
@@ -4094,6 +4108,13 @@ module.exports = [
     domains: ['*.ruxit.com', 'js-cdn.dynatrace.com'],
   },
   {
+    name: 'ec-concier',
+    homepage: 'https://ec-concier.com/',
+    categories: ['marketing'],
+    domains: ['*.ec-concier.com'],
+    examples: ['s.ec-concier.com', 'gsync.ec-concier.com']
+  },
+  {
     name: 'ECT News Network',
     categories: ['content'],
     domains: ['*.ectnews.com'],
@@ -4575,6 +4596,13 @@ module.exports = [
     name: 'Flipboard',
     categories: ['social'],
     domains: ['*.flipboard.com'],
+  },
+  {
+    name: 'Flipdesk',
+    categories: ['customer-success'],
+    homepage: 'https://flipdesk.jp/',
+    domains: ['*.flipdesk.jp'],
+    examples: ['api.flipdesk.jp']
   },
   {
     name: 'Flipp',
@@ -5669,6 +5697,17 @@ module.exports = [
     name: 'Kargo',
     categories: ['marketing'],
     domains: ['*.kargo.com'],
+  },
+  {
+    name: 'KARTE',
+    company: 'Plaid',
+    homepage: 'https://karte.io/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.karte.io'],
+    examples: [
+      'static.karte.io',
+      't.karte.io'
+    ]
   },
   {
     name: 'Kauli',
@@ -7997,6 +8036,14 @@ module.exports = [
     domains: ['*.getclicky.com'],
   },
   {
+    name: 'Rtoaster',
+    company: 'Brainpad',
+    homepage: 'https://www.brainpad.co.jp/rtoaster/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.rtoaster.jp'],
+    examples: ['rt.rtoaster.jp']
+  },
+  {
     name: 'Rubikloud.com',
     categories: ['analytics'],
     domains: ['*.rubikloud.com'],
@@ -8029,6 +8076,13 @@ module.exports = [
     name: 'SAS Institute',
     categories: ['ad'],
     domains: ['*.aimatch.com', '*.sas.com'],
+  },
+  {
+    name: 'SATORI',
+    homepage: 'https://satori.marketing/',
+    categories: ['marketing'],
+    domains: ['satori.segs.jp'],
+    examples: ['satori.segs.jp/s.js']
   },
   {
     name: 'SC ShopMania Net SRL',
