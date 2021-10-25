@@ -1510,6 +1510,10 @@ module.exports = [
             name: 'React Live Chat Loader',
             repo: 'https://github.com/calibreapp/react-live-chat-loader',
           },
+          {
+            name: 'Intercom Facade',
+            repo: 'https://github.com/danielbachhuber/intercom-facade/',
+          },
         ],
       },
     ],
