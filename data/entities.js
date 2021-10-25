@@ -1203,7 +1203,7 @@ module.exports = [
   {
     name: 'LinkedIn Ads',
     categories: ['ad'],
-    domains: ['*.licdn.com', 'ads.linkedin.com', 'www.linkedin.com'],
+    domains: ['*.licdn.com', '*.ads.linkedin.com', 'ads.linkedin.com', 'www.linkedin.com'],
     examples: ['snap.licdn.com'],
   },
   {
