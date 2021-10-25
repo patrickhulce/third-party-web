@@ -351,13 +351,13 @@ module.exports = [
     name: 'Cloudflare CDN',
     homepage: 'https://cdnjs.com/',
     categories: ['cdn'],
-    domains: ['amp.cloudflare.com', 'cdnjs.cloudflare.com'],
+    domains: ['cdnjs.cloudflare.com', 'amp.cloudflare.com'],
   },
   {
     name: 'Cloudflare',
     homepage: 'https://www.cloudflare.com/website-optimization/',
     categories: ['utility'],
-    domains: ['ajax.cloudflare.com'],
+    domains: ['ajax.cloudflare.com', '*.nel.cloudflare.com', 'static.cloudflareinsights.com'],
   },
   {
     name: 'WordPress',
