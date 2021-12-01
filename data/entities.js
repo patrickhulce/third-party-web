@@ -8293,7 +8293,7 @@ module.exports = [
   {
     name: 'Selligent',
     categories: ['ad'],
-    domains: ['*.emsecure.net'],
+    domains: ['*.emsecure.net', '*.slgnt.eu', 'targetemsecure.blob.core.windows.net'],
   },
   {
     name: 'Sellpoints',
