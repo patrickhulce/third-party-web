@@ -1414,8 +1414,7 @@ module.exports = [
       '*.s-msft.com',
       '*.s-msn.com',
       '*.msads.net',
-      '*.msecnd.net',
-      '*.windows.net',
+      '*.msecnd.net'
     ],
     examples: ['bat.bing.com', 'c.bing.com', 'bat.r.msn.com', 'ajax.microsoft.com'],
   },
@@ -2615,7 +2614,7 @@ module.exports = [
     name: 'Azure Web Services',
     company: 'Microsoft',
     categories: ['cdn'],
-    domains: ['*.azurewebsites.net', '*.azureedge.net', '*.msedge.net'],
+    domains: ['*.azurewebsites.net', '*.azureedge.net', '*.msedge.net', '*.windows.net'],
   },
   {
     name: 'BAM',
