@@ -10353,7 +10353,7 @@ module.exports = [
     name: 'Yotpo',
     homepage: 'https://www.yotpo.com/',
     categories: ['marketing'],
-    domains: ['*.yotpo.com'],
+    domains: ['*.yotpo.com', '*.swellrewards.com'],
   },
   {
     name: 'Yottaa',
