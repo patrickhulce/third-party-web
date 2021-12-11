@@ -12169,4 +12169,11 @@ module.exports = [
     domains: ['*.wigzo.com','*.wigzopush.com'],
     examples: ['app.wigzo.com', 'tracker.wigzopush.com'],
   },
+  {
+    name: 'Convertful',
+    homepage: 'https://convertful.com/',
+    categories: ['marketing'],
+    domains: ['*.convertful.com'],
+    examples: ['app.convertful.com'],
+  },
 ]
