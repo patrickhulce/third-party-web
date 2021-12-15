@@ -1400,8 +1400,11 @@ module.exports = [
     name: 'VWO',
     homepage: 'https://vwo.com',
     categories: ['analytics'],
-    domains: ['*.visualwebsiteoptimizer.com'],
-    examples: ['dev.visualwebsiteoptimizer.com'],
+    domains: [
+      '*.visualwebsiteoptimizer.com',
+      '*.vwo.com'
+    ],
+    examples: ['dev.visualwebsiteoptimizer.com', 'dacdn.vwo.com'],
   },
   {
     name: 'Bing Ads',
@@ -9934,11 +9937,6 @@ module.exports = [
     company: 'Microsoft',
     categories: ['utility'],
     domains: ['*.visualstudio.com'],
-  },
-  {
-    name: 'Visual Web Optimizer',
-    categories: ['analytics'],
-    domains: ['*.vwo.com'],
   },
   {
     name: 'VisualDNA',
