@@ -97,7 +97,7 @@ module.exports = [
     company: 'Google',
     homepage: 'https://developers.google.com/speed/libraries/',
     categories: ['cdn'],
-    domains: ['ajax.googleapis.com', 'commondatastorage.googleapis.com', 'www.gstatic.com'],
+    domains: ['ajax.googleapis.com', 'commondatastorage.googleapis.com', 'www.gstatic.com', 'ssl.gstatic.com'],
   },
   {
     name: 'Google Maps',
@@ -147,9 +147,11 @@ module.exports = [
       'www.google.nl',
       'www.google.ru',
       'www.google.se',
+      'www.googleapis.com',
       'imasdk.googleapis.com',
       'storage.googleapis.com',
       'translate.googleapis.com',
+      'translate.google.com',
       'lh3.googleusercontent.com',
       'csi.gstatic.com',
     ],
@@ -170,6 +172,16 @@ module.exports = [
       'www.google-analytics.com',
       'ssl.google-analytics.com',
       'analytics.google.com/g/collect',
+    ],
+  },
+  {
+    name: 'Google Optimize',
+    company: 'Google',
+    homepage: 'https://marketingplatform.google.com/about/optimize/',
+    categories: ['analytics'],
+    domains: ['www.googleoptimize.com'],
+    examples: [
+      'https://www.googleoptimize.com/optimize.js?id=',
     ],
   },
   {
@@ -341,13 +353,13 @@ module.exports = [
     name: 'Cloudflare CDN',
     homepage: 'https://cdnjs.com/',
     categories: ['cdn'],
-    domains: ['amp.cloudflare.com', 'cdnjs.cloudflare.com'],
+    domains: ['cdnjs.cloudflare.com', 'amp.cloudflare.com'],
   },
   {
     name: 'Cloudflare',
     homepage: 'https://www.cloudflare.com/website-optimization/',
     categories: ['utility'],
-    domains: ['ajax.cloudflare.com'],
+    domains: ['ajax.cloudflare.com', '*.nel.cloudflare.com', 'static.cloudflareinsights.com'],
   },
   {
     name: 'WordPress',
@@ -361,6 +373,9 @@ module.exports = [
       '*.w.org',
       'c0.wp.com',
       's1.wp.com',
+      'i0.wp.com',
+      'i1.wp.com',
+      'i2.wp.com',
       'widgets.wp.com',
     ],
     examples: ['s.w.org'],
@@ -892,7 +907,6 @@ module.exports = [
       '*.yahoo.com',
       '*.yahooapis.com',
       '*.yimg.com',
-      '*.yimg.jp',
       '*.zenfs.com',
       '*.yahoo.net',
     ],
@@ -909,8 +923,8 @@ module.exports = [
     name: 'Adroll',
     homepage: 'https://www.adroll.com/',
     categories: ['ad'],
-    domains: ['*.adroll.com', '*.adroll.mgr.consensu.org'],
-    examples: ['d.adroll.com', 's.adroll.com', 'd.adroll.mgr.consensu.org'],
+    domains: ['*.adroll.com'],
+    examples: ['d.adroll.com', 's.adroll.com'],
   },
   {
     name: 'Twitch',
@@ -1192,7 +1206,7 @@ module.exports = [
   {
     name: 'LinkedIn Ads',
     categories: ['ad'],
-    domains: ['*.licdn.com', 'ads.linkedin.com', 'www.linkedin.com'],
+    domains: ['*.licdn.com', '*.ads.linkedin.com', 'ads.linkedin.com', 'www.linkedin.com'],
     examples: ['snap.licdn.com'],
   },
   {
@@ -1400,8 +1414,7 @@ module.exports = [
       '*.s-msft.com',
       '*.s-msn.com',
       '*.msads.net',
-      '*.msecnd.net',
-      '*.windows.net',
+      '*.msecnd.net'
     ],
     examples: ['bat.bing.com', 'c.bing.com', 'bat.r.msn.com', 'ajax.microsoft.com'],
   },
@@ -1498,6 +1511,10 @@ module.exports = [
           {
             name: 'React Live Chat Loader',
             repo: 'https://github.com/calibreapp/react-live-chat-loader',
+          },
+          {
+            name: 'Intercom Facade',
+            repo: 'https://github.com/danielbachhuber/intercom-facade/',
           },
         ],
       },
@@ -1974,6 +1991,13 @@ module.exports = [
     name: 'Addvantage Media',
     categories: ['ad'],
     domains: ['*.addvantagemedia.com', '*.simplytechnology.net'],
+  },
+  {
+    name: 'AD EBis',
+    categories: ['analytics'],
+    homepage: 'https://www.ebis.ne.jp/',
+    domains: ['*.ebis.ne.jp'],
+    examples: ['taj1.ebis.ne.jp']
   },
   {
     name: 'Adecs',
@@ -2590,7 +2614,7 @@ module.exports = [
     name: 'Azure Web Services',
     company: 'Microsoft',
     categories: ['cdn'],
-    domains: ['*.azurewebsites.net', '*.azureedge.net', '*.msedge.net'],
+    domains: ['*.azurewebsites.net', '*.azureedge.net', '*.msedge.net', '*.windows.net'],
   },
   {
     name: 'BAM',
@@ -2880,6 +2904,13 @@ module.exports = [
     homepage: 'https://www.bouncex.com/',
     domains: ['*.bounceexchange.com', '*.bouncex.net'],
     examples: ['events.bouncex.net'],
+  },
+  {
+    name: 'BowNow',
+    categories: ['analytics'],
+    homepage: 'https://bow-now.jp/',
+    domains: ['*.bownow.jp'],
+    examples: ['contents.bownow.jp']
   },
   {
     name: 'Box',
@@ -4085,6 +4116,13 @@ module.exports = [
     domains: ['*.ruxit.com', 'js-cdn.dynatrace.com'],
   },
   {
+    name: 'ec-concier',
+    homepage: 'https://ec-concier.com/',
+    categories: ['marketing'],
+    domains: ['*.ec-concier.com'],
+    examples: ['s.ec-concier.com', 'gsync.ec-concier.com']
+  },
+  {
     name: 'ECT News Network',
     categories: ['content'],
     domains: ['*.ectnews.com'],
@@ -4566,6 +4604,13 @@ module.exports = [
     name: 'Flipboard',
     categories: ['social'],
     domains: ['*.flipboard.com'],
+  },
+  {
+    name: 'Flipdesk',
+    categories: ['customer-success'],
+    homepage: 'https://flipdesk.jp/',
+    domains: ['*.flipdesk.jp'],
+    examples: ['api.flipdesk.jp']
   },
   {
     name: 'Flipp',
@@ -5662,6 +5707,17 @@ module.exports = [
     domains: ['*.kargo.com'],
   },
   {
+    name: 'KARTE',
+    company: 'Plaid',
+    homepage: 'https://karte.io/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.karte.io'],
+    examples: [
+      'static.karte.io',
+      't.karte.io'
+    ]
+  },
+  {
     name: 'Kauli',
     categories: ['ad'],
     domains: ['*.kau.li'],
@@ -6076,6 +6132,14 @@ module.exports = [
     categories: ['utility'],
     domains: ['*.mlveda.com'],
     examples: ['www.mlveda.com'],
+  },
+  {
+    name: 'Macromill',
+    company: 'Macromill',
+    categories: ['analytics'],
+    homepage: 'https://group.macromill.com/',
+    domains: ['*.macromill.com'],
+    examples: ['img.macromill.com/js/us000131vfg/4000000570-56/lognos.js']
   },
   {
     name: 'Macropod BugHerd',
@@ -7980,6 +8044,14 @@ module.exports = [
     domains: ['*.getclicky.com'],
   },
   {
+    name: 'Rtoaster',
+    company: 'Brainpad',
+    homepage: 'https://www.brainpad.co.jp/rtoaster/',
+    categories: ['analytics', 'marketing'],
+    domains: ['*.rtoaster.jp'],
+    examples: ['rt.rtoaster.jp']
+  },
+  {
     name: 'Rubikloud.com',
     categories: ['analytics'],
     domains: ['*.rubikloud.com'],
@@ -8012,6 +8084,13 @@ module.exports = [
     name: 'SAS Institute',
     categories: ['ad'],
     domains: ['*.aimatch.com', '*.sas.com'],
+  },
+  {
+    name: 'SATORI',
+    homepage: 'https://satori.marketing/',
+    categories: ['marketing'],
+    domains: ['satori.segs.jp'],
+    examples: ['satori.segs.jp/s.js']
   },
   {
     name: 'SC ShopMania Net SRL',
@@ -8214,7 +8293,7 @@ module.exports = [
   {
     name: 'Selligent',
     categories: ['ad'],
-    domains: ['*.emsecure.net'],
+    domains: ['*.emsecure.net', '*.slgnt.eu', 'targetemsecure.blob.core.windows.net'],
   },
   {
     name: 'Sellpoints',
@@ -10198,10 +10277,20 @@ module.exports = [
     examples: ['yield-manager.browsiprod.com'],
   },
   {
-    name: 'Yahoo! Japan',
-    company: 'Yahoo!',
+    name: 'Yahoo! JAPAN Ads',
+    company: 'Yahoo! JAPAN',
     categories: ['ad'],
-    domains: ['*.macromill.com'],
+    homepage: 'https://marketing.yahoo.co.jp/service/yahooads/',
+    domains: ['yads.c.yimg.jp', 's.yimg.jp', 'b92.yahoo.co.jp'],
+    examples: ['yads.c.yimg.jp/js/yads-async.js', 's.yimg.jp/images/listing/tool/yads/ydn/creative/video/ytop_video_timeline_sp.min.js', 'b92.yahoo.co.jp/js/s_retargeting.js'],
+  },
+  {
+    name: 'Yahoo! Tag Manager',
+    company: 'Yahoo! JAPAN',
+    categories: ['tag-manager'],
+    homepage: 'https://marketing.yahoo.co.jp/service/tagmanager/',
+    domains: ['*.yjtag.jp'],
+    examples: ['s.yjtag.jp/tag.js']
   },
   {
     name: 'Yahoo! Small Business',
@@ -11153,7 +11242,7 @@ module.exports = [
   {
     name: 'Optanon',
     homepage: 'https://www.cookielaw.org/',
-    categories: ['utility'],
+    categories: ['consent-provider'],
     domains: [
       '*.onetrust.com', // onetrust is the parent company
       '*.cookielaw.org',
@@ -11444,7 +11533,7 @@ module.exports = [
   {
     name: 'Click Guardian',
     homepage: 'https://www.clickguardian.co.uk/',
-    categories: ['advertising'],
+    categories: ['ad'],
     domains: ['*.clickguardian.app', '*.clickguardian.co.uk'],
     examples: ['v2.clickguardian.app', 'protection.clickguardian.co.uk'],
   },
@@ -11651,5 +11740,433 @@ module.exports = [
     categories: ['customer-success'],
     domains: ['*.crisp.chat'],
     examples: ['client.crisp.chat', 'client.relay.crisp.chat'],
+  },
+  {
+    name: 'Admiral CMP',
+    homepage: 'https://www.getadmiral.com',
+    categories: ['consent-provider'],
+    domains: ['admiral.mgr.consensu.org', '*.admiral.mgr.consensu.org'],
+  },
+  {
+    name: 'Adnuntius CMP',
+    homepage: 'https://adnuntius.com',
+    categories: ['consent-provider'],
+    domains: ['adnuntiusconsent.mgr.consensu.org', '*.adnuntiusconsent.mgr.consensu.org'],
+  },
+  {
+    name: 'Clickio CMP',
+    homepage: 'https://clickio.com',
+    categories: ['consent-provider'],
+    domains: ['clickio.mgr.consensu.org', '*.clickio.mgr.consensu.org'],
+  },
+  {
+    name: 'AppConsent CMP',
+    homepage: 'https://appconsent.io/en',
+    categories: ['consent-provider'],
+    domains: ['appconsent.mgr.consensu.org', '*.appconsent.mgr.consensu.org'],
+  },
+  {
+    name: 'DMG Media CMP',
+    homepage: 'https://www.dmgmedia.co.uk',
+    categories: ['consent-provider'],
+    domains: ['dmgmedia.mgr.consensu.org', '*.dmgmedia.mgr.consensu.org'],
+  },
+  {
+    name: 'Axel Springer CMP',
+    homepage: 'https://www.axelspringer.com',
+    categories: ['consent-provider'],
+    domains: ['axelspringer.mgr.consensu.org', '*.axelspringer.mgr.consensu.org'],
+  },
+  {
+    name: 'Bedrock CMP',
+    homepage: 'https://www.bedrockstreaming.com',
+    categories: ['consent-provider'],
+    domains: ['bedrock.mgr.consensu.org', '*.bedrock.mgr.consensu.org'],
+  },
+  {
+    name: 'BMIND CMP',
+    homepage: 'https://www.bmind.es',
+    categories: ['consent-provider'],
+    domains: ['bmind.mgr.consensu.org', '*.bmind.mgr.consensu.org'],
+  },
+  {
+    name: 'Borlabs CMP',
+    homepage: 'https://borlabs.io',
+    categories: ['consent-provider'],
+    domains: ['borlabs.mgr.consensu.org', '*.borlabs.mgr.consensu.org'],
+  },
+  {
+    name: 'Civic CMP',
+    homepage: 'https://www.civicuk.com',
+    categories: ['consent-provider'],
+    domains: ['cookiecontrol.mgr.consensu.org', '*.cookiecontrol.mgr.consensu.org'],
+  },
+  {
+    name: 'Commanders Act CMP',
+    homepage: 'https://www.commandersact.com',
+    categories: ['consent-provider'],
+    domains: ['commandersact.mgr.consensu.org', '*.commandersact.mgr.consensu.org'],
+  },
+  {
+    name: 'Complianz CMP',
+    homepage: 'https://complianz.io/',
+    categories: ['consent-provider'],
+    domains: ['complianz.mgr.consensu.org', '*.complianz.mgr.consensu.org'],
+  },
+  {
+    name: 'Consent Desk CMP',
+    homepage: 'https://www.consentdesk.com/',
+    categories: ['consent-provider'],
+    domains: ['consentdesk.mgr.consensu.org', '*.consentdesk.mgr.consensu.org'],
+  },
+  {
+    name: 'Consent Manager CMP',
+    homepage: 'https://consentmanager.net',
+    categories: ['consent-provider'],
+    domains: ['consentmanager.mgr.consensu.org', '*consentmanager.mgr.consensu.org'],
+  },
+  {
+    name: 'Conversant CMP',
+    homepage: 'https://www.conversantmedia.eu/',
+    categories: ['consent-provider'],
+    domains: ['conversant.mgr.consensu.org', '*.conversant.mgr.consensu.org'],
+  },
+  {
+    name: 'Cookie Information CMP',
+    homepage: 'https://www.cookieinformation.com/',
+    categories: ['consent-provider'],
+    domains: ['cookieinformation.mgr.consensu.org', '*.cookieinformation.mgr.consensu.org'],
+  },
+  {
+    name: 'Cookiebot CMP',
+    homepage: 'https://www.cookiebot.com',
+    categories: ['consent-provider'],
+    domains: ['cookiebot.mgr.consensu.org', '*.cookiebot.mgr.consensu.org'],
+  },
+  {
+    name: 'Truendo CMP',
+    homepage: 'https://truendo.com/',
+    categories: ['consent-provider'],
+    domains: ['truendo.mgr.consensu.org', '*.truendo.mgr.consensu.org'],
+  },
+  {
+    name: 'Dentsu CMP',
+    homepage: 'https://www.dentsuaegisnetwork.de/',
+    categories: ['consent-provider'],
+    domains: ['dan.mgr.consensu.org', '*.dan.mgr.consensu.org'],
+  },
+  {
+    name: 'Didomi CMP',
+    homepage: 'https://www.didomi.io/en/',
+    categories: ['consent-provider'],
+    domains: ['didomi.mgr.consensu.org', '*.didomi.mgr.consensu.org'],
+  },
+  {
+    name: 'Ensighten CMP',
+    homepage: 'https://www.ensighten.com/',
+    categories: ['consent-provider'],
+    domains: ['ensighten.mgr.consensu.org', '*.ensighten.mgr.consensu.org'],
+  },
+  {
+    name: 'Evidon CMP',
+    homepage: 'https://evidon.com',
+    categories: ['consent-provider'],
+    domains: ['evidon.mgr.consensu.org', '*.evidon.mgr.consensu.org'],
+  },
+  {
+    name: 'Ezoic CMP',
+    homepage: 'https://www.ezoic.com/',
+    categories: ['consent-provider'],
+    domains: ['ezoic.mgr.consensu.org', '*.ezoic.mgr.consensu.org'],
+  },
+  {
+    name: 'Gemius CMP',
+    homepage: 'https://www.gemius.com',
+    categories: ['consent-provider'],
+    domains: ['gemius.mgr.consensu.org', '*.gemius.mgr.consensu.org'],
+  },
+  {
+    name: 'NitroPay CMP',
+    homepage: 'https://nitropay.com/',
+    categories: ['consent-provider'],
+    domains: ['nitropay.mgr.consensu.org', '*.nitropay.mgr.consensu.org'],
+  },
+  {
+    name: 'Google FundingChoices',
+    homepage: 'https://fundingchoices.google.com/start/',
+    categories: ['consent-provider'],
+    domains: ['fundingchoices.mgr.consensu.org', '*.fundingchoices.mgr.consensu.org'],
+  },
+  {
+    name: 'Gravito CMP',
+    homepage: 'https://www.gravito.net/',
+    categories: ['consent-provider'],
+    domains: ['gravito.mgr.consensu.org', '*.gravito.mgr.consensu.org'],
+  },
+  {
+    name: 'ID Ward CMP',
+    homepage: 'https://id-ward.com/enterprise',
+    categories: ['consent-provider'],
+    domains: ['idward.mgr.consensu.org', '*.idward.mgr.consensu.org'],
+  },
+  {
+    name: 'iubenda CMP',
+    homepage: 'https://www.iubenda.com',
+    categories: ['consent-provider'],
+    domains: ['iubenda.mgr.consensu.org', '*.iubenda.mgr.consensu.org'],
+  },
+  {
+    name: 'Jump CMP',
+    homepage: 'https://jumpgroup.it/',
+    categories: ['consent-provider'],
+    domains: ['avacy.mgr.consensu.org', '*.avacy.mgr.consensu.org'],
+  },
+  {
+    name: 'LiveRamp CMP',
+    homepage: 'https://liveramp.com/',
+    categories: ['consent-provider'],
+    domains: ['faktor.mgr.consensu.org', '*.faktor.mgr.consensu.org'],
+  },
+  {
+    name: 'Madvertise CMP',
+    homepage: 'https://madvertise.com/en/',
+    categories: ['consent-provider'],
+    domains: ['madvertise.mgr.consensu.org', '*.madvertise.mgr.consensu.org'],
+  },
+  {
+    name: 'Mairdumont Netletic CMP',
+    homepage: 'https://www.mairdumont-netletix.com/',
+    categories: ['consent-provider'],
+    domains: ['mdnxmp.mgr.consensu.org', '*.mdnxmp.mgr.consensu.org'],
+  },
+  {
+    name: 'Marfeel CMP',
+    homepage: 'https://www.marfeel.com/',
+    categories: ['consent-provider'],
+    domains: ['marfeel.mgr.consensu.org', '*.marfeel.mgr.consensu.org'],
+  },
+  {
+    name: 'Mediavine CMP',
+    homepage: 'https://www.mediavine.com/',
+    categories: ['consent-provider'],
+    domains: ['mediavine.mgr.consensu.org', '*.mediavine.mgr.consensu.org'],
+  },
+  {
+    name: 'ConsentServe CMP',
+    homepage: 'https://www.consentserve.com/',
+    categories: ['consent-provider'],
+    domains: ['consentserve.mgr.consensu.org', '*.consentserve.mgr.consensu.org'],
+  },
+  {
+    name: 'Next14 CMP',
+    homepage: 'https://www.next14.com/',
+    categories: ['consent-provider'],
+    domains: ['next14.mgr.consensu.org', '*.next14.mgr.consensu.org'],
+  },
+  {
+    name: 'AdRoll CMP',
+    homepage: 'https://www.adroll.com/',
+    categories: ['consent-provider'],
+    domains: ['adroll.mgr.consensu.org', '*.adroll.mgr.consensu.org'],
+  },
+  {
+    name: 'Ogury CMP',
+    homepage: 'https://www.ogury.com/',
+    categories: ['consent-provider'],
+    domains: ['ogury.mgr.consensu.org', '*.ogury.mgr.consensu.org'],
+  },
+  {
+    name: 'OneTag CMP',
+    homepage: 'https://onetag.net',
+    categories: ['consent-provider'],
+    domains: ['onetag.mgr.consensu.org', '*.onetag.mgr.consensu.org'],
+  },
+  {
+    name: 'OneTrust CMP',
+    homepage: 'https://onetrust.com',
+    categories: ['consent-provider'],
+    domains: ['onetrust.mgr.consensu.org', '*.onetrust.mgr.consensu.org'],
+  },
+  {
+    name: 'optAd360 CMP',
+    homepage: 'https://www.optad360.com/',
+    categories: ['consent-provider'],
+    domains: ['optad360.mgr.consensu.org', '*.optad360.mgr.consensu.org'],
+  },
+  {
+    name: 'Osano CMP',
+    homepage: 'https://www.osano.com',
+    categories: ['consent-provider'],
+    domains: ['osano.mgr.consensu.org', '*.osano.mgr.consensu.org'],
+  },
+  {
+    name: 'Playwire CMP',
+    homepage: 'http://playwire.com',
+    categories: ['consent-provider'],
+    domains: ['playwire.mgr.consensu.org', '*.playwire.mgr.consensu.org'],
+  },
+  {
+    name: 'Pulselive CMP',
+    homepage: 'https://www.pulselive.com',
+    categories: ['consent-provider'],
+    domains: ['pulselive.mgr.consensu.org', '*.pulselive.mgr.consensu.org'],
+  },
+  {
+    name: 'Quantcast Choice',
+    homepage: 'https://quantcast.com',
+    categories: ['consent-provider'],
+    domains: ['quantcast.mgr.consensu.org', '*.quantcast.mgr.consensu.org'],
+  },
+  {
+    name: 'RCS Pubblicita CMP',
+    homepage: 'http://www.rcspubblicita.it/site/home.html',
+    categories: ['consent-provider'],
+    domains: ['rcsmediagroup.mgr.consensu.org', '*.rcsmediagroup.mgr.consensu.org'],
+  },
+  {
+    name: 'Rich Audience CMP',
+    homepage: 'https://richaudience.com',
+    categories: ['consent-provider'],
+    domains: ['richaudience.mgr.consensu.org', '*.richaudience.mgr.consensu.org'],
+  },
+  {
+    name: 'Ringier Axel Springer CMP',
+    homepage: 'https://www.ringieraxelspringer.pl/en/home/',
+    categories: ['consent-provider'],
+    domains: ['rasp.mgr.consensu.org', '*.rasp.mgr.consensu.org'],
+  },
+  {
+    name: 'Secure Privacy CMP',
+    homepage: 'https://secureprivacy.ai/',
+    categories: ['consent-provider'],
+    domains: ['secureprivacy.mgr.consensu.org', '*.secureprivacy.mgr.consensu.org'],
+  },
+  {
+    name: 'Securiti CMP',
+    homepage: 'https://securiti.ai/',
+    categories: ['consent-provider'],
+    domains: ['securiti.mgr.consensu.org', '*.securiti.mgr.consensu.org'],
+  },
+  {
+    name: 'Seznam.cz CMP',
+    homepage: 'https://www.seznam.cz/',
+    categories: ['consent-provider'],
+    domains: ['seznam.mgr.consensu.org', '*.seznam.mgr.consensu.org'],
+  },
+  {
+    name: 'ShareThis CMP',
+    homepage: 'https://sharethis.com',
+    categories: ['consent-provider'],
+    domains: ['sharethis.mgr.consensu.org', '*.sharethis.mgr.consensu.org'],
+  },
+  {
+    name: 'ShinyStat CMP',
+    homepage: 'https://www.shinystat.com',
+    categories: ['consent-provider'],
+    domains: ['shinystat.mgr.consensu.org', '*.shinystat.mgr.consensu.org'],
+  },
+  {
+    name: 'Sibbo CMP',
+    homepage: 'http://sibboventures.com/en/',
+    categories: ['consent-provider'],
+    domains: ['sibboventures.mgr.consensu.org', '*.sibboventures.mgr.consensu.org'],
+  },
+  {
+    name: 'Singlespot CMP',
+    homepage: 'https://www.singlespot.com/en',
+    categories: ['consent-provider'],
+    domains: ['singlespot.mgr.consensu.org', '*.singlespot.mgr.consensu.org'],
+  },
+  {
+    name: 'Sirdata CMP',
+    homepage: 'https://www.sirdata.com',
+    categories: ['consent-provider'],
+    domains: ['sddan.mgr.consensu.org', '*.sddan.mgr.consensu.org'],
+  },
+  {
+    name: 'Snigel CMP',
+    homepage: 'http://www.snigelweb.com/',
+    categories: ['consent-provider'],
+    domains: ['snigelweb.mgr.consensu.org', '*.snigelweb.mgr.consensu.org'],
+  },
+  {
+    name: 'Sourcepoint CMP',
+    homepage: 'https://sourcepoint.com',
+    categories: ['consent-provider'],
+    domains: ['sourcepoint.mgr.consensu.org', '*.sourcepoint.mgr.consensu.org'],
+  },
+  {
+    name: 'Pubtech CMP',
+    homepage: 'https://www.pubtech.ai/',
+    categories: ['consent-provider'],
+    domains: ['pubtech.mgr.consensu.org', '*.pubtech.mgr.consensu.org'],
+  },
+  {
+    name: 'AdMetrics Pro CMP',
+    homepage: 'https://admetricspro.com',
+    categories: ['consent-provider'],
+    domains: ['cmp.mgr.consensu.org', '*.cmp.mgr.consensu.org'],
+  },
+  {
+    name: 'Traffective CMP',
+    homepage: 'https://traffective.com',
+    categories: ['consent-provider'],
+    domains: ['traffective.mgr.consensu.org', '*.traffective.mgr.consensu.org'],
+  },
+  {
+    name: 'UniConsent CMP',
+    homepage: 'https://uniconsent.com',
+    categories: ['consent-provider'],
+    domains: ['uniconsent.mgr.consensu.org', '*.uniconsent.mgr.consensu.org'],
+  },
+  {
+    name: 'TrustArc CMP',
+    homepage: 'https://trustarc.com/',
+    categories: ['consent-provider'],
+    domains: ['trustarc.mgr.consensu.org', '*.trustarc.mgr.consensu.org'],
+  },
+  {
+    name: 'Usercentrics CMP',
+    homepage: 'https://usercentrics.com',
+    categories: ['consent-provider'],
+    domains: ['usercentrics.mgr.consensu.org', '*.usercentrics.mgr.consensu.org'],
+  },
+  {
+    name: 'WebAds CMP',
+    homepage: 'http://www.webads.nl/',
+    categories: ['consent-provider'],
+    domains: ['webads.mgr.consensu.org', '*.webads.mgr.consensu.org'],
+  },
+  {
+    name: 'Trustcommander',
+    company: 'Commandersact',
+    homepage: 'https://www.commandersact.com',
+    categories: ['consent-provider'],
+    domains: ['*.trustcommander.net'],
+    examples: ['cdn.trustcommander.net', 'privacy.trustcommander.net'],
+  },
+  {
+    name: 'Hubvisor',
+    homepage: 'https://www.hubvisor.io',
+    categories: ['ad'],
+    domains: ['*.hubvisor.io'],
+    examples: ['cdn.hubvisor.io', 'stream.hubvisor.io'],
+  },
+  {
+    name: 'Castle',
+    homepage: 'https://castle.io',
+    categories: ['utility'],
+    domains: [
+      '*.castle.io',
+      'd2t77mnxyo7adj.cloudfront.net'
+    ],
+    examples: ['t.castle.io'],
+  },
+  {
+    name: 'Wigzo',
+    homepage: 'https://www.wigzo.com/',
+    categories: ['marketing'],
+    domains: ['*.wigzo.com','*.wigzopush.com'],
+    examples: ['app.wigzo.com', 'tracker.wigzopush.com'],
   },
 ]
