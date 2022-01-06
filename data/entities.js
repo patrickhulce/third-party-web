@@ -331,6 +331,21 @@ module.exports = [
     examples: ['hm.baidu.com', 'hmcdn.baidu.com'],
   },
   {
+    name: 'Insider',
+    homepage: '',
+    categories: ['analytics'],
+    domains: ['*.useinsider.com'],
+    examples: ['hit.api.useinsider.com'],
+  },
+  {
+    name: 'Adobe Experience Cloud',
+    company: 'Adobe',
+    homepage: '',
+    categories: ['analytics'],
+    domains: ['*.2o7.net', 'du8783wkf05yr.cloudfront.net', '*.hitbox.com', '*.imageg.net', '*.nedstat.com', '*.omtrdc.net'],
+    examples: ['audiag.112.2o7.net', 'du8783wkf05yr.cloudfront.net/NS_mbox.js'],
+  },
+  {
     name: 'Adobe Tag Manager',
     company: 'Adobe',
     homepage: 'https://www.adobe.com/experience-platform/',
@@ -1400,7 +1415,7 @@ module.exports = [
     name: 'VWO',
     homepage: 'https://vwo.com',
     categories: ['analytics'],
-    domains: ['*.visualwebsiteoptimizer.com'],
+    domains: ['*.vwo.com', '*.visualwebsiteoptimizer.com', 'd5phz18u4wuww.cloudfront.net', '*.wingify.com'],
     examples: ['dev.visualwebsiteoptimizer.com'],
   },
   {
@@ -2104,13 +2119,6 @@ module.exports = [
     domains: ['wwwimages.adobe.com', '*.scene7.com', '*.everestads.net', '*.everestjs.net'],
   },
   {
-    name: 'Adobe Surveys',
-    company: 'Adobe Systems',
-    categories: ['analytics'],
-    domains: ['*.2o7.net'],
-    examples: ['survey.112.2o7.net'],
-  },
-  {
     name: 'Adobe Systems',
     categories: ['content'],
     domains: ['adobe.com'],
@@ -2120,13 +2128,6 @@ module.exports = [
     homepage: 'https://www.businesscatalyst.com/',
     categories: ['hosting'],
     domains: ['*.businesscatalyst.com'],
-  },
-  {
-    name: 'Adobe Test & Target',
-    company: 'Adobe Systems',
-    categories: ['analytics'],
-    domains: ['*.omtrdc.net'],
-    examples: ['tt.omtrdc.net'],
   },
   {
     name: 'Adocean',
@@ -5689,7 +5690,7 @@ module.exports = [
   {
     name: 'Kameleoon',
     categories: ['analytics'],
-    domains: ['*.kameleoon.com'],
+    domains: ['*.kameleoon.com', '*.kameleoon.eu'],
   },
   {
     name: 'Kampyle',
@@ -6267,7 +6268,7 @@ module.exports = [
   {
     name: 'Maxymiser',
     categories: ['analytics'],
-    domains: ['*.maxymiser.net'],
+    domains: ['*.maxymiser.net, maxymiser.hs.llnwd.net'],
   },
   {
     name: 'McAffee',
@@ -6993,13 +6994,6 @@ module.exports = [
     domains: ['*.liftdna.com'],
   },
   {
-    name: 'Opentag',
-    company: 'Qubit',
-    categories: ['tag-manager'],
-    domains: ['*.qutics.com', 'd3c3cq33003psk.cloudfront.net'],
-    examples: ['opentag-stats.qutics.com'],
-  },
-  {
     name: 'Opinion Stage',
     categories: ['analytics'],
     domains: ['*.opinionstage.com'],
@@ -7606,8 +7600,9 @@ module.exports = [
   },
   {
     name: 'Qubit',
+    company: 'Qubit',
     categories: ['analytics'],
-    domains: ['*.qubit.com', '*.qubitproducts.com'],
+    domains: ['*.qubit.com', '*.qutics.com', 'd3c3cq33003psk.cloudfront.net', '*.goqubit.com', '*.qubitproducts.com'],
   },
   {
     name: 'Qubit Deliver',
@@ -9934,11 +9929,6 @@ module.exports = [
     company: 'Microsoft',
     categories: ['utility'],
     domains: ['*.visualstudio.com'],
-  },
-  {
-    name: 'Visual Web Optimizer',
-    categories: ['analytics'],
-    domains: ['*.vwo.com'],
   },
   {
     name: 'VisualDNA',
