@@ -17,12 +17,12 @@ FROM (
     url AS page,
     report
   FROM
-    `httparchive.lighthouse.2021_07_01_mobile`
+    `httparchive.lighthouse.2022_01_01_mobile`
   ),
   UNNEST(JSON_QUERY_ARRAY(report,
       '$.audits.bootup-time.details.items')) AS bootupTimeItems
 INNER JOIN
-  `lighthouse-infrastructure.third_party_web.2021_07_01`
+  `lighthouse-infrastructure.third_party_web.2022_01_01`
 ON
   NET.HOST(JSON_VALUE(bootupTimeItems,
       "$.url")) = domain
