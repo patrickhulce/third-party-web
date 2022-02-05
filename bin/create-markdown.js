@@ -19,7 +19,10 @@ _.forEach(ALL_CATEGORIES, (value, id) =>
 
 function createUpdatesContent() {
   let updates = []
-  for (const file of fs.readdirSync(UPDATES_FOLDER)) {
+  for (const file of fs
+    .readdirSync(UPDATES_FOLDER)
+    .sort()
+    .reverse()) {
     const dateRegex = /^(\d{4}-\d{2}-\d{2})/
     if (!dateRegex.test(file)) continue
     const datePart = file.match(dateRegex)[1]
@@ -63,34 +66,42 @@ async function createChartImages() {
     .value()
 
   const chartByCategory = new ChartJSNodeCanvas({width: 600, height: 300})
-  const buffer = await chartByCategory.renderToBuffer({
-    options: {
-      legend: {
-        position: 'left',
-        labels: {
-          fontStyle: 'bold'
-        }
+  const buffer = await chartByCategory.renderToBuffer(
+    {
+      options: {
+        legend: {
+          position: 'left',
+          labels: {
+            fontStyle: 'bold',
+          },
+        },
+      },
+      type: 'doughnut',
+      data: {
+        labels: _.map(categories, 'title'),
+        datasets: [
+          {
+            label: 'Breakdown By Category',
+            backgroundColor: _.map(categories, 'color'),
+            borderWidth: 1.5,
+            data: _.map(categories, 'totalExecutionTime'),
+          },
+        ],
       },
     },
-    type: 'doughnut',
-    data: {
-      labels: _.map(categories, 'title'),
-      datasets: [
-        {
-          label: 'Breakdown By Category',
-          backgroundColor: _.map(categories, 'color'),
-          borderWidth: 1.5,
-          data: _.map(categories, 'totalExecutionTime'),
-        },
-      ],
-    },
-  }, 'image/png')
+    'image/png'
+  )
 
   fs.writeFileSync(path.join(__dirname, '../by-category.png'), buffer)
 }
 
 function createCategorySection(category) {
-  const categoryRows = _.sortBy(DATA_BY_CATEGORY[category.id], 'averageExecutionTime')
+  const categoryRows = _.sortBy(
+    DATA_BY_CATEGORY[category.id]
+      .sort((a, b) => b.totalOccurrences - a.totalOccurrences)
+      .slice(0, 100),
+    'averageExecutionTime'
+  )
     .filter(entry => entry.totalOccurrences >= 1000)
     .map((entry, rank) => [
       rank + 1,
