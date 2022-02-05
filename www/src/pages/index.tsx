@@ -39,9 +39,7 @@ const VisualizationPage = () => {
 
   let element = loader
   if (typeof window !== 'undefined') {
-    const DataVisualizationD3 = React.lazy(() =>
-      import('../components/data-visualizations/d3-viz.js')
-    )
+    const DataVisualizationD3 = React.lazy(() => import('../components/data-visualizations/d3-viz'))
 
     element = (
       <Suspense fallback={loader}>
