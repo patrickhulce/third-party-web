@@ -159,6 +159,7 @@ async function main() {
 
   childProcess.spawnSync('yarn', ['build'], {stdio: 'inherit'})
   childProcess.spawnSync('yarn', ['start'], {stdio: 'inherit'})
+  childProcess.spawnSync('yarn', ['test:unit', '-u'], {stdio: 'inherit'})
 }
 
 main()
