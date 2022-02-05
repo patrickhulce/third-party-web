@@ -4,6 +4,8 @@ dist/
 public/
 .cache/
 
+gcp-credentials.json
+
 *-subset.js
 *-subset.d.ts
 *.generated.sql
