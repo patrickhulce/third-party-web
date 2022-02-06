@@ -5,17 +5,23 @@ import _ from 'lodash'
 import * as thirdPartyWeb from 'third-party-web'
 import * as d3plus from 'd3plus/build/d3plus.js'
 
-const categories = _.uniq(thirdPartyWeb.entities.map(e => e.categories[0])).map((category, idx) => {
-  return {
-    id: category,
-    displayName: _.startCase(category),
-    color: color(`hsl(175, 75%, ${15 + idx * 5}%)`)
-      .rgb()
-      .string(),
-  }
-})
+type Category = {id: string; displayName: string; color: string}
 
-const data = thirdPartyWeb.entities
+const categories: Array<Category> = _.uniq(thirdPartyWeb.entities.map(e => e.categories[0])).map(
+  (category, idx) => {
+    return {
+      id: category,
+      displayName: _.startCase(category),
+      color: color(`hsl(175, 75%, ${15 + idx * 5}%)`)
+        .rgb()
+        .string(),
+    }
+  }
+)
+
+type Data = thirdPartyWeb.IEntity & {id: string; category: string; color: string}
+
+const data: Array<Data> = thirdPartyWeb.entities
   .filter(entity => entity.totalOccurrences)
   .sort((a, b) => b.totalExecutionTime - a.totalExecutionTime)
   .slice(0, 100)
