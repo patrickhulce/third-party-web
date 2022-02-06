@@ -7122,10 +7122,10 @@ module.exports = [
     domains: ['*.adadyn.com'],
   },
   {
-    name: 'PCA Predict',
-    company: 'Postcode Anywhere',
+    name: 'Loqate',
+    company: 'Loqate',
     categories: ['other'],
-    domains: ['*.pcapredict.com'],
+    domains: ['*.pcapredict.com', '*.postcodeanywhere.co.uk'],
   },
   {
     name: 'PEER 1 Hosting',
@@ -7403,11 +7403,6 @@ module.exports = [
     name: 'Populis',
     categories: ['ad'],
     domains: ['*.populisengage.com'],
-  },
-  {
-    name: 'Postcode Anywhere (Holdings)',
-    categories: ['utility'],
-    domains: ['*.postcodeanywhere.co.uk'],
   },
   {
     name: 'Postimage.org',
