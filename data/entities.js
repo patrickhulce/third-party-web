@@ -2,7 +2,7 @@ module.exports = [
   {
     name: 'Google/Doubleclick Ads',
     company: 'Google',
-    homepage: 'https://www.doubleclickbygoogle.com/',
+    homepage: 'https://marketingplatform.google.com/about/enterprise/',
     categories: ['ad'],
     domains: [
       'adservice.google.com',
@@ -165,7 +165,7 @@ module.exports = [
   {
     name: 'Google Analytics',
     company: 'Google',
-    homepage: 'https://www.google.com/analytics/analytics/',
+    homepage: 'https://marketingplatform.google.com/about/analytics/',
     categories: ['analytics'],
     domains: ['*.google-analytics.com', '*.urchin.com', 'analytics.google.com'],
     examples: [
