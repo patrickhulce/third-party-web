@@ -1822,7 +1822,8 @@ module.exports = [
   {
     name: 'ActiveCampaign',
     categories: ['ad'],
-    domains: ['*.trackcmp.net'],
+    domains: ['*.trackcmp.net', 'app-us1.com'],
+    examples: ['trackcmp.net', 'prism.app-us1.com', 'diffuser-cdn.app-us1.com'],
   },
   {
     name: 'AcuityAds',
