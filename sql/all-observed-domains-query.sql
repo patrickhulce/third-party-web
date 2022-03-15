@@ -7,7 +7,7 @@ FROM (
     NET.HOST(url) AS domain,
     COUNT(0) AS totalOccurrences
   FROM
-    `httparchive.requests.2021_07_01_mobile`
+    `httparchive.requests.2022_01_01_mobile`
   GROUP BY
     page,
     domain
