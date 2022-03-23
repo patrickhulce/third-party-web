@@ -1202,6 +1202,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Webflow',
+    homepage: 'https://webflow.com/',
+    categories: ['hosting'],
+    domains: ['*.uploads-ssl.webflow.com', '*.assets-global.website-files.com', '*.assets.website-files.com'],
+    examples: [
+      'uploads-ssl.webflow.com',
+      'assets-global.website-files.com',
+      'assets.website-files.com',
+    ],
+  },
+  {
     name: 'Weebly',
     homepage: 'https://www.weebly.com/',
     categories: ['hosting'],
