@@ -9763,7 +9763,7 @@ module.exports = [
     domains: ['*.vdopia.com'],
   },
   {
-    name: 'Ve Interactive',
+    name: 'Ve',
     company: 'Ve',
     homepage: 'https://www.ve.com/',
     categories: ['marketing'],
