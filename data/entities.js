@@ -579,7 +579,23 @@ module.exports = [
     company: 'Freshworks',
     homepage: 'https://freshdesk.com/',
     categories: ['customer-success'],
-    domains: ['d36mpcpuzc4ztk.cloudfront.net'],
+    domains: ['d36mpcpuzc4ztk.cloudfront.net', '*.freshchat.com'],
+    examples: [
+      'wchat.freshchat.com',
+    ],
+    products: [
+      {
+        name: 'Freshdesk Messaging',
+        urlPatterns: ['wchat.freshchat.com'],
+        facades: [
+          {
+            name: 'Freshdesk Messaging (formerly Freshchat) Facade',
+            repo: 'https://github.com/coliff/freshdesk-messaging-facade/',
+          },
+        ],
+      },
+    ],
+  },
   },
   {
     name: 'Help Scout',
