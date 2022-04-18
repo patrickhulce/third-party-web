@@ -596,7 +596,6 @@ module.exports = [
       },
     ],
   },
-  },
   {
     name: 'Help Scout',
     homepage: 'https://www.helpscout.net/',
