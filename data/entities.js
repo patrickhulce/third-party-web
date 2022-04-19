@@ -254,7 +254,7 @@ module.exports = [
   },
   {
     name: 'AddThis',
-    homepage: 'http://www.addthis.com/',
+    homepage: 'https://www.addthis.com/',
     categories: ['social'],
     domains: ['*.addthis.com', '*.addthiscdn.com', '*.addthisedge.com'],
     examples: ['s7.addthis.com', 'r.dlx.addthis.com', 'su.addthis.com', 'x.dlx.addthis.com'],
@@ -286,7 +286,7 @@ module.exports = [
   },
   {
     name: 'Blogger',
-    homepage: 'http://www.blogger.com/',
+    homepage: 'https://www.blogger.com/',
     categories: ['hosting'],
     domains: [
       '*.blogblog.com',
@@ -298,7 +298,7 @@ module.exports = [
   },
   {
     name: 'Gravatar',
-    homepage: 'http://en.gravatar.com/',
+    homepage: 'https://en.gravatar.com/',
     categories: ['social'],
     domains: ['*.gravatar.com'],
     examples: ['secure.gravatar.com', 'www.gravatar.com'],
@@ -717,7 +717,7 @@ module.exports = [
   },
   {
     name: 'Vimeo',
-    homepage: 'http://vimeo.com/',
+    homepage: 'https://vimeo.com/',
     categories: ['video'],
     domains: ['*.vimeo.com', '*.vimeocdn.com'],
     examples: ['f.vimeocdn.com', 'player.vimeo.com', 'i.vimeocdn.com'],
@@ -740,7 +740,7 @@ module.exports = [
   },
   {
     name: 'Disqus',
-    homepage: 'http://disqus.com/',
+    homepage: 'https://disqus.com/',
     categories: ['social'],
     domains: ['*.disqus.com', '*.disquscdn.com'],
     examples: ['c.disquscdn.com'],
@@ -1007,7 +1007,7 @@ module.exports = [
   },
   {
     name: 'Connexity',
-    homepage: 'http://connexity.com/',
+    homepage: 'https://connexity.com/',
     categories: ['analytics'],
     domains: ['*.connexity.net'],
   },
@@ -1020,7 +1020,7 @@ module.exports = [
   },
   {
     name: 'CreateJS CDN',
-    homepage: 'http://code.createjs.com/',
+    homepage: 'https://code.createjs.com/',
     categories: ['cdn'],
     domains: ['*.createjs.com'],
     examples: ['code.createjs.com'],
@@ -1034,7 +1034,7 @@ module.exports = [
   },
   {
     name: 'Media Math',
-    homepage: 'http://www.mediamath.com/',
+    homepage: 'https://www.mediamath.com/',
     categories: ['ad'],
     domains: ['*.mathads.com', '*.mathtag.com'],
     examples: ['mathid.mathtag.com', 'sync.mathtag.com', 'pixel.mathtag.com'],
@@ -1129,7 +1129,7 @@ module.exports = [
   },
   {
     name: 'Parking Crew',
-    homepage: 'http://parkingcrew.net/',
+    homepage: 'https://parkingcrew.net/',
     categories: ['other'],
     domains: ['d1lxhc4jvstzrp.cloudfront.net', '*.parkingcrew.net'],
   },
@@ -1157,7 +1157,7 @@ module.exports = [
   },
   {
     name: 'Histats',
-    homepage: 'http://histats.com/',
+    homepage: 'https://www.histats.com/',
     categories: ['analytics'],
     domains: ['*.histats.com'],
     examples: ['s10.histats.com'],
@@ -1418,7 +1418,7 @@ module.exports = [
   },
   {
     name: 'Byside',
-    homepage: 'http://www.byside.com',
+    homepage: 'https://byside.com',
     categories: ['analytics'],
     domains: ['*.byside.com'],
     examples: ['byce2.byside.com', 'wce2.byside.com'],
@@ -8723,7 +8723,7 @@ module.exports = [
   },
   {
     name: 'SourceKnowledge',
-    homepage: 'http://www.sourceknowledge.com',
+    homepage: 'https://www.sourceknowledge.com',
     categories: ['ad'],
     domains: ['*.provenpixel.com'],
   },
@@ -11079,7 +11079,7 @@ module.exports = [
   },
   {
     name: 'codigo',
-    homepage: 'http://www.codigo.se',
+    homepage: 'https://www.codigo.se',
     categories: ['analytics'],
     domains: ['*.codigo.se'],
     examples: ['analytics.codigo.se'],
@@ -11093,7 +11093,7 @@ module.exports = [
   },
   {
     name: 'RAM',
-    homepage: 'http://www2.rampanel.com/en/',
+    homepage: 'https://www2.rampanel.com/',
     categories: ['analytics'],
     domains: ['*.rampanel.com'],
     examples: ['inviso.rampanel.com'],
@@ -11128,7 +11128,7 @@ module.exports = [
   },
   {
     name: 'EasyAd',
-    homepage: 'http://www.easy-ads.com/en/',
+    homepage: 'https://web.easy-ads.com/en/',
     categories: ['ad'],
     domains: ['*.easy-ads.com'],
     examples: ['ads.easy-ads.com'],
@@ -11204,7 +11204,7 @@ module.exports = [
   },
   {
     name: 'Consumable',
-    homepage: 'http://consumable.com/',
+    homepage: 'https://consumable.com/',
     categories: ['ad'],
     domains: ['*.serverbid.com'],
   },
@@ -11340,7 +11340,7 @@ module.exports = [
   },
   {
     name: 'Specless',
-    homepage: 'http://gospecless.com/',
+    homepage: 'https://gospecless.com/',
     categories: ['ad'],
     domains: ['*.specless.tech'],
   },
@@ -11537,7 +11537,7 @@ module.exports = [
   },
   {
     name: 'Vizzit',
-    homepage: 'http://www.vizzit.se',
+    homepage: 'https://www.vizzit.se',
     categories: ['analytics'],
     domains: ['*.vizzit.se'],
     examples: ['www.vizzit.se', 'tag.vizzit.se'],
@@ -11671,7 +11671,7 @@ module.exports = [
   },
   {
     name: 'Tilda',
-    homepage: 'http://tilda.cc/',
+    homepage: 'https://tilda.cc/',
     categories: ['hosting'],
     domains: ['*.tildacdn.com'],
     examples: ['stat.tildacdn.com', 'static.tildacdn.com', 'upwidget.tildacdn.com'],
@@ -12014,7 +12014,7 @@ module.exports = [
   },
   {
     name: 'Playwire CMP',
-    homepage: 'http://playwire.com',
+    homepage: 'https://www.playwire.com',
     categories: ['consent-provider'],
     domains: ['playwire.mgr.consensu.org', '*.playwire.mgr.consensu.org'],
   },
@@ -12080,7 +12080,7 @@ module.exports = [
   },
   {
     name: 'Sibbo CMP',
-    homepage: 'http://sibboventures.com/en/',
+    homepage: 'https://sibboventures.com/en/',
     categories: ['consent-provider'],
     domains: ['sibboventures.mgr.consensu.org', '*.sibboventures.mgr.consensu.org'],
   },
@@ -12098,7 +12098,7 @@ module.exports = [
   },
   {
     name: 'Snigel CMP',
-    homepage: 'http://www.snigelweb.com/',
+    homepage: 'https://snigel.com',
     categories: ['consent-provider'],
     domains: ['snigelweb.mgr.consensu.org', '*.snigelweb.mgr.consensu.org'],
   },
@@ -12146,7 +12146,7 @@ module.exports = [
   },
   {
     name: 'WebAds CMP',
-    homepage: 'http://www.webads.nl/',
+    homepage: 'https://www.webads.nl/',
     categories: ['consent-provider'],
     domains: ['webads.mgr.consensu.org', '*.webads.mgr.consensu.org'],
   },
