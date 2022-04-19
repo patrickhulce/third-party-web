@@ -11128,7 +11128,7 @@ module.exports = [
   },
   {
     name: 'EasyAd',
-    homepage: 'https://web.easy-ads.com/en/',
+    homepage: 'https://web.easy-ads.com/',
     categories: ['ad'],
     domains: ['*.easy-ads.com'],
     examples: ['ads.easy-ads.com'],
