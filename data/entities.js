@@ -11411,6 +11411,18 @@ module.exports = [
     homepage: 'https://www.freshworks.com/live-chat-software/',
     categories: ['customer-success'],
     domains: ['*.freshchat.com','*.freshworksapi.com'],
+    products: [
+      {
+        name: 'Freshdesk Messaging',
+        urlPatterns: ['wchat.freshchat.com'],
+        facades: [
+          {
+            name: 'Freshdesk Messaging (formerly Freshchat) Facade',
+            repo: 'https://github.com/coliff/freshdesk-messaging-facade/',
+          },
+        ],
+      },
+    ],
   },
   {
     name: 'Contentful',
