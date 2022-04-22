@@ -10,7 +10,7 @@ This document is a summary of which third party scripts are most responsible for
 
 1.  [Goals](#goals)
 1.  [Methodology](#methodology)
-1.  [NPM Module](#npm-module)
+1.  [npm Module](#npm-module)
 1.  [Updates](#updates)
 1.  [Data](#data)
     1.  [Summary](#summary)
@@ -30,9 +30,9 @@ This document is a summary of which third party scripts are most responsible for
 
 <%= partials.methodology %>
 
-## NPM Module
+## npm Module
 
-The entity classification data is available as an NPM module.
+The entity classification data is available as an npm module.
 
 ```js
 const {getEntity} = require('third-party-web')
