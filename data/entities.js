@@ -5972,6 +5972,13 @@ module.exports = [
     domains: ['*.linkingmobile.com'],
   },
   {
+    name: 'LittleData',
+    categories: ['analytics'],
+    homepage: 'https://www.littledata.io/',
+    domains: ['*.littledatea.io'],
+    examples: ['transactions.littledata.io'],
+  },
+  {
     name: 'LiveBurst',
     categories: ['ad'],
     domains: ['*.liveburst.com'],
@@ -9165,6 +9172,13 @@ module.exports = [
     categories: ['utility'],
     domains: ['*.thawte.com'],
     examples: ['ocsp.thawte.com', 'seal.thawte.com'],
+  },
+  {
+    name: 'Thesis',
+    categories: ['analytics'],
+    homepage: 'https://www.thesistesting.com/',
+    domains: ['*.ttsep.com'],
+    examples: ['thix.ttsep.com'],
   },
   {
     name: 'The AA',
