@@ -2509,6 +2509,13 @@ module.exports = [
     domains: ['*.appier.net'],
   },
   {
+    name: 'Appsolute',
+    categories: ['utility'],
+    homepage: 'https://appsolute.us/',
+    domains: ['dropahint.love'],
+    examples: ['dropahint.love'],
+  },
+  {
     name: 'Apptus eSales',
     company: 'Apptus',
     categories: ['analytics'],
@@ -3843,6 +3850,13 @@ module.exports = [
     name: 'DTSCOUT',
     categories: ['ad'],
     domains: ['*.dtscout.com'],
+  },
+  {
+    name: 'Dailykarma',
+    categories: ['utility'],
+    homepage: 'https://www.dailykarma.com/',
+    domains: ['*.dailykarma.io'],
+    examples: ['assets.dailykarma.io'],
   },
   {
     name: 'Dailymotion',
