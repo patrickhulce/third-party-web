@@ -10267,8 +10267,8 @@ module.exports = [
     name: 'Wunderkind',
     categories: ['analytics'],
     homepage: 'https://www.wunderkind.co/',
-    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai'],
-    examples: ['events.bouncex.net'],
+    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai', '*.cdnbasket.net'],
+    examples: ['events.bouncex.net', 'tag.wknd.ai', 'data.cdnbasket.net'],
   },
   {
     name: 'Wyng',
