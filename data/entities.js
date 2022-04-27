@@ -2913,13 +2913,6 @@ module.exports = [
     domains: ['*.borderfree.com', '*.fiftyone.com'],
   },
   {
-    name: 'BounceX',
-    categories: ['analytics'],
-    homepage: 'https://www.bouncex.com/',
-    domains: ['*.bounceexchange.com', '*.bouncex.net'],
-    examples: ['events.bouncex.net'],
-  },
-  {
     name: 'BowNow',
     categories: ['analytics'],
     homepage: 'https://bow-now.jp/',
@@ -8008,6 +8001,13 @@ module.exports = [
     domains: ['*.riskified.com'],
   },
   {
+    name: 'Rockerbox',
+    categories: ['analytics'],
+    homepage: 'https://www.rockerbox.com/',
+    domains: ['getrockerbox.com'],
+    examples: ['getrockerbox.com'],
+  },
+  {
     name: 'Rocket Fuel',
     categories: ['ad'],
     domains: ['*.rfihub.com', '*.ru4.com', '*.rfihub.net', '*.ad1x.com'],
@@ -10248,6 +10248,13 @@ module.exports = [
     name: 'Wufoo',
     categories: ['utility'],
     domains: ['*.wufoo.com'],
+  },
+  {
+    name: 'Wunderkind',
+    categories: ['analytics'],
+    homepage: 'https://www.wunderkind.co/',
+    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai'],
+    examples: ['events.bouncex.net'],
   },
   {
     name: 'Wyng',
