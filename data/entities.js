@@ -2509,6 +2509,13 @@ module.exports = [
     domains: ['*.appier.net'],
   },
   {
+    name: 'Appsolute',
+    categories: ['utility'],
+    homepage: 'https://appsolute.us/',
+    domains: ['dropahint.love'],
+    examples: ['dropahint.love'],
+  },
+  {
     name: 'Apptus eSales',
     company: 'Apptus',
     categories: ['analytics'],
@@ -2911,13 +2918,6 @@ module.exports = [
     company: 'pitney bowes',
     categories: ['utility'],
     domains: ['*.borderfree.com', '*.fiftyone.com'],
-  },
-  {
-    name: 'BounceX',
-    categories: ['analytics'],
-    homepage: 'https://www.bouncex.com/',
-    domains: ['*.bounceexchange.com', '*.bouncex.net'],
-    examples: ['events.bouncex.net'],
   },
   {
     name: 'BowNow',
@@ -3850,6 +3850,13 @@ module.exports = [
     name: 'DTSCOUT',
     categories: ['ad'],
     domains: ['*.dtscout.com'],
+  },
+  {
+    name: 'Dailykarma',
+    categories: ['utility'],
+    homepage: 'https://www.dailykarma.com/',
+    domains: ['*.dailykarma.io'],
+    examples: ['assets.dailykarma.io'],
   },
   {
     name: 'Dailymotion',
@@ -5979,6 +5986,13 @@ module.exports = [
     domains: ['*.linkingmobile.com'],
   },
   {
+    name: 'LittleData',
+    categories: ['analytics'],
+    homepage: 'https://www.littledata.io/',
+    domains: ['*.littledatea.io'],
+    examples: ['transactions.littledata.io'],
+  },
+  {
     name: 'LiveBurst',
     categories: ['ad'],
     domains: ['*.liveburst.com'],
@@ -8008,6 +8022,13 @@ module.exports = [
     domains: ['*.riskified.com'],
   },
   {
+    name: 'Rockerbox',
+    categories: ['analytics'],
+    homepage: 'https://www.rockerbox.com/',
+    domains: ['getrockerbox.com'],
+    examples: ['getrockerbox.com'],
+  },
+  {
     name: 'Rocket Fuel',
     categories: ['ad'],
     domains: ['*.rfihub.com', '*.ru4.com', '*.rfihub.net', '*.ad1x.com'],
@@ -9167,6 +9188,13 @@ module.exports = [
     examples: ['ocsp.thawte.com', 'seal.thawte.com'],
   },
   {
+    name: 'Thesis',
+    categories: ['analytics'],
+    homepage: 'https://www.thesistesting.com/',
+    domains: ['*.ttsep.com'],
+    examples: ['thix.ttsep.com'],
+  },
+  {
     name: 'The AA',
     categories: ['ad'],
     domains: ['*.adstheaa.com'],
@@ -10248,6 +10276,13 @@ module.exports = [
     name: 'Wufoo',
     categories: ['utility'],
     domains: ['*.wufoo.com'],
+  },
+  {
+    name: 'Wunderkind',
+    categories: ['analytics'],
+    homepage: 'https://www.wunderkind.co/',
+    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai', '*.cdnbasket.net'],
+    examples: ['events.bouncex.net', 'tag.wknd.ai', 'data.cdnbasket.net'],
   },
   {
     name: 'Wyng',
