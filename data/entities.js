@@ -5157,14 +5157,6 @@ module.exports = [
     domains: ['*.heatmap.it'],
   },
   {
-    name: 'Hero',
-    company: 'Klarna',
-    homepage: 'https://www.usehero.com/',
-    categories: ['customer-success'],
-    domains: ['*.usehero.com'],
-    examples: ['api.usehero.com', 'merchants-app.usehero.com'],
-  },
-  {
     name: 'Heroku',
     categories: ['other'],
     domains: ['*.herokuapp.com'],
