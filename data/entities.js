@@ -4952,6 +4952,14 @@ module.exports = [
     examples: ['raw.githubusercontent.com', 'cdn.rawgit.com'],
   },
   {
+    name: 'Gladly',
+    company: 'Gladly',
+    homepage: 'https://www.gladly.com/',
+    categories: ['customer-success'],
+    domains: ['*.gladly.com'],
+    examples: ['cdn.gladly.com'],
+  },
+  {
     name: 'Glassdoor',
     categories: ['content'],
     domains: ['*.glassdoor.com'],
@@ -6304,6 +6312,13 @@ module.exports = [
     name: 'McAffee',
     categories: ['utility'],
     domains: ['*.mcafeesecure.com', '*.scanalert.com'],
+  },
+  {
+    name: 'Measured',
+    categories: ['analytics'],
+    domains: ['*.measured.com'],
+    examples: ['tag.measured.com'],
+    homepage: 'https://www.measured.com/',
   },
   {
     name: 'Media IQ',
