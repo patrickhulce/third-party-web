@@ -3905,6 +3905,13 @@ module.exports = [
     domains: ['*.w55c.net'],
   },
   {
+    name: 'DatoCMS',
+    homepage: 'https://www.datocms.com/',
+    categories: ['content'],
+    domains: ['*.datocms-assests.com'],
+    examples: ['www.datocms-assests.com'],
+  },
+  {
     name: 'Datonics',
     categories: ['ad'],
     domains: ['*.pro-market.net'],
@@ -5836,6 +5843,12 @@ module.exports = [
     name: 'LKQD',
     categories: ['ad'],
     domains: ['*.lkqd.net'],
+  },
+  {
+    name: 'Layer0',
+    categories: ['cdn'],
+    domains: ['*.layer0.co'],
+    examples: ['rum.layer0.co'],
   },
   {
     name: 'Layershift',
