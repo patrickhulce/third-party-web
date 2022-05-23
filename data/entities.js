@@ -2451,7 +2451,7 @@ module.exports = [
   {
     name: 'Amplience',
     categories: ['marketing'],
-    domains: ['*.10cms.com', '*.amplience.com', '*.bigcontent.io', '*.adis.ws'],
+    domains: ['*.10cms.com', '*.amplience.com', '*.amplience.net', '*.bigcontent.io', '*.adis.ws'],
   },
   {
     name: 'Amplitude Mobile Analytics',
@@ -3221,6 +3221,12 @@ module.exports = [
     name: 'Cast',
     categories: ['utility'],
     domains: ['*.cast.rocks'],
+  },
+  {
+    name: 'Catch',
+    categories: ['other'],
+    domains: ['*.getcatch.com'],
+    examples: ['app.getcatch.com', 'assets.getcatch.com', 'js.getcatch.com'],
   },
   {
     name: 'Cavisson',
@@ -4371,6 +4377,12 @@ module.exports = [
     domains: ['*.evbuc.com', '*.eventbrite.co.uk'],
   },
   {
+    name: 'Everflow',
+    categories: ['analytics'],
+    domains: ['*.tp88trk.com'],
+    examples: ['www.tp88trk.com'],
+  },
+  {
     name: 'Evergage',
     categories: ['analytics'],
     domains: ['*.evergage.com', '*.evgnet.com'],
@@ -4607,6 +4619,12 @@ module.exports = [
     name: 'FirstImpression',
     categories: ['ad'],
     domains: ['*.firstimpression.io'],
+  },
+  {
+    name: 'Fit Analytics',
+    categories: ['other'],
+    domains: ['*.fitanalytics.com'],
+    examples: ['integrations.fitanalytics.com', 'widget.fitanalytics.com', 'metrics.fitanalytics.com'],
   },
   {
     name: 'Fits Me',
@@ -5613,6 +5631,12 @@ module.exports = [
     examples: ['e.invodo.com'],
   },
   {
+    name: 'iSite',
+    categories: ['analytics'],
+    domains: ['*.isitetv.com'],
+    examples: ['static.isitetv.com', 'events.isitetv.com'],
+  },
+  {
     name: 'Issue',
     categories: ['content'],
     domains: ['*.issue.by'],
@@ -6257,6 +6281,12 @@ module.exports = [
     categories: ['ad'],
     domains: ['*.markandmini.com'],
     examples: ['www.markandmini.com'],
+  },
+  {
+    name: 'Marker',
+    categories: ['utility'],
+    domains: ['*.marker.io'],
+    examples: ['edge.marker.io'],
   },
   {
     name: 'Marketing Dashboards',
@@ -9069,6 +9099,12 @@ module.exports = [
     categories: ['customer-success'],
     domains: ['*.syn-finity.com', '*.synthetix-ec1.com', '*.synthetix.com'],
     examples: ['www.synthetix-ec1.com'],
+  },
+  {
+    name: 'Syte',
+    categories: ['other'],
+    domains: ['*.syteapi.com'],
+    examples: ['cdn.syteapi.com'],
   },
   {
     name: 'TINT',
