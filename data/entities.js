@@ -7813,7 +7813,7 @@ module.exports = [
     name: 'Rakuten LinkShare',
     company: 'Rakuten',
     categories: ['ad'],
-    domains: ['*.linksynergy.com','*.rakuten.com'],
+    domains: ['*.linksynergy.com'],
     examples: ['tag.amp.rakuten.com'],
   },
   {
