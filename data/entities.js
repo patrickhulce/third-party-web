@@ -869,7 +869,7 @@ module.exports = [
     name: 'Sentry',
     homepage: 'https://sentry.io/',
     categories: ['utility'],
-    domains: ['*.getsentry.com', '*.ravenjs.com', '*.sentry-cdn.com'],
+    domains: ['*.getsentry.com', '*.ravenjs.com', '*.sentry-cdn.com', '*.sentry.io'],
     examples: ['cdn.ravenjs.com', 'browser.sentry-cdn.com'],
   },
   {
@@ -1781,6 +1781,14 @@ module.exports = [
     domains: ['*.axs.com'],
   },
   {
+    name: 'Accentuate',
+    company: 'Accentuate Digital',      
+    categories: ['utlity'],
+    homepage: 'https://www.accentuate.io/',      
+    domains: ['*.accentuate.io'],
+    examples: ['cdn.accentuate.io', 'original.accentuate.io'],      
+  }, 
+  {
     name: 'Accenture',
     categories: ['analytics'],
     domains: ['*.tmvtp.com'],
@@ -2317,6 +2325,14 @@ module.exports = [
     domains: ['*.affirm.com'],
   },
   {
+    name: 'Afterpay',
+    company: 'Block',      
+    categories: ['utlity'],
+    homepage: 'https://www.afterpay.com/',      
+    domains: ['*.afterpay.com'],
+    examples: ['static-us.afterpay.com'],      
+  }, 
+  {
     name: 'Agenda Media',
     categories: ['ad'],
     domains: ['*.agendamedia.co.uk'],
@@ -2674,6 +2690,14 @@ module.exports = [
     categories: ['other'],
     domains: ['*.barnebys.com'],
   },
+  {
+    name: 'Basis',
+    company: 'Basis Technologies',      
+    categories: ['ad'],
+    homepage: 'https://basis.net/',      
+    domains: ['*.basis.net'],
+    examples: ['cdn01.basis.net'],      
+  },     
   {
     name: 'Batch Media',
     categories: ['ad'],
@@ -3295,6 +3319,14 @@ module.exports = [
     domains: ['*.channeladvisor.com', '*.searchmarketing.com'],
   },
   {
+    name: 'ChannelApe',
+    company: 'ChannelApe',
+    categories: ['other'],
+    homepage: 'https://www.channelape.com/',      
+    domains: ['*.channelape.com'],
+    examples: ['callbacks.channelape.com'],      
+  },     
+  {
     name: 'Chargeads Oscar',
     company: 'Chargeads',
     categories: ['ad'],
@@ -3914,8 +3946,8 @@ module.exports = [
     name: 'DatoCMS',
     homepage: 'https://www.datocms.com/',
     categories: ['content'],
-    domains: ['*.datocms-assests.com'],
-    examples: ['www.datocms-assests.com'],
+    domains: ['*.datocms-assets.com'],
+    examples: ['www.datocms-assets.com'],
   },
   {
     name: 'Datonics',
@@ -6034,7 +6066,7 @@ module.exports = [
     name: 'LittleData',
     categories: ['analytics'],
     homepage: 'https://www.littledata.io/',
-    domains: ['*.littledatea.io'],
+    domains: ['*.littledata.io'],
     examples: ['transactions.littledata.io'],
   },
   {
@@ -10020,6 +10052,13 @@ module.exports = [
     domains: ['*.virtualearth.net'],
   },
   {
+    name: 'Visely',
+    company: 'Visely',      
+    categories: ['other'],
+    homepage: 'https://visely.io/',      
+    domains: ['*.visely.io'],
+  },    
+  {
     name: 'VisScore',
     categories: ['analytics'],
     domains: ['*.visscore.com', 'd2hkbi3gan6yg6.cloudfront.net'],
@@ -10292,6 +10331,14 @@ module.exports = [
     domains: ['*.wisepops.com'],
   },
   {
+    name: 'Wishlist King',
+    company: 'Appmate',      
+    categories: ['other'],
+    homepage: 'https://appmate.io/',      
+    domains: ['*.appmate.io'],
+    examples: ['api.appmate.io'],      
+  },    
+  {
     name: 'Wishpond Technologies',
     categories: ['marketing'],
     domains: ['*.wishpond.com', '*.wishpond.net'],
@@ -10343,10 +10390,10 @@ module.exports = [
   },
   {
     name: 'Wunderkind',
-    categories: ['analytics'],
+    categories: ['marketing'],
     homepage: 'https://www.wunderkind.co/',
-    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai', '*.cdnbasket.net'],
-    examples: ['events.bouncex.net', 'tag.wknd.ai', 'data.cdnbasket.net'],
+    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai', '*.cdnbasket.net', '*.cdnwidget.com'],
+    examples: ['events.bouncex.net', 'tag.wknd.ai', 'data.cdnbasket.net', 'pix.cdnwidget.com'],
   },
   {
     name: 'Wyng',
@@ -11790,7 +11837,7 @@ module.exports = [
     company: 'Accessibe',
     homepage: 'https://accessibe.com/',
     categories: ['utility'],
-    domains: ['*.accessibe.com', '*.acsbapp.com'],
+    domains: ['*.accessibe.com', '*.acsbapp.com', '*.acsbap.com'],
     examples: ['accessibe.com', 'acsbapp.com'],
   },
   {
