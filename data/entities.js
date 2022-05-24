@@ -2523,7 +2523,7 @@ module.exports = [
     name: 'Appier',
     categories: ['ad'],
     domains: ['*.appier.net'],
-  },    
+  },
   {
     name: 'Appsolute',
     categories: ['utility'],
