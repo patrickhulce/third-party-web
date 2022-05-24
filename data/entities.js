@@ -7814,7 +7814,6 @@ module.exports = [
     company: 'Rakuten',
     categories: ['ad'],
     domains: ['*.linksynergy.com'],
-    examples: ['tag.amp.rakuten.com'],
   },
   {
     name: 'Rakuten Marketing',
