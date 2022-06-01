@@ -392,13 +392,14 @@ These scripts are from marketing tools that add popups/newsletters/etc.
 | 9    | [OptinMonster](https://optinmonster.com/)   | 7,493  | 260 ms         |
 | 10   | Bronto Software                             | 1,056  | 262 ms         |
 | 11   | Pardot                                      | 1,435  | 404 ms         |
-| 12   | [Albacross](https://albacross.com/)         | 1,920  | 490 ms         |
-| 13   | [Sumo](https://sumo.com/)                   | 18,438 | 686 ms         |
-| 14   | Bigcommerce                                 | 10,096 | 976 ms         |
-| 15   | [Drift](https://www.drift.com/)             | 6,565  | 1279 ms        |
-| 16   | [Judge.me](https://judge.me/)               | 8,307  | 1375 ms        |
-| 17   | [PureCars](https://www.purecars.com/)       | 2,697  | 1901 ms        |
-| 18   | [Tray Commerce](https://www.tray.com.br/)   | 3,173  | 2328 ms        |
+| 12   | [Happierleads](https://happierleads.com/)   | 2,620  | 420 ms         |
+| 13   | [Albacross](https://albacross.com/)         | 1,920  | 490 ms         |
+| 14   | [Sumo](https://sumo.com/)                   | 18,438 | 686 ms         |
+| 15   | Bigcommerce                                 | 10,096 | 976 ms         |
+| 16   | [Drift](https://www.drift.com/)             | 6,565  | 1279 ms        |
+| 17   | [Judge.me](https://judge.me/)               | 8,307  | 1375 ms        |
+| 18   | [PureCars](https://www.purecars.com/)       | 2,697  | 1901 ms        |
+| 19   | [Tray Commerce](https://www.tray.com.br/)   | 3,173  | 2328 ms        |
 
 <a name="customer-success"></a>
 
