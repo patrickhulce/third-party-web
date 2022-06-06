@@ -11886,8 +11886,8 @@ module.exports = [
     name: 'Podsights',
     homepage: 'https://podsights.com/',
     categories: ['marketing'],
-    domains: ['*.pdst.fm'],
-    examples: ['cdn.pdst.fm'],
+    domains: ['*.pdst.fm', 'us-central1-adaptive-growth.cloudfunctions.net'],
+    examples: ['cdn.pdst.fm', 'sink.pdst.fm'],
   },
   {
     name: 'Chatwoot',
