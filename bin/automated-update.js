@@ -51,16 +51,33 @@ async function withExistenceCheck(name, {checkExistenceFn, actionFn, deleteFn, e
   await actionFn()
 }
 
-async function main() {
+async function getTargetDatasetDate() {
   const msInDay = 24 * 60 * 60 * 1000
   const daysIntoCurrentMonth = new Date().getDate()
   const timeSinceLastMonthInMs = daysIntoCurrentMonth * msInDay
   const lastMonthDate = new Date(Date.now() - (timeSinceLastMonthInMs + msInDay))
   const lastMonthPadded = (lastMonthDate.getMonth() + 1).toString().padStart(2, '0')
+  const currentMonthDate = new Date(Date.now())
+  const currentMonthPadded = (currentMonthDate.getMonth() + 1).toString().padStart(2, '0')
 
-  const dateStringUnderscore = `${lastMonthDate.getFullYear()}_${lastMonthPadded}_01`
+  const predictedDate =
+    daysIntoCurrentMonth < 10
+      ? `${lastMonthDate.getFullYear()}_${lastMonthPadded}_01`
+      : `${currentMonthDate.getFullYear()}_${currentMonthPadded}_01`
+  const {value: dateStringUnderscore} = await prompts({
+    type: 'text',
+    name: 'value',
+    initial: predictedDate,
+    message: `Which HTTPArchive table do you want to use?`,
+  })
   const dateStringHypens = dateStringUnderscore.replace(/_/g, '-')
   console.log('Determined', dateStringUnderscore, 'data is needed')
+
+  return {dateStringUnderscore, dateStringHypens}
+}
+
+async function main() {
+  const {dateStringUnderscore, dateStringHypens} = await getTargetDatasetDate()
 
   const observedDomainsFilename = `${__dirname}/../data/${dateStringHypens}-observed-domains.json`
   const entityScriptingFilename = `${__dirname}/../data/${dateStringHypens}-entity-scripting.json`
