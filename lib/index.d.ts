@@ -7,6 +7,8 @@ export interface IProduct {
   name: string
   company: string
   homepage?: string
+  category: string
+  /** @deprecated - Use `category` instead. */
   categories: string[]
   urlPatterns?: string[]
   facades?: IFacade[]
@@ -16,6 +18,8 @@ export interface IEntity {
   name: string
   company: string
   homepage?: string
+  category: string
+  /** @deprecated - Use `category` instead. */
   categories: string[]
   domains: string[]
   products?: IProduct[]

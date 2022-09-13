@@ -29,7 +29,7 @@ const entries = Array.from(observedDomains)
       return [domain, domain, 'unknown']
     }
 
-    return [domain, entity.domains[0], entity.categories[0] || 'other']
+    return [domain, entity.domains[0], entity.category || 'other']
   })
   .filter(Boolean)
 
