@@ -77,7 +77,7 @@ function computeAllStats(dataset) {
     name: 'All Other 3rd Parties',
     homepage: '#by-category',
     domain: '<all others>',
-    categories: ['other'],
+    category: 'other',
   }
 
   const sortedEntityData = _(entityData.concat(homelessMegaEntity))

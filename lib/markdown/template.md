@@ -41,7 +41,7 @@ console.log(entity)
 //   {
 //     "name": "Freshdesk",
 //     "homepage": "https://freshdesk.com/",
-//     "categories": ["customer-success"],
+//     "category": "customer-success",
 //     "domains": ["d36mpcpuzc4ztk.cloudfront.net"]
 //   }
 ```
@@ -110,7 +110,7 @@ The domain->entity mapping can be found in `data/entities.js`. Adding a new enti
 {
     "name": "Facebook",
     "homepage": "https://www.facebook.com",
-    "categories": ["social"],
+    "category": "social",
     "domains": [
         "*.facebook.com",
         "*.fbcdn.net"
