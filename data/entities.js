@@ -5802,7 +5802,7 @@ module.exports = [
     name: 'KARTE',
     company: 'Plaid',
     homepage: 'https://karte.io/',
-    categories: ['analytics', 'marketing'],
+    categories: ['marketing'],
     domains: ['*.karte.io'],
     examples: [
       'static.karte.io',
@@ -6148,7 +6148,7 @@ module.exports = [
     name: 'LoginRadius',
     company: 'LoginRadius',
     homepage: 'https://www.loginradius.com/',
-    categories: ['ad','social'],
+    categories: ['ad'],
     domains: ['*.loginradius.com','*.lrcontent.com'],
     examples: ['config.lrcontent.com'],
   },
@@ -8164,7 +8164,7 @@ module.exports = [
     name: 'Rtoaster',
     company: 'Brainpad',
     homepage: 'https://www.brainpad.co.jp/rtoaster/',
-    categories: ['analytics', 'marketing'],
+    categories: ['marketing'],
     domains: ['*.rtoaster.jp'],
     examples: ['rt.rtoaster.jp']
   },
@@ -11828,7 +11828,7 @@ module.exports = [
   {
     name: 'SalesLoft',
     homepage: 'https://salesloft.com/',
-    categories: ['analytics', 'marketing'],
+    categories: ['marketing'],
     domains: ['*.salesloft.com'],
     examples: ['scout-cdn.salesloft.com'],
   },
@@ -11850,7 +11850,7 @@ module.exports = [
   {
     name: 'Pepperjam',
     homepage: 'https://www.pepperjam.com/',
-    categories: ['marketing', 'analytics'],
+    categories: ['marketing'],
     domains: ['*.pepperjam.com', '*.affiliatetechnology.com'],
     examples: ['container.pepperjam.com'],
   },
@@ -11878,7 +11878,7 @@ module.exports = [
   {
     name: 'Segmanta',
     homepage: 'https://segmanta.com/',
-    categories: ['marketing', 'analytics'],
+    categories: ['marketing'],
     domains: ['*.segmanta.com'],
     examples: ['clientName.segmanta.com'],
   },
