@@ -10266,7 +10266,7 @@ module.exports = [
   {
     name: 'Webtrekk',
     category: 'analytics',
-    domains: ['*.wbtrk.net', '*.webtrekk-asia.net', '*.webtrekk.net', '*.wt-eu02.net'],
+    domains: ['*.wbtrk.net', '*.webtrekk-asia.net', '*.webtrekk.net', '*.wt-eu02.net', '*.wt-safetag.com'],
   },
   {
     name: 'Webtrends',
@@ -12291,7 +12291,7 @@ module.exports = [
     name: 'Usercentrics CMP',
     homepage: 'https://usercentrics.com',
     category: 'consent-provider',
-    domains: ['usercentrics.mgr.consensu.org', '*.usercentrics.mgr.consensu.org'],
+    domains: ['usercentrics.mgr.consensu.org', '*.usercentrics.mgr.consensu.org', '*.usercentrics.eu', '*.services.usercentrics.eu'],
   },
   {
     name: 'WebAds CMP',
