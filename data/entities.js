@@ -97,7 +97,12 @@ module.exports = [
     company: 'Google',
     homepage: 'https://developers.google.com/speed/libraries/',
     category: 'cdn',
-    domains: ['ajax.googleapis.com', 'commondatastorage.googleapis.com', 'www.gstatic.com', 'ssl.gstatic.com'],
+    domains: [
+      'ajax.googleapis.com',
+      'commondatastorage.googleapis.com',
+      'www.gstatic.com',
+      'ssl.gstatic.com',
+    ],
   },
   {
     name: 'Google Maps',
@@ -109,6 +114,16 @@ module.exports = [
       'maps-api-ssl.google.com',
       'maps.googleapis.com',
       'mts.googleapis.com',
+      'mt.googleapis.com',
+      'mt0.googleapis.com',
+      'mt1.googleapis.com',
+      'mt2.googleapis.com',
+      'mt3.googleapis.com',
+      'khm0.googleapis.com',
+      'khm1.googleapis.com',
+      'khms.googleapis.com',
+      'khms1.googleapis.com',
+      'khms2.googleapis.com',
       'maps.gstatic.com',
     ],
   },
@@ -152,7 +167,9 @@ module.exports = [
       'storage.googleapis.com',
       'translate.googleapis.com',
       'translate.google.com',
+      'translate-pa.googleapis.com',
       'lh3.googleusercontent.com',
+      'jnn-pa.googleapis.com',
       'csi.gstatic.com',
     ],
   },
@@ -160,7 +177,13 @@ module.exports = [
     name: 'Firebase',
     homepage: 'https://developers.google.com/apis-explorer/#p/',
     category: 'utility',
-    domains: ['firebasestorage.googleapis.com', 'firestore.googleapis.com'],
+    domains: [
+      'firebasestorage.googleapis.com',
+      'firestore.googleapis.com',
+      'firebaseinstallations.googleapis.com',
+      'firebase.googleapis.com',
+      'firebaseremoteconfig.googleapis.com',
+    ],
   },
   {
     name: 'Google Analytics',
@@ -180,9 +203,7 @@ module.exports = [
     homepage: 'https://marketingplatform.google.com/about/optimize/',
     category: 'analytics',
     domains: ['www.googleoptimize.com'],
-    examples: [
-      'https://www.googleoptimize.com/optimize.js?id=',
-    ],
+    examples: ['https://www.googleoptimize.com/optimize.js?id='],
   },
   {
     name: 'Google AMP',
@@ -308,7 +329,7 @@ module.exports = [
     company: 'Yandex',
     homepage: 'https://metrica.yandex.com/about?',
     category: 'analytics',
-    domains: ['mc.yandex.ru', 'd31j93rd8oukbv.cloudfront.net'],
+    domains: ['mc.yandex.ru', 'mc.yandex.com', 'd31j93rd8oukbv.cloudfront.net'],
   },
   {
     name: 'Hotjar',
@@ -342,7 +363,14 @@ module.exports = [
     company: 'Adobe',
     homepage: '',
     category: 'analytics',
-    domains: ['*.2o7.net', 'du8783wkf05yr.cloudfront.net', '*.hitbox.com', '*.imageg.net', '*.nedstat.com', '*.omtrdc.net'],
+    domains: [
+      '*.2o7.net',
+      'du8783wkf05yr.cloudfront.net',
+      '*.hitbox.com',
+      '*.imageg.net',
+      '*.nedstat.com',
+      '*.omtrdc.net',
+    ],
     examples: ['audiag.112.2o7.net', 'du8783wkf05yr.cloudfront.net/NS_mbox.js'],
   },
   {
@@ -354,6 +382,8 @@ module.exports = [
       '*.adobedtm.com',
       '*.demdex.net', // all requests to this domain are for Audience Manager
       '*.everesttech.net',
+      'sstats.adobe.com',
+      'hbrt.adobe.com', // https://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/endpoints.html https://helpx.adobe.com/enterprise/kb/network-endpoints.html
     ],
     examples: ['assets.adobedtm.com', 'sync-tm.everesttech.net', 'cm.everesttech.net'],
   },
@@ -1068,6 +1098,12 @@ module.exports = [
       '*.hsleadflows.net',
       '*.hsstatic.net',
       '*.hubspot.net',
+      '*.hsforms.com',
+      '*.hs-banner.com',
+      '*.hs-embed-reporting.com',
+      '*.hs-growth-metrics.com',
+      '*.hs-data.com',
+      '*.hsadspixel.net',
     ],
     examples: ['forms.hubspot.com', 'js.hsforms.net', 'js.hs-analytics.net', 'js.leadin.com'],
   },
@@ -1206,7 +1242,11 @@ module.exports = [
     name: 'Webflow',
     homepage: 'https://webflow.com/',
     category: 'hosting',
-    domains: ['*.uploads-ssl.webflow.com', '*.assets-global.website-files.com', '*.assets.website-files.com'],
+    domains: [
+      '*.uploads-ssl.webflow.com',
+      '*.assets-global.website-files.com',
+      '*.assets.website-files.com',
+    ],
     examples: [
       'uploads-ssl.webflow.com',
       'assets-global.website-files.com',
@@ -1427,7 +1467,12 @@ module.exports = [
     name: 'VWO',
     homepage: 'https://vwo.com',
     category: 'analytics',
-    domains: ['*.vwo.com', '*.visualwebsiteoptimizer.com', 'd5phz18u4wuww.cloudfront.net', '*.wingify.com'],
+    domains: [
+      '*.vwo.com',
+      '*.visualwebsiteoptimizer.com',
+      'd5phz18u4wuww.cloudfront.net',
+      '*.wingify.com',
+    ],
     examples: ['dev.visualwebsiteoptimizer.com'],
   },
   {
@@ -1441,7 +1486,7 @@ module.exports = [
       '*.s-msft.com',
       '*.s-msn.com',
       '*.msads.net',
-      '*.msecnd.net'
+      '*.msecnd.net',
     ],
     examples: ['bat.bing.com', 'c.bing.com', 'bat.r.msn.com', 'ajax.microsoft.com'],
   },
@@ -1782,12 +1827,12 @@ module.exports = [
   },
   {
     name: 'Accentuate',
-    company: 'Accentuate Digital',      
+    company: 'Accentuate Digital',
     category: 'utlity',
-    homepage: 'https://www.accentuate.io/',      
+    homepage: 'https://www.accentuate.io/',
     domains: ['*.accentuate.io'],
-    examples: ['cdn.accentuate.io', 'original.accentuate.io'],      
-  }, 
+    examples: ['cdn.accentuate.io', 'original.accentuate.io'],
+  },
   {
     name: 'Accenture',
     category: 'analytics',
@@ -1842,7 +1887,7 @@ module.exports = [
   {
     name: 'ActiveCampaign',
     category: 'ad',
-    domains: ['*.trackcmp.net', 'app-us1.com'],
+    domains: ['*.trackcmp.net', 'app-us1.com', '*.app-us1.com'],
     examples: ['trackcmp.net', 'prism.app-us1.com', 'diffuser-cdn.app-us1.com'],
   },
   {
@@ -2033,7 +2078,7 @@ module.exports = [
     category: 'analytics',
     homepage: 'https://www.ebis.ne.jp/',
     domains: ['*.ebis.ne.jp'],
-    examples: ['taj1.ebis.ne.jp']
+    examples: ['taj1.ebis.ne.jp'],
   },
   {
     name: 'Adecs',
@@ -2142,7 +2187,7 @@ module.exports = [
   {
     name: 'Adobe Systems',
     category: 'content',
-    domains: ['adobe.com'],
+    domains: ['adobe.com', 'www.adobe.com'],
   },
   {
     name: 'Adobe Business Catalyst',
@@ -2326,12 +2371,12 @@ module.exports = [
   },
   {
     name: 'Afterpay',
-    company: 'Block',      
+    company: 'Block',
     category: 'utlity',
-    homepage: 'https://www.afterpay.com/',      
+    homepage: 'https://www.afterpay.com/',
     domains: ['*.afterpay.com'],
-    examples: ['static-us.afterpay.com'],      
-  }, 
+    examples: ['static-us.afterpay.com'],
+  },
   {
     name: 'Agenda Media',
     category: 'ad',
@@ -2692,12 +2737,12 @@ module.exports = [
   },
   {
     name: 'Basis',
-    company: 'Basis Technologies',      
+    company: 'Basis Technologies',
     category: 'ad',
-    homepage: 'https://basis.net/',      
+    homepage: 'https://basis.net/',
     domains: ['*.basis.net'],
-    examples: ['cdn01.basis.net'],      
-  },     
+    examples: ['cdn01.basis.net'],
+  },
   {
     name: 'Batch Media',
     category: 'ad',
@@ -2948,7 +2993,7 @@ module.exports = [
     category: 'analytics',
     homepage: 'https://bow-now.jp/',
     domains: ['*.bownow.jp'],
-    examples: ['contents.bownow.jp']
+    examples: ['contents.bownow.jp'],
   },
   {
     name: 'Box',
@@ -3322,10 +3367,10 @@ module.exports = [
     name: 'ChannelApe',
     company: 'ChannelApe',
     category: 'other',
-    homepage: 'https://www.channelape.com/',      
+    homepage: 'https://www.channelape.com/',
     domains: ['*.channelape.com'],
-    examples: ['callbacks.channelape.com'],      
-  },     
+    examples: ['callbacks.channelape.com'],
+  },
   {
     name: 'Chargeads Oscar',
     company: 'Chargeads',
@@ -3564,22 +3609,22 @@ module.exports = [
       '*.comodo.com',
       '*.trust-provider.com',
       '*.trustlogo.com',
-      'usertrust.com',
+      '*.usertrust.com',
       '*.comodo.net',
     ],
     examples: ['ocsp.trust-provider.com'],
   },
   {
-    name: 'Comodo Certficate Authority',
-    company: 'Comodo',
-    category: 'utility',
-    domains: ['ocsp.comodoca.com', 'ocsp.usertrust.com'],
-  },
-  {
     name: 'Comodo Certificate Authority',
     company: 'Comodo',
     category: 'utility',
-    domains: ['crt.comodoca.com', '*.comodoca4.com'],
+    domains: [
+      'crt.comodoca.com',
+      '*.comodoca4.com',
+      'ocsp.comodoca.com',
+      'ocsp.usertrust.com',
+      'crt.usertrust.com',
+    ],
     examples: ['ocsp.comodoca4.com'],
   },
   {
@@ -3672,7 +3717,7 @@ module.exports = [
     name: 'Conversant Ad Server',
     company: 'Conversant',
     category: 'ad',
-    domains: ['adfarm.mediaplex.com'],
+    domains: ['adfarm.mediaplex.com', '*.mediaplex.com'],
   },
   {
     name: 'Conversant Tag Manager',
@@ -4186,7 +4231,7 @@ module.exports = [
     homepage: 'https://ec-concier.com/',
     category: 'marketing',
     domains: ['*.ec-concier.com'],
-    examples: ['s.ec-concier.com', 'gsync.ec-concier.com']
+    examples: ['s.ec-concier.com', 'gsync.ec-concier.com'],
   },
   {
     name: 'ECT News Network',
@@ -4656,7 +4701,11 @@ module.exports = [
     name: 'Fit Analytics',
     category: 'other',
     domains: ['*.fitanalytics.com'],
-    examples: ['integrations.fitanalytics.com', 'widget.fitanalytics.com', 'metrics.fitanalytics.com'],
+    examples: [
+      'integrations.fitanalytics.com',
+      'widget.fitanalytics.com',
+      'metrics.fitanalytics.com',
+    ],
   },
   {
     name: 'Fits Me',
@@ -4688,7 +4737,7 @@ module.exports = [
     category: 'customer-success',
     homepage: 'https://flipdesk.jp/',
     domains: ['*.flipdesk.jp'],
-    examples: ['api.flipdesk.jp']
+    examples: ['api.flipdesk.jp'],
   },
   {
     name: 'Flipp',
@@ -5804,10 +5853,7 @@ module.exports = [
     homepage: 'https://karte.io/',
     category: 'marketing',
     domains: ['*.karte.io'],
-    examples: [
-      'static.karte.io',
-      't.karte.io'
-    ]
+    examples: ['static.karte.io', 't.karte.io'],
   },
   {
     name: 'Kauli',
@@ -6149,7 +6195,7 @@ module.exports = [
     company: 'LoginRadius',
     homepage: 'https://www.loginradius.com/',
     category: 'ad',
-    domains: ['*.loginradius.com','*.lrcontent.com'],
+    domains: ['*.loginradius.com', '*.lrcontent.com'],
     examples: ['config.lrcontent.com'],
   },
   {
@@ -6247,7 +6293,7 @@ module.exports = [
     category: 'analytics',
     homepage: 'https://group.macromill.com/',
     domains: ['*.macromill.com'],
-    examples: ['img.macromill.com/js/us000131vfg/4000000570-56/lognos.js']
+    examples: ['img.macromill.com/js/us000131vfg/4000000570-56/lognos.js'],
   },
   {
     name: 'Macropod BugHerd',
@@ -7505,7 +7551,7 @@ module.exports = [
     name: 'Polldaddy',
     company: 'Automattic',
     category: 'analytics',
-    domains: ['polldaddy.com'],
+    domains: ['polldaddy.com', '*.polldaddy.com'],
   },
   {
     name: 'Polyfill service',
@@ -7717,7 +7763,13 @@ module.exports = [
     name: 'Qubit',
     company: 'Qubit',
     category: 'analytics',
-    domains: ['*.qubit.com', '*.qutics.com', 'd3c3cq33003psk.cloudfront.net', '*.goqubit.com', '*.qubitproducts.com'],
+    domains: [
+      '*.qubit.com',
+      '*.qutics.com',
+      'd3c3cq33003psk.cloudfront.net',
+      '*.goqubit.com',
+      '*.qubitproducts.com',
+    ],
   },
   {
     name: 'Qubit Deliver',
@@ -8166,7 +8218,7 @@ module.exports = [
     homepage: 'https://www.brainpad.co.jp/rtoaster/',
     category: 'marketing',
     domains: ['*.rtoaster.jp'],
-    examples: ['rt.rtoaster.jp']
+    examples: ['rt.rtoaster.jp'],
   },
   {
     name: 'Rubikloud.com',
@@ -8207,7 +8259,7 @@ module.exports = [
     homepage: 'https://satori.marketing/',
     category: 'marketing',
     domains: ['satori.segs.jp'],
-    examples: ['satori.segs.jp/s.js']
+    examples: ['satori.segs.jp/s.js'],
   },
   {
     name: 'SC ShopMania Net SRL',
@@ -8928,7 +8980,7 @@ module.exports = [
     name: 'Starfield Services Root Certificate Authority',
     company: 'Starfield Technologies',
     category: 'utility',
-    domains: ['*.starfieldtech.com', 'ss2.us'],
+    domains: ['*.starfieldtech.com', 'ss2.us', '*.ss2.us'],
     examples: ['ocsp.starfieldtech.com'],
   },
   {
@@ -9894,7 +9946,7 @@ module.exports = [
     company: 'Ve',
     homepage: 'https://www.ve.com/',
     category: 'marketing',
-    domains: ['*.veinteractive.com','*.ve.com'],
+    domains: ['*.veinteractive.com', '*.ve.com'],
   },
   {
     name: 'Ve Interactive',
@@ -10053,11 +10105,11 @@ module.exports = [
   },
   {
     name: 'Visely',
-    company: 'Visely',      
+    company: 'Visely',
     category: 'other',
-    homepage: 'https://visely.io/',      
+    homepage: 'https://visely.io/',
     domains: ['*.visely.io'],
-  },    
+  },
   {
     name: 'VisScore',
     category: 'analytics',
@@ -10266,7 +10318,13 @@ module.exports = [
   {
     name: 'Webtrekk',
     category: 'analytics',
-    domains: ['*.wbtrk.net', '*.webtrekk-asia.net', '*.webtrekk.net', '*.wt-eu02.net', '*.wt-safetag.com'],
+    domains: [
+      '*.wbtrk.net',
+      '*.webtrekk-asia.net',
+      '*.webtrekk.net',
+      '*.wt-eu02.net',
+      '*.wt-safetag.com',
+    ],
   },
   {
     name: 'Webtrends',
@@ -10332,12 +10390,12 @@ module.exports = [
   },
   {
     name: 'Wishlist King',
-    company: 'Appmate',      
+    company: 'Appmate',
     category: 'other',
-    homepage: 'https://appmate.io/',      
+    homepage: 'https://appmate.io/',
     domains: ['*.appmate.io'],
-    examples: ['api.appmate.io'],      
-  },    
+    examples: ['api.appmate.io'],
+  },
   {
     name: 'Wishpond Technologies',
     category: 'marketing',
@@ -10392,7 +10450,13 @@ module.exports = [
     name: 'Wunderkind',
     category: 'marketing',
     homepage: 'https://www.wunderkind.co/',
-    domains: ['*.bounceexchange.com', '*.bouncex.net', '*.wknd.ai', '*.cdnbasket.net', '*.cdnwidget.com'],
+    domains: [
+      '*.bounceexchange.com',
+      '*.bouncex.net',
+      '*.wknd.ai',
+      '*.cdnbasket.net',
+      '*.cdnwidget.com',
+    ],
     examples: ['events.bouncex.net', 'tag.wknd.ai', 'data.cdnbasket.net', 'pix.cdnwidget.com'],
   },
   {
@@ -10431,7 +10495,11 @@ module.exports = [
     category: 'ad',
     homepage: 'https://marketing.yahoo.co.jp/service/yahooads/',
     domains: ['yads.c.yimg.jp', 's.yimg.jp', 'b92.yahoo.co.jp'],
-    examples: ['yads.c.yimg.jp/js/yads-async.js', 's.yimg.jp/images/listing/tool/yads/ydn/creative/video/ytop_video_timeline_sp.min.js', 'b92.yahoo.co.jp/js/s_retargeting.js'],
+    examples: [
+      'yads.c.yimg.jp/js/yads-async.js',
+      's.yimg.jp/images/listing/tool/yads/ydn/creative/video/ytop_video_timeline_sp.min.js',
+      'b92.yahoo.co.jp/js/s_retargeting.js',
+    ],
   },
   {
     name: 'Yahoo! Tag Manager',
@@ -10439,7 +10507,7 @@ module.exports = [
     category: 'tag-manager',
     homepage: 'https://marketing.yahoo.co.jp/service/tagmanager/',
     domains: ['*.yjtag.jp'],
-    examples: ['s.yjtag.jp/tag.js']
+    examples: ['s.yjtag.jp/tag.js'],
   },
   {
     name: 'Yahoo! Small Business',
@@ -11559,7 +11627,7 @@ module.exports = [
     name: 'Freshchat',
     homepage: 'https://www.freshworks.com/live-chat-software/',
     category: 'customer-success',
-    domains: ['*.freshchat.com','*.freshworksapi.com'],
+    domains: ['*.freshchat.com', '*.freshworksapi.com'],
     products: [
       {
         name: 'Freshdesk Messaging',
@@ -11985,7 +12053,7 @@ module.exports = [
     name: 'Consent Manager CMP',
     homepage: 'https://consentmanager.net',
     category: 'consent-provider',
-    domains: ['consentmanager.mgr.consensu.org', '*consentmanager.mgr.consensu.org'],
+    domains: ['consentmanager.mgr.consensu.org', '*.consentmanager.mgr.consensu.org'],
   },
   {
     name: 'Conversant CMP',
@@ -12291,7 +12359,12 @@ module.exports = [
     name: 'Usercentrics CMP',
     homepage: 'https://usercentrics.com',
     category: 'consent-provider',
-    domains: ['usercentrics.mgr.consensu.org', '*.usercentrics.mgr.consensu.org', '*.usercentrics.eu', '*.services.usercentrics.eu'],
+    domains: [
+      'usercentrics.mgr.consensu.org',
+      '*.usercentrics.mgr.consensu.org',
+      '*.usercentrics.eu',
+      '*.services.usercentrics.eu',
+    ],
   },
   {
     name: 'WebAds CMP',
@@ -12318,17 +12391,14 @@ module.exports = [
     name: 'Castle',
     homepage: 'https://castle.io',
     category: 'utility',
-    domains: [
-      '*.castle.io',
-      'd2t77mnxyo7adj.cloudfront.net'
-    ],
+    domains: ['*.castle.io', 'd2t77mnxyo7adj.cloudfront.net'],
     examples: ['t.castle.io'],
   },
   {
     name: 'Wigzo',
     homepage: 'https://www.wigzo.com/',
     category: 'marketing',
-    domains: ['*.wigzo.com','*.wigzopush.com'],
+    domains: ['*.wigzo.com', '*.wigzopush.com'],
     examples: ['app.wigzo.com', 'tracker.wigzopush.com'],
   },
   {
@@ -12360,7 +12430,7 @@ module.exports = [
     homepage: 'https://www.usehero.com/',
     category: 'customer-success',
     domains: ['*.usehero.com'],
-    examples: ['api.usehero.com','cdn.usehero.com'],
+    examples: ['api.usehero.com', 'cdn.usehero.com'],
   },
   {
     name: 'Zync',
@@ -12391,7 +12461,7 @@ module.exports = [
     company: 'SpeedSize',
     homepage: 'https://speedsize.com/',
     category: 'utility',
-    domains: ['di6367dava8ow.cloudfront.net','d2d22nphq0yz8t.cloudfront.net'],
+    domains: ['di6367dava8ow.cloudfront.net', 'd2d22nphq0yz8t.cloudfront.net'],
     examples: ['di6367dava8ow.cloudfront.net'],
   },
   {
@@ -12487,7 +12557,7 @@ module.exports = [
     company: 'ID5',
     homepage: 'https://id5.io/',
     category: 'ad',
-    domains: ['id5-sync.com'],
+    domains: ['id5-sync.com', '*.id5-sync.com'],
     examples: ['id5-sync.com'],
   },
   {
@@ -12598,8 +12668,8 @@ module.exports = [
     company: 'Viafoura',
     category: 'ad',
     homepage: 'https://viafoura.com/',
-    domains: ['*.viafoura.co','*.viafoura.net'],
-    examples: ['api.viafoura.co','cdn.viafoura.net'],
+    domains: ['*.viafoura.co', '*.viafoura.net'],
+    examples: ['api.viafoura.co', 'cdn.viafoura.net'],
   },
   {
     name: 'Adnami',
@@ -12629,7 +12699,7 @@ module.exports = [
     company: 'Advanced Store',
     category: 'ad',
     domains: ['*.ad4m.at'],
-    examples: ['ad4m.at','as.ad4m.at'],
+    examples: ['ad4m.at', 'as.ad4m.at'],
   },
   {
     name: 'MRP Prelytics',
