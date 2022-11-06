@@ -2677,7 +2677,7 @@ module.exports = [
   {
     name: 'Avocet Systems',
     category: 'ad',
-    domains: ['*.avocet.io'],
+    domains: ['*.avocet.io', 'ads.avct.cloud'],
   },
   {
     name: 'Avora',
@@ -5501,6 +5501,8 @@ module.exports = [
       'd3cxv97fi8q177.cloudfront.net',
       '*.evyy.net',
       '*.ojrq.net',
+      'utt.impactcdn.com',
+      '*.sjv.io',
     ],
     examples: ['a.impactradius-go.com', 'microsoft-uk.evyy.net'],
   },
@@ -7871,7 +7873,7 @@ module.exports = [
     name: 'Rakuten Marketing',
     company: 'Rakuten',
     category: 'ad',
-    domains: ['*.rakuten-static.com', '*.rmtag.com'],
+    domains: ['*.rakuten-static.com', '*.rmtag.com', 'tag.rmp.rakuten.com'],
   },
   {
     name: 'Rakuten MediaForge',
