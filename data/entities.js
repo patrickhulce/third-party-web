@@ -9446,6 +9446,26 @@ module.exports = [
     domains: ['*.tidiochat.com'],
   },
   {
+    name: 'Tiledesk Live Chat',
+    company: 'Tiledesk Srl',
+    homepage: 'https://www.tiledesk.com/',
+    category: 'customer-success',
+    domains: ['*.tiledesk.com'],
+    examples: ['widget.tiledesk.com'],
+    products: [
+      {
+        name: 'Tiledesk Widget',
+        urlPatterns: ['widget.tiledesk.com'],
+        facades: [
+          {
+            name: 'Tiledesk web widget',
+            repo: 'https://github.com/Tiledesk/chat21-web-widget',
+          }
+        ],
+      },
+    ],
+  },
+  {
     name: 'Time',
     category: 'content',
     domains: ['*.timeinc.net'],
