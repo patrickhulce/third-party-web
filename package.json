@@ -9,7 +9,7 @@
     "lint:fix": "prettier --print-width=100 --write '**/*.js'",
     "start": "mkdir -p .tmp && node bin/merge-origins-with-entities.js && node bin/create-markdown.js",
     "start:update-ha-data": "node ./bin/automated-update.js",
-    "test": "npm run build && npm run test:unit",
+    "test": "yarn build && yarn test:unit",
     "test:unit": "jest 'lib/*'",
     "semantic-release": "semantic-release"
   },
