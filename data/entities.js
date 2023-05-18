@@ -12727,4 +12727,46 @@ module.exports = [
     domains: ['*.iprom.net'],
     examples: ['core.iprom.net'],
   },
+  {
+    name: 'Plausible',
+    company: 'Plausible',
+    homepage: 'https://plausible.io/',
+    category: 'analytics',
+    domains: [
+      '*.plausible.io',
+    ],
+  },
+  {
+    name: 'Micro Analytics',
+    company: 'Micro Analytics',
+    homepage: 'https://microanalytics.io/',
+    category: 'analytics',
+    domains: [
+      'padmin.microanalytics.io',
+      'www.microanalytics.io',
+      'dev.microanalytics.io',
+      'status.microanalytics.io',
+    ],
+  },
+  {
+    name: 'Scale8',
+    company: 'Scale8',
+    homepage: 'https://scale8.com/',
+    category: 'analytics',
+    domains: [
+      'www.scale8.com',
+      'api-dev.scale8.com',
+      'cdn.scale8.com',
+      'ui.scale8.com',
+    ],
+  },
+  {
+    name: 'Cabin',
+    company: 'Cabin',
+    homepage: 'https://withcabin.com/',
+    category: 'analytics',
+    domains: [
+      '*.withcabin.com',
+    ],
+  },
 ]
