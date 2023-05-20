@@ -256,6 +256,10 @@ module.exports = [
             name: 'Lite YouTube',
             repo: 'https://github.com/paulirish/lite-youtube-embed',
           },
+          {
+            name: 'Ngx Lite Video',
+            repo: 'https://github.com/karim-mamdouh/ngx-lite-video',
+          },
         ],
       },
     ],
@@ -763,6 +767,10 @@ module.exports = [
           {
             name: 'Lite Vimeo Embed',
             repo: 'https://github.com/luwes/lite-vimeo-embed',
+          },
+          {
+            name: 'Ngx Lite Video',
+            repo: 'https://github.com/karim-mamdouh/ngx-lite-video',
           },
         ],
       },
