@@ -12769,4 +12769,13 @@ module.exports = [
       '*.withcabin.com',
     ],
   },
+  {
+    name: 'Appcues',
+    company: 'Appcues', 
+    homepage: 'https://www.appcues.com/',
+    category: 'analytics', 
+    domains: [
+      '*.appcues.com'
+    ],
+  },
 ]
