@@ -12778,4 +12778,13 @@ module.exports = [
       '*.appcues.com'
     ],
   },
+  {
+    name: 'Fathom Analytics', 
+    company: 'Fathom', 
+    homepage: 'https://usefathom.com/',
+    category: 'analytics',
+    domains: [
+      '*.usefathom.com',
+    ],
+  },
 ]
