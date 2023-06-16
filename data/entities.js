@@ -12135,7 +12135,7 @@ module.exports = [
     name: 'Google FundingChoices',
     homepage: 'https://fundingchoices.google.com/start/',
     category: 'consent-provider',
-    domains: ['fundingchoices.mgr.consensu.org', '*.fundingchoices.mgr.consensu.org'],
+    domains: ['fundingchoices.mgr.consensu.org', '*.fundingchoices.mgr.consensu.org', 'fundingchoicesmessages.google.com', '*.fundingchoicesmessages.google.com'],
   },
   {
     name: 'Gravito CMP',
@@ -12767,6 +12767,24 @@ module.exports = [
     category: 'analytics',
     domains: [
       '*.withcabin.com',
+    ],
+  },
+  {
+    name: 'Appcues',
+    company: 'Appcues', 
+    homepage: 'https://www.appcues.com/',
+    category: 'analytics', 
+    domains: [
+      '*.appcues.com'
+    ],
+  },
+  {
+    name: 'Fathom Analytics', 
+    company: 'Fathom', 
+    homepage: 'https://usefathom.com/',
+    category: 'analytics',
+    domains: [
+      '*.usefathom.com',
     ],
   },
 ]
