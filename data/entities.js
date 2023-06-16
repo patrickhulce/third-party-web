@@ -260,10 +260,6 @@ module.exports = [
             name: 'Ngx Lite Video',
             repo: 'https://github.com/karim-mamdouh/ngx-lite-video',
           },
-          {
-            name: 'Ngx Lite Video',
-            repo: 'https://github.com/karim-mamdouh/ngx-lite-video',
-          },
         ],
       },
     ],
