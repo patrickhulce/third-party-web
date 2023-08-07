@@ -1836,7 +1836,7 @@ module.exports = [
   {
     name: 'Accentuate',
     company: 'Accentuate Digital',
-    category: 'utlity',
+    category: 'utility',
     homepage: 'https://www.accentuate.io/',
     domains: ['*.accentuate.io'],
     examples: ['cdn.accentuate.io', 'original.accentuate.io'],
@@ -2380,7 +2380,7 @@ module.exports = [
   {
     name: 'Afterpay',
     company: 'Block',
-    category: 'utlity',
+    category: 'utility',
     homepage: 'https://www.afterpay.com/',
     domains: ['*.afterpay.com'],
     examples: ['static-us.afterpay.com'],
