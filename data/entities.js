@@ -501,6 +501,7 @@ module.exports = [
       '*.servedbyopenx.com',
       '*.jump-time.net',
       '*.openx.net',
+      '*.openxcdn.net',
     ],
     examples: [
       'uk-ads.openx.net',
@@ -1112,6 +1113,7 @@ module.exports = [
       '*.hs-growth-metrics.com',
       '*.hs-data.com',
       '*.hsadspixel.net',
+      '*.hubapi.com',
     ],
     examples: ['forms.hubspot.com', 'js.hsforms.net', 'js.hs-analytics.net', 'js.leadin.com'],
   },
@@ -1276,6 +1278,7 @@ module.exports = [
       'platform.linkedin.com',
       '*.slideshare.com',
       '*.slidesharecdn.com',
+      '*.oribi.io',
     ],
   },
   {
@@ -1428,9 +1431,9 @@ module.exports = [
     examples: ['rum-static.pingdom.net', 'rum-collector-2.pingdom.net'],
   },
   {
-    name: 'SpeedCurve LUX',
+    name: 'SpeedCurve RUM',
     company: 'SpeedCurve',
-    homepage: 'https://speedcurve.com/features/lux/',
+    homepage: 'https://www.speedcurve.com/features/performance-monitoring/',
     category: 'analytics',
     domains: ['*.speedcurve.com'],
     examples: ['cdn.speedcurve.com', 'lux.speedcurve.com'],
@@ -3137,7 +3140,7 @@ module.exports = [
   {
     name: 'BuzzFeed',
     category: 'social',
-    domains: ['*.buzzfed.com'],
+    domains: ['*.buzzfed.com', '*.buzzfeed.com'],
   },
   {
     name: 'C1X',
@@ -7908,7 +7911,7 @@ module.exports = [
   {
     name: 'Raygun',
     category: 'utility',
-    domains: ['*.raygun.io'],
+    domains: ['*.raygun.io', '*.rapidzebra.io'],
   },
   {
     name: 'ReCollect',
@@ -11453,7 +11456,7 @@ module.exports = [
     name: 'Catchpoint',
     homepage: 'https://www.catchpoint.com/',
     category: 'analytics',
-    domains: ['*.3gl.net'],
+    domains: ['*.3gl.net', '*.3genlabs.net'],
   },
   {
     name: 'Terminus',
@@ -12793,6 +12796,75 @@ module.exports = [
     category: 'analytics',
     domains: [
       '*.usefathom.com',
+    ],
+  },
+  {
+    name: 'Clearbit', 
+    company: 'Clearbit', 
+    homepage: 'https://clearbit.com/',
+    category: 'analytics',
+    domains: [
+      '*.clearbitjs.com',
+      '*.clearbitscripts.com',
+      '*.clearbit.com',
+    ],
+  },
+  {
+    name: 'G2', 
+    company: 'G2', 
+    homepage: 'https://www.g2.com/',
+    category: 'utility',
+    domains: [
+      '*.g2.com',
+      '*.g2crowd.com',
+    ],
+  },
+  {
+    name: 'Navu', 
+    company: 'Navu', 
+    homepage: 'https://navu.co/',
+    category: 'ad',
+    domains: [
+      '*.navu.co',
+    ],
+  },
+  {
+    name: 'InZynk', 
+    company: 'InZynk', 
+    homepage: 'https://inzynk.com/',
+    category: 'ad',
+    domains: [
+      '*.inzynk.com',
+      '*.inzynk.io',
+    ],
+  },
+  {
+    name: 'Integrate', 
+    company: 'Integrate', 
+    homepage: 'https://www.integrate.com/',
+    category: 'ad',
+    domains: [
+      '*.integrate.com',
+      '*.listenloop.com',
+    ],
+  },
+  {
+    name: 'Ad Lightning', 
+    company: 'Boltive', 
+    homepage: 'https://www.adlightning.com/',
+    category: 'ad',
+    domains: [
+      '*.adlightning.com',
+    ],
+  },
+  {
+    name: 'GeoEdge', 
+    company: 'GeoEdge', 
+    homepage: 'https://www.geoedge.com/',
+    category: 'ad',
+    domains: [
+      '*.geoedge.com',
+      '*.geoedge.be',
     ],
   },
 ]
