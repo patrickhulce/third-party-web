@@ -12867,4 +12867,32 @@ module.exports = [
       '*.geoedge.be',
     ],
   },
+  {
+    name: 'Doofinder', 
+    company: 'Doofinder', 
+    homepage: 'https://www.doofinder.com/',
+    category: 'utility',
+    domains: [
+      'cdn.doofinder.com'
+    ]
+  },
+  {
+    name: 'Revlifter', 
+    company: 'Revlifter', 
+    homepage: 'https://www.revlifter.com/',
+    category: 'utility', 
+    domains: [
+      'assets.revlifter.com'
+    ]
+  },
+  {
+    name: 'Didomi',
+    company: 'Didomi',
+    homepage: 'https://www.didomi.io/',
+    category: 'consent-provider',
+    domains: [
+      'sdk.privacy-center.org',
+      'api.privacy-center.org'
+    ]
+  }
 ]
