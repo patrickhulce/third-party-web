@@ -12366,9 +12366,14 @@ module.exports = [
   },
   {
     name: 'UniConsent CMP',
-    homepage: 'https://uniconsent.com',
+    homepage: 'https://www.uniconsent.com',
     category: 'consent-provider',
-    domains: ['uniconsent.mgr.consensu.org', '*.uniconsent.mgr.consensu.org'],
+    domains: [
+      'uniconsent.mgr.consensu.org',
+      '*.uniconsent.mgr.consensu.org',
+      'cmp.uniconsent.com',
+      '*.uniconsent.com'
+    ],
   },
   {
     name: 'TrustArc CMP',
@@ -12893,6 +12898,15 @@ module.exports = [
     domains: [
       'sdk.privacy-center.org',
       'api.privacy-center.org'
+    ]
+  },
+  {
+    name: 'Pubperf Analytics',
+    company: 'Pubperf',
+    homepage: 'https://www.pubperf.com/',
+    category: 'analytics',
+    domains: [
+      '*.pubperf.com',
     ]
   }
 ]
