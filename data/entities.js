@@ -6709,6 +6709,7 @@ module.exports = [
   },
   {
     name: 'Mouseflow',
+    homepage: 'https://mouseflow.com/',
     category: 'analytics',
     domains: ['*.mouseflow.com'],
   },
