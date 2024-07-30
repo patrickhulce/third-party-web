@@ -914,3 +914,15 @@ yarn start
 ### Updating the website
 
 The web code is located in `www/` directory of this repository. Open a PR to make changes.
+
+Update the `www/package.json` file with the latest `third-party-web` dependency version to update the website.
+
+1- change the version in the `package.json`
+2- run install command to update the `yarn.lock` file
+
+```bash
+# Update the yarn.lock file
+yarn install
+```
+
+3- commit the changes and send a PR
