@@ -9,6 +9,7 @@ const HA_REQUESTS_TABLE_REGEX = /`httparchive\.requests\.\w+`/g
 const HA_LH_TABLE_REGEX = /`httparchive\.lighthouse\.\w+`/g
 const LH_3P_TABLE_REGEX = /`lighthouse-infrastructure\.third_party_web\.\w+`/g
 const DATE_UNDERSCORE_REGEX = /\d{4}_\d{2}_\d{2}/g
+const LH_REGEX = /lighthouse-infrastructure/g
 
 const TABLE_REPLACEMENTS = process.env.USE_SAMPLE_DATA
   ? [
@@ -20,6 +21,7 @@ const TABLE_REPLACEMENTS = process.env.USE_SAMPLE_DATA
       [process.env.OVERRIDE_HA_LH_TABLE, HA_LH_TABLE_REGEX],
       [process.env.OVERRIDE_HA_REQUESTS_TABLE, HA_REQUESTS_TABLE_REGEX],
       [process.env.OVERRIDE_LH_3P_TABLE, LH_3P_TABLE_REGEX],
+      [process.env.OVERRIDE_LH_PROJECT, LH_REGEX],
     ].filter(([override]) => override)
 
 function getQueryForTable(filename, dateUnderscore) {
