@@ -53,6 +53,23 @@ async function withExistenceCheck(name, {checkExistenceFn, actionFn, deleteFn, e
   await actionFn()
 }
 
+function runQueryStream(query, onData, onEnd) {
+  return new Promise((resolve, reject) => {
+    new BigQuery()
+      .createQueryStream({
+        query,
+        location: 'US',
+      })
+      .on('data', onData)
+      .on('end', onEnd)
+      .on('finish', resolve)
+      .on('error', (...params) => {
+        console.error('error in query stream', ...params)
+        reject(...params)
+      })
+  })
+}
+
 async function getTargetDatasetDate() {
   const msInDay = 24 * 60 * 60 * 1000
   const daysIntoCurrentMonth = new Date().getDate()
@@ -101,44 +118,48 @@ async function main() {
   await withExistenceCheck(observedDomainsFilename, {
     checkExistenceFn: () => fs.existsSync(observedDomainsFilename),
     actionFn: async () => {
-      const bqClient = new BigQuery()
+      console.log(`Start observed domains query`)
 
-      const queryOptions = {
-        query: allObservedDomainsQuery,
+      const fileWriterStream = fs.createWriteStream(observedDomainsFilename)
+      const tableWriterStream = new BigQuery()
+        .dataset('third_party_web')
+        .table(dateStringUnderscore)
+      const start = Date.now()
+      const nbRows = 0
+      const schema = {
+        schema: [
+          {name: 'domain', type: 'STRING'},
+          {name: 'canonicalDomain', type: 'STRING'},
+          {name: 'category', type: 'STRING'},
+        ],
         location: 'US',
       }
 
-      const [job] = await bqClient.createQueryJob(queryOptions)
-      console.log(`Job ${job.id} started.`)
-
-      // Wait for the query to finish
-      const [rows] = await job.getQueryResults()
-
-      console.log('Wrote', rows.length, 'rows to', observedDomainsFilename)
-      fs.writeFileSync(observedDomainsFilename, JSON.stringify(rows))
-
-      const rowsForNewTable = rows.map(row => {
-        const entity = getEntity(row.domain)
-
-        return {
-          domain: row.domain,
-          canonicalDomain: entity && entity.domains[0],
-          category: (entity && entity.categories[0]) || 'unknown',
+      await runQueryStream(
+        allObservedDomainsQuery,
+        row => {
+          const prefix = !nbRows++ ? '[' : ','
+          fileWriterStream.write(prefix + JSON.stringify(row))
+          const entity = getEntity(row.domain)
+          tableWriterStream.insert(
+            {
+              domain: row.domain,
+              canonicalDomain: entity && entity.domains[0],
+              category: (entity && entity.categories[0]) || 'unknown',
+            },
+            schema
+          )
+        },
+        () => {
+          fileWriterStream.write(']')
         }
-      })
-
-      const schema = [
-        {name: 'domain', type: 'STRING'},
-        {name: 'canonicalDomain', type: 'STRING'},
-        {name: 'category', type: 'STRING'},
-      ]
-
-      console.log('Creating', dateStringUnderscore, 'table. This may take a while...')
-      await bqClient
-        .dataset('third_party_web')
-        .table(dateStringUnderscore)
-        .insert(rowsForNewTable, {schema, location: 'US'})
-      console.log('Inserted', rowsForNewTable.length, 'rows')
+      )
+        .then(() => {
+          console.log(`Finish query in ${(Date.now() - start) / 1000}s. Wrote ${nbRows} rows.`)
+        })
+        .catch(() => {
+          process.exit(1)
+        })
     },
     deleteFn: async () => {
       const bqClient = new BigQuery()
@@ -155,22 +176,28 @@ async function main() {
   await withExistenceCheck(entityScriptingFilename, {
     checkExistenceFn: () => fs.existsSync(entityScriptingFilename),
     actionFn: async () => {
-      const bqClient = new BigQuery()
+      console.log(`Start entity scripting query`)
 
-      const queryOptions = {
-        query: entityPerPageQuery,
-        location: 'US',
-      }
+      const fileWriterStream = fs.createWriteStream(entityScriptingFilename)
+      const start = Date.now()
+      const nbRows = 0
 
-      console.log('Querying execution per entity...')
-      const [job] = await bqClient.createQueryJob(queryOptions)
-      console.log(`Job ${job.id} started.`)
-
-      // Wait for the query to finish
-      const [rows] = await job.getQueryResults()
-
-      console.log('Wrote', rows.length, 'rows to', entityScriptingFilename)
-      fs.writeFileSync(entityScriptingFilename, JSON.stringify(rows, null, 2))
+      await runQueryStream(
+        entityPerPageQuery,
+        row => {
+          const prefix = !nbRows++ ? '[' : ','
+          fileWriterStream.write(prefix + JSON.stringify(row))
+        },
+        () => {
+          fileWriterStream.write(']')
+        }
+      )
+        .then(() => {
+          console.log(`Finish query in ${(Date.now() - start) / 1000}s. Wrote ${nbRows} rows.`)
+        })
+        .catch(() => {
+          process.exit(1)
+        })
     },
     deleteFn: () => {},
     exitFn: () => {},
