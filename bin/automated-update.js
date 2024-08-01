@@ -125,7 +125,7 @@ async function main() {
         .dataset('third_party_web')
         .table(dateStringUnderscore)
       const start = Date.now()
-      const nbRows = 0
+      let nbRows = 0
       const schema = {
         schema: [
           {name: 'domain', type: 'STRING'},
