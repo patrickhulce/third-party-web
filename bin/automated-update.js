@@ -155,7 +155,13 @@ async function main() {
       const thirdPartyWebTableWriterStream = new BigQuery()
         .dataset('third_party_web')
         .table(dateStringUnderscore)
-        .createWriteStream()
+        .createWriteStream({
+          schema: [
+            {name: 'domain', type: 'STRING'},
+            {name: 'canonicalDomain', type: 'STRING'},
+            {name: 'category', type: 'STRING'},
+          ],
+        })
       resultsStream
         // map observed domain to entity
         .pipe(EntityCanonicalDomainTransformer)
