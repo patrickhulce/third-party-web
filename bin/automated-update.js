@@ -1,9 +1,11 @@
 const fs = require('fs')
 const prompts = require('prompts')
 const childProcess = require('child_process')
-const {getEntity} = require('../lib/')
-
+const util = require('util')
+const {Transform, finished} = require('stream')
 const {BigQuery} = require('@google-cloud/bigquery')
+
+const {getEntity} = require('../lib/')
 
 const HA_REQUESTS_TABLE_REGEX = /`httparchive\.requests\.\w+`/g
 const HA_LH_TABLE_REGEX = /`httparchive\.lighthouse\.\w+`/g
@@ -53,23 +55,6 @@ async function withExistenceCheck(name, {checkExistenceFn, actionFn, deleteFn, e
   await actionFn()
 }
 
-function runQueryStream(query, onData, onEnd) {
-  return new Promise((resolve, reject) => {
-    new BigQuery()
-      .createQueryStream({
-        query,
-        location: 'US',
-      })
-      .on('data', onData)
-      .on('end', onEnd)
-      .on('finish', resolve)
-      .on('error', (...params) => {
-        console.error('error in query stream', ...params)
-        reject(...params)
-      })
-  })
-}
-
 async function getTargetDatasetDate() {
   const msInDay = 24 * 60 * 60 * 1000
   const daysIntoCurrentMonth = new Date().getDate()
@@ -94,6 +79,39 @@ async function getTargetDatasetDate() {
 
   return {dateStringUnderscore, dateStringHypens}
 }
+
+const getQueryResultStream = async query => {
+  const [job] = await new BigQuery().createQueryJob({
+    query,
+    location: 'US',
+  })
+  return job.getQueryResultsStream()
+}
+const resolveOnFinished = streams => {
+  const toFinishedPromise = util.promisify(finished)
+  return Promise.all(streams.map(s => toFinishedPromise(s)))
+}
+const getJSONStringTransformer = rowCounter => {
+  return new Transform({
+    objectMode: true,
+    transform(row, _, callback) {
+      const prefix = rowCounter === undefined ? '' : !rowCounter++ ? '[\n' : ',\n'
+      callback(null, prefix + JSON.stringify(row))
+    },
+  })
+}
+const EntityCanonicalDomainTransformer = new Transform({
+  objectMode: true,
+  transform(row, _, callback) {
+    const entity = getEntity(row.domain)
+    const thirdPartyWebRow = {
+      domain: row.domain,
+      canonicalDomain: entity && entity.domains[0],
+      category: (entity && entity.categories[0]) || 'unknown',
+    }
+    callback(null, thirdPartyWebRow)
+  },
+})
 
 async function main() {
   const {dateStringUnderscore, dateStringHypens} = await getTargetDatasetDate()
@@ -120,46 +138,41 @@ async function main() {
     actionFn: async () => {
       console.log(`Start observed domains query`)
 
-      const fileWriterStream = fs.createWriteStream(observedDomainsFilename)
-      const tableWriterStream = new BigQuery()
+      const start = Date.now()
+
+      const resultsStream = await getQueryResultStream(allObservedDomainsQuery)
+
+      // Observed domain json file pipe
+      let observedDomainsNbRows = 0
+      const observedDomainsFileWriterStream = fs.createWriteStream(observedDomainsFilename)
+      resultsStream
+        // stringify observed domain json (with json array prefix based on row index)
+        .pipe(getJSONStringTransformer(observedDomainsNbRows))
+        // write to observed-domains json file
+        .pipe(observedDomainsFileWriterStream)
+
+      // Observed domain entity mapping table pipe
+      const thirdPartyWebTableWriterStream = new BigQuery()
         .dataset('third_party_web')
         .table(dateStringUnderscore)
-      const start = Date.now()
-      let nbRows = 0
-      const schema = {
-        schema: [
-          {name: 'domain', type: 'STRING'},
-          {name: 'canonicalDomain', type: 'STRING'},
-          {name: 'category', type: 'STRING'},
-        ],
-        location: 'US',
-      }
+        .createWriteStream()
+      resultsStream
+        // map observed domain to entity
+        .pipe(EntityCanonicalDomainTransformer)
+        // stringify json
+        .pipe(getJSONStringTransformer())
+        // write to thrid_party_web table
+        .pipe(thirdPartyWebTableWriterStream)
 
-      await runQueryStream(
-        allObservedDomainsQuery,
-        row => {
-          const prefix = !nbRows++ ? '[' : ','
-          fileWriterStream.write(prefix + JSON.stringify(row))
-          const entity = getEntity(row.domain)
-          tableWriterStream.insert(
-            {
-              domain: row.domain,
-              canonicalDomain: entity && entity.domains[0],
-              category: (entity && entity.categories[0]) || 'unknown',
-            },
-            schema
-          )
-        },
-        () => {
-          fileWriterStream.write(']')
-        }
+      // Wait both streams to finish
+      await resolveOnFinished([observedDomainsFileWriterStream, thirdPartyWebTableWriterStream])
+
+      // Close observed domains json array in file
+      fs.appendFileSync(observedDomainsFilename, '\n]')
+
+      console.log(
+        `Finish query in ${(Date.now() - start) / 1000}s. Wrote ${observedDomainsNbRows} rows.`
       )
-        .then(() => {
-          console.log(`Finish query in ${(Date.now() - start) / 1000}s. Wrote ${nbRows} rows.`)
-        })
-        .catch(() => {
-          process.exit(1)
-        })
     },
     deleteFn: async () => {
       const bqClient = new BigQuery()
@@ -178,26 +191,28 @@ async function main() {
     actionFn: async () => {
       console.log(`Start entity scripting query`)
 
-      const fileWriterStream = fs.createWriteStream(entityScriptingFilename)
       const start = Date.now()
-      const nbRows = 0
 
-      await runQueryStream(
-        entityPerPageQuery,
-        row => {
-          const prefix = !nbRows++ ? '[' : ','
-          fileWriterStream.write(prefix + JSON.stringify(row))
-        },
-        () => {
-          fileWriterStream.write(']')
-        }
+      const resultsStream = await getQueryResultStream(entityPerPageQuery)
+
+      // Entity scripting json file pipe
+      let entityScriptingNbRows = 0
+      const entityScriptingFileWriterStream = fs.createWriteStream(entityScriptingFilename)
+      resultsStream
+        // stringify entity scripting json (with json array prefix based on row index)
+        .pipe(getJSONStringTransformer(entityScriptingNbRows))
+        // write to entity-scripting json file
+        .pipe(entityScriptingFileWriterStream)
+
+      // Wait stream to finish
+      await resolveOnFinished([entityScriptingFileWriterStream])
+
+      console.log(
+        `Finish query in ${(Date.now() - start) / 1000}s. Wrote ${entityScriptingNbRows} rows.`
       )
-        .then(() => {
-          console.log(`Finish query in ${(Date.now() - start) / 1000}s. Wrote ${nbRows} rows.`)
-        })
-        .catch(() => {
-          process.exit(1)
-        })
+
+      // Close observed domains json array in file
+      fs.appendFileSync(entityScriptingFilename, ']')
     },
     deleteFn: () => {},
     exitFn: () => {},
