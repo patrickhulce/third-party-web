@@ -84,6 +84,7 @@ const getQueryResultStream = async query => {
   const [job] = await new BigQuery().createQueryJob({
     query,
     location: 'US',
+    useQueryCache: false,
   })
   return job.getQueryResultsStream()
 }
