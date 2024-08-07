@@ -23,7 +23,7 @@ const TABLE_REPLACEMENTS = process.env.USE_SAMPLE_DATA
       [process.env.OVERRIDE_HA_LH_TABLE, HA_LH_TABLE_REGEX],
       [process.env.OVERRIDE_HA_REQUESTS_TABLE, HA_REQUESTS_TABLE_REGEX],
       [process.env.OVERRIDE_LH_3P_TABLE, LH_3P_TABLE_REGEX],
-      [process.env.OVERRIDE_LH_PROJECT, LH_REGEX],
+      [process.env.OVERRIDE_LH_PROJECT, LH_PROJECT_REGEX],
     ].filter(([override]) => override)
 
 function getQueryForTable(filename, dateUnderscore) {
