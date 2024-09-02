@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@google-cloud/bigquery": "^5.10.0",
+    "@google-cloud/bigquery": "^7.9.0",
     "chart.js": "^2.9.4",
     "chartjs-node-canvas": "^3.2.0",
     "colors": "^1.4.0",
