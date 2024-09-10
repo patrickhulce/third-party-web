@@ -11,4 +11,4 @@ gcp-credentials.json
 *.generated.sql
 
 
-.yarn/install-state.gz
+.yarn
