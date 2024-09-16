@@ -27,7 +27,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "third-party-web": "^0.24.5"
+    "third-party-web": "^0.26.0"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
@@ -44,5 +44,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
