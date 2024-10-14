@@ -659,7 +659,13 @@ module.exports = [
     name: 'Crazy Egg',
     homepage: 'https://www.crazyegg.com/',
     category: 'analytics',
-    domains: ['*.cetrk.com', '*.crazyegg.com', '*.hellobar.com', 'dnn506yrbagrg.cloudfront.net'],
+    domains: ['*.cetrk.com', '*.crazyegg.com', 'dnn506yrbagrg.cloudfront.net'],
+  },
+  {
+    name: 'Hello Bar',
+    homepage: 'https://www.hellobar.com/',
+    category: 'marketing',
+    domains: ['*.hellobar.com']
   },
   {
     name: 'Yandex Ads',
