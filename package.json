@@ -33,7 +33,7 @@
     "lodash": "^4.17.15",
     "prettier": "^1.18.2",
     "prompts": "^2.4.2",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^24.2.0"
   },
   "config": {
     "exportAliases": {
