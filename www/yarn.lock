@@ -13618,10 +13618,10 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-third-party-web@^0.26.0:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.26.0.tgz#0e005d4792b8a2a50bd4ff3878c36b058c9e203a"
-  integrity sha512-nwuiLsOXltORclgw0YyXtsJl65EZ4VYqr7bacBYf4XcjjqwW6YioOUyJRN2A7v4njYTFTcWnm/tjSnonWPFH+A==
+third-party-web@^0.26.2:
+  version "0.26.2"
+  resolved "https://registry.yarnpkg.com/third-party-web/-/third-party-web-0.26.2.tgz#9fe6ba32cc851bb35a9d540f44c7fa358c57867c"
+  integrity sha512-taJ0Us0lKoYBqcbccMuDElSUPOxmBfwlHe1OkHQ3KFf+RwovvBHdXhbFk9XJVQE2vHzxbTwvwg5GFsT9hbDokQ==
 
 through2@^2.0.1:
   version "2.0.5"
