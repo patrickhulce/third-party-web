@@ -12259,7 +12259,7 @@ module.exports = [
     name: 'Osano CMP',
     homepage: 'https://www.osano.com',
     category: 'consent-provider',
-    domains: ['osano.mgr.consensu.org', '*.osano.mgr.consensu.org'],
+    domains: ['osano.mgr.consensu.org', '*.osano.mgr.consensu.org', 'cmp.osano.com', '*.api.osano.com'],
   },
   {
     name: 'Playwire CMP',
