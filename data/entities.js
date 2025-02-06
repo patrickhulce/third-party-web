@@ -6450,7 +6450,7 @@ module.exports = [
   {
     name: 'Maxymiser',
     category: 'analytics',
-    domains: ['*.maxymiser.net, maxymiser.hs.llnwd.net'],
+    domains: ['*.maxymiser.net', 'maxymiser.hs.llnwd.net'],
   },
   {
     name: 'McAffee',
