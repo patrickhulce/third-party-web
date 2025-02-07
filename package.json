@@ -41,5 +41,6 @@
       "httparchive-nostats-subset": "./lib/subsets/httparchive-nostats.js",
       "httparchive-subset": "./lib/subsets/httparchive.js"
     }
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
