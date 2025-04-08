@@ -1628,12 +1628,6 @@ module.exports = [
     domains: ['ga.jspm.io'],
   },
   {
-    name: 'jsDelivr',
-    homepage: 'https://www.jsdelivr.com/',
-    category: 'cdn',
-    domains: ['cdn.jsdelivr.net'],
-  },
-  {
     name: 'ReadSpeaker',
     homepage: 'https://www.readspeaker.com',
     category: 'other',
