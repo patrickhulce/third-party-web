@@ -1616,6 +1616,18 @@ module.exports = [
     domains: ['*.unpkg.com', '*.npmcdn.com'],
   },
   {
+    name: 'ESM>CDN',
+    homepage: 'https://esm.sh',
+    category: 'cdn',
+    domains: ['esm.sh'],
+  },
+  {
+    name: 'JSPM',
+    homepage: 'https://jspm.org/',
+    category: 'cdn',
+    domains: ['ga.jspm.io'],
+  },
+  {
     name: 'ReadSpeaker',
     homepage: 'https://www.readspeaker.com',
     category: 'other',
@@ -4866,6 +4878,14 @@ module.exports = [
     category: 'utility',
     domains: ['*.foxycart.com'],
   },
+  {
+    name: 'Framer CDN',
+    company: 'Framer',
+    homepage: 'https://www.framer.com',
+    category: 'hosting',
+    domains: ['framerusercontent.com', '*.framerstatic.com', 'events.framer.com', 'framer.com'],
+    examples: ['app.framerstatic.com', 'framer.com/edit'],
+  },  
   {
     name: 'Fraudlogix',
     category: 'utility',
