@@ -31,7 +31,7 @@ FROM
               page,
               lighthouse as report
             FROM
-              `httparchive.crawl.page`
+              `httparchive.crawl.pages`
             WHERE
               date = "2022-01-01"
             AND
