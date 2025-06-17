@@ -10,10 +10,10 @@ const {getEntity, entities} = require('../lib/')
 
 const bigQuery = new BigQuery()
 
-const HA_REQUESTS_TABLE_REGEX = /`httparchive\.requests\.\w+`/g
+const HA_REQUESTS_TABLE_REGEX = /`httparchive\.crawl\.requests`/g
 const HA_LH_TABLE_REGEX = /`httparchive\.lighthouse\.\w+`/g
 const LH_3P_TABLE_REGEX = /`lighthouse-infrastructure\.third_party_web\.\w+`/g
-const DATE_UNDERSCORE_REGEX = /\d{4}_\d{2}_\d{2}/g
+const DATE_DASH_REGEX = /\d{4}-\d{2}-\d{2}/g
 const LH_PROJECT_REGEX = /lighthouse-infrastructure/g
 
 const TABLE_REPLACEMENTS = process.env.USE_SAMPLE_DATA
@@ -29,9 +29,9 @@ const TABLE_REPLACEMENTS = process.env.USE_SAMPLE_DATA
       [process.env.OVERRIDE_LH_PROJECT, LH_PROJECT_REGEX],
     ].filter(([override]) => override)
 
-function getQueryForTable(filename, dateUnderscore) {
+function getQueryForTable(filename, dateDash) {
   const text = fs.readFileSync(filename, 'utf-8')
-  let query = text.replace(DATE_UNDERSCORE_REGEX, dateUnderscore)
+  let query = text.replace(DATE_DASH_REGEX, dateDash)
   for (const [override, regex] of TABLE_REPLACEMENTS) {
     query = query.replace(regex, override)
   }
@@ -155,12 +155,9 @@ async function main() {
     exitFn: () => process.exit(1),
   })
 
-  const mostObservedDomainsQuery = getQueryForTable(
-    mostObservedDomainsFilename,
-    dateStringUnderscore
-  )
-  const allObservedDomainsQuery = getQueryForTable(allObservedDomainsFilename, dateStringUnderscore)
-  const entityPerPageQuery = getQueryForTable(entityPerPageFilename, dateStringUnderscore)
+  const mostObservedDomainsQuery = getQueryForTable(mostObservedDomainsFilename, dateStringHypens)
+  const allObservedDomainsQuery = getQueryForTable(allObservedDomainsFilename, dateStringHypens)
+  const entityPerPageQuery = getQueryForTable(entityPerPageFilename, dateStringHypens)
 
   // 1. Get and write in 'observed-domains' json file domains observed more than 50 times
   await withExistenceCheck(observedDomainsFilename, {
@@ -206,7 +203,7 @@ async function main() {
       const domainEntityMapping = entities.reduce((array, {name, domains}) => {
         return array.concat(domains.map(domain => ({name, domain})))
       }, [])
-      const thirdPartyWebTableWriterStream = await getThirdPartyWebTable(dateStringUnderscore).then(
+      const thirdPartyWebTableWriterStream = await getThirdPartyWebTable(dateStringHypens).then(
         table =>
           table.createWriteStream({
             sourceFormat: 'NEWLINE_DELIMITED_JSON',

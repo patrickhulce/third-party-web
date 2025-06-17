@@ -25,7 +25,11 @@ FROM
                     page,
                     NET.HOST(url) AS domain
                 FROM
-                    `httparchive.requests.2022_01_01_mobile`
+                    `httparchive.crawl.requests`
+                WHERE
+                    date = "2022-01-01"
+                AND
+                    client = "mobile"
                 GROUP BY
                     page,
                     domain
