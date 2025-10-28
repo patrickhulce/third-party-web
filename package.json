@@ -42,5 +42,5 @@
       "httparchive-subset": "./lib/subsets/httparchive.js"
     }
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.10.3"
 }
