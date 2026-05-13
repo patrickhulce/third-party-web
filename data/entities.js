@@ -1279,13 +1279,14 @@ module.exports = [
     name: 'LinkedIn',
     homepage: 'https://www.linkedin.com/',
     category: 'social',
-    domains: [
-      '*.bizographics.com',
-      'platform.linkedin.com',
-      '*.slideshare.com',
-      '*.slidesharecdn.com',
-      '*.oribi.io',
-    ],
+    domains: ['*.bizographics.com', 'platform.linkedin.com', '*.oribi.io'],
+  },
+  {
+    name: 'Slideshare',
+    homepage: 'https://www.slideshare.net/',
+    category: 'content',
+    domains: ['*.slideshare.com', '*.slideshare.net', '*.slidesharecdn.com'],
+    examples: ['public.slidesharecdn.com', 'image.slidesharecdn.com', 'www.slideshare.net'],
   },
   {
     name: 'LinkedIn Ads',
