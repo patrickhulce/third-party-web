@@ -4,6 +4,7 @@ sql/
 .tmp/
 .github/
 www/
+www-v2/
 
 *.log
 *.png

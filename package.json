@@ -3,6 +3,19 @@
   "version": "0.0.0-development",
   "description": "Categorized data on third party entities on the web.",
   "main": "./lib/index.js",
+  "files": [
+    "dist/",
+    "lib/create-entity-finder-api.js",
+    "lib/index.d.ts",
+    "lib/index.js",
+    "lib/subsets/",
+    "httparchive-nostats-subset.d.ts",
+    "httparchive-nostats-subset.js",
+    "httparchive-subset.d.ts",
+    "httparchive-subset.js",
+    "nostats-subset.d.ts",
+    "nostats-subset.js"
+  ],
   "scripts": {
     "build:www": "cd www/ && npm install && npm run build",
     "build": "node bin/convert-entities-db.js && node bin/generate-canonical-domain-csv.js && node bin/build-entity-json-files.js && node bin/generate-sql.js && generate-export-aliases",
