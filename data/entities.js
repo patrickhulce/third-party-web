@@ -12785,6 +12785,13 @@ module.exports = [
     ],
   },
   {
+    name: 'Statable',
+    company: 'Key Arg B.V.',
+    homepage: 'https://statable.com/',
+    category: 'analytics',
+    domains: ['*.statable.com'],
+  },
+  {
     name: 'Micro Analytics',
     company: 'Micro Analytics',
     homepage: 'https://microanalytics.io/',
