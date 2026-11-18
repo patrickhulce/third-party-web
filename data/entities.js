@@ -11459,6 +11459,13 @@ module.exports = [
     examples: ['consent.cookiebot.com'],
   },
   {
+    name: 'CookieOfficer',
+    homepage: 'https://cookieofficer.com/',
+    category: 'consent-provider',
+    domains: ['*.cookieofficer.com'],
+    examples: ['cdn.cookieofficer.com'],
+  },
+  {
     name: 'Netlify',
     homepage: 'https://www.netlify.com/',
     category: 'utility',
